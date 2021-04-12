@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Console.Imports
+  commentId: N:es.efor.Musaat.Console.Imports
+  id: es.efor.Musaat.Console.Imports
+  children:
+  - es.efor.Musaat.Console.Imports.Program
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Console.Imports
+  nameWithType: es.efor.Musaat.Console.Imports
+  fullName: es.efor.Musaat.Console.Imports
+  type: Namespace
+  assemblies:
+  - es.efor.Tecnyconta.Nexus.Console.Imports
+references:
+- uid: es.efor.Musaat.Console.Imports.Program
+  commentId: T:es.efor.Musaat.Console.Imports.Program
+  name: Program
+  nameWithType: Program
+  fullName: es.efor.Musaat.Console.Imports.Program

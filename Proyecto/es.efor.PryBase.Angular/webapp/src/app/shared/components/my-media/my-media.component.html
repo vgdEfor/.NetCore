@@ -1,0 +1,79 @@
+<tabset *ngIf="canUpload">
+    <tab [heading]="labelTabViewAlbum"><ng-container [ngTemplateOutlet]="tmplTabMediaFilesUploaded"></ng-container></tab>
+    <tab [heading]="labelTabUpload"><ng-container [ngTemplateOutlet]="tmplTabMediaFilesUpload"></ng-container></tab>
+</tabset>
+
+<ng-container *ngIf="!canUpload" [ngTemplateOutlet]="tmplTabMediaFilesUploaded"></ng-container>
+
+
+<ng-template #tmplTabMediaFilesUploaded>
+    <div class="row justify-content-center">
+        <div *ngIf="_albumImages.length === 0"
+            class="col-12 text-center">
+                {{labelAlbumNoItems}}
+        </div>
+        <div *ngFor="let i of _albumImages"
+            class="col-auto mb-2">
+            <div class="album-item-thumbnail rounded"
+                [style.width]="thumbnailWidth" [style.height]="thumbnailHeight"
+                (click)="_onMediaSelect(i)">
+                <img class="album-item-thumbnail-image"
+                    [src]="imgBaseUrl + i.id + '/thumbnail'">
+                <div class="album-item-thumbnail-overlay">
+                    <div class="album-item-check">
+                        <button *ngIf="!i.isChecked && i.isDeletable"
+                            type="button"
+                            class="btn btn-xs btn-danger album-item-delete"
+                            (click)="_onMediaDelete($event, i)">
+                            <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+                        </button>
+                        <fa-icon *ngIf="i.isChecked"
+                            [icon]="['fas', 'check-circle']"></fa-icon>
+                    </div>
+                    <div class="album-item-filename">
+                        {{i.fileName}}
+                        <br>
+                        {{i.size}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="_total > _pSize" class="row">
+        <div class="col">
+            <pagination
+                [previousText]="labelPaginationPrev"
+                [nextText]="labelPaginationNext"
+                [ngClass]="cssClassPagination"
+                [itemsPerPage]="_pSize"
+                [ngModel]="_pIndex + 1"
+                [totalItems]="_total"
+                (pageChanged)="_pIndex = $event.page - 1; refreshUploaded()"></pagination>
+        </div>
+    </div>
+</ng-template>
+<ng-template #tmplTabMediaFilesUpload>
+    <app-filedrop [url]="'/api/admin/media'" fileBoxWrapperClass="max-height-200" fileBoxClass="col-12"
+        [labelChooseFile]="'COMPONENT.FILEDROP.LABEL.CHOOSEFILE' | translate"
+        [labelOrDragHere]="'COMPONENT.FILEDROP.LABEL.ORDRAGHERE' | translate"
+        [labelReleaseToUpload]="'COMPONENT.FILEDROP.LABEL.RELEASETOUPLOAD' | translate"
+        [labelStatusUploading]="'COMPONENT.FILEDROP.LABEL.UPLOADING' | translate"
+        (onUploadSuccess)="_onUploadSuccess($event)"
+        (onUploadError)="_onUploadError($event)"></app-filedrop>
+</ng-template>
+
+<app-modal-confirmation-message #modalConfirmDeleteImage
+    [labelHeader]="'COMPONENT.FILEDROP.MODAL.DELETE.TITLE' | translate"
+    [btnLabelConfirm]="'COMPONENT.FILEDROP.MODAL.DELETE.BTN.CONFIRM' | translate"
+    [btnLabelClose]="'COMPONENT.FILEDROP.MODAL.DELETE.BTN.CANCEL' | translate"
+    (onClickConfirm)="_onMediaDeleteConfirm()"
+    [isLoadingConfirm]="_isLoadingDeleteImage">
+    <div>
+        <p>{{'COMPONENT.FILEDROP.MODAL.DELETE.BODY' | translate}}</p>
+    </div>
+    <div class="text-center">
+        <img *ngIf="_imageForDelete && _imageForDelete.id"
+            class="img-fluid"
+            [src]="imgBaseUrl + _imageForDelete.id">
+    </div>
+</app-modal-confirmation-message>

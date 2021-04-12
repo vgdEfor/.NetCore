@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  commentId: N:es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  id: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  children:
+  - es.efor.Musaat.Login.Model.Services.AccessLoggerServices.AccessLoggerService
+  - es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  nameWithType: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Login.Business
+references:
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.AccessLoggerService
+  commentId: T:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.AccessLoggerService
+  name: AccessLoggerService
+  nameWithType: AccessLoggerService
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.AccessLoggerService
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  commentId: T:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  parent: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  name: IAccessLoggerService
+  nameWithType: IAccessLoggerService
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  commentId: N:es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  name: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  nameWithType: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices

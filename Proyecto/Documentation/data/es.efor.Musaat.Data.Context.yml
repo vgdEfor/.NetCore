@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Data.Context
+  commentId: N:es.efor.Musaat.Data.Context
+  id: es.efor.Musaat.Data.Context
+  children:
+  - es.efor.Musaat.Data.Context.NexusContext
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Data.Context
+  nameWithType: es.efor.Musaat.Data.Context
+  fullName: es.efor.Musaat.Data.Context
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Data
+references:
+- uid: es.efor.Musaat.Data.Context.NexusContext
+  commentId: T:es.efor.Musaat.Data.Context.NexusContext
+  parent: es.efor.Musaat.Data.Context
+  name: NexusContext
+  nameWithType: NexusContext
+  fullName: es.efor.Musaat.Data.Context.NexusContext
+- uid: es.efor.Musaat.Data.Context
+  commentId: N:es.efor.Musaat.Data.Context
+  name: es.efor.Musaat.Data.Context
+  nameWithType: es.efor.Musaat.Data.Context
+  fullName: es.efor.Musaat.Data.Context

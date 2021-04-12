@@ -1,0 +1,1420 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Users.Model.Services.IUserService
+  commentId: T:es.efor.Musaat.Users.Model.Services.IUserService
+  id: IUserService
+  parent: es.efor.Musaat.Users.Model.Services
+  children:
+  - es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment(System.Int32,System.String)
+  - es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser(System.Guid,System.String)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser(System.String)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD(System.String)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById(System.Int32)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById(System.Int32)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetUserById(System.Guid)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName(System.String)
+  - es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment(System.Int32)
+  - es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)
+  - es.efor.Musaat.Users.Model.Services.IUserService.SetUser(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)
+  langs:
+  - csharp
+  - vb
+  name: IUserService
+  nameWithType: IUserService
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService
+  type: Interface
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IUserService
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  syntax:
+    content: public interface IUserService
+    content.vb: Public Interface IUserService
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser(System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser(System.String)
+  id: GetAdUser(System.String)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetAdUser(String)
+  nameWithType: IUserService.GetAdUser(String)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAdUser
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns user of Active Directory\n"
+  example: []
+  syntax:
+    content: Task<ADUserDTO> GetAdUser(string samAccountName)
+    parameters:
+    - id: samAccountName
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO}
+      description: ''
+    content.vb: Function GetAdUser(samAccountName As String) As Task(Of ADUserDTO)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers
+  id: GetAllUsers
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetAllUsers()
+  nameWithType: IUserService.GetAllUsers()
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllUsers
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 20
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns a list of registered users\n"
+  example: []
+  syntax:
+    content: Task<List<UserDTO>> GetAllUsers()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}}
+      description: ''
+    content.vb: Function GetAllUsers As Task(Of List(Of UserDTO))
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName(System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName(System.String)
+  id: GetUserByName(System.String)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetUserByName(String)
+  nameWithType: IUserService.GetUserByName(String)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetUserByName
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 27
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns userDTO for the username specified\n"
+  example: []
+  syntax:
+    content: Task<UserDTO> GetUserByName(string user)
+    parameters:
+    - id: user
+      type: System.String
+      description: Username to lookup
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}
+      description: ''
+    content.vb: Function GetUserByName(user As String) As Task(Of UserDTO)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetUserById(System.Guid)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetUserById(System.Guid)
+  id: GetUserById(System.Guid)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetUserById(Guid)
+  nameWithType: IUserService.GetUserById(Guid)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetUserById(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetUserById
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 34
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns userDTO for the user with the specified id\n"
+  example: []
+  syntax:
+    content: Task<UserDTO> GetUserById(Guid id)
+    parameters:
+    - id: id
+      type: System.Guid
+      description: User ID to lookup
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}
+      description: ''
+    content.vb: Function GetUserById(id As Guid) As Task(Of UserDTO)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetUserById*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment(System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment(System.Int32)
+  id: GetUsersByDepartment(System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetUsersByDepartment(Int32)
+  nameWithType: IUserService.GetUsersByDepartment(Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetUsersByDepartment
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 41
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns number of users by department Id\n"
+  example: []
+  syntax:
+    content: Task<int> GetUsersByDepartment(int departmentId)
+    parameters:
+    - id: departmentId
+      type: System.Int32
+      description: Department Id
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Function GetUsersByDepartment(departmentId As Integer) As Task(Of Integer)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD(System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD(System.String)
+  id: GetAllAD(System.String)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetAllAD(String)
+  nameWithType: IUserService.GetAllAD(String)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllAD
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 47
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nGet all Active Directory users\n"
+  example: []
+  syntax:
+    content: Task<List<ADUserDTO>> GetAllAD(string ADGroup)
+    parameters:
+    - id: ADGroup
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO}}
+      description: ''
+    content.vb: Function GetAllAD(ADGroup As String) As Task(Of List(Of ADUserDTO))
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments
+  id: GetAllDepartments
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetAllDepartments()
+  nameWithType: IUserService.GetAllDepartments()
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllDepartments
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 53
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns all departments\n"
+  example: []
+  syntax:
+    content: Task<List<UserDepartmentDTO>> GetAllDepartments()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO}}
+      description: ''
+    content.vb: Function GetAllDepartments As Task(Of List(Of UserDepartmentDTO))
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels
+  id: GetAllLevels
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetAllLevels()
+  nameWithType: IUserService.GetAllLevels()
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllLevels
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 59
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns all levels\n"
+  example: []
+  syntax:
+    content: Task<List<UserLevelDTO>> GetAllLevels()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO}}
+      description: ''
+    content.vb: Function GetAllLevels As Task(Of List(Of UserLevelDTO))
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.SetUser(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.SetUser(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)
+  id: SetUser(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: SetUser(UserDTO)
+  nameWithType: IUserService.SetUser(UserDTO)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.SetUser(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SetUser
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 66
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nSaves the user to DB. If the user already exist, update it\n"
+  example: []
+  syntax:
+    content: Task<bool> SetUser(UserDTO user)
+    parameters:
+    - id: user
+      type: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+      description: User to save
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Status of the task
+    content.vb: Function SetUser(user As UserDTO) As Task(Of Boolean)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.SetUser*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById(System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById(System.Int32)
+  id: GetDepartmentById(System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetDepartmentById(Int32)
+  nameWithType: IUserService.GetDepartmentById(Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetDepartmentById
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 73
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns UserDepartmentDTO for the department with the specified id\n"
+  example: []
+  syntax:
+    content: Task<UserDepartmentDTO> GetDepartmentById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Department ID to lookup
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO}
+      description: ''
+    content.vb: Function GetDepartmentById(id As Integer) As Task(Of UserDepartmentDTO)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)
+  id: SetDepartment(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: SetDepartment(UserDepartmentDTO)
+  nameWithType: IUserService.SetDepartment(UserDepartmentDTO)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SetDepartment
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 80
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nSaves the department to DB. If the department already exist, update it\n"
+  example: []
+  syntax:
+    content: Task<bool> SetDepartment(UserDepartmentDTO department)
+    parameters:
+    - id: department
+      type: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+      description: Department to save
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Status of the task
+    content.vb: Function SetDepartment(department As UserDepartmentDTO) As Task(Of Boolean)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById(System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById(System.Int32)
+  id: GetLevelById(System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: GetLevelById(Int32)
+  nameWithType: IUserService.GetLevelById(Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetLevelById
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 87
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nReturns UserLevelDTO for the level with the specified id\n"
+  example: []
+  syntax:
+    content: Task<UserLevelDTO> GetLevelById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Level ID to lookup
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO}
+      description: ''
+    content.vb: Function GetLevelById(id As Integer) As Task(Of UserLevelDTO)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser(System.Guid,System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser(System.Guid,System.String)
+  id: DeleteUser(System.Guid,System.String)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: DeleteUser(Guid, String)
+  nameWithType: IUserService.DeleteUser(Guid, String)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser(System.Guid, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DeleteUser
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 95
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nLogic delete the user from DB. \n"
+  example: []
+  syntax:
+    content: Task<bool> DeleteUser(Guid id, string username)
+    parameters:
+    - id: id
+      type: System.Guid
+      description: User ID to delete
+    - id: username
+      type: System.String
+      description: Username that requests the delete
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Status of the task
+    content.vb: Function DeleteUser(id As Guid, username As String) As Task(Of Boolean)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser*
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment(System.Int32,System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment(System.Int32,System.String)
+  id: DeleteDepartment(System.Int32,System.String)
+  parent: es.efor.Musaat.Users.Model.Services.IUserService
+  langs:
+  - csharp
+  - vb
+  name: DeleteDepartment(Int32, String)
+  nameWithType: IUserService.DeleteDepartment(Int32, String)
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DeleteDepartment
+    path: ../es.efor.Musaat.Users.Business/Services/UsersServices/IUserService.cs
+    startLine: 103
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services
+  summary: "\nLogic delete the department from DB. \n"
+  example: []
+  syntax:
+    content: Task<bool> DeleteDepartment(int id, string username)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Department ID to delete
+    - id: username
+      type: System.String
+      description: Username that requests the delete
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Status of the task
+    content.vb: Function DeleteDepartment(id As Integer, username As String) As Task(Of Boolean)
+  overload: es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment*
+references:
+- uid: es.efor.Musaat.Users.Model.Services
+  commentId: N:es.efor.Musaat.Users.Model.Services
+  name: es.efor.Musaat.Users.Model.Services
+  nameWithType: es.efor.Musaat.Users.Model.Services
+  fullName: es.efor.Musaat.Users.Model.Services
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser
+  name: GetAdUser
+  nameWithType: IUserService.GetAdUser
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAdUser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ADUserDTO>
+  nameWithType: Task<ADUserDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO>
+  nameWithType.vb: Task(Of ADUserDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO)
+  name.vb: Task(Of ADUserDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    name: ADUserDTO
+    nameWithType: ADUserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    name: ADUserDTO
+    nameWithType: ADUserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers
+  name: GetAllUsers
+  nameWithType: IUserService.GetAllUsers
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllUsers
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<UserDTO>>
+  nameWithType: Task<List<UserDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO>>
+  nameWithType.vb: Task(Of List(Of UserDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO))
+  name.vb: Task(Of List(Of UserDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+    name: UserDTO
+    nameWithType: UserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+    name: UserDTO
+    nameWithType: UserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName
+  name: GetUserByName
+  nameWithType: IUserService.GetUserByName
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetUserByName
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserDTO>
+  nameWithType: Task<UserDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO>
+  nameWithType.vb: Task(Of UserDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)
+  name.vb: Task(Of UserDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+    name: UserDTO
+    nameWithType: UserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+    name: UserDTO
+    nameWithType: UserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetUserById*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetUserById
+  name: GetUserById
+  nameWithType: IUserService.GetUserById
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetUserById
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment
+  name: GetUsersByDepartment
+  nameWithType: IUserService.GetUsersByDepartment
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetUsersByDepartment
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD
+  name: GetAllAD
+  nameWithType: IUserService.GetAllAD
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllAD
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<ADUserDTO>>
+  nameWithType: Task<List<ADUserDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO>>
+  nameWithType.vb: Task(Of List(Of ADUserDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO))
+  name.vb: Task(Of List(Of ADUserDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    name: ADUserDTO
+    nameWithType: ADUserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    name: ADUserDTO
+    nameWithType: ADUserDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments
+  name: GetAllDepartments
+  nameWithType: IUserService.GetAllDepartments
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllDepartments
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<UserDepartmentDTO>>
+  nameWithType: Task<List<UserDepartmentDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO>>
+  nameWithType.vb: Task(Of List(Of UserDepartmentDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO))
+  name.vb: Task(Of List(Of UserDepartmentDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+    name: UserDepartmentDTO
+    nameWithType: UserDepartmentDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+    name: UserDepartmentDTO
+    nameWithType: UserDepartmentDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels
+  name: GetAllLevels
+  nameWithType: IUserService.GetAllLevels
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetAllLevels
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<UserLevelDTO>>
+  nameWithType: Task<List<UserLevelDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO>>
+  nameWithType.vb: Task(Of List(Of UserLevelDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO))
+  name.vb: Task(Of List(Of UserLevelDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+    name: UserLevelDTO
+    nameWithType: UserLevelDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+    name: UserLevelDTO
+    nameWithType: UserLevelDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.SetUser*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.SetUser
+  name: SetUser
+  nameWithType: IUserService.SetUser
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.SetUser
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: UserDTO
+  nameWithType: UserDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById
+  name: GetDepartmentById
+  nameWithType: IUserService.GetDepartmentById
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetDepartmentById
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserDepartmentDTO>
+  nameWithType: Task<UserDepartmentDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO>
+  nameWithType.vb: Task(Of UserDepartmentDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)
+  name.vb: Task(Of UserDepartmentDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+    name: UserDepartmentDTO
+    nameWithType: UserDepartmentDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+    name: UserDepartmentDTO
+    nameWithType: UserDepartmentDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment
+  name: SetDepartment
+  nameWithType: IUserService.SetDepartment
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.SetDepartment
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: UserDepartmentDTO
+  nameWithType: UserDepartmentDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById
+  name: GetLevelById
+  nameWithType: IUserService.GetLevelById
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.GetLevelById
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserLevelDTO>
+  nameWithType: Task<UserLevelDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO>
+  nameWithType.vb: Task(Of UserLevelDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO)
+  name.vb: Task(Of UserLevelDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+    name: UserLevelDTO
+    nameWithType: UserLevelDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+    name: UserLevelDTO
+    nameWithType: UserLevelDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser
+  name: DeleteUser
+  nameWithType: IUserService.DeleteUser
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.DeleteUser
+- uid: es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment
+  name: DeleteDepartment
+  nameWithType: IUserService.DeleteDepartment
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService.DeleteDepartment

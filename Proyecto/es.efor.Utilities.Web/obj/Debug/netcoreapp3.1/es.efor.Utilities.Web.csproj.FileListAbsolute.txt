@@ -1,0 +1,12 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.csprojAssemblyReference.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.csproj.CopyComplete
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\netcoreapp3.1\es.efor.Utilities.Web.pdb

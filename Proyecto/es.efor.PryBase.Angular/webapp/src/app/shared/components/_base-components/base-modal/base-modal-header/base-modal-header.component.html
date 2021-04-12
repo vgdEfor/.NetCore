@@ -1,0 +1,13 @@
+<div class="modal-header"
+    [ngClass]="cssClass">
+    <h4 class="modal-title w-100" [id]="headerLabelId">
+        <ng-content></ng-content>
+    </h4>
+    <button type="button" aria-hidden="true"
+        class="close text-reset"
+        [attr.aria-labelledby]="headerLabelId"
+        [disabled]="isDisabledClose || isLoadingClose"
+        (click)="onClickClose.next()">
+        <span>x</span>
+    </button>
+</div>

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Utilities
+  commentId: N:es.efor.Auth.Utilities
+  id: es.efor.Auth.Utilities
+  children:
+  - es.efor.Auth.Utilities.AuthorizationPolicyUtilities
+  - es.efor.Auth.Utilities.JwtUtilities
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Utilities
+  nameWithType: es.efor.Auth.Utilities
+  fullName: es.efor.Auth.Utilities
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Utilities.AuthorizationPolicyUtilities
+  commentId: T:es.efor.Auth.Utilities.AuthorizationPolicyUtilities
+  name: AuthorizationPolicyUtilities
+  nameWithType: AuthorizationPolicyUtilities
+  fullName: es.efor.Auth.Utilities.AuthorizationPolicyUtilities
+- uid: es.efor.Auth.Utilities.JwtUtilities
+  commentId: T:es.efor.Auth.Utilities.JwtUtilities
+  name: JwtUtilities
+  nameWithType: JwtUtilities
+  fullName: es.efor.Auth.Utilities.JwtUtilities

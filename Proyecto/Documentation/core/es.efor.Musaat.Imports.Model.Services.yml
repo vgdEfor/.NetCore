@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Imports.Model.Services
+  commentId: N:es.efor.Musaat.Imports.Model.Services
+  id: es.efor.Musaat.Imports.Model.Services
+  children:
+  - es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Imports.Model.Services
+  nameWithType: es.efor.Musaat.Imports.Model.Services
+  fullName: es.efor.Musaat.Imports.Model.Services
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Imports.Business
+references:
+- uid: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+  commentId: T:es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+  name: MapperProfileImports
+  nameWithType: MapperProfileImports
+  fullName: es.efor.Musaat.Imports.Model.Services.MapperProfileImports

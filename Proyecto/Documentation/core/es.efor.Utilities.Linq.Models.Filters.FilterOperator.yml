@@ -1,0 +1,1117 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  id: FilterOperator
+  parent: es.efor.Utilities.Linq.Models.Filters
+  children:
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+  langs:
+  - csharp
+  - vb
+  name: FilterOperator
+  nameWithType: FilterOperator
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  type: Enum
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: FilterOperator
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nDefines available operators for search fields for jqGrid\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum FilterOperator
+    content.vb: >-
+      <Flags>
+
+      Public Enum FilterOperator
+  extensionMethods:
+  - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+  - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+  id: Eq
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Eq
+  nameWithType: FilterOperator.Eq
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Eq
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 16
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nEqual\n"
+  example: []
+  syntax:
+    content: Eq = 1
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+  id: Ne
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Ne
+  nameWithType: FilterOperator.Ne
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Ne
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 20
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nNot equal\n"
+  example: []
+  syntax:
+    content: Ne = 2
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+  id: EqualOrNotEqual
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: EqualOrNotEqual
+  nameWithType: FilterOperator.EqualOrNotEqual
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EqualOrNotEqual
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 24
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nCombines equal and not equal\n"
+  example: []
+  syntax:
+    content: EqualOrNotEqual = 3
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+  id: Lt
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Lt
+  nameWithType: FilterOperator.Lt
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Lt
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 28
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nLess\n"
+  example: []
+  syntax:
+    content: Lt = 4
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+  id: Le
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Le
+  nameWithType: FilterOperator.Le
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Le
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 32
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nLess or equal\n"
+  example: []
+  syntax:
+    content: Le = 8
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+  id: Gt
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Gt
+  nameWithType: FilterOperator.Gt
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Gt
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 36
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nGreater\n"
+  example: []
+  syntax:
+    content: Gt = 16
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+  id: Ge
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Ge
+  nameWithType: FilterOperator.Ge
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Ge
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 40
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nGreater or equal\n"
+  example: []
+  syntax:
+    content: Ge = 32
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+  id: Bw
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Bw
+  nameWithType: FilterOperator.Bw
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Bw
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 44
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nBegins with\n"
+  example: []
+  syntax:
+    content: Bw = 64
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+  id: Bn
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Bn
+  nameWithType: FilterOperator.Bn
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Bn
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 48
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nDoes not begin with\n"
+  example: []
+  syntax:
+    content: Bn = 128
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+  id: In
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: In
+  nameWithType: FilterOperator.In
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: In
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 52
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nIs in\n"
+  example: []
+  syntax:
+    content: In = 256
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+  id: Ni
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Ni
+  nameWithType: FilterOperator.Ni
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Ni
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 56
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nIs not in\n"
+  example: []
+  syntax:
+    content: Ni = 512
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+  id: Ew
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Ew
+  nameWithType: FilterOperator.Ew
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Ew
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 60
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nEnds with\n"
+  example: []
+  syntax:
+    content: Ew = 1024
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+  id: En
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: En
+  nameWithType: FilterOperator.En
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: En
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 64
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nDoes not end with\n"
+  example: []
+  syntax:
+    content: En = 2048
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+  id: Cn
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Cn
+  nameWithType: FilterOperator.Cn
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Cn
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 68
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nContains\n"
+  example: []
+  syntax:
+    content: Cn = 4096
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+  id: Nc
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Nc
+  nameWithType: FilterOperator.Nc
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Nc
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 72
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nDoes not contain\n"
+  example: []
+  syntax:
+    content: Nc = 8192
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+  id: Nu
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Nu
+  nameWithType: FilterOperator.Nu
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Nu
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 76
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nIs null\n"
+  example: []
+  syntax:
+    content: Nu = 16384
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+  id: Nn
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: Nn
+  nameWithType: FilterOperator.Nn
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Nn
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 80
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nIs not null\n"
+  example: []
+  syntax:
+    content: Nn = 32768
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+  id: NoTextOperators
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: NoTextOperators
+  nameWithType: FilterOperator.NoTextOperators
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: NoTextOperators
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 84
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nCombines equal, not equal, less, less or equal, greater, greater or equal, is null, is not null.\n"
+  example: []
+  syntax:
+    content: NoTextOperators = 49215
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+  id: TextOperators
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: TextOperators
+  nameWithType: FilterOperator.TextOperators
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: TextOperators
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 88
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nCombines equal, not equal, begins with, does not begin with, ends with, does not end with, contains and does not contain, is null, is not null\n"
+  example: []
+  syntax:
+    content: TextOperators = 64707
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+  id: NullOperators
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: NullOperators
+  nameWithType: FilterOperator.NullOperators
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: NullOperators
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+    startLine: 92
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nCombines is null, is not null\n"
+  example: []
+  syntax:
+    content: NullOperators = 49152
+    return:
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  name: es.efor.Utilities.Linq.Models.Filters
+  nameWithType: es.efor.Utilities.Linq.Models.Filters
+  fullName: es.efor.Utilities.Linq.Models.Filters
+- uid: System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  parent: es.efor.Utilities.General.EnumHelper
+  definition: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: EnumHelper.GetDescription()
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription()
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  parent: es.efor.Utilities.General.EnumHelper
+  definition: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  name: GetMembers()
+  nameWithType: EnumHelper.GetMembers()
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers()
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: EnumHelper.GetDescription(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.EnumHelper
+  commentId: T:es.efor.Utilities.General.EnumHelper
+  parent: es.efor.Utilities.General
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: es.efor.Utilities.General.EnumHelper
+- uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  isExternal: true
+  name: GetMembers(Enum)
+  nameWithType: EnumHelper.GetMembers(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  name: es.efor.Utilities.General
+  nameWithType: es.efor.Utilities.General
+  fullName: es.efor.Utilities.General
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterOperator
+  nameWithType: FilterOperator
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator

@@ -1,0 +1,1390 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq.LinqExtensions
+  commentId: T:System.Linq.LinqExtensions
+  id: LinqExtensions
+  parent: System.Linq
+  children:
+  - System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  - System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  - System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.String,System.Boolean)
+  - System.Linq.LinqExtensions.EforPaginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)
+  - System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  - System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  - System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.String,System.Boolean)
+  - System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  - System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},System.String,System.String,es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+  - System.Linq.LinqExtensions.ToSql``1(System.Linq.IQueryable{``0})
+  langs:
+  - csharp
+  - vb
+  name: LinqExtensions
+  nameWithType: LinqExtensions
+  fullName: System.Linq.LinqExtensions
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LinqExtensions
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 15
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  syntax:
+    content: public static class LinqExtensions
+    content.vb: Public Module LinqExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  id: EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforOrderBy<TSource>(IQueryable<TSource>, IEnumerable<SortCriteria>)
+  nameWithType: LinqExtensions.EforOrderBy<TSource>(IQueryable<TSource>, IEnumerable<SortCriteria>)
+  fullName: System.Linq.LinqExtensions.EforOrderBy<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Sorts.SortCriteria>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforOrderBy
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 25
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  syntax:
+    content: public static IOrderedQueryable<TSource> EforOrderBy<TSource>(this IQueryable<TSource> source, IEnumerable<SortCriteria> sortCriterias)
+    parameters:
+    - id: source
+      type: System.Linq.IQueryable{{TSource}}
+    - id: sortCriterias
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforOrderBy(Of TSource)(source As IQueryable(Of TSource), sortCriterias As IEnumerable(Of SortCriteria)) As IOrderedQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforOrderBy*
+  nameWithType.vb: LinqExtensions.EforOrderBy(Of TSource)(IQueryable(Of TSource), IEnumerable(Of SortCriteria))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforOrderBy(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Sorts.SortCriteria))
+  name.vb: EforOrderBy(Of TSource)(IQueryable(Of TSource), IEnumerable(Of SortCriteria))
+- uid: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  id: EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforOrderBy<TSource>(IQueryable<TSource>, Dictionary<String, Boolean>)
+  nameWithType: LinqExtensions.EforOrderBy<TSource>(IQueryable<TSource>, Dictionary<String, Boolean>)
+  fullName: System.Linq.LinqExtensions.EforOrderBy<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.Dictionary<System.String, System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforOrderBy
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 42
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  summary: "\nSequentially orders a query by the specified fields.\n"
+  example: []
+  syntax:
+    content: public static IOrderedQueryable<TSource> EforOrderBy<TSource>(this IQueryable<TSource> source, Dictionary<string, bool> sortNameAndIsDescending)
+    parameters:
+    - id: source
+      type: System.Linq.IQueryable{{TSource}}
+      description: The original query
+    - id: sortNameAndIsDescending
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+      description: "\nA collection of fields to order. Cannot be repeated.\n&quot;true&quot; will represent a <strong>DESC</strong> order. &quot;false&quot; will represent a <strong>ASC</strong> order.\n"
+    typeParameters:
+    - id: TSource
+      description: The Entity of the query
+    return:
+      type: System.Linq.IOrderedQueryable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforOrderBy(Of TSource)(source As IQueryable(Of TSource), sortNameAndIsDescending As Dictionary(Of String, Boolean)) As IOrderedQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforOrderBy*
+  nameWithType.vb: LinqExtensions.EforOrderBy(Of TSource)(IQueryable(Of TSource), Dictionary(Of String, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforOrderBy(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.Dictionary(Of System.String, System.Boolean))
+  name.vb: EforOrderBy(Of TSource)(IQueryable(Of TSource), Dictionary(Of String, Boolean))
+- uid: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.String,System.Boolean)
+  commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.String,System.Boolean)
+  id: EforOrderBy``1(System.Linq.IQueryable{``0},System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforOrderBy<TSource>(IQueryable<TSource>, String, Boolean)
+  nameWithType: LinqExtensions.EforOrderBy<TSource>(IQueryable<TSource>, String, Boolean)
+  fullName: System.Linq.LinqExtensions.EforOrderBy<TSource>(System.Linq.IQueryable<TSource>, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforOrderBy
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 66
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  summary: "\nOrders a query by the given column and wether if it should be ordered with <strong>DESC</strong>.\n"
+  example: []
+  syntax:
+    content: public static IOrderedQueryable<TSource> EforOrderBy<TSource>(this IQueryable<TSource> source, string sortName, bool sortDescending)
+    parameters:
+    - id: source
+      type: System.Linq.IQueryable{{TSource}}
+    - id: sortName
+      type: System.String
+      description: Name of the field o order the query by.
+    - id: sortDescending
+      type: System.Boolean
+      description: Wether the field should be ordered with <strong>DESC</strong>
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforOrderBy(Of TSource)(source As IQueryable(Of TSource), sortName As String, sortDescending As Boolean) As IOrderedQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforOrderBy*
+  nameWithType.vb: LinqExtensions.EforOrderBy(Of TSource)(IQueryable(Of TSource), String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforOrderBy(Of TSource)(System.Linq.IQueryable(Of TSource), System.String, System.Boolean)
+  name.vb: EforOrderBy(Of TSource)(IQueryable(Of TSource), String, Boolean)
+- uid: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  id: EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforThenBy<TSource>(IOrderedQueryable<TSource>, IEnumerable<SortCriteria>)
+  nameWithType: LinqExtensions.EforThenBy<TSource>(IOrderedQueryable<TSource>, IEnumerable<SortCriteria>)
+  fullName: System.Linq.LinqExtensions.EforThenBy<TSource>(System.Linq.IOrderedQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Sorts.SortCriteria>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforThenBy
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 79
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  summary: "\n<inheritdoc cref=\"M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})\"></inheritdoc>\n<br />\n<strong>FIELD NAMES SHOULD NOT BE REPEATED.</strong>\n"
+  example: []
+  syntax:
+    content: public static IOrderedQueryable<TSource> EforThenBy<TSource>(this IOrderedQueryable<TSource> source, IEnumerable<SortCriteria> sortCriterias)
+    parameters:
+    - id: source
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    - id: sortCriterias
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+      description: A collection of the order criteria that a query should follow
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforThenBy(Of TSource)(source As IOrderedQueryable(Of TSource), sortCriterias As IEnumerable(Of SortCriteria)) As IOrderedQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforThenBy*
+  nameWithType.vb: LinqExtensions.EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), IEnumerable(Of SortCriteria))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforThenBy(Of TSource)(System.Linq.IOrderedQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Sorts.SortCriteria))
+  name.vb: EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), IEnumerable(Of SortCriteria))
+- uid: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  id: EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforThenBy<TSource>(IOrderedQueryable<TSource>, Dictionary<String, Boolean>)
+  nameWithType: LinqExtensions.EforThenBy<TSource>(IOrderedQueryable<TSource>, Dictionary<String, Boolean>)
+  fullName: System.Linq.LinqExtensions.EforThenBy<TSource>(System.Linq.IOrderedQueryable<TSource>, System.Collections.Generic.Dictionary<System.String, System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforThenBy
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 90
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  summary: "\nCompletes the given <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> query&apos;s order sequency by subsequential fields\n"
+  example: []
+  syntax:
+    content: public static IOrderedQueryable<TSource> EforThenBy<TSource>(this IOrderedQueryable<TSource> source, Dictionary<string, bool> sortNameAndIsDescending)
+    parameters:
+    - id: source
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    - id: sortNameAndIsDescending
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforThenBy(Of TSource)(source As IOrderedQueryable(Of TSource), sortNameAndIsDescending As Dictionary(Of String, Boolean)) As IOrderedQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforThenBy*
+  nameWithType.vb: LinqExtensions.EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), Dictionary(Of String, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforThenBy(Of TSource)(System.Linq.IOrderedQueryable(Of TSource), System.Collections.Generic.Dictionary(Of System.String, System.Boolean))
+  name.vb: EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), Dictionary(Of String, Boolean))
+- uid: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.String,System.Boolean)
+  commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.String,System.Boolean)
+  id: EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforThenBy<TSource>(IOrderedQueryable<TSource>, String, Boolean)
+  nameWithType: LinqExtensions.EforThenBy<TSource>(IOrderedQueryable<TSource>, String, Boolean)
+  fullName: System.Linq.LinqExtensions.EforThenBy<TSource>(System.Linq.IOrderedQueryable<TSource>, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforThenBy
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 107
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  example: []
+  syntax:
+    content: public static IOrderedQueryable<TSource> EforThenBy<TSource>(this IOrderedQueryable<TSource> source, string sortName, bool sortDescending)
+    parameters:
+    - id: source
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    - id: sortName
+      type: System.String
+      description: The field to order
+    - id: sortDescending
+      type: System.Boolean
+      description: Wether if the field should be ordered by using <strong>DESC</strong>
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IOrderedQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforThenBy(Of TSource)(source As IOrderedQueryable(Of TSource), sortName As String, sortDescending As Boolean) As IOrderedQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforThenBy*
+  nameWithType.vb: LinqExtensions.EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforThenBy(Of TSource)(System.Linq.IOrderedQueryable(Of TSource), System.String, System.Boolean)
+  name.vb: EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), String, Boolean)
+- uid: System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},System.String,System.String,es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+  commentId: M:System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},System.String,System.String,es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+  id: EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},System.String,System.String,es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, String, String, FilterOperator)
+  nameWithType: LinqExtensions.EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, String, String, FilterOperator)
+  fullName: System.Linq.LinqExtensions.EforWhere<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>, System.String, System.String, es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforWhere
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 125
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  summary: "\nAn extension of the fiven <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> query to be filtered.\n"
+  example: []
+  syntax:
+    content: public static IQueryable<TSource> EforWhere<TSource>(this IQueryable<TSource> source, IEnumerable<FilterCriteria> filterArr = null, string valueFilter = "", string fieldFilter = "Name", FilterOperator opFilter = FilterOperator.Eq)
+    parameters:
+    - id: source
+      type: System.Linq.IQueryable{{TSource}}
+      description: The original query
+    - id: filterArr
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+      description: An array of <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria" data-throw-if-not-resolved="false"></xref> that defines how the filtering should be performed.
+    - id: valueFilter
+      type: System.String
+      description: ''
+    - id: fieldFilter
+      type: System.String
+      description: ''
+    - id: opFilter
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      description: ''
+    typeParameters:
+    - id: TSource
+      description: Entity of the query
+    return:
+      type: System.Linq.IQueryable{{TSource}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforWhere(Of TSource)(source As IQueryable(Of TSource), filterArr As IEnumerable(Of FilterCriteria) = Nothing, valueFilter As String = "", fieldFilter As String = "Name", opFilter As FilterOperator = FilterOperator.Eq) As IQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforWhere*
+  nameWithType.vb: LinqExtensions.EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), String, String, FilterOperator)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforWhere(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria), System.String, System.String, es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+  name.vb: EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), String, String, FilterOperator)
+- uid: System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  commentId: M:System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  id: EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, FilterConditionJoin)
+  nameWithType: LinqExtensions.EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, FilterConditionJoin)
+  fullName: System.Linq.LinqExtensions.EforWhere<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>, es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforWhere
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 148
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  syntax:
+    content: public static IQueryable<TSource> EforWhere<TSource>(this IQueryable<TSource> source, IEnumerable<FilterCriteria> filterArr, FilterConditionJoin joinCondiction)
+    parameters:
+    - id: source
+      type: System.Linq.IQueryable{{TSource}}
+    - id: filterArr
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+    - id: joinCondiction
+      type: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforWhere(Of TSource)(source As IQueryable(Of TSource), filterArr As IEnumerable(Of FilterCriteria), joinCondiction As FilterConditionJoin) As IQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforWhere*
+  nameWithType.vb: LinqExtensions.EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), FilterConditionJoin)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforWhere(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria), es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  name.vb: EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), FilterConditionJoin)
+- uid: System.Linq.LinqExtensions.EforPaginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)
+  commentId: M:System.Linq.LinqExtensions.EforPaginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)
+  id: EforPaginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: EforPaginate<TSource>(IQueryable<TSource>, Int32, Int32)
+  nameWithType: LinqExtensions.EforPaginate<TSource>(IQueryable<TSource>, Int32, Int32)
+  fullName: System.Linq.LinqExtensions.EforPaginate<TSource>(System.Linq.IQueryable<TSource>, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EforPaginate
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 165
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  syntax:
+    content: public static IQueryable<TSource> EforPaginate<TSource>(this IQueryable<TSource> source, int pageIndex = 0, int pageSize = 20)
+    parameters:
+    - id: source
+      type: System.Linq.IQueryable{{TSource}}
+    - id: pageIndex
+      type: System.Int32
+    - id: pageSize
+      type: System.Int32
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Linq.IQueryable{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EforPaginate(Of TSource)(source As IQueryable(Of TSource), pageIndex As Integer = 0, pageSize As Integer = 20) As IQueryable(Of TSource)
+  overload: System.Linq.LinqExtensions.EforPaginate*
+  nameWithType.vb: LinqExtensions.EforPaginate(Of TSource)(IQueryable(Of TSource), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.EforPaginate(Of TSource)(System.Linq.IQueryable(Of TSource), System.Int32, System.Int32)
+  name.vb: EforPaginate(Of TSource)(IQueryable(Of TSource), Int32, Int32)
+- uid: System.Linq.LinqExtensions.ToSql``1(System.Linq.IQueryable{``0})
+  commentId: M:System.Linq.LinqExtensions.ToSql``1(System.Linq.IQueryable{``0})
+  id: ToSql``1(System.Linq.IQueryable{``0})
+  isExtensionMethod: true
+  parent: System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToSql<TEntity>(IQueryable<TEntity>)
+  nameWithType: LinqExtensions.ToSql<TEntity>(IQueryable<TEntity>)
+  fullName: System.Linq.LinqExtensions.ToSql<TEntity>(System.Linq.IQueryable<TEntity>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ToSql
+    path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+    startLine: 182
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: System.Linq
+  summary: "\nNET Core 3.1 - https://stackoverflow.com/a/51583047\n<p>\n    Dependencies:<br />\n        Microsoft.EntityFrameworkCore.Query.SqlExpressions,<br />\n        Microsoft.EntityFrameworkCore.Query\n</p>\n"
+  example: []
+  syntax:
+    content: >-
+      public static string ToSql<TEntity>(this IQueryable<TEntity> query)
+
+          where TEntity : class
+    parameters:
+    - id: query
+      type: System.Linq.IQueryable{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSql(Of TEntity As Class)(query As IQueryable(Of TEntity)) As String
+  overload: System.Linq.LinqExtensions.ToSql*
+  nameWithType.vb: LinqExtensions.ToSql(Of TEntity)(IQueryable(Of TEntity))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.LinqExtensions.ToSql(Of TEntity)(System.Linq.IQueryable(Of TEntity))
+  name.vb: ToSql(Of TEntity)(IQueryable(Of TEntity))
+references:
+- uid: System.Linq
+  commentId: N:System.Linq
+  name: System.Linq
+  nameWithType: System.Linq
+  fullName: System.Linq
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Linq.LinqExtensions.EforOrderBy*
+  commentId: Overload:System.Linq.LinqExtensions.EforOrderBy
+  name: EforOrderBy
+  nameWithType: LinqExtensions.EforOrderBy
+  fullName: System.Linq.LinqExtensions.EforOrderBy
+- uid: System.Linq.IQueryable{{TSource}}
+  commentId: T:System.Linq.IQueryable{``0}
+  parent: System.Linq
+  definition: System.Linq.IQueryable`1
+  name: IQueryable<TSource>
+  nameWithType: IQueryable<TSource>
+  fullName: System.Linq.IQueryable<TSource>
+  nameWithType.vb: IQueryable(Of TSource)
+  fullName.vb: System.Linq.IQueryable(Of TSource)
+  name.vb: IQueryable(Of TSource)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+  commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SortCriteria>
+  nameWithType: IEnumerable<SortCriteria>
+  fullName: System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Sorts.SortCriteria>
+  nameWithType.vb: IEnumerable(Of SortCriteria)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Sorts.SortCriteria)
+  name.vb: IEnumerable(Of SortCriteria)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    name: SortCriteria
+    nameWithType: SortCriteria
+    fullName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    name: SortCriteria
+    nameWithType: SortCriteria
+    fullName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.IOrderedQueryable{{TSource}}
+  commentId: T:System.Linq.IOrderedQueryable{``0}
+  parent: System.Linq
+  definition: System.Linq.IOrderedQueryable`1
+  name: IOrderedQueryable<TSource>
+  nameWithType: IOrderedQueryable<TSource>
+  fullName: System.Linq.IOrderedQueryable<TSource>
+  nameWithType.vb: IOrderedQueryable(Of TSource)
+  fullName.vb: System.Linq.IOrderedQueryable(Of TSource)
+  name.vb: IOrderedQueryable(Of TSource)
+  spec.csharp:
+  - uid: System.Linq.IOrderedQueryable`1
+    name: IOrderedQueryable
+    nameWithType: IOrderedQueryable
+    fullName: System.Linq.IOrderedQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IOrderedQueryable`1
+    name: IOrderedQueryable
+    nameWithType: IOrderedQueryable
+    fullName: System.Linq.IOrderedQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.IQueryable`1
+  commentId: T:System.Linq.IQueryable`1
+  isExternal: true
+  name: IQueryable<T>
+  nameWithType: IQueryable<T>
+  fullName: System.Linq.IQueryable<T>
+  nameWithType.vb: IQueryable(Of T)
+  fullName.vb: System.Linq.IQueryable(Of T)
+  name.vb: IQueryable(Of T)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Linq.IOrderedQueryable`1
+  commentId: T:System.Linq.IOrderedQueryable`1
+  isExternal: true
+  name: IOrderedQueryable<T>
+  nameWithType: IOrderedQueryable<T>
+  fullName: System.Linq.IOrderedQueryable<T>
+  nameWithType.vb: IOrderedQueryable(Of T)
+  fullName.vb: System.Linq.IOrderedQueryable(Of T)
+  name.vb: IOrderedQueryable(Of T)
+  spec.csharp:
+  - uid: System.Linq.IOrderedQueryable`1
+    name: IOrderedQueryable
+    nameWithType: IOrderedQueryable
+    fullName: System.Linq.IOrderedQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IOrderedQueryable`1
+    name: IOrderedQueryable
+    nameWithType: IOrderedQueryable
+    fullName: System.Linq.IOrderedQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Boolean>
+  nameWithType: Dictionary<String, Boolean>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Boolean>
+  nameWithType.vb: Dictionary(Of String, Boolean)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Boolean)
+  name.vb: Dictionary(Of String, Boolean)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Linq.LinqExtensions.EforThenBy*
+  commentId: Overload:System.Linq.LinqExtensions.EforThenBy
+  name: EforThenBy
+  nameWithType: LinqExtensions.EforThenBy
+  fullName: System.Linq.LinqExtensions.EforThenBy
+- uid: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  isExternal: true
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterCriteria
+  nameWithType: FilterCriteria
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+- uid: System.Linq.LinqExtensions.EforWhere*
+  commentId: Overload:System.Linq.LinqExtensions.EforWhere
+  name: EforWhere
+  nameWithType: LinqExtensions.EforWhere
+  fullName: System.Linq.LinqExtensions.EforWhere
+- uid: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<FilterCriteria>
+  nameWithType: IEnumerable<FilterCriteria>
+  fullName: System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>
+  nameWithType.vb: IEnumerable(Of FilterCriteria)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  name.vb: IEnumerable(Of FilterCriteria)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterOperator
+  nameWithType: FilterOperator
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+- uid: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  name: es.efor.Utilities.Linq.Models.Filters
+  nameWithType: es.efor.Utilities.Linq.Models.Filters
+  fullName: es.efor.Utilities.Linq.Models.Filters
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterConditionJoin
+  nameWithType: FilterConditionJoin
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+- uid: System.Linq.LinqExtensions.EforPaginate*
+  commentId: Overload:System.Linq.LinqExtensions.EforPaginate
+  name: EforPaginate
+  nameWithType: LinqExtensions.EforPaginate
+  fullName: System.Linq.LinqExtensions.EforPaginate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Linq.LinqExtensions.ToSql*
+  commentId: Overload:System.Linq.LinqExtensions.ToSql
+  name: ToSql
+  nameWithType: LinqExtensions.ToSql
+  fullName: System.Linq.LinqExtensions.ToSql
+- uid: System.Linq.IQueryable{{TEntity}}
+  commentId: T:System.Linq.IQueryable{``0}
+  parent: System.Linq
+  definition: System.Linq.IQueryable`1
+  name: IQueryable<TEntity>
+  nameWithType: IQueryable<TEntity>
+  fullName: System.Linq.IQueryable<TEntity>
+  nameWithType.vb: IQueryable(Of TEntity)
+  fullName.vb: System.Linq.IQueryable(Of TEntity)
+  name.vb: IQueryable(Of TEntity)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEntity
+    nameWithType: TEntity
+    fullName: TEntity
+  - name: )
+    nameWithType: )
+    fullName: )

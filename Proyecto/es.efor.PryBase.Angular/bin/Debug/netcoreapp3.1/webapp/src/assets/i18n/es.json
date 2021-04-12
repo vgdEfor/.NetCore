@@ -1,0 +1,145 @@
+{
+	"API": {
+		"ERROR": {
+			"AUTH": {
+				"PASS": {
+					"FAIL": "Datos incorrectos"
+				}
+			}
+		}
+	},
+	"APP_NAME": "Web de mediadores",
+	"COMPONENT": {
+		"FILEDROP": {
+			"LABEL": {
+				"CHOOSEFILE": "COMPONENT.FILEDROP.LABEL.CHOOSEFILE",
+				"ORDRAGHERE": "COMPONENT.FILEDROP.LABEL.ORDRAGHERE",
+				"RELEASETOUPLOAD": "COMPONENT.FILEDROP.LABEL.RELEASETOUPLOAD",
+				"UPLOADING": "COMPONENT.FILEDROP.LABEL.UPLOADING"
+			},
+			"MODAL": {
+				"DELETE": {
+					"BODY": "COMPONENT.FILEDROP.MODAL.DELETE.BODY",
+					"BTN": {
+						"CANCEL": "COMPONENT.FILEDROP.MODAL.DELETE.BTN.CANCEL",
+						"CONFIRM": "COMPONENT.FILEDROP.MODAL.DELETE.BTN.CONFIRM"
+					},
+					"TITLE": "COMPONENT.FILEDROP.MODAL.DELETE.TITLE"
+				}
+			}
+		}
+	},
+	"FORMAT": {
+		"DATE": "dd/MM/yyyy",
+		"DATETIME": "dd/MM/yyyy HH:mm",
+		"TIME": "HH:mm",
+		"TIMESECONDS": "HH:mm:ss"
+	},
+	"GENERIC": {
+		"BTN": {
+			"CLOSE": "Cerrar",
+			"DELETE": "Eliminar",
+			"GOTO": {
+				"LIST": "Ir al listado"
+			},
+			"GO_HOME": "Inicio",
+			"SAVE": "Guardar"
+		},
+		"LABEL": {
+			"LOADING": "Cargando..."
+		}
+	},
+	"LANG": {
+		"EN": "English",
+		"EN_SHORT": "EN",
+		"ES": "Castellano",
+		"ES_SHORT": "ES"
+	},
+	"MENU": {
+		"BTN": {
+			"LOGOUT": "Cerrar sesión"
+		},
+		"PAGE": {
+			"HOME": "Inicio",
+			"INSURANCE": {
+				"DETAILS": "Detalles",
+				"LIST": "Listado",
+				"MAIN": "Pólizas",
+				"NEW": "Nueva"
+			},
+			"RCA": {
+				"MAIN": "MENU.PAGE.RCA.MAIN"
+			},
+			"ZITYENTITY": {
+				"LIST": "MENU.PAGE.ZITYENTITY.LIST"
+			}
+		}
+	},
+	"PAGE": {
+		"DASHBOARD": {
+			"TITLE": "Inicio"
+		},
+		"ERROR": {
+			"404": {
+				"BODY": "No hemos podido encontrar la página que buscas",
+				"TITLE": "Página no encontrada"
+			}
+		},
+		"INSURANCE": {
+			"DETAILS": {
+				"LABEL": {
+					"AMOUNT": "Importe",
+					"DATETIME": "Fecha de alta",
+					"ISPREMIUM": "Cte. premium",
+					"NAME": "Nombre",
+					"SURNAME1": "Apellido",
+					"SURNAME2": "Segundo apellido"
+				},
+				"TITLE": "Póliza - Detalles",
+				"TOOLTIP": {
+					"AMOUNT": "Importe",
+					"DATETIME": "Fecha de alta",
+					"ISPREMIUM": "Cte. premium",
+					"NAME": "Nombre",
+					"SURNAME1": "Apellido",
+					"SURNAME2": "Segundo apellido"
+				}
+			},
+			"LIST": {
+				"DATATABLE": {
+					"COLUMN": {
+						"NAME": "Cliente"
+					}
+				},
+				"TITLE": "Pólizas - Listado"
+			}
+		}
+	},
+	"PAGES": {
+		"AUTH": {
+			"LOGIN": {
+				"BTN": {
+					"LOGIN": "Iniciar sesión"
+				},
+				"LABEL": {
+					"PASSWORD": "Contraseña",
+					"REMEMBERME": "Permanecer conectado",
+					"USERNAME": "Usuario"
+				}
+			}
+		}
+	},
+	"SERVICEWORKER": {
+		"MODAL": {
+			"BODY": "SERVICEWORKER.MODAL.BODY",
+			"BTN": {
+				"CLOSE": "SERVICEWORKER.MODAL.BTN.CLOSE",
+				"CONFIRM": "SERVICEWORKER.MODAL.BTN.CONFIRM"
+			},
+			"HEADER": "SERVICEWORKER.MODAL.HEADER"
+		}
+	},
+	"TOAST_ERR_HTTP_0_BODY": "TOAST_ERR_HTTP_0_BODY",
+	"TOAST_ERR_HTTP_0_TITLE": "TOAST_ERR_HTTP_0_TITLE",
+	"no": "no"
+}

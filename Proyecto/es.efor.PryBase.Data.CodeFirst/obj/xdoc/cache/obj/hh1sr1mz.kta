@@ -1,0 +1,1260 @@
+id: es.efor.Musaat.Data.CodeFirst
+language: CSharp
+name:
+  Default: es.efor.Musaat.Data.CodeFirst
+qualifiedName:
+  Default: es.efor.Musaat.Data.CodeFirst
+type: Assembly
+modifiers: {}
+items:
+- id: es.efor.Musaat.Data.CodeFirst.Migrations
+  commentId: N:es.efor.Musaat.Data.CodeFirst.Migrations
+  language: CSharp
+  name:
+    CSharp: es.efor.Musaat.Data.CodeFirst.Migrations
+    VB: es.efor.Musaat.Data.CodeFirst.Migrations
+  nameWithType:
+    CSharp: es.efor.Musaat.Data.CodeFirst.Migrations
+    VB: es.efor.Musaat.Data.CodeFirst.Migrations
+  qualifiedName:
+    CSharp: es.efor.Musaat.Data.CodeFirst.Migrations
+    VB: es.efor.Musaat.Data.CodeFirst.Migrations
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Data.CodeFirst
+  modifiers: {}
+  items:
+  - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+    commentId: T:es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+    language: CSharp
+    name:
+      CSharp: Initial
+      VB: Initial
+    nameWithType:
+      CSharp: Initial
+      VB: Initial
+    qualifiedName:
+      CSharp: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+      VB: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+    type: Class
+    assemblies:
+    - es.efor.Musaat.Data.CodeFirst
+    namespace: es.efor.Musaat.Data.CodeFirst.Migrations
+    source:
+      remote:
+        path: es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.Designer.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+      id: Initial
+      path: ../es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.Designer.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: >-
+          [DbContext(typeof(NexusContext))]
+
+          [Migration("20201015051202_Initial")]
+
+          public class Initial : Migration
+        VB: >-
+          <DbContext(GetType(NexusContext))>
+
+          <Migration("20201015051202_Initial")>
+
+          Public Class Initial
+
+              Inherits Migration
+    inheritance:
+    - System.Object
+    - Microsoft.EntityFrameworkCore.Migrations.Migration
+    inheritedMembers:
+    - Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+    - Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+    - Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+    - Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+    - Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    attributes:
+    - type: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+      ctor: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type)
+      arguments:
+      - type: System.Type
+        value: es.efor.Musaat.Data.Context.NexusContext
+    - type: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+      ctor: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.#ctor(System.String)
+      arguments:
+      - type: System.String
+        value: 20201015051202_Initial
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      commentId: M:es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      language: CSharp
+      name:
+        CSharp: Up(MigrationBuilder)
+        VB: Up(MigrationBuilder)
+      nameWithType:
+        CSharp: Initial.Up(MigrationBuilder)
+        VB: Initial.Up(MigrationBuilder)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+        VB: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Data.CodeFirst
+      namespace: es.efor.Musaat.Data.CodeFirst.Migrations
+      source:
+        remote:
+          path: es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: Up
+        path: ../es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: protected override void Up(MigrationBuilder migrationBuilder)
+          VB: Protected Overrides Sub Up(migrationBuilder As MigrationBuilder)
+        parameters:
+        - id: migrationBuilder
+          type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+      overload: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up*
+      overridden: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      commentId: M:es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      language: CSharp
+      name:
+        CSharp: Down(MigrationBuilder)
+        VB: Down(MigrationBuilder)
+      nameWithType:
+        CSharp: Initial.Down(MigrationBuilder)
+        VB: Initial.Down(MigrationBuilder)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+        VB: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Data.CodeFirst
+      namespace: es.efor.Musaat.Data.CodeFirst.Migrations
+      source:
+        remote:
+          path: es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: Down
+        path: ../es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.cs
+        startLine: 475
+      syntax:
+        content:
+          CSharp: protected override void Down(MigrationBuilder migrationBuilder)
+          VB: Protected Overrides Sub Down(migrationBuilder As MigrationBuilder)
+        parameters:
+        - id: migrationBuilder
+          type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+      overload: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down*
+      overridden: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+    - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+      commentId: M:es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+      language: CSharp
+      name:
+        CSharp: BuildTargetModel(ModelBuilder)
+        VB: BuildTargetModel(ModelBuilder)
+      nameWithType:
+        CSharp: Initial.BuildTargetModel(ModelBuilder)
+        VB: Initial.BuildTargetModel(ModelBuilder)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+        VB: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Data.CodeFirst
+      namespace: es.efor.Musaat.Data.CodeFirst.Migrations
+      source:
+        remote:
+          path: es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.Designer.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: BuildTargetModel
+        path: ../es.efor.Musaat.Data.CodeFirst/Migrations/20201015051202_Initial.Designer.cs
+        startLine: 14
+      syntax:
+        content:
+          CSharp: protected override void BuildTargetModel(ModelBuilder modelBuilder)
+          VB: Protected Overrides Sub BuildTargetModel(modelBuilder As ModelBuilder)
+        parameters:
+        - id: modelBuilder
+          type: Microsoft.EntityFrameworkCore.ModelBuilder
+      overload: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel*
+      overridden: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+      modifiers:
+        CSharp:
+        - protected
+        - override
+        VB:
+        - Protected
+        - Overrides
+references:
+  Microsoft.EntityFrameworkCore.Migrations:
+    name:
+      CSharp:
+      - name: Microsoft.EntityFrameworkCore.Migrations
+        nameWithType: Microsoft.EntityFrameworkCore.Migrations
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations
+        isExternal: true
+      VB:
+      - name: Microsoft.EntityFrameworkCore.Migrations
+        nameWithType: Microsoft.EntityFrameworkCore.Migrations
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations
+    isDefinition: true
+    commentId: N:Microsoft.EntityFrameworkCore.Migrations
+  Microsoft.EntityFrameworkCore.Migrations.Migration:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration
+        name: Migration
+        nameWithType: Migration
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration
+        name: Migration
+        nameWithType: Migration
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations
+    commentId: T:Microsoft.EntityFrameworkCore.Migrations.Migration
+  Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+        name: InitialDatabase
+        nameWithType: Migration.InitialDatabase
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+        name: InitialDatabase
+        nameWithType: Migration.InitialDatabase
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: F:Microsoft.EntityFrameworkCore.Migrations.Migration.InitialDatabase
+  Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+        name: TargetModel
+        nameWithType: Migration.TargetModel
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+        name: TargetModel
+        nameWithType: Migration.TargetModel
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel
+  Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+        name: UpOperations
+        nameWithType: Migration.UpOperations
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+        name: UpOperations
+        nameWithType: Migration.UpOperations
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations
+  Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+        name: DownOperations
+        nameWithType: Migration.DownOperations
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+        name: DownOperations
+        nameWithType: Migration.DownOperations
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations
+  Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+        name: ActiveProvider
+        nameWithType: Migration.ActiveProvider
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+        name: ActiveProvider
+        nameWithType: Migration.ActiveProvider
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: P:Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+      VB:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Helpers
+  es.efor.Utilities.General.Helpers.ObjectHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General.Helpers
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        name: MigrationBuilder
+        nameWithType: MigrationBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        name: MigrationBuilder
+        nameWithType: MigrationBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations
+    commentId: T:Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder):
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+        name: Up
+        nameWithType: Migration.Up
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.Up
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        name: MigrationBuilder
+        nameWithType: MigrationBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+        name: Up
+        nameWithType: Migration.Up
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.Up
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        name: MigrationBuilder
+        nameWithType: MigrationBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: M:Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up*
+        name: Up
+        nameWithType: Initial.Up
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up
+      VB:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up*
+        name: Up
+        nameWithType: Initial.Up
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up
+  Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder):
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+        name: Down
+        nameWithType: Migration.Down
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.Down
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        name: MigrationBuilder
+        nameWithType: MigrationBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+        name: Down
+        nameWithType: Migration.Down
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.Down
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        name: MigrationBuilder
+        nameWithType: MigrationBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: M:Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down*
+        name: Down
+        nameWithType: Initial.Down
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down
+      VB:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down*
+        name: Down
+        nameWithType: Initial.Down
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down
+  Microsoft.EntityFrameworkCore:
+    name:
+      CSharp:
+      - name: Microsoft.EntityFrameworkCore
+        nameWithType: Microsoft.EntityFrameworkCore
+        qualifiedName: Microsoft.EntityFrameworkCore
+        isExternal: true
+      VB:
+      - name: Microsoft.EntityFrameworkCore
+        nameWithType: Microsoft.EntityFrameworkCore
+        qualifiedName: Microsoft.EntityFrameworkCore
+    isDefinition: true
+    commentId: N:Microsoft.EntityFrameworkCore
+  Microsoft.EntityFrameworkCore.ModelBuilder:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.ModelBuilder
+        name: ModelBuilder
+        nameWithType: ModelBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.ModelBuilder
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.ModelBuilder
+        name: ModelBuilder
+        nameWithType: ModelBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.ModelBuilder
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore
+    commentId: T:Microsoft.EntityFrameworkCore.ModelBuilder
+  Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder):
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+        name: BuildTargetModel
+        nameWithType: Migration.BuildTargetModel
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.EntityFrameworkCore.ModelBuilder
+        name: ModelBuilder
+        nameWithType: ModelBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.ModelBuilder
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+        name: BuildTargetModel
+        nameWithType: Migration.BuildTargetModel
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.EntityFrameworkCore.ModelBuilder
+        name: ModelBuilder
+        nameWithType: ModelBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.ModelBuilder
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.Migration
+    commentId: M:Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel*
+        name: BuildTargetModel
+        nameWithType: Initial.BuildTargetModel
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel
+      VB:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel*
+        name: BuildTargetModel
+        nameWithType: Initial.BuildTargetModel
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel
+  es.efor.Musaat.Data.CodeFirst.Migrations.Initial:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+        name: Initial
+        nameWithType: Initial
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+      VB:
+      - id: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+        name: Initial
+        nameWithType: Initial
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+    isDefinition: true
+    commentId: T:es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+  Microsoft.EntityFrameworkCore.Infrastructure:
+    name:
+      CSharp:
+      - name: Microsoft.EntityFrameworkCore.Infrastructure
+        nameWithType: Microsoft.EntityFrameworkCore.Infrastructure
+        qualifiedName: Microsoft.EntityFrameworkCore.Infrastructure
+        isExternal: true
+      VB:
+      - name: Microsoft.EntityFrameworkCore.Infrastructure
+        nameWithType: Microsoft.EntityFrameworkCore.Infrastructure
+        qualifiedName: Microsoft.EntityFrameworkCore.Infrastructure
+    isDefinition: true
+    commentId: N:Microsoft.EntityFrameworkCore.Infrastructure
+  Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+        name: DbContextAttribute
+        nameWithType: DbContextAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+        name: DbContextAttribute
+        nameWithType: DbContextAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Infrastructure
+    commentId: T:Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+  Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type):
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type)
+        name: DbContextAttribute
+        nameWithType: DbContextAttribute.DbContextAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.DbContextAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type)
+        name: DbContextAttribute
+        nameWithType: DbContextAttribute.DbContextAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.DbContextAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute
+    commentId: M:Microsoft.EntityFrameworkCore.Infrastructure.DbContextAttribute.#ctor(System.Type)
+  es.efor.Musaat.Data.Context:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Data.Context
+        nameWithType: es.efor.Musaat.Data.Context
+        qualifiedName: es.efor.Musaat.Data.Context
+      VB:
+      - name: es.efor.Musaat.Data.Context
+        nameWithType: es.efor.Musaat.Data.Context
+        qualifiedName: es.efor.Musaat.Data.Context
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Data.Context
+  es.efor.Musaat.Data.Context.NexusContext:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Data.Context.NexusContext
+        name: NexusContext
+        nameWithType: NexusContext
+        qualifiedName: es.efor.Musaat.Data.Context.NexusContext
+      VB:
+      - id: es.efor.Musaat.Data.Context.NexusContext
+        name: NexusContext
+        nameWithType: NexusContext
+        qualifiedName: es.efor.Musaat.Data.Context.NexusContext
+    isDefinition: true
+    parent: es.efor.Musaat.Data.Context
+    commentId: T:es.efor.Musaat.Data.Context.NexusContext
+  System.Type:
+    name:
+      CSharp:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      VB:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Type
+  Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+        name: MigrationAttribute
+        nameWithType: MigrationAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+        name: MigrationAttribute
+        nameWithType: MigrationAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations
+    commentId: T:Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+  Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.#ctor(System.String):
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.#ctor(System.String)
+        name: MigrationAttribute
+        nameWithType: MigrationAttribute.MigrationAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.MigrationAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.#ctor(System.String)
+        name: MigrationAttribute
+        nameWithType: MigrationAttribute.MigrationAttribute
+        qualifiedName: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.MigrationAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute
+    commentId: M:Microsoft.EntityFrameworkCore.Migrations.MigrationAttribute.#ctor(System.String)
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  es.efor.Musaat.Data.CodeFirst.Migrations:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Data.CodeFirst.Migrations
+        nameWithType: es.efor.Musaat.Data.CodeFirst.Migrations
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations
+      VB:
+      - name: es.efor.Musaat.Data.CodeFirst.Migrations
+        nameWithType: es.efor.Musaat.Data.CodeFirst.Migrations
+        qualifiedName: es.efor.Musaat.Data.CodeFirst.Migrations
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Data.CodeFirst.Migrations

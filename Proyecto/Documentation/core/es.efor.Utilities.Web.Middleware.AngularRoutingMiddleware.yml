@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  commentId: T:es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  id: AngularRoutingMiddleware
+  parent: es.efor.Utilities.Web.Middleware
+  children:
+  - es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Http.RequestDelegate)
+  - es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: AngularRoutingMiddleware
+  nameWithType: AngularRoutingMiddleware
+  fullName: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Middleware/AngularRoutingMiddleware.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AngularRoutingMiddleware
+    path: ../es.efor.Utilities.Web/Middleware/AngularRoutingMiddleware.cs
+    startLine: 11
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Middleware
+  syntax:
+    content: public class AngularRoutingMiddleware
+    content.vb: Public Class AngularRoutingMiddleware
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Http.RequestDelegate)
+  commentId: M:es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Http.RequestDelegate)
+  id: '#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Http.RequestDelegate)'
+  parent: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  langs:
+  - csharp
+  - vb
+  name: AngularRoutingMiddleware(IWebHostEnvironment, RequestDelegate)
+  nameWithType: AngularRoutingMiddleware.AngularRoutingMiddleware(IWebHostEnvironment, RequestDelegate)
+  fullName: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.AngularRoutingMiddleware(Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Http.RequestDelegate)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Middleware/AngularRoutingMiddleware.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Utilities.Web/Middleware/AngularRoutingMiddleware.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Middleware
+  syntax:
+    content: public AngularRoutingMiddleware(IWebHostEnvironment env, RequestDelegate next)
+    parameters:
+    - id: env
+      type: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+    - id: next
+      type: Microsoft.AspNetCore.Http.RequestDelegate
+    content.vb: Public Sub New(env As IWebHostEnvironment, next As RequestDelegate)
+  overload: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  id: Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  parent: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  langs:
+  - csharp
+  - vb
+  name: Invoke(HttpContext)
+  nameWithType: AngularRoutingMiddleware.Invoke(HttpContext)
+  fullName: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Middleware/AngularRoutingMiddleware.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Invoke
+    path: ../es.efor.Utilities.Web/Middleware/AngularRoutingMiddleware.cs
+    startLine: 27
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Middleware
+  syntax:
+    content: public Task Invoke(HttpContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Http.HttpContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Invoke(context As HttpContext) As Task
+  overload: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Utilities.Web.Middleware
+  commentId: N:es.efor.Utilities.Web.Middleware
+  name: es.efor.Utilities.Web.Middleware
+  nameWithType: es.efor.Utilities.Web.Middleware
+  fullName: es.efor.Utilities.Web.Middleware
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.#ctor*
+  commentId: Overload:es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.#ctor
+  name: AngularRoutingMiddleware
+  nameWithType: AngularRoutingMiddleware.AngularRoutingMiddleware
+  fullName: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.AngularRoutingMiddleware
+- uid: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+  commentId: T:Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: IWebHostEnvironment
+  nameWithType: IWebHostEnvironment
+  fullName: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+- uid: Microsoft.AspNetCore.Http.RequestDelegate
+  commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: RequestDelegate
+  nameWithType: RequestDelegate
+  fullName: Microsoft.AspNetCore.Http.RequestDelegate
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke*
+  commentId: Overload:es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke
+  name: Invoke
+  nameWithType: AngularRoutingMiddleware.Invoke
+  fullName: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware.Invoke
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Swagger.Models
+  commentId: N:es.efor.Utilities.Swagger.Models
+  id: es.efor.Utilities.Swagger.Models
+  children:
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Swagger.Models
+  nameWithType: es.efor.Utilities.Swagger.Models
+  fullName: es.efor.Utilities.Swagger.Models
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+references:
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig
+  commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig
+  parent: es.efor.Utilities.Swagger.Models
+  name: SwaggerConfig
+  nameWithType: SwaggerConfig
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  name: SwaggerConfig<TProgram>
+  nameWithType: SwaggerConfig<TProgram>
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>
+  nameWithType.vb: SwaggerConfig(Of TProgram)
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram)
+  name.vb: SwaggerConfig(Of TProgram)
+  spec.csharp:
+  - uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+    name: SwaggerConfig
+    nameWithType: SwaggerConfig
+    fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TProgram
+    nameWithType: TProgram
+    fullName: TProgram
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+    name: SwaggerConfig
+    nameWithType: SwaggerConfig
+    fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TProgram
+    nameWithType: TProgram
+    fullName: TProgram
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Swagger.Models
+  commentId: N:es.efor.Utilities.Swagger.Models
+  name: es.efor.Utilities.Swagger.Models
+  nameWithType: es.efor.Utilities.Swagger.Models
+  fullName: es.efor.Utilities.Swagger.Models

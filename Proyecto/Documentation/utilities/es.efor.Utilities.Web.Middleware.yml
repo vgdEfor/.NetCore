@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Middleware
+  commentId: N:es.efor.Utilities.Web.Middleware
+  id: es.efor.Utilities.Web.Middleware
+  children:
+  - es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Middleware
+  nameWithType: es.efor.Utilities.Web.Middleware
+  fullName: es.efor.Utilities.Web.Middleware
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  commentId: T:es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+  name: AngularRoutingMiddleware
+  nameWithType: AngularRoutingMiddleware
+  fullName: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware

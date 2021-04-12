@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  commentId: N:es.efor.Utilities.Web.Identity.Authorization.Attributes
+  id: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  children:
+  - es.efor.Utilities.Web.Identity.Authorization.Attributes.AuthorizeExtendedAttribute
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  nameWithType: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Identity.Authorization.Attributes.AuthorizeExtendedAttribute
+  commentId: T:es.efor.Utilities.Web.Identity.Authorization.Attributes.AuthorizeExtendedAttribute
+  name: AuthorizeExtendedAttribute
+  nameWithType: AuthorizeExtendedAttribute
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Attributes.AuthorizeExtendedAttribute

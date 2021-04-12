@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Swagger.DocumentFilters
+  commentId: N:es.efor.Utilities.Swagger.DocumentFilters
+  id: es.efor.Utilities.Swagger.DocumentFilters
+  children:
+  - es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Swagger.DocumentFilters
+  nameWithType: es.efor.Utilities.Swagger.DocumentFilters
+  fullName: es.efor.Utilities.Swagger.DocumentFilters
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+references:
+- uid: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+  commentId: T:es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+  name: LowercaseDocumentFilter
+  nameWithType: LowercaseDocumentFilter
+  fullName: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter

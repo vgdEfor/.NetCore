@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: PryBase-aspnetcore-kubernetes-deploy
+spec:
+  selector:
+    matchLabels:
+      app: PryBase-aspnetcore-pod
+  template:
+    metadata:
+      labels:
+        app: PryBase-aspnetcore-pod
+    spec:
+      containers:
+      - name: PryBase-aspnetcore-kubernetes-container
+        image: PryBase-aspnetcore:v0.0.1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+        - containerPort: 443

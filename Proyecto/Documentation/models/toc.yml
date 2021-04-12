@@ -1,0 +1,75 @@
+### YamlMime:TableOfContent
+- uid: es.efor.Musaat.Data.Database
+  name: es.efor.Musaat.Data.Database
+  items:
+  - uid: es.efor.Musaat.Data.Database.AccessLogger
+    name: AccessLogger
+  - uid: es.efor.Musaat.Data.Database.Details
+    name: Details
+  - uid: es.efor.Musaat.Data.Database.Employees
+    name: Employees
+  - uid: es.efor.Musaat.Data.Database.Functionalities
+    name: Functionalities
+  - uid: es.efor.Musaat.Data.Database.LogImports
+    name: LogImports
+  - uid: es.efor.Musaat.Data.Database.Modules
+    name: Modules
+  - uid: es.efor.Musaat.Data.Database.Permissions
+    name: Permissions
+  - uid: es.efor.Musaat.Data.Database.Role
+    name: Role
+  - uid: es.efor.Musaat.Data.Database.User
+    name: User
+  - uid: es.efor.Musaat.Data.Database.UserDepartment
+    name: UserDepartment
+  - uid: es.efor.Musaat.Data.Database.UserLevel
+    name: UserLevel
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+    name: AccessLoggerDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+    name: EmployeeDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.Extensions
+  name: es.efor.Musaat.Infraestructure.DTO.Extensions
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.Extensions.IdentityExtensions
+    name: IdentityExtensions
+- uid: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs.Language_Dto
+    name: Language_Dto
+- uid: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+    name: LogImportDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+    name: DetailDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+    name: FunctionalityDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+    name: MenuDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+    name: ModuleDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    name: ADUserDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+    name: UserDepartmentDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+    name: UserDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+    name: UserLevelDTO

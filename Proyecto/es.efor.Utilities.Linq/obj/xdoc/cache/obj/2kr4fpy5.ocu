@@ -1,0 +1,4080 @@
+id: es.efor.Utilities.Linq
+language: CSharp
+name:
+  Default: es.efor.Utilities.Linq
+qualifiedName:
+  Default: es.efor.Utilities.Linq
+type: Assembly
+modifiers: {}
+items:
+- id: es.efor.Utilities.Linq.Constants
+  commentId: N:es.efor.Utilities.Linq.Constants
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Linq.Constants
+    VB: es.efor.Utilities.Linq.Constants
+  nameWithType:
+    CSharp: es.efor.Utilities.Linq.Constants
+    VB: es.efor.Utilities.Linq.Constants
+  qualifiedName:
+    CSharp: es.efor.Utilities.Linq.Constants
+    VB: es.efor.Utilities.Linq.Constants
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Linq.Constants.QueryConstants
+    commentId: T:es.efor.Utilities.Linq.Constants.QueryConstants
+    language: CSharp
+    name:
+      CSharp: QueryConstants
+      VB: QueryConstants
+    nameWithType:
+      CSharp: QueryConstants
+      VB: QueryConstants
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Constants.QueryConstants
+      VB: es.efor.Utilities.Linq.Constants.QueryConstants
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Constants
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Constants/QueryConstants.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: QueryConstants
+      path: ../es.efor.Utilities.Linq/Constants/QueryConstants.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public static class QueryConstants
+        VB: Public Module QueryConstants
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - id: es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_ASC
+      commentId: F:es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_ASC
+      language: CSharp
+      name:
+        CSharp: ORDER_ASC
+        VB: ORDER_ASC
+      nameWithType:
+        CSharp: QueryConstants.ORDER_ASC
+        VB: QueryConstants.ORDER_ASC
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_ASC
+        VB: es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_ASC
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Constants
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Constants/QueryConstants.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ORDER_ASC
+        path: ../es.efor.Utilities.Linq/Constants/QueryConstants.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: public const string ORDER_ASC = "asc"
+          VB: Public Const ORDER_ASC As String = "asc"
+        return:
+          type: System.String
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_DESC
+      commentId: F:es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_DESC
+      language: CSharp
+      name:
+        CSharp: ORDER_DESC
+        VB: ORDER_DESC
+      nameWithType:
+        CSharp: QueryConstants.ORDER_DESC
+        VB: QueryConstants.ORDER_DESC
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_DESC
+        VB: es.efor.Utilities.Linq.Constants.QueryConstants.ORDER_DESC
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Constants
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Constants/QueryConstants.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ORDER_DESC
+        path: ../es.efor.Utilities.Linq/Constants/QueryConstants.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public const string ORDER_DESC = "desc"
+          VB: Public Const ORDER_DESC As String = "desc"
+        return:
+          type: System.String
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+- id: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Linq.Models.Filters
+    VB: es.efor.Utilities.Linq.Models.Filters
+  nameWithType:
+    CSharp: es.efor.Utilities.Linq.Models.Filters
+    VB: es.efor.Utilities.Linq.Models.Filters
+  qualifiedName:
+    CSharp: es.efor.Utilities.Linq.Models.Filters
+    VB: es.efor.Utilities.Linq.Models.Filters
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+    language: CSharp
+    name:
+      CSharp: FilterConditionJoin
+      VB: FilterConditionJoin
+    nameWithType:
+      CSharp: FilterConditionJoin
+      VB: FilterConditionJoin
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+      VB: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+    type: Enum
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Filters
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Filters/FilterConditionJoin.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: FilterConditionJoin
+      path: ../es.efor.Utilities.Linq/Models/Filters/FilterConditionJoin.cs
+      startLine: 10
+    summary: "\nDefines how a filter grouping should be performed.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public enum FilterConditionJoin
+        VB: Public Enum FilterConditionJoin
+    extensionMethods:
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+      language: CSharp
+      name:
+        CSharp: And
+        VB: And
+      nameWithType:
+        CSharp: FilterConditionJoin.And
+        VB: FilterConditionJoin.And
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterConditionJoin.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: And
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterConditionJoin.cs
+        startLine: 16
+      summary: "\nAll filters will be evaluated to a boolean result and &quot;true&quot; will be\nevaluated if all filters match the query.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: And = 0
+          VB: And = 0
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+      language: CSharp
+      name:
+        CSharp: Or
+        VB: Or
+      nameWithType:
+        CSharp: FilterConditionJoin.Or
+        VB: FilterConditionJoin.Or
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterConditionJoin.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Or
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterConditionJoin.cs
+        startLine: 20
+      summary: "\nAny of the filters matching a criteria will result in a &quot;true&quot; evaluation.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Or = 1
+          VB: Or = 1
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    language: CSharp
+    name:
+      CSharp: FilterCriteria
+      VB: FilterCriteria
+    nameWithType:
+      CSharp: FilterCriteria
+      VB: FilterCriteria
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+      VB: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Filters
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: FilterCriteria
+      path: ../es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public class FilterCriteria
+        VB: Public Class FilterCriteria
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+      commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+      language: CSharp
+      name:
+        CSharp: Field
+        VB: Field
+      nameWithType:
+        CSharp: FilterCriteria.Field
+        VB: FilterCriteria.Field
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Field
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+        startLine: 12
+      summary: "\nThe field name where the filter will be applied\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Field { get; set; }
+          VB: Public Property Field As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+      commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+      language: CSharp
+      name:
+        CSharp: Value
+        VB: Value
+      nameWithType:
+        CSharp: FilterCriteria.Value
+        VB: FilterCriteria.Value
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Value
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+        startLine: 17
+      summary: "\nThe value to be evaluated. Null operators (<xref href=\"es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu\" data-throw-if-not-resolved=\"false\"></xref> and similar)\nmay have this value assignes as null or empty.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Value { get; set; }
+          VB: Public Property Value As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+      references:
+        es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu: 
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+      commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+      language: CSharp
+      name:
+        CSharp: Op
+        VB: Op
+      nameWithType:
+        CSharp: FilterCriteria.Op
+        VB: FilterCriteria.Op
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Op
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+        startLine: 22
+      summary: "\nThe operation to be evaluated. If it&apos;s not a null operator and the value is null\nor empty, the filter will be ignored.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public FilterOperator Op { get; set; }
+          VB: Public Property Op As FilterOperator
+        parameters: []
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      overload: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+      commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+      language: CSharp
+      name:
+        CSharp: Format
+        VB: Format
+      nameWithType:
+        CSharp: FilterCriteria.Format
+        VB: FilterCriteria.Format
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Format
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterCriteria.cs
+        startLine: 26
+      summary: "\nThe filter of the value.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public FilterDBType Format { get; set; }
+          VB: Public Property Format As FilterDBType
+        parameters: []
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      overload: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDBType
+    language: CSharp
+    name:
+      CSharp: FilterDBType
+      VB: FilterDBType
+    nameWithType:
+      CSharp: FilterDBType
+      VB: FilterDBType
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      VB: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+    type: Enum
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Filters
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: FilterDBType
+      path: ../es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public enum FilterDBType
+        VB: Public Enum FilterDBType
+    extensionMethods:
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType.Literal
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterDBType.Literal
+      language: CSharp
+      name:
+        CSharp: Literal
+        VB: Literal
+      nameWithType:
+        CSharp: FilterDBType.Literal
+        VB: FilterDBType.Literal
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDBType.Literal
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterDBType.Literal
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Literal
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+        startLine: 11
+      summary: "\nThe value should be evaluated as-is, without being parsed.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Literal = 0
+          VB: Literal = 0
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType.String
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterDBType.String
+      language: CSharp
+      name:
+        CSharp: String
+        VB: String
+      nameWithType:
+        CSharp: FilterDBType.String
+        VB: FilterDBType.String
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDBType.String
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterDBType.String
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: String
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+        startLine: 15
+      summary: "\nThe value represents a string.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: String = 1
+          VB: String = 1
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime
+      language: CSharp
+      name:
+        CSharp: DateTime
+        VB: DateTime
+      nameWithType:
+        CSharp: FilterDBType.DateTime
+        VB: FilterDBType.DateTime
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: DateTime
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+        startLine: 21
+      summary: "\nThe value represents a <xref href=\"es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref>\nvalue. <a href=\"https://es.wikipedia.org/wiki/ISO_8601\">ISO 8601</a> format is expected.\nJavaScript&apos;s Date&apos;s toJSON() method may be used aswell (yyyy-MM-ddTHH:mm:ss.fffZ).\n"
+      example: []
+      syntax:
+        content:
+          CSharp: DateTime = 2
+          VB: DateTime = 2
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+      references:
+        es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime: 
+        System.DateTimeOffset: 
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid
+      language: CSharp
+      name:
+        CSharp: Guid
+        VB: Guid
+      nameWithType:
+        CSharp: FilterDBType.Guid
+        VB: FilterDBType.Guid
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Guid
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterDBType.cs
+        startLine: 25
+      summary: "\nThe value is expected to be a <xref href=\"es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Guid = 3
+          VB: Guid = 3
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+      references:
+        es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid: 
+  - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+    language: CSharp
+    name:
+      CSharp: FilterDefinition
+      VB: FilterDefinition
+    nameWithType:
+      CSharp: FilterDefinition
+      VB: FilterDefinition
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+      VB: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Filters
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: FilterDefinition
+      path: ../es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public class FilterDefinition
+        VB: Public Class FilterDefinition
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+      commentId: M:es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+      language: CSharp
+      name:
+        CSharp: GetFilterExpression(IEnumerable<FilterCriteria>, FilterConditionJoin)
+        VB: GetFilterExpression(IEnumerable(Of FilterCriteria), FilterConditionJoin)
+      nameWithType:
+        CSharp: FilterDefinition.GetFilterExpression(IEnumerable<FilterCriteria>, FilterConditionJoin)
+        VB: FilterDefinition.GetFilterExpression(IEnumerable(Of FilterCriteria), FilterConditionJoin)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>, es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria), es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetFilterExpression
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+        startLine: 27
+      summary: "\nBuild a filter expression string for the given filters and joins them with the condition&apos;s character.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string GetFilterExpression(IEnumerable<FilterCriteria> filters, FilterConditionJoin conditionJoin = FilterConditionJoin.And)
+          VB: Public Shared Function GetFilterExpression(filters As IEnumerable(Of FilterCriteria), conditionJoin As FilterConditionJoin = FilterConditionJoin.And) As String
+        parameters:
+        - id: filters
+          type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+          description: >
+            The filters that will be applied.
+
+            <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria" data-throw-if-not-resolved="false"></xref> with their <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value" data-throw-if-not-resolved="false"></xref> null or empty
+
+            and their <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op" data-throw-if-not-resolved="false"></xref> not being a null operator will be ignored.
+        - id: conditionJoin
+          type: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+          description: Wether the filter should be mutually exclusive (<xref href="es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And" data-throw-if-not-resolved="false"></xref>) or not (<xref href="es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or" data-throw-if-not-resolved="false"></xref>)
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+      references:
+        es.efor.Utilities.Linq.Models.Filters.FilterCriteria: 
+        es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value: 
+        es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op: 
+        es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And: 
+        es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or: 
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+      commentId: M:es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+      language: CSharp
+      name:
+        CSharp: GetFilterExpression(FilterCriteria)
+        VB: GetFilterExpression(FilterCriteria)
+      nameWithType:
+        CSharp: FilterDefinition.GetFilterExpression(FilterCriteria)
+        VB: FilterDefinition.GetFilterExpression(FilterCriteria)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetFilterExpression
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+        startLine: 50
+      summary: "\nBuild a filter expression string for the given filter\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string GetFilterExpression(FilterCriteria filter)
+          VB: Public Shared Function GetFilterExpression(filter As FilterCriteria) As String
+        parameters:
+        - id: filter
+          type: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+          description: The filter to be evaluated
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    language: CSharp
+    name:
+      CSharp: FilterOperator
+      VB: FilterOperator
+    nameWithType:
+      CSharp: FilterOperator
+      VB: FilterOperator
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    type: Enum
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Filters
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: FilterOperator
+      path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+      startLine: 10
+    summary: "\nDefines available operators for search fields for jqGrid\n"
+    example: []
+    syntax:
+      content:
+        CSharp: >-
+          [Flags]
+
+          public enum FilterOperator
+        VB: >-
+          <Flags>
+
+          Public Enum FilterOperator
+    extensionMethods:
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    attributes:
+    - type: System.FlagsAttribute
+      ctor: System.FlagsAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+      language: CSharp
+      name:
+        CSharp: Eq
+        VB: Eq
+      nameWithType:
+        CSharp: FilterOperator.Eq
+        VB: FilterOperator.Eq
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Eq
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Eq
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 16
+      summary: "\nEqual\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Eq = 1
+          VB: Eq = 1
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+      language: CSharp
+      name:
+        CSharp: Ne
+        VB: Ne
+      nameWithType:
+        CSharp: FilterOperator.Ne
+        VB: FilterOperator.Ne
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ne
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Ne
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 20
+      summary: "\nNot equal\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Ne = 2
+          VB: Ne = 2
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+      language: CSharp
+      name:
+        CSharp: EqualOrNotEqual
+        VB: EqualOrNotEqual
+      nameWithType:
+        CSharp: FilterOperator.EqualOrNotEqual
+        VB: FilterOperator.EqualOrNotEqual
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.EqualOrNotEqual
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EqualOrNotEqual
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 24
+      summary: "\nCombines equal and not equal\n"
+      example: []
+      syntax:
+        content:
+          CSharp: EqualOrNotEqual = 3
+          VB: EqualOrNotEqual = 3
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+      language: CSharp
+      name:
+        CSharp: Lt
+        VB: Lt
+      nameWithType:
+        CSharp: FilterOperator.Lt
+        VB: FilterOperator.Lt
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Lt
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Lt
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 28
+      summary: "\nLess\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Lt = 4
+          VB: Lt = 4
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+      language: CSharp
+      name:
+        CSharp: Le
+        VB: Le
+      nameWithType:
+        CSharp: FilterOperator.Le
+        VB: FilterOperator.Le
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Le
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Le
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 32
+      summary: "\nLess or equal\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Le = 8
+          VB: Le = 8
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+      language: CSharp
+      name:
+        CSharp: Gt
+        VB: Gt
+      nameWithType:
+        CSharp: FilterOperator.Gt
+        VB: FilterOperator.Gt
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Gt
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Gt
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 36
+      summary: "\nGreater\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Gt = 16
+          VB: Gt = 16
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+      language: CSharp
+      name:
+        CSharp: Ge
+        VB: Ge
+      nameWithType:
+        CSharp: FilterOperator.Ge
+        VB: FilterOperator.Ge
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ge
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Ge
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 40
+      summary: "\nGreater or equal\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Ge = 32
+          VB: Ge = 32
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+      language: CSharp
+      name:
+        CSharp: Bw
+        VB: Bw
+      nameWithType:
+        CSharp: FilterOperator.Bw
+        VB: FilterOperator.Bw
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bw
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Bw
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 44
+      summary: "\nBegins with\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Bw = 64
+          VB: Bw = 64
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+      language: CSharp
+      name:
+        CSharp: Bn
+        VB: Bn
+      nameWithType:
+        CSharp: FilterOperator.Bn
+        VB: FilterOperator.Bn
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Bn
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Bn
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 48
+      summary: "\nDoes not begin with\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Bn = 128
+          VB: Bn = 128
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+      language: CSharp
+      name:
+        CSharp: In
+        VB: In
+      nameWithType:
+        CSharp: FilterOperator.In
+        VB: FilterOperator.In
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.In
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: In
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 52
+      summary: "\nIs in\n"
+      example: []
+      syntax:
+        content:
+          CSharp: In = 256
+          VB: In = 256
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+      language: CSharp
+      name:
+        CSharp: Ni
+        VB: Ni
+      nameWithType:
+        CSharp: FilterOperator.Ni
+        VB: FilterOperator.Ni
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ni
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Ni
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 56
+      summary: "\nIs not in\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Ni = 512
+          VB: Ni = 512
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+      language: CSharp
+      name:
+        CSharp: Ew
+        VB: Ew
+      nameWithType:
+        CSharp: FilterOperator.Ew
+        VB: FilterOperator.Ew
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Ew
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Ew
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 60
+      summary: "\nEnds with\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Ew = 1024
+          VB: Ew = 1024
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+      language: CSharp
+      name:
+        CSharp: En
+        VB: En
+      nameWithType:
+        CSharp: FilterOperator.En
+        VB: FilterOperator.En
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.En
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: En
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 64
+      summary: "\nDoes not end with\n"
+      example: []
+      syntax:
+        content:
+          CSharp: En = 2048
+          VB: En = 2048
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+      language: CSharp
+      name:
+        CSharp: Cn
+        VB: Cn
+      nameWithType:
+        CSharp: FilterOperator.Cn
+        VB: FilterOperator.Cn
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Cn
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Cn
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 68
+      summary: "\nContains\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Cn = 4096
+          VB: Cn = 4096
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+      language: CSharp
+      name:
+        CSharp: Nc
+        VB: Nc
+      nameWithType:
+        CSharp: FilterOperator.Nc
+        VB: FilterOperator.Nc
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nc
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Nc
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 72
+      summary: "\nDoes not contain\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Nc = 8192
+          VB: Nc = 8192
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+      language: CSharp
+      name:
+        CSharp: Nu
+        VB: Nu
+      nameWithType:
+        CSharp: FilterOperator.Nu
+        VB: FilterOperator.Nu
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Nu
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 76
+      summary: "\nIs null\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Nu = 16384
+          VB: Nu = 16384
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+      language: CSharp
+      name:
+        CSharp: Nn
+        VB: Nn
+      nameWithType:
+        CSharp: FilterOperator.Nn
+        VB: FilterOperator.Nn
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nn
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Nn
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 80
+      summary: "\nIs not null\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Nn = 32768
+          VB: Nn = 32768
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+      language: CSharp
+      name:
+        CSharp: NoTextOperators
+        VB: NoTextOperators
+      nameWithType:
+        CSharp: FilterOperator.NoTextOperators
+        VB: FilterOperator.NoTextOperators
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NoTextOperators
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: NoTextOperators
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 84
+      summary: "\nCombines equal, not equal, less, less or equal, greater, greater or equal, is null, is not null.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: NoTextOperators = 49215
+          VB: NoTextOperators = 49215
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+      language: CSharp
+      name:
+        CSharp: TextOperators
+        VB: TextOperators
+      nameWithType:
+        CSharp: FilterOperator.TextOperators
+        VB: FilterOperator.TextOperators
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.TextOperators
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: TextOperators
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 88
+      summary: "\nCombines equal, not equal, begins with, does not begin with, ends with, does not end with, contains and does not contain, is null, is not null\n"
+      example: []
+      syntax:
+        content:
+          CSharp: TextOperators = 64707
+          VB: TextOperators = 64707
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+      commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+      language: CSharp
+      name:
+        CSharp: NullOperators
+        VB: NullOperators
+      nameWithType:
+        CSharp: FilterOperator.NullOperators
+        VB: FilterOperator.NullOperators
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+        VB: es.efor.Utilities.Linq.Models.Filters.FilterOperator.NullOperators
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Filters
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: NullOperators
+        path: ../es.efor.Utilities.Linq/Models/Filters/FilterOperator.cs
+        startLine: 92
+      summary: "\nCombines is null, is not null\n"
+      example: []
+      syntax:
+        content:
+          CSharp: NullOperators = 49152
+          VB: NullOperators = 49152
+        return:
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+- id: es.efor.Utilities.Linq.Models.Sorts
+  commentId: N:es.efor.Utilities.Linq.Models.Sorts
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Linq.Models.Sorts
+    VB: es.efor.Utilities.Linq.Models.Sorts
+  nameWithType:
+    CSharp: es.efor.Utilities.Linq.Models.Sorts
+    VB: es.efor.Utilities.Linq.Models.Sorts
+  qualifiedName:
+    CSharp: es.efor.Utilities.Linq.Models.Sorts
+    VB: es.efor.Utilities.Linq.Models.Sorts
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    commentId: T:es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    language: CSharp
+    name:
+      CSharp: SortCriteria
+      VB: SortCriteria
+    nameWithType:
+      CSharp: SortCriteria
+      VB: SortCriteria
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+      VB: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Sorts
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Sorts/SortCriteria.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: SortCriteria
+      path: ../es.efor.Utilities.Linq/Models/Sorts/SortCriteria.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public class SortCriteria
+        VB: Public Class SortCriteria
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+      commentId: P:es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+      language: CSharp
+      name:
+        CSharp: Field
+        VB: Field
+      nameWithType:
+        CSharp: SortCriteria.Field
+        VB: SortCriteria.Field
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+        VB: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Sorts
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Sorts/SortCriteria.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Field
+        path: ../es.efor.Utilities.Linq/Models/Sorts/SortCriteria.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: public string Field { get; set; }
+          VB: Public Property Field As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+      commentId: P:es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+      language: CSharp
+      name:
+        CSharp: SortOp
+        VB: SortOp
+      nameWithType:
+        CSharp: SortCriteria.SortOp
+        VB: SortCriteria.SortOp
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+        VB: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Sorts
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Sorts/SortCriteria.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: SortOp
+        path: ../es.efor.Utilities.Linq/Models/Sorts/SortCriteria.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public SortOperator SortOp { get; set; }
+          VB: Public Property SortOp As SortOperator
+        parameters: []
+        return:
+          type: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+      overload: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+    commentId: T:es.efor.Utilities.Linq.Models.Sorts.SortOperator
+    language: CSharp
+    name:
+      CSharp: SortOperator
+      VB: SortOperator
+    nameWithType:
+      CSharp: SortOperator
+      VB: SortOperator
+    qualifiedName:
+      CSharp: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+      VB: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+    type: Enum
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: es.efor.Utilities.Linq.Models.Sorts
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Models/Sorts/SortOperator.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: SortOperator
+      path: ../es.efor.Utilities.Linq/Models/Sorts/SortOperator.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public enum SortOperator
+        VB: Public Enum SortOperator
+    extensionMethods:
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: es.efor.Utilities.Linq.Models.Sorts.SortOperator.Ascending
+      commentId: F:es.efor.Utilities.Linq.Models.Sorts.SortOperator.Ascending
+      language: CSharp
+      name:
+        CSharp: Ascending
+        VB: Ascending
+      nameWithType:
+        CSharp: SortOperator.Ascending
+        VB: SortOperator.Ascending
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Sorts.SortOperator.Ascending
+        VB: es.efor.Utilities.Linq.Models.Sorts.SortOperator.Ascending
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Sorts
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Sorts/SortOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Ascending
+        path: ../es.efor.Utilities.Linq/Models/Sorts/SortOperator.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: Ascending = 0
+          VB: Ascending = 0
+        return:
+          type: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Linq.Models.Sorts.SortOperator.Descending
+      commentId: F:es.efor.Utilities.Linq.Models.Sorts.SortOperator.Descending
+      language: CSharp
+      name:
+        CSharp: Descending
+        VB: Descending
+      nameWithType:
+        CSharp: SortOperator.Descending
+        VB: SortOperator.Descending
+      qualifiedName:
+        CSharp: es.efor.Utilities.Linq.Models.Sorts.SortOperator.Descending
+        VB: es.efor.Utilities.Linq.Models.Sorts.SortOperator.Descending
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: es.efor.Utilities.Linq.Models.Sorts
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Models/Sorts/SortOperator.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Descending
+        path: ../es.efor.Utilities.Linq/Models/Sorts/SortOperator.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: Descending = 1
+          VB: Descending = 1
+        return:
+          type: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+- id: System.Linq
+  commentId: N:System.Linq
+  language: CSharp
+  name:
+    CSharp: System.Linq
+    VB: System.Linq
+  nameWithType:
+    CSharp: System.Linq
+    VB: System.Linq
+  qualifiedName:
+    CSharp: System.Linq
+    VB: System.Linq
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+  modifiers: {}
+  items:
+  - id: System.Linq.LinqExtensions
+    commentId: T:System.Linq.LinqExtensions
+    language: CSharp
+    name:
+      CSharp: LinqExtensions
+      VB: LinqExtensions
+    nameWithType:
+      CSharp: LinqExtensions
+      VB: LinqExtensions
+    qualifiedName:
+      CSharp: System.Linq.LinqExtensions
+      VB: System.Linq.LinqExtensions
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Linq
+    namespace: System.Linq
+    source:
+      remote:
+        path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: LinqExtensions
+      path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+      startLine: 15
+    syntax:
+      content:
+        CSharp: public static class LinqExtensions
+        VB: Public Module LinqExtensions
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+      commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+      language: CSharp
+      name:
+        CSharp: EforOrderBy<TSource>(IQueryable<TSource>, IEnumerable<SortCriteria>)
+        VB: EforOrderBy(Of TSource)(IQueryable(Of TSource), IEnumerable(Of SortCriteria))
+      nameWithType:
+        CSharp: LinqExtensions.EforOrderBy<TSource>(IQueryable<TSource>, IEnumerable<SortCriteria>)
+        VB: LinqExtensions.EforOrderBy(Of TSource)(IQueryable(Of TSource), IEnumerable(Of SortCriteria))
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforOrderBy<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Sorts.SortCriteria>)
+        VB: System.Linq.LinqExtensions.EforOrderBy(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Sorts.SortCriteria))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforOrderBy
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 25
+      syntax:
+        content:
+          CSharp: public static IOrderedQueryable<TSource> EforOrderBy<TSource>(this IQueryable<TSource> source, IEnumerable<SortCriteria> sortCriterias)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforOrderBy(Of TSource)(source As IQueryable(Of TSource), sortCriterias As IEnumerable(Of SortCriteria)) As IOrderedQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IQueryable{{TSource}}
+        - id: sortCriterias
+          type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IOrderedQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforOrderBy*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+      commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+      language: CSharp
+      name:
+        CSharp: EforOrderBy<TSource>(IQueryable<TSource>, Dictionary<String, Boolean>)
+        VB: EforOrderBy(Of TSource)(IQueryable(Of TSource), Dictionary(Of String, Boolean))
+      nameWithType:
+        CSharp: LinqExtensions.EforOrderBy<TSource>(IQueryable<TSource>, Dictionary<String, Boolean>)
+        VB: LinqExtensions.EforOrderBy(Of TSource)(IQueryable(Of TSource), Dictionary(Of String, Boolean))
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforOrderBy<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.Dictionary<System.String, System.Boolean>)
+        VB: System.Linq.LinqExtensions.EforOrderBy(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.Dictionary(Of System.String, System.Boolean))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforOrderBy
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 42
+      summary: "\nSequentially orders a query by the specified fields.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static IOrderedQueryable<TSource> EforOrderBy<TSource>(this IQueryable<TSource> source, Dictionary<string, bool> sortNameAndIsDescending)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforOrderBy(Of TSource)(source As IQueryable(Of TSource), sortNameAndIsDescending As Dictionary(Of String, Boolean)) As IOrderedQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IQueryable{{TSource}}
+          description: The original query
+        - id: sortNameAndIsDescending
+          type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+          description: "\nA collection of fields to order. Cannot be repeated.\n&quot;true&quot; will represent a <strong>DESC</strong> order. &quot;false&quot; will represent a <strong>ASC</strong> order.\n"
+        typeParameters:
+        - id: TSource
+          description: The Entity of the query
+        return:
+          type: System.Linq.IOrderedQueryable{{TSource}}
+          description: ''
+      overload: System.Linq.LinqExtensions.EforOrderBy*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.String,System.Boolean)
+      commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.String,System.Boolean)
+      language: CSharp
+      name:
+        CSharp: EforOrderBy<TSource>(IQueryable<TSource>, String, Boolean)
+        VB: EforOrderBy(Of TSource)(IQueryable(Of TSource), String, Boolean)
+      nameWithType:
+        CSharp: LinqExtensions.EforOrderBy<TSource>(IQueryable<TSource>, String, Boolean)
+        VB: LinqExtensions.EforOrderBy(Of TSource)(IQueryable(Of TSource), String, Boolean)
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforOrderBy<TSource>(System.Linq.IQueryable<TSource>, System.String, System.Boolean)
+        VB: System.Linq.LinqExtensions.EforOrderBy(Of TSource)(System.Linq.IQueryable(Of TSource), System.String, System.Boolean)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforOrderBy
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 66
+      summary: "\nOrders a query by the given column and wether if it should be ordered with <strong>DESC</strong>.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static IOrderedQueryable<TSource> EforOrderBy<TSource>(this IQueryable<TSource> source, string sortName, bool sortDescending)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforOrderBy(Of TSource)(source As IQueryable(Of TSource), sortName As String, sortDescending As Boolean) As IOrderedQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IQueryable{{TSource}}
+        - id: sortName
+          type: System.String
+          description: Name of the field o order the query by.
+        - id: sortDescending
+          type: System.Boolean
+          description: Wether the field should be ordered with <strong>DESC</strong>
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IOrderedQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforOrderBy*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+      references:
+        ? System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+        : 
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+      commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria})
+      language: CSharp
+      name:
+        CSharp: EforThenBy<TSource>(IOrderedQueryable<TSource>, IEnumerable<SortCriteria>)
+        VB: EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), IEnumerable(Of SortCriteria))
+      nameWithType:
+        CSharp: LinqExtensions.EforThenBy<TSource>(IOrderedQueryable<TSource>, IEnumerable<SortCriteria>)
+        VB: LinqExtensions.EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), IEnumerable(Of SortCriteria))
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforThenBy<TSource>(System.Linq.IOrderedQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Sorts.SortCriteria>)
+        VB: System.Linq.LinqExtensions.EforThenBy(Of TSource)(System.Linq.IOrderedQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Sorts.SortCriteria))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforThenBy
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 79
+      summary: "\n<inheritdoc cref=\"M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})\"></inheritdoc>\n<br />\n<strong>FIELD NAMES SHOULD NOT BE REPEATED.</strong>\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static IOrderedQueryable<TSource> EforThenBy<TSource>(this IOrderedQueryable<TSource> source, IEnumerable<SortCriteria> sortCriterias)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforThenBy(Of TSource)(source As IOrderedQueryable(Of TSource), sortCriterias As IEnumerable(Of SortCriteria)) As IOrderedQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IOrderedQueryable{{TSource}}
+        - id: sortCriterias
+          type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+          description: A collection of the order criteria that a query should follow
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IOrderedQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforThenBy*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+      references:
+        ? System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+        : 
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+      commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+      language: CSharp
+      name:
+        CSharp: EforThenBy<TSource>(IOrderedQueryable<TSource>, Dictionary<String, Boolean>)
+        VB: EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), Dictionary(Of String, Boolean))
+      nameWithType:
+        CSharp: LinqExtensions.EforThenBy<TSource>(IOrderedQueryable<TSource>, Dictionary<String, Boolean>)
+        VB: LinqExtensions.EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), Dictionary(Of String, Boolean))
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforThenBy<TSource>(System.Linq.IOrderedQueryable<TSource>, System.Collections.Generic.Dictionary<System.String, System.Boolean>)
+        VB: System.Linq.LinqExtensions.EforThenBy(Of TSource)(System.Linq.IOrderedQueryable(Of TSource), System.Collections.Generic.Dictionary(Of System.String, System.Boolean))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforThenBy
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 90
+      summary: "\nCompletes the given <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> query&apos;s order sequency by subsequential fields\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static IOrderedQueryable<TSource> EforThenBy<TSource>(this IOrderedQueryable<TSource> source, Dictionary<string, bool> sortNameAndIsDescending)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforThenBy(Of TSource)(source As IOrderedQueryable(Of TSource), sortNameAndIsDescending As Dictionary(Of String, Boolean)) As IOrderedQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IOrderedQueryable{{TSource}}
+        - id: sortNameAndIsDescending
+          type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IOrderedQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforThenBy*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+      references:
+        ? System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+        : 
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.String,System.Boolean)
+      commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.String,System.Boolean)
+      language: CSharp
+      name:
+        CSharp: EforThenBy<TSource>(IOrderedQueryable<TSource>, String, Boolean)
+        VB: EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), String, Boolean)
+      nameWithType:
+        CSharp: LinqExtensions.EforThenBy<TSource>(IOrderedQueryable<TSource>, String, Boolean)
+        VB: LinqExtensions.EforThenBy(Of TSource)(IOrderedQueryable(Of TSource), String, Boolean)
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforThenBy<TSource>(System.Linq.IOrderedQueryable<TSource>, System.String, System.Boolean)
+        VB: System.Linq.LinqExtensions.EforThenBy(Of TSource)(System.Linq.IOrderedQueryable(Of TSource), System.String, System.Boolean)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforThenBy
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 107
+      example: []
+      syntax:
+        content:
+          CSharp: public static IOrderedQueryable<TSource> EforThenBy<TSource>(this IOrderedQueryable<TSource> source, string sortName, bool sortDescending)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforThenBy(Of TSource)(source As IOrderedQueryable(Of TSource), sortName As String, sortDescending As Boolean) As IOrderedQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IOrderedQueryable{{TSource}}
+        - id: sortName
+          type: System.String
+          description: The field to order
+        - id: sortDescending
+          type: System.Boolean
+          description: Wether if the field should be ordered by using <strong>DESC</strong>
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IOrderedQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforThenBy*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+      references:
+        ? System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+        : 
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},System.String,System.String,es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+      commentId: M:System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},System.String,System.String,es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+      language: CSharp
+      name:
+        CSharp: EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, String, String, FilterOperator)
+        VB: EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), String, String, FilterOperator)
+      nameWithType:
+        CSharp: LinqExtensions.EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, String, String, FilterOperator)
+        VB: LinqExtensions.EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), String, String, FilterOperator)
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforWhere<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>, System.String, System.String, es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+        VB: System.Linq.LinqExtensions.EforWhere(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria), System.String, System.String, es.efor.Utilities.Linq.Models.Filters.FilterOperator)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforWhere
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 125
+      summary: "\nAn extension of the fiven <code data-dev-comment-type=\"paramref\" class=\"paramref\">source</code> query to be filtered.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static IQueryable<TSource> EforWhere<TSource>(this IQueryable<TSource> source, IEnumerable<FilterCriteria> filterArr = null, string valueFilter = "", string fieldFilter = "Name", FilterOperator opFilter = FilterOperator.Eq)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforWhere(Of TSource)(source As IQueryable(Of TSource), filterArr As IEnumerable(Of FilterCriteria) = Nothing, valueFilter As String = "", fieldFilter As String = "Name", opFilter As FilterOperator = FilterOperator.Eq) As IQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IQueryable{{TSource}}
+          description: The original query
+        - id: filterArr
+          type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+          description: An array of <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria" data-throw-if-not-resolved="false"></xref> that defines how the filtering should be performed.
+        - id: valueFilter
+          type: System.String
+          description: ''
+        - id: fieldFilter
+          type: System.String
+          description: ''
+        - id: opFilter
+          type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+          description: ''
+        typeParameters:
+        - id: TSource
+          description: Entity of the query
+        return:
+          type: System.Linq.IQueryable{{TSource}}
+          description: ''
+      overload: System.Linq.LinqExtensions.EforWhere*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+      references:
+        es.efor.Utilities.Linq.Models.Filters.FilterCriteria: 
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+      commentId: M:System.Linq.LinqExtensions.EforWhere``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+      language: CSharp
+      name:
+        CSharp: EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, FilterConditionJoin)
+        VB: EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), FilterConditionJoin)
+      nameWithType:
+        CSharp: LinqExtensions.EforWhere<TSource>(IQueryable<TSource>, IEnumerable<FilterCriteria>, FilterConditionJoin)
+        VB: LinqExtensions.EforWhere(Of TSource)(IQueryable(Of TSource), IEnumerable(Of FilterCriteria), FilterConditionJoin)
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforWhere<TSource>(System.Linq.IQueryable<TSource>, System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>, es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+        VB: System.Linq.LinqExtensions.EforWhere(Of TSource)(System.Linq.IQueryable(Of TSource), System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria), es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforWhere
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 148
+      syntax:
+        content:
+          CSharp: public static IQueryable<TSource> EforWhere<TSource>(this IQueryable<TSource> source, IEnumerable<FilterCriteria> filterArr, FilterConditionJoin joinCondiction)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforWhere(Of TSource)(source As IQueryable(Of TSource), filterArr As IEnumerable(Of FilterCriteria), joinCondiction As FilterConditionJoin) As IQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IQueryable{{TSource}}
+        - id: filterArr
+          type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+        - id: joinCondiction
+          type: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforWhere*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.EforPaginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)
+      commentId: M:System.Linq.LinqExtensions.EforPaginate``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: EforPaginate<TSource>(IQueryable<TSource>, Int32, Int32)
+        VB: EforPaginate(Of TSource)(IQueryable(Of TSource), Int32, Int32)
+      nameWithType:
+        CSharp: LinqExtensions.EforPaginate<TSource>(IQueryable<TSource>, Int32, Int32)
+        VB: LinqExtensions.EforPaginate(Of TSource)(IQueryable(Of TSource), Int32, Int32)
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.EforPaginate<TSource>(System.Linq.IQueryable<TSource>, System.Int32, System.Int32)
+        VB: System.Linq.LinqExtensions.EforPaginate(Of TSource)(System.Linq.IQueryable(Of TSource), System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: EforPaginate
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 165
+      syntax:
+        content:
+          CSharp: public static IQueryable<TSource> EforPaginate<TSource>(this IQueryable<TSource> source, int pageIndex = 0, int pageSize = 20)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function EforPaginate(Of TSource)(source As IQueryable(Of TSource), pageIndex As Integer = 0, pageSize As Integer = 20) As IQueryable(Of TSource)
+        parameters:
+        - id: source
+          type: System.Linq.IQueryable{{TSource}}
+        - id: pageIndex
+          type: System.Int32
+        - id: pageSize
+          type: System.Int32
+        typeParameters:
+        - id: TSource
+        return:
+          type: System.Linq.IQueryable{{TSource}}
+      overload: System.Linq.LinqExtensions.EforPaginate*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: System.Linq.LinqExtensions.ToSql``1(System.Linq.IQueryable{``0})
+      commentId: M:System.Linq.LinqExtensions.ToSql``1(System.Linq.IQueryable{``0})
+      language: CSharp
+      name:
+        CSharp: ToSql<TEntity>(IQueryable<TEntity>)
+        VB: ToSql(Of TEntity)(IQueryable(Of TEntity))
+      nameWithType:
+        CSharp: LinqExtensions.ToSql<TEntity>(IQueryable<TEntity>)
+        VB: LinqExtensions.ToSql(Of TEntity)(IQueryable(Of TEntity))
+      qualifiedName:
+        CSharp: System.Linq.LinqExtensions.ToSql<TEntity>(System.Linq.IQueryable<TEntity>)
+        VB: System.Linq.LinqExtensions.ToSql(Of TEntity)(System.Linq.IQueryable(Of TEntity))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Linq
+      namespace: System.Linq
+      source:
+        remote:
+          path: es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ToSql
+        path: ../es.efor.Utilities.Linq/Extensions/LinqExtensions.cs
+        startLine: 182
+      summary: "\nNET Core 3.1 - https://stackoverflow.com/a/51583047\n<p>\n    Dependencies:<br />\n        Microsoft.EntityFrameworkCore.Query.SqlExpressions,<br />\n        Microsoft.EntityFrameworkCore.Query\n</p>\n"
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            public static string ToSql<TEntity>(this IQueryable<TEntity> query)
+
+                where TEntity : class
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ToSql(Of TEntity As Class)(query As IQueryable(Of TEntity)) As String
+        parameters:
+        - id: query
+          type: System.Linq.IQueryable{{TEntity}}
+        typeParameters:
+        - id: TEntity
+        return:
+          type: System.String
+      overload: System.Linq.LinqExtensions.ToSql*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  es.efor.Utilities.Linq.Constants.QueryConstants:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Constants.QueryConstants
+        name: QueryConstants
+        nameWithType: QueryConstants
+        qualifiedName: es.efor.Utilities.Linq.Constants.QueryConstants
+      VB:
+      - id: es.efor.Utilities.Linq.Constants.QueryConstants
+        name: QueryConstants
+        nameWithType: QueryConstants
+        qualifiedName: es.efor.Utilities.Linq.Constants.QueryConstants
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Linq.Constants.QueryConstants
+  es.efor.Utilities.Linq.Constants:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Linq.Constants
+        nameWithType: es.efor.Utilities.Linq.Constants
+        qualifiedName: es.efor.Utilities.Linq.Constants
+      VB:
+      - name: es.efor.Utilities.Linq.Constants
+        nameWithType: es.efor.Utilities.Linq.Constants
+        qualifiedName: es.efor.Utilities.Linq.Constants
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Linq.Constants
+  es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  es.efor.Utilities.General:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General
+        nameWithType: es.efor.Utilities.General
+        qualifiedName: es.efor.Utilities.General
+      VB:
+      - name: es.efor.Utilities.General
+        nameWithType: es.efor.Utilities.General
+        qualifiedName: es.efor.Utilities.General
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General
+  es.efor.Utilities.General.EnumHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper
+        name: EnumHelper
+        nameWithType: EnumHelper
+        qualifiedName: es.efor.Utilities.General.EnumHelper
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper
+        name: EnumHelper
+        nameWithType: EnumHelper
+        qualifiedName: es.efor.Utilities.General.EnumHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General
+    commentId: T:es.efor.Utilities.General.EnumHelper
+  System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    parent: es.efor.Utilities.General.EnumHelper
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    parent: es.efor.Utilities.General.EnumHelper
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+      VB:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Helpers
+  es.efor.Utilities.General.Helpers.ObjectHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General.Helpers
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  es.efor.Utilities.Linq.Models.Filters:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Linq.Models.Filters
+        nameWithType: es.efor.Utilities.Linq.Models.Filters
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters
+      VB:
+      - name: es.efor.Utilities.Linq.Models.Filters
+        nameWithType: es.efor.Utilities.Linq.Models.Filters
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Linq.Models.Filters
+  es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+        name: FilterConditionJoin
+        nameWithType: FilterConditionJoin
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+        name: FilterConditionJoin
+        nameWithType: FilterConditionJoin
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+    isDefinition: true
+    parent: es.efor.Utilities.Linq.Models.Filters
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field*
+        name: Field
+        nameWithType: FilterCriteria.Field
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field*
+        name: Field
+        nameWithType: FilterCriteria.Field
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Field
+  es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu:
+    commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterOperator.Nu
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value*
+        name: Value
+        nameWithType: FilterCriteria.Value
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value*
+        name: Value
+        nameWithType: FilterCriteria.Value
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+  es.efor.Utilities.Linq.Models.Filters.FilterOperator:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+        name: FilterOperator
+        nameWithType: FilterOperator
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+        name: FilterOperator
+        nameWithType: FilterOperator
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    isDefinition: true
+    parent: es.efor.Utilities.Linq.Models.Filters
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op*
+        name: Op
+        nameWithType: FilterCriteria.Op
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op*
+        name: Op
+        nameWithType: FilterCriteria.Op
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+  es.efor.Utilities.Linq.Models.Filters.FilterDBType:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+        name: FilterDBType
+        nameWithType: FilterDBType
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+        name: FilterDBType
+        nameWithType: FilterDBType
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+    isDefinition: true
+    parent: es.efor.Utilities.Linq.Models.Filters
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDBType
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format*
+        name: Format
+        nameWithType: FilterCriteria.Format
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format*
+        name: Format
+        nameWithType: FilterCriteria.Format
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Format
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+        name: FilterCriteria
+        nameWithType: FilterCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+        name: FilterCriteria
+        nameWithType: FilterCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    isDefinition: true
+    parent: es.efor.Utilities.Linq.Models.Filters
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime:
+    commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterDBType.DateTime
+  System.DateTimeOffset:
+    commentId: T:System.DateTimeOffset
+  es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid:
+    commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterDBType.Guid
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value:
+    commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+  es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op:
+    commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+  es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And:
+    commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+  es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or:
+    commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+  System.Collections.Generic.IEnumerable`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.IEnumerable`1
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+        name: FilterCriteria
+        nameWithType: FilterCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+        name: FilterCriteria
+        nameWithType: FilterCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+        name: GetFilterExpression
+        nameWithType: FilterDefinition.GetFilterExpression
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+        name: GetFilterExpression
+        nameWithType: FilterDefinition.GetFilterExpression
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression
+  es.efor.Utilities.Linq.Models.Filters.FilterDefinition:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+        name: FilterDefinition
+        nameWithType: FilterDefinition
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+        name: FilterDefinition
+        nameWithType: FilterDefinition
+        qualifiedName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  System.FlagsAttribute:
+    name:
+      CSharp:
+      - id: System.FlagsAttribute
+        name: FlagsAttribute
+        nameWithType: FlagsAttribute
+        qualifiedName: System.FlagsAttribute
+        isExternal: true
+      VB:
+      - id: System.FlagsAttribute
+        name: FlagsAttribute
+        nameWithType: FlagsAttribute
+        qualifiedName: System.FlagsAttribute
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.FlagsAttribute
+  System.FlagsAttribute.#ctor:
+    name:
+      CSharp:
+      - id: System.FlagsAttribute.#ctor
+        name: FlagsAttribute
+        nameWithType: FlagsAttribute.FlagsAttribute
+        qualifiedName: System.FlagsAttribute.FlagsAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.FlagsAttribute.#ctor
+        name: FlagsAttribute
+        nameWithType: FlagsAttribute.FlagsAttribute
+        qualifiedName: System.FlagsAttribute.FlagsAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.FlagsAttribute
+    commentId: M:System.FlagsAttribute.#ctor
+  es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field*
+        name: Field
+        nameWithType: SortCriteria.Field
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field*
+        name: Field
+        nameWithType: SortCriteria.Field
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Sorts.SortCriteria.Field
+  es.efor.Utilities.Linq.Models.Sorts:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Linq.Models.Sorts
+        nameWithType: es.efor.Utilities.Linq.Models.Sorts
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts
+      VB:
+      - name: es.efor.Utilities.Linq.Models.Sorts
+        nameWithType: es.efor.Utilities.Linq.Models.Sorts
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Linq.Models.Sorts
+  es.efor.Utilities.Linq.Models.Sorts.SortOperator:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+        name: SortOperator
+        nameWithType: SortOperator
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+        name: SortOperator
+        nameWithType: SortOperator
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+    isDefinition: true
+    parent: es.efor.Utilities.Linq.Models.Sorts
+    commentId: T:es.efor.Utilities.Linq.Models.Sorts.SortOperator
+  es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp*
+        name: SortOp
+        nameWithType: SortCriteria.SortOp
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp*
+        name: SortOp
+        nameWithType: SortCriteria.SortOp
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Linq.Models.Sorts.SortCriteria.SortOp
+  es.efor.Utilities.Linq.Models.Sorts.SortCriteria:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+        name: SortCriteria
+        nameWithType: SortCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+      VB:
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+        name: SortCriteria
+        nameWithType: SortCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+  System.Linq.IOrderedQueryable`1:
+    name:
+      CSharp:
+      - id: System.Linq.IOrderedQueryable`1
+        name: IOrderedQueryable
+        nameWithType: IOrderedQueryable
+        qualifiedName: System.Linq.IOrderedQueryable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Linq.IOrderedQueryable`1
+        name: IOrderedQueryable
+        nameWithType: IOrderedQueryable
+        qualifiedName: System.Linq.IOrderedQueryable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Linq.IOrderedQueryable`1
+  System.Linq:
+    name:
+      CSharp:
+      - name: System.Linq
+        nameWithType: System.Linq
+        qualifiedName: System.Linq
+      VB:
+      - name: System.Linq
+        nameWithType: System.Linq
+        qualifiedName: System.Linq
+    isDefinition: true
+    commentId: N:System.Linq
+  System.Linq.IOrderedQueryable{{TSource}}:
+    name:
+      CSharp:
+      - id: System.Linq.IOrderedQueryable`1
+        name: IOrderedQueryable
+        nameWithType: IOrderedQueryable
+        qualifiedName: System.Linq.IOrderedQueryable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Linq.IOrderedQueryable`1
+        name: IOrderedQueryable
+        nameWithType: IOrderedQueryable
+        qualifiedName: System.Linq.IOrderedQueryable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Linq.IOrderedQueryable`1
+    parent: System.Linq
+    commentId: T:System.Linq.IOrderedQueryable{``0}
+  System.Linq.IQueryable`1:
+    name:
+      CSharp:
+      - id: System.Linq.IQueryable`1
+        name: IQueryable
+        nameWithType: IQueryable
+        qualifiedName: System.Linq.IQueryable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Linq.IQueryable`1
+        name: IQueryable
+        nameWithType: IQueryable
+        qualifiedName: System.Linq.IQueryable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Linq.IQueryable`1
+  System.Linq.IQueryable{{TSource}}:
+    name:
+      CSharp:
+      - id: System.Linq.IQueryable`1
+        name: IQueryable
+        nameWithType: IQueryable
+        qualifiedName: System.Linq.IQueryable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Linq.IQueryable`1
+        name: IQueryable
+        nameWithType: IQueryable
+        qualifiedName: System.Linq.IQueryable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Linq.IQueryable`1
+    parent: System.Linq
+    commentId: T:System.Linq.IQueryable{``0}
+  System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+        name: SortCriteria
+        nameWithType: SortCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+        name: SortCriteria
+        nameWithType: SortCriteria
+        qualifiedName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Sorts.SortCriteria}
+  System.Linq.LinqExtensions.EforOrderBy*:
+    name:
+      CSharp:
+      - id: System.Linq.LinqExtensions.EforOrderBy*
+        name: EforOrderBy
+        nameWithType: LinqExtensions.EforOrderBy
+        qualifiedName: System.Linq.LinqExtensions.EforOrderBy
+      VB:
+      - id: System.Linq.LinqExtensions.EforOrderBy*
+        name: EforOrderBy
+        nameWithType: LinqExtensions.EforOrderBy
+        qualifiedName: System.Linq.LinqExtensions.EforOrderBy
+    isDefinition: true
+    commentId: Overload:System.Linq.LinqExtensions.EforOrderBy
+  System.Collections.Generic.Dictionary`2:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.Dictionary`2
+  System.Collections.Generic.Dictionary{System.String,System.Boolean}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.Dictionary`2
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  ? System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  : commentId: M:System.Linq.LinqExtensions.EforOrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  System.Linq.LinqExtensions.EforThenBy*:
+    name:
+      CSharp:
+      - id: System.Linq.LinqExtensions.EforThenBy*
+        name: EforThenBy
+        nameWithType: LinqExtensions.EforThenBy
+        qualifiedName: System.Linq.LinqExtensions.EforThenBy
+      VB:
+      - id: System.Linq.LinqExtensions.EforThenBy*
+        name: EforThenBy
+        nameWithType: LinqExtensions.EforThenBy
+        qualifiedName: System.Linq.LinqExtensions.EforThenBy
+    isDefinition: true
+    commentId: Overload:System.Linq.LinqExtensions.EforThenBy
+  ? System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  : commentId: M:System.Linq.LinqExtensions.EforThenBy``1(System.Linq.IOrderedQueryable{``0},System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  System.Linq.LinqExtensions.EforWhere*:
+    name:
+      CSharp:
+      - id: System.Linq.LinqExtensions.EforWhere*
+        name: EforWhere
+        nameWithType: LinqExtensions.EforWhere
+        qualifiedName: System.Linq.LinqExtensions.EforWhere
+      VB:
+      - id: System.Linq.LinqExtensions.EforWhere*
+        name: EforWhere
+        nameWithType: LinqExtensions.EforWhere
+        qualifiedName: System.Linq.LinqExtensions.EforWhere
+    isDefinition: true
+    commentId: Overload:System.Linq.LinqExtensions.EforWhere
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  System.Linq.LinqExtensions.EforPaginate*:
+    name:
+      CSharp:
+      - id: System.Linq.LinqExtensions.EforPaginate*
+        name: EforPaginate
+        nameWithType: LinqExtensions.EforPaginate
+        qualifiedName: System.Linq.LinqExtensions.EforPaginate
+      VB:
+      - id: System.Linq.LinqExtensions.EforPaginate*
+        name: EforPaginate
+        nameWithType: LinqExtensions.EforPaginate
+        qualifiedName: System.Linq.LinqExtensions.EforPaginate
+    isDefinition: true
+    commentId: Overload:System.Linq.LinqExtensions.EforPaginate
+  System.Linq.IQueryable{{TEntity}}:
+    name:
+      CSharp:
+      - id: System.Linq.IQueryable`1
+        name: IQueryable
+        nameWithType: IQueryable
+        qualifiedName: System.Linq.IQueryable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TEntity
+        nameWithType: TEntity
+        qualifiedName: TEntity
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Linq.IQueryable`1
+        name: IQueryable
+        nameWithType: IQueryable
+        qualifiedName: System.Linq.IQueryable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TEntity
+        nameWithType: TEntity
+        qualifiedName: TEntity
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Linq.IQueryable`1
+    parent: System.Linq
+    commentId: T:System.Linq.IQueryable{``0}
+  System.Linq.LinqExtensions.ToSql*:
+    name:
+      CSharp:
+      - id: System.Linq.LinqExtensions.ToSql*
+        name: ToSql
+        nameWithType: LinqExtensions.ToSql
+        qualifiedName: System.Linq.LinqExtensions.ToSql
+      VB:
+      - id: System.Linq.LinqExtensions.ToSql*
+        name: ToSql
+        nameWithType: LinqExtensions.ToSql
+        qualifiedName: System.Linq.LinqExtensions.ToSql
+    isDefinition: true
+    commentId: Overload:System.Linq.LinqExtensions.ToSql
+  System.Linq.LinqExtensions:
+    name:
+      CSharp:
+      - id: System.Linq.LinqExtensions
+        name: LinqExtensions
+        nameWithType: LinqExtensions
+        qualifiedName: System.Linq.LinqExtensions
+      VB:
+      - id: System.Linq.LinqExtensions
+        name: LinqExtensions
+        nameWithType: LinqExtensions
+        qualifiedName: System.Linq.LinqExtensions
+    isDefinition: true
+    commentId: T:System.Linq.LinqExtensions

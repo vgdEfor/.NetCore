@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Login.Model
+  commentId: N:es.efor.Musaat.Login.Model
+  id: es.efor.Musaat.Login.Model
+  children:
+  - es.efor.Musaat.Login.Model.MapperProfileLogin
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Login.Model
+  nameWithType: es.efor.Musaat.Login.Model
+  fullName: es.efor.Musaat.Login.Model
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Login.Business
+references:
+- uid: es.efor.Musaat.Login.Model.MapperProfileLogin
+  commentId: T:es.efor.Musaat.Login.Model.MapperProfileLogin
+  name: MapperProfileLogin
+  nameWithType: MapperProfileLogin
+  fullName: es.efor.Musaat.Login.Model.MapperProfileLogin

@@ -1,0 +1,255 @@
+<div class="row mt-2">
+    <div class="col-12 text-right"
+        [ngClass]="{
+            'text-right': actionButtonsPosition === 'right',
+            'text-left': actionButtonsPosition === 'left',
+            'text-center': actionButtonsPosition === 'center'
+        }">
+        <ng-container [ngTemplateOutlet]="tmplActionButtons"></ng-container>
+    </div>
+    <div class="col-12">
+        <div class="table-responsive">
+            <table [ngClass]="cssClassTable">
+                <thead [ngClass]="cssClassTHead">
+                    <!-- Header cols -->
+                    <tr>
+                        <th *ngIf="checkboxShow"
+                            class="cell-narrow">
+                            <ng-container *ngIf="checkboxGlobalShow" [ngTemplateOutlet]="tmplCheckboxGlobal"></ng-container>
+                        </th>
+                        <th *ngFor="let c of columns"
+                            [ngClass]="c.thTHeadClass"
+                            (click)="sortByColumn(c)"><ng-container [ngTemplateOutlet]="tmplColumnHeader" [ngTemplateOutletContext]="{column: c}"></ng-container></th>
+                    </tr>
+                    <!-- Filters -->
+                    <tr class="table-primary row-filter">
+                        <th *ngIf="checkboxShow"></th>
+                        <th *ngFor="let c of columns;let i = index"
+                            class="py-0">
+                            <ng-container *ngIf="c.filter"
+                                [ngTemplateOutlet]="tmplColumnFilter"
+                                [ngTemplateOutletContext]="{column: c}"></ng-container>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody [ngClass]="cssClassTBody">
+                    <!-- DragAndDropDropzone -->
+                    <tr *ngIf="false">
+
+                    </tr>
+                    <tr *ngIf="!_isLoading && _displayedItems.length === 0">
+                        <td [colSpan]="columns.length">{{labelNoData}}</td>
+                    </tr>
+                    <tr *ngFor="let i of _displayedItems; trackBy: tableRowTrackBy"
+                        [ngClass]="i[itemRowClassProperty] || ''">
+                        <td *ngIf="checkboxShow"></td>
+                        <td *ngFor="let c of columns" [ngClass]="c.fieldCssClass"><ng-container [ngTemplateOutlet]="tmplColumnBody" [ngTemplateOutletContext]="{column: c, row: i}"></ng-container></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="paginate"
+    class="row mt-2">
+    <div class="col">
+        <pagination *ngIf="!isNavPaginator"
+            [previousText]="labelPaginationPrev"
+            [nextText]="labelPaginationNext"
+            [ngClass]="cssClassPagination"
+            [itemsPerPage]="pSize"
+            [totalItems]="totalLength"
+            [ngModel]="pIndex + 1"
+            (pageChanged)="pIndex = $event.page - 1; refreshData()"></pagination>
+
+        <ng-container *ngIf="isNavPaginator">
+            <div class="btn-group"
+                role="group">
+                <button class="btn btn-sm btn-outline-dark"
+                    autoBlur
+                    [disabled]="!pBookmarkKeyPrev"
+                    (click)="changePage_Nav(pBookmarkKeyPrev, true)" [disabled]="!pBookmarkKeyPrev">
+                    <fa-icon [icon]="['fas', 'chevron-left']"></fa-icon>
+                </button>
+                <button class="btn btn-sm btn-outline-primary"
+                    autoBlur
+                    (click)="changePage_Nav('')">
+                    <fa-icon [icon]="['fas', 'home']"></fa-icon>
+                </button>
+                <button class="btn btn-sm btn-outline-dark" 
+                    autoBlur
+                    [disabled]="!pBookmarkKeyNext"
+                    (click)="changePage_Nav(pBookmarkKeyNext)" [disabled]="!pBookmarkKeyNext">
+                    <fa-icon [icon]="['fas', 'chevron-right']"></fa-icon>
+                </button>
+            </div>
+        </ng-container>
+    </div>
+</div>
+
+
+
+<ng-template #tmplActionButtons>
+    <div class="btn-group dt-toolbar mb-3" role="group">
+        <ng-container *ngFor="let b of actionButtons"
+            [ngTemplateOutlet]="tmplActionButton"
+            [ngTemplateOutletContext]="{button: b}"></ng-container>
+        <button *ngIf="actionButtonShowRefresh"
+            autoBlur
+            type="button"
+            class="btn btn-sm btn-outline-secondary text-primary"
+            (click)="refreshData(true)">
+            <fa-icon [icon]="['fas', 'sync']" [spin]="_isLoading"></fa-icon>
+        </button>
+        <button *ngIf="actionButtonShowFilter"
+            autoBlur
+            type="button"
+            class="btn btn-sm"
+            [ngClass]="isFilterShown ? 'btn-primary' : 'btn-dark'"
+            (click)="isFilterShown = !isFilterShown">
+            <fa-icon [icon]="['fas', 'filter']"></fa-icon>
+        </button>
+    </div>
+</ng-template>
+
+<ng-template #tmplCheckboxGlobal>
+    <div class="custom-control custom-checkbox mr-sm-2">
+        <input #chkGlobal [id]="_chkGlobalId" type="checkbox"
+            class="custom-control-input"
+            [checked]="_chkGlobalIsChecked"
+            [disabled]="checkboxConfig.disabled"
+            (change)="chkGlobalChange($event)">
+        <label class="custom-control-label" [attr.for]="chkGlobal.id"></label>
+    </div>
+</ng-template>
+
+<ng-template #tmplColumnHeader let-col="column">
+    <div class="text-nowrap">
+        {{col.columnName}}
+        <fa-icon *ngIf="col.sort && col.isSorting"
+            [icon]="['fas', col.sortDirection === _dummySortDirection.Ascendent ? 'sort-up' : 'sort-down']"></fa-icon>
+    </div>
+</ng-template>
+
+<ng-template #tmplColumnFilter let-col="column">
+    <div class="col-filter" [ngClass]="{'filter-hidden': !isFilterShown}"
+        [ngSwitch]="col.filterItem.type">
+        <ng-container *ngSwitchCase="0" [ngTemplateOutlet]="tmplColumnFilterInput" [ngTemplateOutletContext]="{column: col}"></ng-container>
+        <ng-container *ngSwitchCase="1" [ngTemplateOutlet]="tmplColumnFilterInput" [ngTemplateOutletContext]="{column: col}"></ng-container>
+        <ng-container *ngSwitchCase="2" [ngTemplateOutlet]="tmplColumnFilterDatepicker" [ngTemplateOutletContext]="{column: col}"></ng-container>
+        <ng-container *ngSwitchCase="4" [ngTemplateOutlet]="tmplColumnFilterDataselect" [ngTemplateOutletContext]="{column: col}"></ng-container>
+        <ng-container *ngSwitchCase="5" [ngTemplateOutlet]="tmplColumnFilterAutocomplete" [ngTemplateOutletContext]="{column: col}"></ng-container>
+    </div>
+</ng-template>
+<ng-template #tmplColumnFilterInput let-col="column">
+    <div class="form-group m-0">
+        <input 
+            [id]="id + '_filter_' + col.field"
+            [name]="'filter_' + col.field"
+            class="m-0 p-0 form-control form-control-sm" type="text"
+            [placeholder]="col.columnName" 
+            [(ngModel)]="col.filterItem.value" 
+            (change)="onFilterValue(col)">
+    </div>
+</ng-template>
+<ng-template #tmplColumnFilterDatepicker let-col="column">
+    <div class="form-group">
+        <input type="text" autocomplete="off"
+            class="form-control form-control-sm"
+            [id]="id + '_filter_' + col.field"
+            [name]="'filter_' + col.field"
+            [(ngModel)]="col.filterItem.value"
+            [readOnly]="true"
+            bsDatepicker
+            [bsConfig]="{ isAnimated: true }"
+            [bsValue]="col.filterItem.value"
+            (change)="onFilterValue(col)">
+    </div>
+</ng-template>
+<ng-template #tmplColumnFilterDataselect let-col="column"></ng-template>
+<ng-template #tmplColumnFilterAutocomplete let-col="column"></ng-template>
+
+<ng-template #tmplColumnBody
+    let-col="column" let-row="row">
+    <div [ngClass]="col.fieldDisplayWrapperClass">
+        <span *ngIf="col.fieldDisplayPreffix" [innerHTML]="col.fieldDisplayPreffix"></span>
+        <fa-icon *ngIf="(row | dtBodyData:{column: col, displayType: 'icon'}) != null" [icon]="(row | dtBodyData:{column: col, displayType: 'icon'})"></fa-icon>
+        {{row | dtBodyData:({column: col, displayType: 'data'})}}
+        <span *ngIf="col.fieldDisplaySuffix" [innerHTML]="col.fieldDisplaySuffix"></span>
+
+        <ng-container [ngTemplateOutlet]="tmplColumnBodyButtonGroup"
+            [ngTemplateOutletContext]="{column: col, row:row }"></ng-container>
+    </div>
+</ng-template>
+
+<ng-template #tmplColumnBodyButtonGroup
+    let-col="column" let-row="row">
+    <div *ngIf="col.buttons.length > 0"
+        role="group"
+        [ngClass]="col.buttonWrapperClass">
+        <ng-container *ngFor="let b of col.buttons"
+            [ngTemplateOutlet]="tmplColumnBodyButton"
+            [ngTemplateOutletContext]="{column: col, button: b, row: row}"></ng-container>
+    </div>
+</ng-template>
+<ng-template #tmplActionButton
+    let-btn="button">
+        <a *ngIf="btn.url && btn.rendered"
+            autoBlur
+            [ngClass]="btn.btnClass"
+            [routerLink]="btn.url"
+            [target]="btn.urlTarget" rel="noreferrer"
+            (click)="onBtnActionClick($event, btn)">
+        <fa-icon *ngIf="btn.iconPreffix && btn.iconName"
+            [icon]="[btn.iconPreffix, btn.iconName]"></fa-icon>
+        <ng-container *ngIf="btn.text">
+            {{btn.text}}
+        </ng-container>
+    </a>
+
+    <button *ngIf="!btn.url && btn.rendered"
+        autoBlur
+        [ngClass]="btn.btnClass" 
+        [tooltip]="btn.tooltip"
+        [placement]="btn.tooltipPlacement"
+        (click)="onBtnActionClick($event, btn)">
+        <fa-icon *ngIf="btn.iconPreffix && btn.iconName"
+            [icon]="[btn.iconPreffix, btn.iconName]"></fa-icon>
+        <ng-container *ngIf="btn.text">
+            {{btn.text}}
+        </ng-container>
+    </button>
+</ng-template>
+<ng-template #tmplColumnBodyButton
+    let-btn="button" let-row="row" let-col="column">
+    <a *ngIf="btn.url && (btn.rendered && (!btn.renderedItemProperty || ((row | formatFromObject:'{'+btn.renderedItemProperty+'}') === btn.renderedItemPropertyValue)))"
+        [ngClass]="btn.btnClass"
+        [tooltip]="btn.tooltip"
+        [container]="btn.tooltipAppendTo"
+        [placement]="btn.tooltipPlacement"
+        [routerLink]="row | formatFromObject: btn.url"
+        [target]="btn.urlTarget" rel="noreferrer"
+        (click)="onBtnColumnClick($event, btn, row, col)">
+        <fa-icon *ngIf="btn.iconPreffix && btn.iconName"
+            [icon]="[btn.iconPreffix, btn.iconName]"></fa-icon>
+        <ng-container *ngIf="btn.text">
+            {{row | formatFromObject: btn.text}}
+        </ng-container>
+    </a>
+
+    <button *ngIf="!btn.url && (btn.rendered && (!btn.renderedItemProperty || ((row | formatFromObject:'{'+btn.renderedItemProperty+'}') === btn.renderedItemPropertyValue)))"
+        autoBlur
+        [ngClass]="btn.btnClass"
+        [tooltip]="btn.tooltip"
+        [container]="btn.tooltipAppendTo"
+        [placement]="btn.tooltipPlacement"
+        (click)="onBtnColumnClick($event, btn, row, col)">
+        <fa-icon *ngIf="btn.iconPreffix && btn.iconName"
+            [icon]="[btn.iconPreffix, btn.iconName]"></fa-icon>
+        <ng-container *ngIf="btn.text">
+            {{row | formatFromObject: btn.text}}
+        </ng-container>
+    </button>
+</ng-template>

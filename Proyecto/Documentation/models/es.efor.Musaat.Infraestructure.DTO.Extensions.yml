@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.Extensions
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.Extensions
+  id: es.efor.Musaat.Infraestructure.DTO.Extensions
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.Extensions.IdentityExtensions
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.Extensions
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.Extensions
+  fullName: es.efor.Musaat.Infraestructure.DTO.Extensions
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.Extensions.IdentityExtensions
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.Extensions.IdentityExtensions
+  name: IdentityExtensions
+  nameWithType: IdentityExtensions
+  fullName: es.efor.Musaat.Infraestructure.DTO.Extensions.IdentityExtensions

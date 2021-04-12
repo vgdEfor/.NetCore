@@ -1,0 +1,2614 @@
+id: es.efor.Utilities.Swagger
+language: CSharp
+name:
+  Default: es.efor.Utilities.Swagger
+qualifiedName:
+  Default: es.efor.Utilities.Swagger
+type: Assembly
+modifiers: {}
+items:
+- id: es.efor.Utilities.Swagger.DocumentFilters
+  commentId: N:es.efor.Utilities.Swagger.DocumentFilters
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Swagger.DocumentFilters
+    VB: es.efor.Utilities.Swagger.DocumentFilters
+  nameWithType:
+    CSharp: es.efor.Utilities.Swagger.DocumentFilters
+    VB: es.efor.Utilities.Swagger.DocumentFilters
+  qualifiedName:
+    CSharp: es.efor.Utilities.Swagger.DocumentFilters
+    VB: es.efor.Utilities.Swagger.DocumentFilters
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+    commentId: T:es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+    language: CSharp
+    name:
+      CSharp: LowercaseDocumentFilter
+      VB: LowercaseDocumentFilter
+    nameWithType:
+      CSharp: LowercaseDocumentFilter
+      VB: LowercaseDocumentFilter
+    qualifiedName:
+      CSharp: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+      VB: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Swagger
+    namespace: es.efor.Utilities.Swagger.DocumentFilters
+    source:
+      remote:
+        path: es.efor.Utilities.Swagger/DocumentFilters/LowercaseDocumentFilter.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: LowercaseDocumentFilter
+      path: ../es.efor.Utilities.Swagger/DocumentFilters/LowercaseDocumentFilter.cs
+      startLine: 11
+    syntax:
+      content:
+        CSharp: 'public class LowercaseDocumentFilter : IDocumentFilter'
+        VB: >-
+          Public Class LowercaseDocumentFilter
+
+              Implements IDocumentFilter
+    inheritance:
+    - System.Object
+    implements:
+    - Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+      commentId: M:es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+      language: CSharp
+      name:
+        CSharp: Apply(OpenApiDocument, DocumentFilterContext)
+        VB: Apply(OpenApiDocument, DocumentFilterContext)
+      nameWithType:
+        CSharp: LowercaseDocumentFilter.Apply(OpenApiDocument, DocumentFilterContext)
+        VB: LowercaseDocumentFilter.Apply(OpenApiDocument, DocumentFilterContext)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument, Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+        VB: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument, Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.DocumentFilters
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/DocumentFilters/LowercaseDocumentFilter.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Apply
+        path: ../es.efor.Utilities.Swagger/DocumentFilters/LowercaseDocumentFilter.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: public void Apply(OpenApiDocument swaggerDoc, DocumentFilterContext context)
+          VB: Public Sub Apply(swaggerDoc As OpenApiDocument, context As DocumentFilterContext)
+        parameters:
+        - id: swaggerDoc
+          type: Microsoft.OpenApi.Models.OpenApiDocument
+        - id: context
+          type: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+      overload: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply*
+      implements:
+      - Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: es.efor.Utilities.Swagger.Extensions
+  commentId: N:es.efor.Utilities.Swagger.Extensions
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Swagger.Extensions
+    VB: es.efor.Utilities.Swagger.Extensions
+  nameWithType:
+    CSharp: es.efor.Utilities.Swagger.Extensions
+    VB: es.efor.Utilities.Swagger.Extensions
+  qualifiedName:
+    CSharp: es.efor.Utilities.Swagger.Extensions
+    VB: es.efor.Utilities.Swagger.Extensions
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+    commentId: T:es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+    language: CSharp
+    name:
+      CSharp: IApplicationBuilderExtensions
+      VB: IApplicationBuilderExtensions
+    nameWithType:
+      CSharp: IApplicationBuilderExtensions
+      VB: IApplicationBuilderExtensions
+    qualifiedName:
+      CSharp: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+      VB: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Swagger
+    namespace: es.efor.Utilities.Swagger.Extensions
+    source:
+      remote:
+        path: es.efor.Utilities.Swagger/Extensions/IApplicationBuilderExtensions.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: IApplicationBuilderExtensions
+      path: ../es.efor.Utilities.Swagger/Extensions/IApplicationBuilderExtensions.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: public static class IApplicationBuilderExtensions
+        VB: Public Module IApplicationBuilderExtensions
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+      commentId: M:es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+      language: CSharp
+      name:
+        CSharp: UseEforSwagger(IApplicationBuilder, IConfiguration)
+        VB: UseEforSwagger(IApplicationBuilder, IConfiguration)
+      nameWithType:
+        CSharp: IApplicationBuilderExtensions.UseEforSwagger(IApplicationBuilder, IConfiguration)
+        VB: IApplicationBuilderExtensions.UseEforSwagger(IApplicationBuilder, IConfiguration)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Configuration.IConfiguration)
+        VB: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Configuration.IConfiguration)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Extensions
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Extensions/IApplicationBuilderExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: UseEforSwagger
+        path: ../es.efor.Utilities.Swagger/Extensions/IApplicationBuilderExtensions.cs
+        startLine: 12
+      syntax:
+        content:
+          CSharp: public static IApplicationBuilder UseEforSwagger(this IApplicationBuilder app, IConfiguration configuration)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function UseEforSwagger(app As IApplicationBuilder, configuration As IConfiguration) As IApplicationBuilder
+        parameters:
+        - id: app
+          type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        - id: configuration
+          type: Microsoft.Extensions.Configuration.IConfiguration
+        return:
+          type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+      overload: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+    commentId: T:es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+    language: CSharp
+    name:
+      CSharp: IServiceCollectionExtensions
+      VB: IServiceCollectionExtensions
+    nameWithType:
+      CSharp: IServiceCollectionExtensions
+      VB: IServiceCollectionExtensions
+    qualifiedName:
+      CSharp: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+      VB: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Swagger
+    namespace: es.efor.Utilities.Swagger.Extensions
+    source:
+      remote:
+        path: es.efor.Utilities.Swagger/Extensions/IServiceCollectionExtensions.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: IServiceCollectionExtensions
+      path: ../es.efor.Utilities.Swagger/Extensions/IServiceCollectionExtensions.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: public static class IServiceCollectionExtensions
+        VB: Public Module IServiceCollectionExtensions
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+      commentId: M:es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+      language: CSharp
+      name:
+        CSharp: AddEforSwagger<TProgram>(IServiceCollection, IConfiguration)
+        VB: AddEforSwagger(Of TProgram)(IServiceCollection, IConfiguration)
+      nameWithType:
+        CSharp: IServiceCollectionExtensions.AddEforSwagger<TProgram>(IServiceCollection, IConfiguration)
+        VB: IServiceCollectionExtensions.AddEforSwagger(Of TProgram)(IServiceCollection, IConfiguration)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger<TProgram>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+        VB: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger(Of TProgram)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Extensions
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Extensions/IServiceCollectionExtensions.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AddEforSwagger
+        path: ../es.efor.Utilities.Swagger/Extensions/IServiceCollectionExtensions.cs
+        startLine: 12
+      syntax:
+        content:
+          CSharp: public static IServiceCollection AddEforSwagger<TProgram>(this IServiceCollection services, IConfiguration configuration)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function AddEforSwagger(Of TProgram)(services As IServiceCollection, configuration As IConfiguration) As IServiceCollection
+        parameters:
+        - id: services
+          type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        - id: configuration
+          type: Microsoft.Extensions.Configuration.IConfiguration
+        typeParameters:
+        - id: TProgram
+        return:
+          type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      overload: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+- id: es.efor.Utilities.Swagger.Middleware
+  commentId: N:es.efor.Utilities.Swagger.Middleware
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Swagger.Middleware
+    VB: es.efor.Utilities.Swagger.Middleware
+  nameWithType:
+    CSharp: es.efor.Utilities.Swagger.Middleware
+    VB: es.efor.Utilities.Swagger.Middleware
+  qualifiedName:
+    CSharp: es.efor.Utilities.Swagger.Middleware
+    VB: es.efor.Utilities.Swagger.Middleware
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+    commentId: T:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+    language: CSharp
+    name:
+      CSharp: SwaggerAuthorizationMiddleware
+      VB: SwaggerAuthorizationMiddleware
+    nameWithType:
+      CSharp: SwaggerAuthorizationMiddleware
+      VB: SwaggerAuthorizationMiddleware
+    qualifiedName:
+      CSharp: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+      VB: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Swagger
+    namespace: es.efor.Utilities.Swagger.Middleware
+    source:
+      remote:
+        path: es.efor.Utilities.Swagger/Middleware/SwaggerAuthorizationMiddleware.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: SwaggerAuthorizationMiddleware
+      path: ../es.efor.Utilities.Swagger/Middleware/SwaggerAuthorizationMiddleware.cs
+      startLine: 12
+    syntax:
+      content:
+        CSharp: public class SwaggerAuthorizationMiddleware
+        VB: Public Class SwaggerAuthorizationMiddleware
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,es.efor.Utilities.Swagger.Models.SwaggerConfig)
+      commentId: M:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,es.efor.Utilities.Swagger.Models.SwaggerConfig)
+      language: CSharp
+      name:
+        CSharp: SwaggerAuthorizationMiddleware(RequestDelegate, SwaggerConfig)
+        VB: SwaggerAuthorizationMiddleware(RequestDelegate, SwaggerConfig)
+      nameWithType:
+        CSharp: SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware(RequestDelegate, SwaggerConfig)
+        VB: SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware(RequestDelegate, SwaggerConfig)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, es.efor.Utilities.Swagger.Models.SwaggerConfig)
+        VB: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, es.efor.Utilities.Swagger.Models.SwaggerConfig)
+      type: Constructor
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Middleware
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Middleware/SwaggerAuthorizationMiddleware.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: .ctor
+        path: ../es.efor.Utilities.Swagger/Middleware/SwaggerAuthorizationMiddleware.cs
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public SwaggerAuthorizationMiddleware(RequestDelegate next, SwaggerConfig configuration)
+          VB: Public Sub New(next As RequestDelegate, configuration As SwaggerConfig)
+        parameters:
+        - id: next
+          type: Microsoft.AspNetCore.Http.RequestDelegate
+        - id: configuration
+          type: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      overload: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+      commentId: M:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+      language: CSharp
+      name:
+        CSharp: Invoke(HttpContext)
+        VB: Invoke(HttpContext)
+      nameWithType:
+        CSharp: SwaggerAuthorizationMiddleware.Invoke(HttpContext)
+        VB: SwaggerAuthorizationMiddleware.Invoke(HttpContext)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+        VB: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Middleware
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Middleware/SwaggerAuthorizationMiddleware.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Invoke
+        path: ../es.efor.Utilities.Swagger/Middleware/SwaggerAuthorizationMiddleware.cs
+        startLine: 23
+      syntax:
+        content:
+          CSharp: public Task Invoke(HttpContext context)
+          VB: Public Function Invoke(context As HttpContext) As Task
+        parameters:
+        - id: context
+          type: Microsoft.AspNetCore.Http.HttpContext
+        return:
+          type: System.Threading.Tasks.Task
+      overload: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: es.efor.Utilities.Swagger.Models
+  commentId: N:es.efor.Utilities.Swagger.Models
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Swagger.Models
+    VB: es.efor.Utilities.Swagger.Models
+  nameWithType:
+    CSharp: es.efor.Utilities.Swagger.Models
+    VB: es.efor.Utilities.Swagger.Models
+  qualifiedName:
+    CSharp: es.efor.Utilities.Swagger.Models
+    VB: es.efor.Utilities.Swagger.Models
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Swagger.Models.SwaggerConfig
+    commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig
+    language: CSharp
+    name:
+      CSharp: SwaggerConfig
+      VB: SwaggerConfig
+    nameWithType:
+      CSharp: SwaggerConfig
+      VB: SwaggerConfig
+    qualifiedName:
+      CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      VB: es.efor.Utilities.Swagger.Models.SwaggerConfig
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Swagger
+    namespace: es.efor.Utilities.Swagger.Models
+    source:
+      remote:
+        path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: SwaggerConfig
+      path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: 'public class SwaggerConfig : SwaggerConfig<SwaggerConfig>'
+        VB: >-
+          Public Class SwaggerConfig
+
+              Inherits SwaggerConfig(Of SwaggerConfig)
+    inheritance:
+    - System.Object
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    inheritedMembers:
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.UI_Url
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.UI_Endpoints
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Version
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Title
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.ToS_Uri
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Docs_Name
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.AllowedRoles
+    - es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.AllowLocalhost
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor
+      commentId: M:es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor
+      language: CSharp
+      name:
+        CSharp: SwaggerConfig()
+        VB: SwaggerConfig()
+      nameWithType:
+        CSharp: SwaggerConfig.SwaggerConfig()
+        VB: SwaggerConfig.SwaggerConfig()
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig.SwaggerConfig()
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig.SwaggerConfig()
+      type: Constructor
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: .ctor
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public SwaggerConfig()
+          VB: Public Sub New
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+    commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+    language: CSharp
+    name:
+      CSharp: SwaggerConfig<TProgram>
+      VB: SwaggerConfig(Of TProgram)
+    nameWithType:
+      CSharp: SwaggerConfig<TProgram>
+      VB: SwaggerConfig(Of TProgram)
+    qualifiedName:
+      CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>
+      VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram)
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Swagger
+    namespace: es.efor.Utilities.Swagger.Models
+    source:
+      remote:
+        path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: SwaggerConfig
+      path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public class SwaggerConfig<TProgram>
+        VB: Public Class SwaggerConfig(Of TProgram)
+      typeParameters:
+      - id: TProgram
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+      language: CSharp
+      name:
+        CSharp: UI_Url
+        VB: UI_Url
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.UI_Url
+        VB: SwaggerConfig(Of TProgram).UI_Url
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Url
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Url
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: UI_Url
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public string UI_Url { get; set; }
+          VB: Public Property UI_Url As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+      language: CSharp
+      name:
+        CSharp: UI_Endpoints
+        VB: UI_Endpoints
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.UI_Endpoints
+        VB: SwaggerConfig(Of TProgram).UI_Endpoints
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Endpoints
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Endpoints
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: UI_Endpoints
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 14
+      summary: "\nKey = Name. Value = relative to Host\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Dictionary<string, string> UI_Endpoints { get; set; }
+          VB: Public Property UI_Endpoints As Dictionary(Of String, String)
+        parameters: []
+        return:
+          type: System.Collections.Generic.Dictionary{System.String,System.String}
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+      language: CSharp
+      name:
+        CSharp: Version
+        VB: Version
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.Version
+        VB: SwaggerConfig(Of TProgram).Version
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Version
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Version
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Version
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 15
+      syntax:
+        content:
+          CSharp: public string Version { get; set; }
+          VB: Public Property Version As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+      language: CSharp
+      name:
+        CSharp: Title
+        VB: Title
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.Title
+        VB: SwaggerConfig(Of TProgram).Title
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Title
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Title
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Title
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 16
+      syntax:
+        content:
+          CSharp: public string Title { get; set; }
+          VB: Public Property Title As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+      language: CSharp
+      name:
+        CSharp: ToS_Uri
+        VB: ToS_Uri
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.ToS_Uri
+        VB: SwaggerConfig(Of TProgram).ToS_Uri
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.ToS_Uri
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).ToS_Uri
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ToS_Uri
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public Uri ToS_Uri { get; set; }
+          VB: Public Property ToS_Uri As Uri
+        parameters: []
+        return:
+          type: System.Uri
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+      language: CSharp
+      name:
+        CSharp: Docs_Name
+        VB: Docs_Name
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.Docs_Name
+        VB: SwaggerConfig(Of TProgram).Docs_Name
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Docs_Name
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Docs_Name
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Docs_Name
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 18
+      syntax:
+        content:
+          CSharp: public string Docs_Name { get; set; }
+          VB: Public Property Docs_Name As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+      language: CSharp
+      name:
+        CSharp: AllowedRoles
+        VB: AllowedRoles
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.AllowedRoles
+        VB: SwaggerConfig(Of TProgram).AllowedRoles
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowedRoles
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowedRoles
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AllowedRoles
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public IEnumerable<string> AllowedRoles { get; set; }
+          VB: Public Property AllowedRoles As IEnumerable(Of String)
+        parameters: []
+        return:
+          type: System.Collections.Generic.IEnumerable{System.String}
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+      commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+      language: CSharp
+      name:
+        CSharp: AllowLocalhost
+        VB: AllowLocalhost
+      nameWithType:
+        CSharp: SwaggerConfig<TProgram>.AllowLocalhost
+        VB: SwaggerConfig(Of TProgram).AllowLocalhost
+      qualifiedName:
+        CSharp: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowLocalhost
+        VB: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowLocalhost
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Swagger
+      namespace: es.efor.Utilities.Swagger.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AllowLocalhost
+        path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+        startLine: 21
+      syntax:
+        content:
+          CSharp: public bool AllowLocalhost { get; set; }
+          VB: Public Property AllowLocalhost As Boolean
+        parameters: []
+        return:
+          type: System.Boolean
+      overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  Swashbuckle.AspNetCore.SwaggerGen:
+    name:
+      CSharp:
+      - name: Swashbuckle.AspNetCore.SwaggerGen
+        nameWithType: Swashbuckle.AspNetCore.SwaggerGen
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen
+        isExternal: true
+      VB:
+      - name: Swashbuckle.AspNetCore.SwaggerGen
+        nameWithType: Swashbuckle.AspNetCore.SwaggerGen
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen
+    isDefinition: true
+    commentId: N:Swashbuckle.AspNetCore.SwaggerGen
+  Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter:
+    name:
+      CSharp:
+      - id: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+        name: IDocumentFilter
+        nameWithType: IDocumentFilter
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+        isExternal: true
+      VB:
+      - id: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+        name: IDocumentFilter
+        nameWithType: IDocumentFilter
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+        isExternal: true
+    isDefinition: true
+    parent: Swashbuckle.AspNetCore.SwaggerGen
+    commentId: T:Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+      VB:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Helpers
+  es.efor.Utilities.General.Helpers.ObjectHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General.Helpers
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  Microsoft.OpenApi.Models:
+    name:
+      CSharp:
+      - name: Microsoft.OpenApi.Models
+        nameWithType: Microsoft.OpenApi.Models
+        qualifiedName: Microsoft.OpenApi.Models
+        isExternal: true
+      VB:
+      - name: Microsoft.OpenApi.Models
+        nameWithType: Microsoft.OpenApi.Models
+        qualifiedName: Microsoft.OpenApi.Models
+    isDefinition: true
+    commentId: N:Microsoft.OpenApi.Models
+  Microsoft.OpenApi.Models.OpenApiDocument:
+    name:
+      CSharp:
+      - id: Microsoft.OpenApi.Models.OpenApiDocument
+        name: OpenApiDocument
+        nameWithType: OpenApiDocument
+        qualifiedName: Microsoft.OpenApi.Models.OpenApiDocument
+        isExternal: true
+      VB:
+      - id: Microsoft.OpenApi.Models.OpenApiDocument
+        name: OpenApiDocument
+        nameWithType: OpenApiDocument
+        qualifiedName: Microsoft.OpenApi.Models.OpenApiDocument
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.OpenApi.Models
+    commentId: T:Microsoft.OpenApi.Models.OpenApiDocument
+  Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext:
+    name:
+      CSharp:
+      - id: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        name: DocumentFilterContext
+        nameWithType: DocumentFilterContext
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        isExternal: true
+      VB:
+      - id: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        name: DocumentFilterContext
+        nameWithType: DocumentFilterContext
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        isExternal: true
+    isDefinition: true
+    parent: Swashbuckle.AspNetCore.SwaggerGen
+    commentId: T:Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+  es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply*
+        name: Apply
+        nameWithType: LowercaseDocumentFilter.Apply
+        qualifiedName: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply
+      VB:
+      - id: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply*
+        name: Apply
+        nameWithType: LowercaseDocumentFilter.Apply
+        qualifiedName: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter.Apply
+  ? Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+  : name:
+      CSharp:
+      - id: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+        name: Apply
+        nameWithType: IDocumentFilter.Apply
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.OpenApi.Models.OpenApiDocument
+        name: OpenApiDocument
+        nameWithType: OpenApiDocument
+        qualifiedName: Microsoft.OpenApi.Models.OpenApiDocument
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        name: DocumentFilterContext
+        nameWithType: DocumentFilterContext
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+        name: Apply
+        nameWithType: IDocumentFilter.Apply
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Microsoft.OpenApi.Models.OpenApiDocument
+        name: OpenApiDocument
+        nameWithType: OpenApiDocument
+        qualifiedName: Microsoft.OpenApi.Models.OpenApiDocument
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        name: DocumentFilterContext
+        nameWithType: DocumentFilterContext
+        qualifiedName: Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter
+    commentId: M:Swashbuckle.AspNetCore.SwaggerGen.IDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)
+  es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+        name: LowercaseDocumentFilter
+        nameWithType: LowercaseDocumentFilter
+        qualifiedName: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+      VB:
+      - id: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+        name: LowercaseDocumentFilter
+        nameWithType: LowercaseDocumentFilter
+        qualifiedName: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+  es.efor.Utilities.Swagger.DocumentFilters:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Swagger.DocumentFilters
+        nameWithType: es.efor.Utilities.Swagger.DocumentFilters
+        qualifiedName: es.efor.Utilities.Swagger.DocumentFilters
+      VB:
+      - name: es.efor.Utilities.Swagger.DocumentFilters
+        nameWithType: es.efor.Utilities.Swagger.DocumentFilters
+        qualifiedName: es.efor.Utilities.Swagger.DocumentFilters
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Swagger.DocumentFilters
+  Microsoft.AspNetCore.Builder:
+    name:
+      CSharp:
+      - name: Microsoft.AspNetCore.Builder
+        nameWithType: Microsoft.AspNetCore.Builder
+        qualifiedName: Microsoft.AspNetCore.Builder
+        isExternal: true
+      VB:
+      - name: Microsoft.AspNetCore.Builder
+        nameWithType: Microsoft.AspNetCore.Builder
+        qualifiedName: Microsoft.AspNetCore.Builder
+    isDefinition: true
+    commentId: N:Microsoft.AspNetCore.Builder
+  Microsoft.AspNetCore.Builder.IApplicationBuilder:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        name: IApplicationBuilder
+        nameWithType: IApplicationBuilder
+        qualifiedName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        name: IApplicationBuilder
+        nameWithType: IApplicationBuilder
+        qualifiedName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Builder
+    commentId: T:Microsoft.AspNetCore.Builder.IApplicationBuilder
+  Microsoft.Extensions.Configuration:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.Configuration
+        nameWithType: Microsoft.Extensions.Configuration
+        qualifiedName: Microsoft.Extensions.Configuration
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.Configuration
+        nameWithType: Microsoft.Extensions.Configuration
+        qualifiedName: Microsoft.Extensions.Configuration
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.Configuration
+  Microsoft.Extensions.Configuration.IConfiguration:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Configuration.IConfiguration
+        name: IConfiguration
+        nameWithType: IConfiguration
+        qualifiedName: Microsoft.Extensions.Configuration.IConfiguration
+        isExternal: true
+      VB:
+      - id: Microsoft.Extensions.Configuration.IConfiguration
+        name: IConfiguration
+        nameWithType: IConfiguration
+        qualifiedName: Microsoft.Extensions.Configuration.IConfiguration
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.Extensions.Configuration
+    commentId: T:Microsoft.Extensions.Configuration.IConfiguration
+  es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger*
+        name: UseEforSwagger
+        nameWithType: IApplicationBuilderExtensions.UseEforSwagger
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger
+      VB:
+      - id: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger*
+        name: UseEforSwagger
+        nameWithType: IApplicationBuilderExtensions.UseEforSwagger
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions.UseEforSwagger
+  es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+        name: IApplicationBuilderExtensions
+        nameWithType: IApplicationBuilderExtensions
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+      VB:
+      - id: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+        name: IApplicationBuilderExtensions
+        nameWithType: IApplicationBuilderExtensions
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+  Microsoft.Extensions.DependencyInjection:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.DependencyInjection
+        nameWithType: Microsoft.Extensions.DependencyInjection
+        qualifiedName: Microsoft.Extensions.DependencyInjection
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.DependencyInjection
+        nameWithType: Microsoft.Extensions.DependencyInjection
+        qualifiedName: Microsoft.Extensions.DependencyInjection
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.DependencyInjection
+  Microsoft.Extensions.DependencyInjection.IServiceCollection:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        name: IServiceCollection
+        nameWithType: IServiceCollection
+        qualifiedName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        isExternal: true
+      VB:
+      - id: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        name: IServiceCollection
+        nameWithType: IServiceCollection
+        qualifiedName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.Extensions.DependencyInjection
+    commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger*
+        name: AddEforSwagger
+        nameWithType: IServiceCollectionExtensions.AddEforSwagger
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger
+      VB:
+      - id: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger*
+        name: AddEforSwagger
+        nameWithType: IServiceCollectionExtensions.AddEforSwagger
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions.AddEforSwagger
+  es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+        name: IServiceCollectionExtensions
+        nameWithType: IServiceCollectionExtensions
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+      VB:
+      - id: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+        name: IServiceCollectionExtensions
+        nameWithType: IServiceCollectionExtensions
+        qualifiedName: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+  es.efor.Utilities.Swagger.Extensions:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Swagger.Extensions
+        nameWithType: es.efor.Utilities.Swagger.Extensions
+        qualifiedName: es.efor.Utilities.Swagger.Extensions
+      VB:
+      - name: es.efor.Utilities.Swagger.Extensions
+        nameWithType: es.efor.Utilities.Swagger.Extensions
+        qualifiedName: es.efor.Utilities.Swagger.Extensions
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Swagger.Extensions
+  Microsoft.AspNetCore.Http:
+    name:
+      CSharp:
+      - name: Microsoft.AspNetCore.Http
+        nameWithType: Microsoft.AspNetCore.Http
+        qualifiedName: Microsoft.AspNetCore.Http
+        isExternal: true
+      VB:
+      - name: Microsoft.AspNetCore.Http
+        nameWithType: Microsoft.AspNetCore.Http
+        qualifiedName: Microsoft.AspNetCore.Http
+    isDefinition: true
+    commentId: N:Microsoft.AspNetCore.Http
+  Microsoft.AspNetCore.Http.RequestDelegate:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Http.RequestDelegate
+        name: RequestDelegate
+        nameWithType: RequestDelegate
+        qualifiedName: Microsoft.AspNetCore.Http.RequestDelegate
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Http.RequestDelegate
+        name: RequestDelegate
+        nameWithType: RequestDelegate
+        qualifiedName: Microsoft.AspNetCore.Http.RequestDelegate
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Http
+    commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  es.efor.Utilities.Swagger.Models:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Swagger.Models
+        nameWithType: es.efor.Utilities.Swagger.Models
+        qualifiedName: es.efor.Utilities.Swagger.Models
+      VB:
+      - name: es.efor.Utilities.Swagger.Models
+        nameWithType: es.efor.Utilities.Swagger.Models
+        qualifiedName: es.efor.Utilities.Swagger.Models
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Swagger.Models
+  es.efor.Utilities.Swagger.Models.SwaggerConfig:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+    isDefinition: true
+    parent: es.efor.Utilities.Swagger.Models
+    commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig
+  es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor*
+        name: SwaggerAuthorizationMiddleware
+        nameWithType: SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware
+        qualifiedName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware
+      VB:
+      - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor*
+        name: SwaggerAuthorizationMiddleware
+        nameWithType: SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware
+        qualifiedName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.SwaggerAuthorizationMiddleware
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.#ctor
+  System.Threading.Tasks:
+    name:
+      CSharp:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+        isExternal: true
+      VB:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+    isDefinition: true
+    commentId: N:System.Threading.Tasks
+  System.Threading.Tasks.Task:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      VB:
+      - id: System.Threading.Tasks.Task
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+    isDefinition: true
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task
+  Microsoft.AspNetCore.Http.HttpContext:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Http.HttpContext
+        name: HttpContext
+        nameWithType: HttpContext
+        qualifiedName: Microsoft.AspNetCore.Http.HttpContext
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Http.HttpContext
+        name: HttpContext
+        nameWithType: HttpContext
+        qualifiedName: Microsoft.AspNetCore.Http.HttpContext
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Http
+    commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke*
+        name: Invoke
+        nameWithType: SwaggerAuthorizationMiddleware.Invoke
+        qualifiedName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke
+      VB:
+      - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke*
+        name: Invoke
+        nameWithType: SwaggerAuthorizationMiddleware.Invoke
+        qualifiedName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware.Invoke
+  es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+        name: SwaggerAuthorizationMiddleware
+        nameWithType: SwaggerAuthorizationMiddleware
+        qualifiedName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+      VB:
+      - id: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+        name: SwaggerAuthorizationMiddleware
+        nameWithType: SwaggerAuthorizationMiddleware
+        qualifiedName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+  es.efor.Utilities.Swagger.Middleware:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Swagger.Middleware
+        nameWithType: es.efor.Utilities.Swagger.Middleware
+        qualifiedName: es.efor.Utilities.Swagger.Middleware
+      VB:
+      - name: es.efor.Utilities.Swagger.Middleware
+        nameWithType: es.efor.Utilities.Swagger.Middleware
+        qualifiedName: es.efor.Utilities.Swagger.Middleware
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Swagger.Middleware
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TProgram
+        nameWithType: TProgram
+        qualifiedName: TProgram
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TProgram
+        nameWithType: TProgram
+        qualifiedName: TProgram
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+    parent: es.efor.Utilities.Swagger.Models
+    commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+        name: UI_Url
+        nameWithType: SwaggerConfig<TProgram>.UI_Url
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Url
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+        name: UI_Url
+        nameWithType: SwaggerConfig(Of TProgram).UI_Url
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Url
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.UI_Url:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+        name: UI_Url
+        nameWithType: SwaggerConfig<SwaggerConfig>.UI_Url
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.UI_Url
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+        name: UI_Url
+        nameWithType: SwaggerConfig(Of SwaggerConfig).UI_Url
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).UI_Url
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.UI_Url
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+        name: UI_Endpoints
+        nameWithType: SwaggerConfig<TProgram>.UI_Endpoints
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Endpoints
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+        name: UI_Endpoints
+        nameWithType: SwaggerConfig(Of TProgram).UI_Endpoints
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Endpoints
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.UI_Endpoints:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+        name: UI_Endpoints
+        nameWithType: SwaggerConfig<SwaggerConfig>.UI_Endpoints
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.UI_Endpoints
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+        name: UI_Endpoints
+        nameWithType: SwaggerConfig(Of SwaggerConfig).UI_Endpoints
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).UI_Endpoints
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.UI_Endpoints
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+        name: Version
+        nameWithType: SwaggerConfig<TProgram>.Version
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Version
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+        name: Version
+        nameWithType: SwaggerConfig(Of TProgram).Version
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Version
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Version:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+        name: Version
+        nameWithType: SwaggerConfig<SwaggerConfig>.Version
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.Version
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+        name: Version
+        nameWithType: SwaggerConfig(Of SwaggerConfig).Version
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).Version
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Version
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+        name: Title
+        nameWithType: SwaggerConfig<TProgram>.Title
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Title
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+        name: Title
+        nameWithType: SwaggerConfig(Of TProgram).Title
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Title
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Title:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+        name: Title
+        nameWithType: SwaggerConfig<SwaggerConfig>.Title
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.Title
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+        name: Title
+        nameWithType: SwaggerConfig(Of SwaggerConfig).Title
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).Title
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Title
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+        name: ToS_Uri
+        nameWithType: SwaggerConfig<TProgram>.ToS_Uri
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.ToS_Uri
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+        name: ToS_Uri
+        nameWithType: SwaggerConfig(Of TProgram).ToS_Uri
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).ToS_Uri
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.ToS_Uri:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+        name: ToS_Uri
+        nameWithType: SwaggerConfig<SwaggerConfig>.ToS_Uri
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.ToS_Uri
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+        name: ToS_Uri
+        nameWithType: SwaggerConfig(Of SwaggerConfig).ToS_Uri
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).ToS_Uri
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.ToS_Uri
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+        name: Docs_Name
+        nameWithType: SwaggerConfig<TProgram>.Docs_Name
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Docs_Name
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+        name: Docs_Name
+        nameWithType: SwaggerConfig(Of TProgram).Docs_Name
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Docs_Name
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Docs_Name:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+        name: Docs_Name
+        nameWithType: SwaggerConfig<SwaggerConfig>.Docs_Name
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.Docs_Name
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+        name: Docs_Name
+        nameWithType: SwaggerConfig(Of SwaggerConfig).Docs_Name
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).Docs_Name
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.Docs_Name
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+        name: AllowedRoles
+        nameWithType: SwaggerConfig<TProgram>.AllowedRoles
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowedRoles
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+        name: AllowedRoles
+        nameWithType: SwaggerConfig(Of TProgram).AllowedRoles
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowedRoles
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.AllowedRoles:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+        name: AllowedRoles
+        nameWithType: SwaggerConfig<SwaggerConfig>.AllowedRoles
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.AllowedRoles
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+        name: AllowedRoles
+        nameWithType: SwaggerConfig(Of SwaggerConfig).AllowedRoles
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).AllowedRoles
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.AllowedRoles
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+        name: AllowLocalhost
+        nameWithType: SwaggerConfig<TProgram>.AllowLocalhost
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowLocalhost
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+        name: AllowLocalhost
+        nameWithType: SwaggerConfig(Of TProgram).AllowLocalhost
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowLocalhost
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+  es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.AllowLocalhost:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+        name: AllowLocalhost
+        nameWithType: SwaggerConfig<SwaggerConfig>.AllowLocalhost
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<es.efor.Utilities.Swagger.Models.SwaggerConfig>.AllowLocalhost
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+        name: AllowLocalhost
+        nameWithType: SwaggerConfig(Of SwaggerConfig).AllowLocalhost
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of es.efor.Utilities.Swagger.Models.SwaggerConfig).AllowLocalhost
+    isDefinition: false
+    definition: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+    parent: es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}
+    commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig{es.efor.Utilities.Swagger.Models.SwaggerConfig}.AllowLocalhost
+  es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor*
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig.SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig.SwaggerConfig
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor*
+        name: SwaggerConfig
+        nameWithType: SwaggerConfig.SwaggerConfig
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig.SwaggerConfig
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig.#ctor
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url*
+        name: UI_Url
+        nameWithType: SwaggerConfig<TProgram>.UI_Url
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Url
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url*
+        name: UI_Url
+        nameWithType: SwaggerConfig(Of TProgram).UI_Url
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Url
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+  System.Collections.Generic.Dictionary`2:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.Dictionary`2
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.Dictionary{System.String,System.String}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.Dictionary`2
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints*
+        name: UI_Endpoints
+        nameWithType: SwaggerConfig<TProgram>.UI_Endpoints
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Endpoints
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints*
+        name: UI_Endpoints
+        nameWithType: SwaggerConfig(Of TProgram).UI_Endpoints
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Endpoints
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version*
+        name: Version
+        nameWithType: SwaggerConfig<TProgram>.Version
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Version
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version*
+        name: Version
+        nameWithType: SwaggerConfig(Of TProgram).Version
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Version
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title*
+        name: Title
+        nameWithType: SwaggerConfig<TProgram>.Title
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Title
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title*
+        name: Title
+        nameWithType: SwaggerConfig(Of TProgram).Title
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Title
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+  System.Uri:
+    name:
+      CSharp:
+      - id: System.Uri
+        name: Uri
+        nameWithType: Uri
+        qualifiedName: System.Uri
+        isExternal: true
+      VB:
+      - id: System.Uri
+        name: Uri
+        nameWithType: Uri
+        qualifiedName: System.Uri
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Uri
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri*
+        name: ToS_Uri
+        nameWithType: SwaggerConfig<TProgram>.ToS_Uri
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.ToS_Uri
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri*
+        name: ToS_Uri
+        nameWithType: SwaggerConfig(Of TProgram).ToS_Uri
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).ToS_Uri
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name*
+        name: Docs_Name
+        nameWithType: SwaggerConfig<TProgram>.Docs_Name
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Docs_Name
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name*
+        name: Docs_Name
+        nameWithType: SwaggerConfig(Of TProgram).Docs_Name
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Docs_Name
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+  System.Collections.Generic.IEnumerable`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.IEnumerable`1
+  System.Collections.Generic.IEnumerable{System.String}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles*
+        name: AllowedRoles
+        nameWithType: SwaggerConfig<TProgram>.AllowedRoles
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowedRoles
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles*
+        name: AllowedRoles
+        nameWithType: SwaggerConfig(Of TProgram).AllowedRoles
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowedRoles
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost*
+        name: AllowLocalhost
+        nameWithType: SwaggerConfig<TProgram>.AllowLocalhost
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowLocalhost
+      VB:
+      - id: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost*
+        name: AllowLocalhost
+        nameWithType: SwaggerConfig(Of TProgram).AllowLocalhost
+        qualifiedName: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowLocalhost
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost

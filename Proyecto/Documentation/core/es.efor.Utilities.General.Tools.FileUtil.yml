@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.General.Tools.FileUtil
+  commentId: T:es.efor.Utilities.General.Tools.FileUtil
+  id: FileUtil
+  parent: es.efor.Utilities.General.Tools
+  children:
+  - es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String,System.String)
+  - es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+  - es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+  - es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String,System.Int64)
+  - es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+  - es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String,System.String,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: FileUtil
+  nameWithType: FileUtil
+  fullName: es.efor.Utilities.General.Tools.FileUtil
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: FileUtil
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 6
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public class FileUtil
+    content.vb: Public Class FileUtil
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+  commentId: M:es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+  id: Base64Encode(System.String)
+  parent: es.efor.Utilities.General.Tools.FileUtil
+  langs:
+  - csharp
+  - vb
+  name: Base64Encode(String)
+  nameWithType: FileUtil.Base64Encode(String)
+  fullName: es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Base64Encode
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  summary: "\nBase 64 Encode Europ\n"
+  example: []
+  syntax:
+    content: public static string Base64Encode(string plainText)
+    parameters:
+    - id: plainText
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function Base64Encode(plainText As String) As String
+  overload: es.efor.Utilities.General.Tools.FileUtil.Base64Encode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+  commentId: M:es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+  id: Base64Decode(System.String)
+  parent: es.efor.Utilities.General.Tools.FileUtil
+  langs:
+  - csharp
+  - vb
+  name: Base64Decode(String)
+  nameWithType: FileUtil.Base64Decode(String)
+  fullName: es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Base64Decode
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 24
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  summary: "\nBase 64 Decode Europ\n"
+  example: []
+  syntax:
+    content: public static string Base64Decode(string base64EncodedData)
+    parameters:
+    - id: base64EncodedData
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function Base64Decode(base64EncodedData As String) As String
+  overload: es.efor.Utilities.General.Tools.FileUtil.Base64Decode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String,System.String,System.String@)
+  commentId: M:es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String,System.String,System.String@)
+  id: GetValidFilePath(System.String,System.String,System.String@)
+  parent: es.efor.Utilities.General.Tools.FileUtil
+  langs:
+  - csharp
+  - vb
+  name: GetValidFilePath(String, String, ref String)
+  nameWithType: FileUtil.GetValidFilePath(String, String, ref String)
+  fullName: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String, System.String, ref System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetValidFilePath
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 36
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  summary: "\nDevuelve una ruta de fichero valida. Si el fichero existe, añade sufijo.\n"
+  example: []
+  syntax:
+    content: public static void GetValidFilePath(string BasePath, string FileName, ref string FullFileSavePath)
+    parameters:
+    - id: BasePath
+      type: System.String
+      description: 'Dirección fisica completa de la ruta donde se guarda el fichero: c:/ '
+    - id: FileName
+      type: System.String
+      description: Nombre del fichero, con extensión
+    - id: FullFileSavePath
+      type: System.String
+      description: Ruta completa donde se guardará el fichero. Incluye nombre de fichero.
+    content.vb: Public Shared Sub GetValidFilePath(BasePath As String, FileName As String, ByRef FullFileSavePath As String)
+  overload: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath*
+  nameWithType.vb: FileUtil.GetValidFilePath(String, String, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String, System.String, ByRef System.String)
+  name.vb: GetValidFilePath(String, String, ByRef String)
+- uid: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+  commentId: M:es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+  id: GetFileNameSuffix(System.String)
+  parent: es.efor.Utilities.General.Tools.FileUtil
+  langs:
+  - csharp
+  - vb
+  name: GetFileNameSuffix(String)
+  nameWithType: FileUtil.GetFileNameSuffix(String)
+  fullName: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetFileNameSuffix
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 52
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  summary: "\nDevuelve sufijo de fichero. No es aleatorio\n"
+  example: []
+  syntax:
+    content: public static int GetFileNameSuffix(string FilePath)
+    parameters:
+    - id: FilePath
+      type: System.String
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function GetFileNameSuffix(FilePath As String) As Integer
+  overload: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String,System.String)
+  commentId: M:es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String,System.String)
+  id: AddToFileName(System.String,System.String)
+  parent: es.efor.Utilities.General.Tools.FileUtil
+  langs:
+  - csharp
+  - vb
+  name: AddToFileName(String, String)
+  nameWithType: FileUtil.AddToFileName(String, String)
+  fullName: es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AddToFileName
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 65
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public static string AddToFileName(string FilePath, string Suffix)
+    parameters:
+    - id: FilePath
+      type: System.String
+    - id: Suffix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function AddToFileName(FilePath As String, Suffix As String) As String
+  overload: es.efor.Utilities.General.Tools.FileUtil.AddToFileName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String,System.Int64)
+  commentId: M:es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String,System.Int64)
+  id: CheckFileLength(System.String,System.Int64)
+  parent: es.efor.Utilities.General.Tools.FileUtil
+  langs:
+  - csharp
+  - vb
+  name: CheckFileLength(String, Int64)
+  nameWithType: FileUtil.CheckFileLength(String, Int64)
+  fullName: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/FileUtil.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: CheckFileLength
+    path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+    startLine: 80
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  summary: "\nComprueba longitud máxima permitida de un fichero\n"
+  example: []
+  syntax:
+    content: public static bool CheckFileLength(string FilePath, long HighestFileLength)
+    parameters:
+    - id: FilePath
+      type: System.String
+      description: ''
+    - id: HighestFileLength
+      type: System.Int64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function CheckFileLength(FilePath As String, HighestFileLength As Long) As Boolean
+  overload: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: es.efor.Utilities.General.Tools
+  commentId: N:es.efor.Utilities.General.Tools
+  name: es.efor.Utilities.General.Tools
+  nameWithType: es.efor.Utilities.General.Tools
+  fullName: es.efor.Utilities.General.Tools
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.General.Tools.FileUtil.Base64Encode*
+  commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.Base64Encode
+  name: Base64Encode
+  nameWithType: FileUtil.Base64Encode
+  fullName: es.efor.Utilities.General.Tools.FileUtil.Base64Encode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.General.Tools.FileUtil.Base64Decode*
+  commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.Base64Decode
+  name: Base64Decode
+  nameWithType: FileUtil.Base64Decode
+  fullName: es.efor.Utilities.General.Tools.FileUtil.Base64Decode
+- uid: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath*
+  commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath
+  name: GetValidFilePath
+  nameWithType: FileUtil.GetValidFilePath
+  fullName: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath
+- uid: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix*
+  commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix
+  name: GetFileNameSuffix
+  nameWithType: FileUtil.GetFileNameSuffix
+  fullName: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: es.efor.Utilities.General.Tools.FileUtil.AddToFileName*
+  commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.AddToFileName
+  name: AddToFileName
+  nameWithType: FileUtil.AddToFileName
+  fullName: es.efor.Utilities.General.Tools.FileUtil.AddToFileName
+- uid: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength*
+  commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.CheckFileLength
+  name: CheckFileLength
+  nameWithType: FileUtil.CheckFileLength
+  fullName: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

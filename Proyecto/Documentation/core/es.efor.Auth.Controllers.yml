@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Controllers
+  commentId: N:es.efor.Auth.Controllers
+  id: es.efor.Auth.Controllers
+  children:
+  - es.efor.Auth.Controllers.AccessController
+  - es.efor.Auth.Controllers.AccountIdentityController`2
+  - es.efor.Auth.Controllers.AccountSimpleController
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Controllers
+  nameWithType: es.efor.Auth.Controllers
+  fullName: es.efor.Auth.Controllers
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Controllers.AccessController
+  commentId: T:es.efor.Auth.Controllers.AccessController
+  parent: es.efor.Auth.Controllers
+  name: AccessController
+  nameWithType: AccessController
+  fullName: es.efor.Auth.Controllers.AccessController
+- uid: es.efor.Auth.Controllers.AccountIdentityController`2
+  commentId: T:es.efor.Auth.Controllers.AccountIdentityController`2
+  name: AccountIdentityController<TUser, TUSerKey>
+  nameWithType: AccountIdentityController<TUser, TUSerKey>
+  fullName: es.efor.Auth.Controllers.AccountIdentityController<TUser, TUSerKey>
+  nameWithType.vb: AccountIdentityController(Of TUser, TUSerKey)
+  fullName.vb: es.efor.Auth.Controllers.AccountIdentityController(Of TUser, TUSerKey)
+  name.vb: AccountIdentityController(Of TUser, TUSerKey)
+  spec.csharp:
+  - uid: es.efor.Auth.Controllers.AccountIdentityController`2
+    name: AccountIdentityController
+    nameWithType: AccountIdentityController
+    fullName: es.efor.Auth.Controllers.AccountIdentityController
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUSerKey
+    nameWithType: TUSerKey
+    fullName: TUSerKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Controllers.AccountIdentityController`2
+    name: AccountIdentityController
+    nameWithType: AccountIdentityController
+    fullName: es.efor.Auth.Controllers.AccountIdentityController
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUSerKey
+    nameWithType: TUSerKey
+    fullName: TUSerKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Controllers.AccountSimpleController
+  commentId: T:es.efor.Auth.Controllers.AccountSimpleController
+  parent: es.efor.Auth.Controllers
+  name: AccountSimpleController
+  nameWithType: AccountSimpleController
+  fullName: es.efor.Auth.Controllers.AccountSimpleController
+- uid: es.efor.Auth.Controllers
+  commentId: N:es.efor.Auth.Controllers
+  name: es.efor.Auth.Controllers
+  nameWithType: es.efor.Auth.Controllers
+  fullName: es.efor.Auth.Controllers

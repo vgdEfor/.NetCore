@@ -1,0 +1,2007 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  id: ADUserDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser(System.DirectoryServices.AccountManagement.UserPrincipal)
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber
+  langs:
+  - csharp
+  - vb
+  name: ADUserDTO
+  nameWithType: ADUserDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  type: Class
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ADUserDTO
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public class ADUserDTO
+    content.vb: Public Class ADUserDTO
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate
+  id: AccountExpirationDate
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: AccountExpirationDate
+  nameWithType: ADUserDTO.AccountExpirationDate
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AccountExpirationDate
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 9
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public DateTime? AccountExpirationDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property AccountExpirationDate As Date?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime
+  id: AccountLockoutTime
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: AccountLockoutTime
+  nameWithType: ADUserDTO.AccountLockoutTime
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AccountLockoutTime
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public DateTime? AccountLockoutTime { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property AccountLockoutTime As Date?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount
+  id: BadLogonCount
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: BadLogonCount
+  nameWithType: ADUserDTO.BadLogonCount
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BadLogonCount
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 11
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public int BadLogonCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BadLogonCount As Integer
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description
+  id: Description
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ADUserDTO.Description
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Description
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName
+  id: DisplayName
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ADUserDTO.DisplayName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DisplayName
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayName As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName
+  id: DistinguishedName
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: DistinguishedName
+  nameWithType: ADUserDTO.DistinguishedName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DistinguishedName
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string DistinguishedName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DistinguishedName As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain
+  id: Domain
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: ADUserDTO.Domain
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Domain
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 15
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string Domain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Domain As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress
+  id: EmailAddress
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: ADUserDTO.EmailAddress
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EmailAddress
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 16
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId
+  id: EmployeeId
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: EmployeeId
+  nameWithType: ADUserDTO.EmployeeId
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EmployeeId
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string EmployeeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmployeeId As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled
+  id: Enabled
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: ADUserDTO.Enabled
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Enabled
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 18
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public bool? Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property Enabled As Boolean?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName
+  id: GivenName
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: GivenName
+  nameWithType: ADUserDTO.GivenName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GivenName
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string GivenName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GivenName As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid
+  id: Guid
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Guid
+  nameWithType: ADUserDTO.Guid
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Guid
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 20
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public Guid? Guid { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Guid}
+    content.vb: Public Property Guid As Guid?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory
+  id: HomeDirectory
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: HomeDirectory
+  nameWithType: ADUserDTO.HomeDirectory
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: HomeDirectory
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 21
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string HomeDirectory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HomeDirectory As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive
+  id: HomeDrive
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: HomeDrive
+  nameWithType: ADUserDTO.HomeDrive
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: HomeDrive
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 22
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string HomeDrive { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HomeDrive As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt
+  id: LastBadPasswordAttempt
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: LastBadPasswordAttempt
+  nameWithType: ADUserDTO.LastBadPasswordAttempt
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LastBadPasswordAttempt
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 23
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public DateTime? LastBadPasswordAttempt { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property LastBadPasswordAttempt As Date?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon
+  id: LastLogon
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: LastLogon
+  nameWithType: ADUserDTO.LastLogon
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LastLogon
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 24
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public DateTime? LastLogon { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property LastLogon As Date?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet
+  id: LastPasswordSet
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: LastPasswordSet
+  nameWithType: ADUserDTO.LastPasswordSet
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LastPasswordSet
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 25
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public DateTime? LastPasswordSet { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property LastPasswordSet As Date?
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName
+  id: MiddleName
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: ADUserDTO.MiddleName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: MiddleName
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 26
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MiddleName As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name
+  id: Name
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ADUserDTO.Name
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Name
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 27
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires
+  id: PasswordNeverExpires
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: PasswordNeverExpires
+  nameWithType: ADUserDTO.PasswordNeverExpires
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PasswordNeverExpires
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 28
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public bool PasswordNeverExpires { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PasswordNeverExpires As Boolean
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired
+  id: PasswordNotRequired
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: PasswordNotRequired
+  nameWithType: ADUserDTO.PasswordNotRequired
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PasswordNotRequired
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 29
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public bool PasswordNotRequired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PasswordNotRequired As Boolean
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName
+  id: SamAccountName
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: SamAccountName
+  nameWithType: ADUserDTO.SamAccountName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SamAccountName
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 30
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string SamAccountName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SamAccountName As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath
+  id: ScriptPath
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: ScriptPath
+  nameWithType: ADUserDTO.ScriptPath
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ScriptPath
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 31
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string ScriptPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScriptPath As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid
+  id: Sid
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Sid
+  nameWithType: ADUserDTO.Sid
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Sid
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 32
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public SecurityIdentifier Sid { get; set; }
+    parameters: []
+    return:
+      type: System.Security.Principal.SecurityIdentifier
+    content.vb: Public Property Sid As SecurityIdentifier
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname
+  id: Surname
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: Surname
+  nameWithType: ADUserDTO.Surname
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Surname
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 33
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string Surname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Surname As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword
+  id: UserCannotChangePassword
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: UserCannotChangePassword
+  nameWithType: ADUserDTO.UserCannotChangePassword
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UserCannotChangePassword
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 34
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public bool UserCannotChangePassword { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UserCannotChangePassword As Boolean
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName
+  id: UserPrincipalName
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: UserPrincipalName
+  nameWithType: ADUserDTO.UserPrincipalName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UserPrincipalName
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 35
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string UserPrincipalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserPrincipalName As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber
+  commentId: P:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber
+  id: VoiceTelephoneNumber
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: VoiceTelephoneNumber
+  nameWithType: ADUserDTO.VoiceTelephoneNumber
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: VoiceTelephoneNumber
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 36
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string VoiceTelephoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VoiceTelephoneNumber As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser(System.DirectoryServices.AccountManagement.UserPrincipal)
+  commentId: M:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser(System.DirectoryServices.AccountManagement.UserPrincipal)
+  id: CastToAdUser(System.DirectoryServices.AccountManagement.UserPrincipal)
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: CastToAdUser(UserPrincipal)
+  nameWithType: ADUserDTO.CastToAdUser(UserPrincipal)
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser(System.DirectoryServices.AccountManagement.UserPrincipal)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: CastToAdUser
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 38
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public static ADUserDTO CastToAdUser(UserPrincipal user)
+    parameters:
+    - id: user
+      type: System.DirectoryServices.AccountManagement.UserPrincipal
+    return:
+      type: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    content.vb: Public Shared Function CastToAdUser(user As UserPrincipal) As ADUserDTO
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix
+  commentId: M:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix
+  id: GetDomainPrefix
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  langs:
+  - csharp
+  - vb
+  name: GetDomainPrefix()
+  nameWithType: ADUserDTO.GetDomainPrefix()
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetDomainPrefix
+    path: ../es.efor.Musaat.Infraestructure/DTO/UsersDTOs/ADUserDTO.cs
+    startLine: 72
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  syntax:
+    content: public string GetDomainPrefix()
+    return:
+      type: System.String
+    content.vb: Public Function GetDomainPrefix As String
+  overload: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate
+  name: AccountExpirationDate
+  nameWithType: ADUserDTO.AccountExpirationDate
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountExpirationDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime
+  name: AccountLockoutTime
+  nameWithType: ADUserDTO.AccountLockoutTime
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.AccountLockoutTime
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount
+  name: BadLogonCount
+  nameWithType: ADUserDTO.BadLogonCount
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.BadLogonCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description
+  name: Description
+  nameWithType: ADUserDTO.Description
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName
+  name: DisplayName
+  nameWithType: ADUserDTO.DisplayName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DisplayName
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName
+  name: DistinguishedName
+  nameWithType: ADUserDTO.DistinguishedName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.DistinguishedName
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain
+  name: Domain
+  nameWithType: ADUserDTO.Domain
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Domain
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress
+  name: EmailAddress
+  nameWithType: ADUserDTO.EmailAddress
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmailAddress
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId
+  name: EmployeeId
+  nameWithType: ADUserDTO.EmployeeId
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.EmployeeId
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled
+  name: Enabled
+  nameWithType: ADUserDTO.Enabled
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Enabled
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName
+  name: GivenName
+  nameWithType: ADUserDTO.GivenName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GivenName
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid
+  name: Guid
+  nameWithType: ADUserDTO.Guid
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Guid
+- uid: System.Nullable{System.Guid}
+  commentId: T:System.Nullable{System.Guid}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Guid>
+  nameWithType: Nullable<Guid>
+  fullName: System.Nullable<System.Guid>
+  nameWithType.vb: Nullable(Of Guid)
+  fullName.vb: System.Nullable(Of System.Guid)
+  name.vb: Nullable(Of Guid)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory
+  name: HomeDirectory
+  nameWithType: ADUserDTO.HomeDirectory
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDirectory
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive
+  name: HomeDrive
+  nameWithType: ADUserDTO.HomeDrive
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.HomeDrive
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt
+  name: LastBadPasswordAttempt
+  nameWithType: ADUserDTO.LastBadPasswordAttempt
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastBadPasswordAttempt
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon
+  name: LastLogon
+  nameWithType: ADUserDTO.LastLogon
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastLogon
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet
+  name: LastPasswordSet
+  nameWithType: ADUserDTO.LastPasswordSet
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.LastPasswordSet
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName
+  name: MiddleName
+  nameWithType: ADUserDTO.MiddleName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.MiddleName
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name
+  name: Name
+  nameWithType: ADUserDTO.Name
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Name
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires
+  name: PasswordNeverExpires
+  nameWithType: ADUserDTO.PasswordNeverExpires
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNeverExpires
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired
+  name: PasswordNotRequired
+  nameWithType: ADUserDTO.PasswordNotRequired
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.PasswordNotRequired
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName
+  name: SamAccountName
+  nameWithType: ADUserDTO.SamAccountName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.SamAccountName
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath
+  name: ScriptPath
+  nameWithType: ADUserDTO.ScriptPath
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.ScriptPath
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid
+  name: Sid
+  nameWithType: ADUserDTO.Sid
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Sid
+- uid: System.Security.Principal.SecurityIdentifier
+  commentId: T:System.Security.Principal.SecurityIdentifier
+  parent: System.Security.Principal
+  isExternal: true
+  name: SecurityIdentifier
+  nameWithType: SecurityIdentifier
+  fullName: System.Security.Principal.SecurityIdentifier
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname
+  name: Surname
+  nameWithType: ADUserDTO.Surname
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.Surname
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword
+  name: UserCannotChangePassword
+  nameWithType: ADUserDTO.UserCannotChangePassword
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserCannotChangePassword
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName
+  name: UserPrincipalName
+  nameWithType: ADUserDTO.UserPrincipalName
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.UserPrincipalName
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber
+  name: VoiceTelephoneNumber
+  nameWithType: ADUserDTO.VoiceTelephoneNumber
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.VoiceTelephoneNumber
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser
+  name: CastToAdUser
+  nameWithType: ADUserDTO.CastToAdUser
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.CastToAdUser
+- uid: System.DirectoryServices.AccountManagement.UserPrincipal
+  commentId: T:System.DirectoryServices.AccountManagement.UserPrincipal
+  parent: System.DirectoryServices.AccountManagement
+  isExternal: true
+  name: UserPrincipal
+  nameWithType: UserPrincipal
+  fullName: System.DirectoryServices.AccountManagement.UserPrincipal
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: ADUserDTO
+  nameWithType: ADUserDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+- uid: System.DirectoryServices.AccountManagement
+  commentId: N:System.DirectoryServices.AccountManagement
+  isExternal: true
+  name: System.DirectoryServices.AccountManagement
+  nameWithType: System.DirectoryServices.AccountManagement
+  fullName: System.DirectoryServices.AccountManagement
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix*
+  commentId: Overload:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix
+  name: GetDomainPrefix
+  nameWithType: ADUserDTO.GetDomainPrefix
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO.GetDomainPrefix

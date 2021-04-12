@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Database.Models
+  commentId: N:es.efor.Utilities.Database.Models
+  id: es.efor.Utilities.Database.Models
+  children:
+  - es.efor.Utilities.Database.Models.EforDbEntity`1
+  - es.efor.Utilities.Database.Models.EforDbEntity`2
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Database.Models
+  nameWithType: es.efor.Utilities.Database.Models
+  fullName: es.efor.Utilities.Database.Models
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Database
+references:
+- uid: es.efor.Utilities.Database.Models.EforDbEntity`1
+  commentId: T:es.efor.Utilities.Database.Models.EforDbEntity`1
+  name: EforDbEntity<TId>
+  nameWithType: EforDbEntity<TId>
+  fullName: es.efor.Utilities.Database.Models.EforDbEntity<TId>
+  nameWithType.vb: EforDbEntity(Of TId)
+  fullName.vb: es.efor.Utilities.Database.Models.EforDbEntity(Of TId)
+  name.vb: EforDbEntity(Of TId)
+  spec.csharp:
+  - uid: es.efor.Utilities.Database.Models.EforDbEntity`1
+    name: EforDbEntity
+    nameWithType: EforDbEntity
+    fullName: es.efor.Utilities.Database.Models.EforDbEntity
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Database.Models.EforDbEntity`1
+    name: EforDbEntity
+    nameWithType: EforDbEntity
+    fullName: es.efor.Utilities.Database.Models.EforDbEntity
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Database.Models.EforDbEntity`2
+  commentId: T:es.efor.Utilities.Database.Models.EforDbEntity`2
+  name: EforDbEntity<TId, TCreatedBy>
+  nameWithType: EforDbEntity<TId, TCreatedBy>
+  fullName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>
+  nameWithType.vb: EforDbEntity(Of TId, TCreatedBy)
+  fullName.vb: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy)
+  name.vb: EforDbEntity(Of TId, TCreatedBy)
+  spec.csharp:
+  - uid: es.efor.Utilities.Database.Models.EforDbEntity`2
+    name: EforDbEntity
+    nameWithType: EforDbEntity
+    fullName: es.efor.Utilities.Database.Models.EforDbEntity
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TCreatedBy
+    nameWithType: TCreatedBy
+    fullName: TCreatedBy
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Database.Models.EforDbEntity`2
+    name: EforDbEntity
+    nameWithType: EforDbEntity
+    fullName: es.efor.Utilities.Database.Models.EforDbEntity
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TCreatedBy
+    nameWithType: TCreatedBy
+    fullName: TCreatedBy
+  - name: )
+    nameWithType: )
+    fullName: )

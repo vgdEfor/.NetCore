@@ -1,0 +1,770 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  id: FilterDefinition
+  parent: es.efor.Utilities.Linq.Models.Filters
+  children:
+  - es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  - es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  langs:
+  - csharp
+  - vb
+  name: FilterDefinition
+  nameWithType: FilterDefinition
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: FilterDefinition
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  syntax:
+    content: public class FilterDefinition
+    content.vb: Public Class FilterDefinition
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  commentId: M:es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  id: GetFilterExpression(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria},es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: GetFilterExpression(IEnumerable<FilterCriteria>, FilterConditionJoin)
+  nameWithType: FilterDefinition.GetFilterExpression(IEnumerable<FilterCriteria>, FilterConditionJoin)
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>, es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetFilterExpression
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+    startLine: 27
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nBuild a filter expression string for the given filters and joins them with the condition&apos;s character.\n"
+  example: []
+  syntax:
+    content: public static string GetFilterExpression(IEnumerable<FilterCriteria> filters, FilterConditionJoin conditionJoin = FilterConditionJoin.And)
+    parameters:
+    - id: filters
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+      description: >
+        The filters that will be applied.
+
+        <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria" data-throw-if-not-resolved="false"></xref> with their <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value" data-throw-if-not-resolved="false"></xref> null or empty
+
+        and their <xref href="es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op" data-throw-if-not-resolved="false"></xref> not being a null operator will be ignored.
+    - id: conditionJoin
+      type: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+      description: Wether the filter should be mutually exclusive (<xref href="es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And" data-throw-if-not-resolved="false"></xref>) or not (<xref href="es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or" data-throw-if-not-resolved="false"></xref>)
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFilterExpression(filters As IEnumerable(Of FilterCriteria), conditionJoin As FilterConditionJoin = FilterConditionJoin.And) As String
+  overload: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+  nameWithType.vb: FilterDefinition.GetFilterExpression(IEnumerable(Of FilterCriteria), FilterConditionJoin)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria), es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin)
+  name.vb: GetFilterExpression(IEnumerable(Of FilterCriteria), FilterConditionJoin)
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  commentId: M:es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  id: GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  parent: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  langs:
+  - csharp
+  - vb
+  name: GetFilterExpression(FilterCriteria)
+  nameWithType: FilterDefinition.GetFilterExpression(FilterCriteria)
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetFilterExpression
+    path: ../es.efor.Utilities.Linq/Models/Filters/FilterDefinition.cs
+    startLine: 50
+  assemblies:
+  - es.efor.Utilities.Linq
+  namespace: es.efor.Utilities.Linq.Models.Filters
+  summary: "\nBuild a filter expression string for the given filter\n"
+  example: []
+  syntax:
+    content: public static string GetFilterExpression(FilterCriteria filter)
+    parameters:
+    - id: filter
+      type: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+      description: The filter to be evaluated
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFilterExpression(filter As FilterCriteria) As String
+  overload: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  name: es.efor.Utilities.Linq.Models.Filters
+  nameWithType: es.efor.Utilities.Linq.Models.Filters
+  fullName: es.efor.Utilities.Linq.Models.Filters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterCriteria
+  nameWithType: FilterCriteria
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+  commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Value
+  isExternal: true
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+  commentId: P:es.efor.Utilities.Linq.Models.Filters.FilterCriteria.Op
+  isExternal: true
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.And
+  isExternal: true
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+  commentId: F:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin.Or
+  isExternal: true
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression*
+  commentId: Overload:es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression
+  name: GetFilterExpression
+  nameWithType: FilterDefinition.GetFilterExpression
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition.GetFilterExpression
+- uid: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<FilterCriteria>
+  nameWithType: IEnumerable<FilterCriteria>
+  fullName: System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>
+  nameWithType.vb: IEnumerable(Of FilterCriteria)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  name.vb: IEnumerable(Of FilterCriteria)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterConditionJoin
+  nameWithType: FilterConditionJoin
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

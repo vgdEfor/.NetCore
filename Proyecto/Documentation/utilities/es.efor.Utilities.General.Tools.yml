@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.General.Tools
+  commentId: N:es.efor.Utilities.General.Tools
+  id: es.efor.Utilities.General.Tools
+  children:
+  - es.efor.Utilities.General.Tools.AppInformation
+  - es.efor.Utilities.General.Tools.AppUtils
+  - es.efor.Utilities.General.Tools.DateTimeUtils
+  - es.efor.Utilities.General.Tools.FileUtil
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.General.Tools
+  nameWithType: es.efor.Utilities.General.Tools
+  fullName: es.efor.Utilities.General.Tools
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.General
+references:
+- uid: es.efor.Utilities.General.Tools.AppUtils
+  commentId: T:es.efor.Utilities.General.Tools.AppUtils
+  name: AppUtils
+  nameWithType: AppUtils
+  fullName: es.efor.Utilities.General.Tools.AppUtils
+- uid: es.efor.Utilities.General.Tools.AppInformation
+  commentId: T:es.efor.Utilities.General.Tools.AppInformation
+  parent: es.efor.Utilities.General.Tools
+  name: AppInformation
+  nameWithType: AppInformation
+  fullName: es.efor.Utilities.General.Tools.AppInformation
+- uid: es.efor.Utilities.General.Tools.DateTimeUtils
+  commentId: T:es.efor.Utilities.General.Tools.DateTimeUtils
+  name: DateTimeUtils
+  nameWithType: DateTimeUtils
+  fullName: es.efor.Utilities.General.Tools.DateTimeUtils
+- uid: es.efor.Utilities.General.Tools.FileUtil
+  commentId: T:es.efor.Utilities.General.Tools.FileUtil
+  name: FileUtil
+  nameWithType: FileUtil
+  fullName: es.efor.Utilities.General.Tools.FileUtil
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+  commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+  name: NetworkInterfaceUtils
+  nameWithType: NetworkInterfaceUtils
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+  commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+  parent: es.efor.Utilities.General.Tools
+  name: NetworkInterfaceUtils.NetworkInformation
+  nameWithType: NetworkInterfaceUtils.NetworkInformation
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  name: NetworkInterfaceUtils.NetworkInterfaceInformation
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+- uid: es.efor.Utilities.General.Tools
+  commentId: N:es.efor.Utilities.General.Tools
+  name: es.efor.Utilities.General.Tools
+  nameWithType: es.efor.Utilities.General.Tools
+  fullName: es.efor.Utilities.General.Tools

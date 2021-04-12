@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  commentId: N:es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  id: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  children:
+  - es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+  - es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  nameWithType: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  fullName: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Imports.Business
+references:
+- uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+  commentId: T:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+  parent: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  name: ILogImportService
+  nameWithType: ILogImportService
+  fullName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+- uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+  commentId: T:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+  name: LogImportService
+  nameWithType: LogImportService
+  fullName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+- uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  commentId: N:es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  name: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  nameWithType: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  fullName: es.efor.Musaat.Imports.Model.Services.LogImportsServices

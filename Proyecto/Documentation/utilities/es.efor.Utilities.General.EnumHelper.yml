@@ -1,0 +1,680 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.General.EnumHelper
+  commentId: T:es.efor.Utilities.General.EnumHelper
+  id: EnumHelper
+  parent: es.efor.Utilities.General
+  children:
+  - es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  - es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+  - es.efor.Utilities.General.EnumHelper.GetEnumValues``1
+  - es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  langs:
+  - csharp
+  - vb
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: es.efor.Utilities.General.EnumHelper
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EnumHelper
+    path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+    startLine: 8
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General
+  syntax:
+    content: public static class EnumHelper
+    content.vb: Public Module EnumHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  id: GetDescription(System.Enum)
+  isExtensionMethod: true
+  parent: es.efor.Utilities.General.EnumHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(Enum)
+  nameWithType: EnumHelper.GetDescription(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetDescription
+    path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General
+  syntax:
+    content: public static string GetDescription(this Enum value)
+    parameters:
+    - id: value
+      type: System.Enum
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDescription(value As  Enum) As String
+  overload: es.efor.Utilities.General.EnumHelper.GetDescription*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+  id: GetEnumValues(System.Type)
+  parent: es.efor.Utilities.General.EnumHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEnumValues(Type)
+  nameWithType: EnumHelper.GetEnumValues(Type)
+  fullName: es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetEnumValues
+    path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+    startLine: 20
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General
+  syntax:
+    content: public static Array GetEnumValues(Type enumType)
+    parameters:
+    - id: enumType
+      type: System.Type
+    return:
+      type: System.Array
+    content.vb: Public Shared Function GetEnumValues(enumType As Type) As Array
+  overload: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.General.EnumHelper.GetEnumValues``1
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetEnumValues``1
+  id: GetEnumValues``1
+  parent: es.efor.Utilities.General.EnumHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEnumValues<T>()
+  nameWithType: EnumHelper.GetEnumValues<T>()
+  fullName: es.efor.Utilities.General.EnumHelper.GetEnumValues<T>()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetEnumValues
+    path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+    startLine: 26
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General
+  syntax:
+    content: >-
+      public static IEnumerable<T> GetEnumValues<T>()
+
+          where T : Enum
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function GetEnumValues(Of T As  Enum) As IEnumerable(Of T)
+  overload: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+  nameWithType.vb: EnumHelper.GetEnumValues(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Utilities.General.EnumHelper.GetEnumValues(Of T)()
+  name.vb: GetEnumValues(Of T)()
+- uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  id: GetMembers(System.Enum)
+  isExtensionMethod: true
+  parent: es.efor.Utilities.General.EnumHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMembers(Enum)
+  nameWithType: EnumHelper.GetMembers(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetMembers
+    path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+    startLine: 33
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General
+  syntax:
+    content: public static IEnumerable<Enum> GetMembers(this Enum enum)
+    parameters:
+    - id: enum
+      type: System.Enum
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Enum}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetMembers(enum As  Enum) As IEnumerable(Of  Enum)
+  overload: es.efor.Utilities.General.EnumHelper.GetMembers*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  name: es.efor.Utilities.General
+  nameWithType: es.efor.Utilities.General
+  fullName: es.efor.Utilities.General
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.EnumHelper.GetDescription*
+  commentId: Overload:es.efor.Utilities.General.EnumHelper.GetDescription
+  name: GetDescription
+  nameWithType: EnumHelper.GetDescription
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+  commentId: Overload:es.efor.Utilities.General.EnumHelper.GetEnumValues
+  name: GetEnumValues
+  nameWithType: EnumHelper.GetEnumValues
+  fullName: es.efor.Utilities.General.EnumHelper.GetEnumValues
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Array
+  commentId: T:System.Array
+  parent: System
+  isExternal: true
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: es.efor.Utilities.General.EnumHelper.GetMembers*
+  commentId: Overload:es.efor.Utilities.General.EnumHelper.GetMembers
+  name: GetMembers
+  nameWithType: EnumHelper.GetMembers
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+- uid: System.Collections.Generic.IEnumerable{System.Enum}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Enum}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Enum>
+  nameWithType: IEnumerable<Enum>
+  fullName: System.Collections.Generic.IEnumerable<System.Enum>
+  nameWithType.vb: IEnumerable(Of Enum)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Enum)
+  name.vb: IEnumerable(Of Enum)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Controllers
+  commentId: N:es.efor.Utilities.Web.Controllers
+  id: es.efor.Utilities.Web.Controllers
+  children:
+  - es.efor.Utilities.Web.Controllers.BaseEforController
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Controllers
+  nameWithType: es.efor.Utilities.Web.Controllers
+  fullName: es.efor.Utilities.Web.Controllers
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Controllers.BaseEforController
+  commentId: T:es.efor.Utilities.Web.Controllers.BaseEforController
+  parent: es.efor.Utilities.Web.Controllers
+  name: BaseEforController
+  nameWithType: BaseEforController
+  fullName: es.efor.Utilities.Web.Controllers.BaseEforController
+- uid: es.efor.Utilities.Web.Controllers
+  commentId: N:es.efor.Utilities.Web.Controllers
+  name: es.efor.Utilities.Web.Controllers
+  nameWithType: es.efor.Utilities.Web.Controllers
+  fullName: es.efor.Utilities.Web.Controllers

@@ -1,0 +1,24 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\net5.0\es.efor.Utilities.Linq.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\net5.0\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\net5.0\ref\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\net5.0\es.efor.Utilities.Linq.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\ref\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\bin\Debug\net5.0\es.efor.Utilities.Linq.deps.json
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\bin\Debug\net5.0\es.efor.Utilities.Linq.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\bin\Debug\net5.0\ref\es.efor.Utilities.Linq.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\bin\Debug\net5.0\es.efor.Utilities.Linq.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\ref\es.efor.Utilities.Linq.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Linq\obj\Debug\net5.0\es.efor.Utilities.Linq.pdb

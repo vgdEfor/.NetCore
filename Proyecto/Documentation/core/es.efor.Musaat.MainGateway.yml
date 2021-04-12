@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.MainGateway
+  commentId: N:es.efor.Musaat.MainGateway
+  id: es.efor.Musaat.MainGateway
+  children:
+  - es.efor.Musaat.MainGateway.Program
+  - es.efor.Musaat.MainGateway.Startup
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.MainGateway
+  nameWithType: es.efor.Musaat.MainGateway
+  fullName: es.efor.Musaat.MainGateway
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.MainGateway
+references:
+- uid: es.efor.Musaat.MainGateway.Program
+  commentId: T:es.efor.Musaat.MainGateway.Program
+  name: Program
+  nameWithType: Program
+  fullName: es.efor.Musaat.MainGateway.Program
+- uid: es.efor.Musaat.MainGateway.Startup
+  commentId: T:es.efor.Musaat.MainGateway.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: es.efor.Musaat.MainGateway.Startup

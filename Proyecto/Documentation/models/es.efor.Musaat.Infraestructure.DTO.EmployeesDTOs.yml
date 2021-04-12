@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  id: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  name: EmployeeDTO
+  nameWithType: EmployeeDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO

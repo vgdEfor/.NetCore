@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  commentId: T:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  id: IHostBuilderExtensions
+  parent: es.efor.Logging.Serilog.Extensions
+  children:
+  - es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.Reflection.Assembly,System.DateTimeOffset,System.String,System.String)
+  - es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.ValueTuple{System.String,System.Object}[])
+  - es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog``1(Microsoft.Extensions.Hosting.IHostBuilder,System.DateTimeOffset,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IHostBuilderExtensions
+  nameWithType: IHostBuilderExtensions
+  fullName: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  type: Class
+  source:
+    remote:
+      path: es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IHostBuilderExtensions
+    path: ../es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+    startLine: 11
+  assemblies:
+  - es.efor.Logging.Serilog
+  namespace: es.efor.Logging.Serilog.Extensions
+  syntax:
+    content: public static class IHostBuilderExtensions
+    content.vb: Public Module IHostBuilderExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog``1(Microsoft.Extensions.Hosting.IHostBuilder,System.DateTimeOffset,System.String,System.String)
+  commentId: M:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog``1(Microsoft.Extensions.Hosting.IHostBuilder,System.DateTimeOffset,System.String,System.String)
+  id: UseEforSerilog``1(Microsoft.Extensions.Hosting.IHostBuilder,System.DateTimeOffset,System.String,System.String)
+  isExtensionMethod: true
+  parent: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseEforSerilog<TProgram>(IHostBuilder, DateTimeOffset, String, String)
+  nameWithType: IHostBuilderExtensions.UseEforSerilog<TProgram>(IHostBuilder, DateTimeOffset, String, String)
+  fullName: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog<TProgram>(Microsoft.Extensions.Hosting.IHostBuilder, System.DateTimeOffset, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UseEforSerilog
+    path: ../es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Logging.Serilog
+  namespace: es.efor.Logging.Serilog.Extensions
+  example: []
+  syntax:
+    content: public static IHostBuilder UseEforSerilog<TProgram>(this IHostBuilder hostBuilder, DateTimeOffset appStartDatetime, string appInstanceId, string hostName)
+    parameters:
+    - id: hostBuilder
+      type: Microsoft.Extensions.Hosting.IHostBuilder
+      description: ''
+    - id: appStartDatetime
+      type: System.DateTimeOffset
+    - id: appInstanceId
+      type: System.String
+      description: ''
+    - id: hostName
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: TProgram
+      description: Clase de &quot;Program&quot; o &quot;Startup&quot; que ejecuta la aplicación.
+    return:
+      type: Microsoft.Extensions.Hosting.IHostBuilder
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseEforSerilog(Of TProgram)(hostBuilder As IHostBuilder, appStartDatetime As DateTimeOffset, appInstanceId As String, hostName As String) As IHostBuilder
+  overload: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog*
+  nameWithType.vb: IHostBuilderExtensions.UseEforSerilog(Of TProgram)(IHostBuilder, DateTimeOffset, String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Of TProgram)(Microsoft.Extensions.Hosting.IHostBuilder, System.DateTimeOffset, System.String, System.String)
+  name.vb: UseEforSerilog(Of TProgram)(IHostBuilder, DateTimeOffset, String, String)
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.Reflection.Assembly,System.DateTimeOffset,System.String,System.String)
+  commentId: M:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.Reflection.Assembly,System.DateTimeOffset,System.String,System.String)
+  id: UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.Reflection.Assembly,System.DateTimeOffset,System.String,System.String)
+  isExtensionMethod: true
+  parent: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseEforSerilog(IHostBuilder, Assembly, DateTimeOffset, String, String)
+  nameWithType: IHostBuilderExtensions.UseEforSerilog(IHostBuilder, Assembly, DateTimeOffset, String, String)
+  fullName: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder, System.Reflection.Assembly, System.DateTimeOffset, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UseEforSerilog
+    path: ../es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+    startLine: 39
+  assemblies:
+  - es.efor.Logging.Serilog
+  namespace: es.efor.Logging.Serilog.Extensions
+  summary: "\nImplementa el módulo de Serilog para registro de datos y peticiones.\n"
+  example: []
+  syntax:
+    content: public static IHostBuilder UseEforSerilog(this IHostBuilder hostBuilder, Assembly mainAppAssembly, DateTimeOffset appStartDatetime, string appInstanceId, string hostName)
+    parameters:
+    - id: hostBuilder
+      type: Microsoft.Extensions.Hosting.IHostBuilder
+    - id: mainAppAssembly
+      type: System.Reflection.Assembly
+      description: Ensamblado que ejecuta la aplicación
+    - id: appStartDatetime
+      type: System.DateTimeOffset
+      description: Fecha y hora en la cual se ha iniciado la instancia de la aplicación
+    - id: appInstanceId
+      type: System.String
+      description: Instancia única de la aplicación, que ha de cambiar en cada ejecución de la aplicación
+    - id: hostName
+      type: System.String
+      description: Nombre del anfitrión que ejecuta la instancia de la aplicación
+    return:
+      type: Microsoft.Extensions.Hosting.IHostBuilder
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseEforSerilog(hostBuilder As IHostBuilder, mainAppAssembly As Assembly, appStartDatetime As DateTimeOffset, appInstanceId As String, hostName As String) As IHostBuilder
+  overload: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.ValueTuple{System.String,System.Object}[])
+  id: UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.ValueTuple{System.String,System.Object}[])
+  isExtensionMethod: true
+  parent: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseEforSerilog(IHostBuilder, (String propertyName, Object propertyValue)[])
+  nameWithType: IHostBuilderExtensions.UseEforSerilog(IHostBuilder, (String propertyName, Object propertyValue)[])
+  fullName: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder, System.ValueTuple<System.String, System.Object>[])
+  type: Method
+  source:
+    remote:
+      path: es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UseEforSerilog
+    path: ../es.efor.Logging.Serilog/Extensions/IHostBuilderExtensions.cs
+    startLine: 65
+  assemblies:
+  - es.efor.Logging.Serilog
+  namespace: es.efor.Logging.Serilog.Extensions
+  summary: "\nImplementa el módulo de Serilog para registro de datos y peticiones.\n"
+  example: []
+  syntax:
+    content: public static IHostBuilder UseEforSerilog(this IHostBuilder hostBuilder, params (string propertyName, object propertyValue)[] extraProperties)
+    parameters:
+    - id: hostBuilder
+      type: Microsoft.Extensions.Hosting.IHostBuilder
+      description: ''
+    - id: extraProperties
+      type: System.ValueTuple{System.String,System.Object}[]
+      description: ''
+    return:
+      type: Microsoft.Extensions.Hosting.IHostBuilder
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseEforSerilog(hostBuilder As IHostBuilder, ParamArray extraProperties As(propertyName As String, propertyValue As Object)()) As IHostBuilder
+  overload: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog*
+  nameWithType.vb: IHostBuilderExtensions.UseEforSerilog(IHostBuilder, (propertyName As String, propertyValue As Object)())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder, System.ValueTuple(Of System.String, System.Object)())
+  name.vb: UseEforSerilog(IHostBuilder, (propertyName As String, propertyValue As Object)())
+references:
+- uid: es.efor.Logging.Serilog.Extensions
+  commentId: N:es.efor.Logging.Serilog.Extensions
+  name: es.efor.Logging.Serilog.Extensions
+  nameWithType: es.efor.Logging.Serilog.Extensions
+  fullName: es.efor.Logging.Serilog.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.Reflection.Assembly,System.DateTimeOffset,System.String,System.String)
+  commentId: M:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog(Microsoft.Extensions.Hosting.IHostBuilder,System.Reflection.Assembly,System.DateTimeOffset,System.String,System.String)
+  isExternal: true
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog*
+  commentId: Overload:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog
+  name: UseEforSerilog
+  nameWithType: IHostBuilderExtensions.UseEforSerilog
+  fullName: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions.UseEforSerilog
+- uid: Microsoft.Extensions.Hosting.IHostBuilder
+  commentId: T:Microsoft.Extensions.Hosting.IHostBuilder
+  parent: Microsoft.Extensions.Hosting
+  isExternal: true
+  name: IHostBuilder
+  nameWithType: IHostBuilder
+  fullName: Microsoft.Extensions.Hosting.IHostBuilder
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Extensions.Hosting
+  commentId: N:Microsoft.Extensions.Hosting
+  isExternal: true
+  name: Microsoft.Extensions.Hosting
+  nameWithType: Microsoft.Extensions.Hosting
+  fullName: Microsoft.Extensions.Hosting
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: System.ValueTuple{System.String,System.Object}[]
+  isExternal: true
+  name: ValueTuple<String, Object>[]
+  nameWithType: ValueTuple<String, Object>[]
+  fullName: System.ValueTuple<System.String, System.Object>[]
+  nameWithType.vb: ValueTuple(Of String, Object)()
+  fullName.vb: System.ValueTuple(Of System.String, System.Object)()
+  name.vb: ValueTuple(Of String, Object)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

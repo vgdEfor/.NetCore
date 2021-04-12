@@ -1,0 +1,1144 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  commentId: T:es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  id: SwaggerConfig`1
+  parent: es.efor.Utilities.Swagger.Models
+  children:
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+  langs:
+  - csharp
+  - vb
+  name: SwaggerConfig<TProgram>
+  nameWithType: SwaggerConfig<TProgram>
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SwaggerConfig
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 8
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public class SwaggerConfig<TProgram>
+    typeParameters:
+    - id: TProgram
+    content.vb: Public Class SwaggerConfig(Of TProgram)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - es.efor.Utilities.Swagger.Models.SwaggerConfig
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: SwaggerConfig(Of TProgram)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram)
+  name.vb: SwaggerConfig(Of TProgram)
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+  id: UI_Url
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: UI_Url
+  nameWithType: SwaggerConfig<TProgram>.UI_Url
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Url
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UI_Url
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public string UI_Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UI_Url As String
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url*
+  nameWithType.vb: SwaggerConfig(Of TProgram).UI_Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Url
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+  id: UI_Endpoints
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: UI_Endpoints
+  nameWithType: SwaggerConfig<TProgram>.UI_Endpoints
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Endpoints
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UI_Endpoints
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  summary: "\nKey = Name. Value = relative to Host\n"
+  example: []
+  syntax:
+    content: public Dictionary<string, string> UI_Endpoints { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property UI_Endpoints As Dictionary(Of String, String)
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints*
+  nameWithType.vb: SwaggerConfig(Of TProgram).UI_Endpoints
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Endpoints
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+  id: Version
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: SwaggerConfig<TProgram>.Version
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Version
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Version
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 15
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version*
+  nameWithType.vb: SwaggerConfig(Of TProgram).Version
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Version
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+  id: Title
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: SwaggerConfig<TProgram>.Title
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Title
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Title
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 16
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title*
+  nameWithType.vb: SwaggerConfig(Of TProgram).Title
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Title
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+  id: ToS_Uri
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: ToS_Uri
+  nameWithType: SwaggerConfig<TProgram>.ToS_Uri
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.ToS_Uri
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ToS_Uri
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public Uri ToS_Uri { get; set; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Public Property ToS_Uri As Uri
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri*
+  nameWithType.vb: SwaggerConfig(Of TProgram).ToS_Uri
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).ToS_Uri
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+  id: Docs_Name
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: Docs_Name
+  nameWithType: SwaggerConfig<TProgram>.Docs_Name
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Docs_Name
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Docs_Name
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 18
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public string Docs_Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Docs_Name As String
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name*
+  nameWithType.vb: SwaggerConfig(Of TProgram).Docs_Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Docs_Name
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+  id: AllowedRoles
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: AllowedRoles
+  nameWithType: SwaggerConfig<TProgram>.AllowedRoles
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowedRoles
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AllowedRoles
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 20
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public IEnumerable<string> AllowedRoles { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Property AllowedRoles As IEnumerable(Of String)
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles*
+  nameWithType.vb: SwaggerConfig(Of TProgram).AllowedRoles
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowedRoles
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+  commentId: P:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+  id: AllowLocalhost
+  parent: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+  langs:
+  - csharp
+  - vb
+  name: AllowLocalhost
+  nameWithType: SwaggerConfig<TProgram>.AllowLocalhost
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowLocalhost
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AllowLocalhost
+    path: ../es.efor.Utilities.Swagger/Models/SwaggerConfig.cs
+    startLine: 21
+  assemblies:
+  - es.efor.Utilities.Swagger
+  namespace: es.efor.Utilities.Swagger.Models
+  syntax:
+    content: public bool AllowLocalhost { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowLocalhost As Boolean
+  overload: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost*
+  nameWithType.vb: SwaggerConfig(Of TProgram).AllowLocalhost
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowLocalhost
+references:
+- uid: es.efor.Utilities.Swagger.Models
+  commentId: N:es.efor.Utilities.Swagger.Models
+  name: es.efor.Utilities.Swagger.Models
+  nameWithType: es.efor.Utilities.Swagger.Models
+  fullName: es.efor.Utilities.Swagger.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Url
+  name: UI_Url
+  nameWithType: SwaggerConfig<TProgram>.UI_Url
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Url
+  nameWithType.vb: SwaggerConfig(Of TProgram).UI_Url
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.UI_Endpoints
+  name: UI_Endpoints
+  nameWithType: SwaggerConfig<TProgram>.UI_Endpoints
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.UI_Endpoints
+  nameWithType.vb: SwaggerConfig(Of TProgram).UI_Endpoints
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).UI_Endpoints
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Version
+  name: Version
+  nameWithType: SwaggerConfig<TProgram>.Version
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Version
+  nameWithType.vb: SwaggerConfig(Of TProgram).Version
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Version
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Title
+  name: Title
+  nameWithType: SwaggerConfig<TProgram>.Title
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Title
+  nameWithType.vb: SwaggerConfig(Of TProgram).Title
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Title
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.ToS_Uri
+  name: ToS_Uri
+  nameWithType: SwaggerConfig<TProgram>.ToS_Uri
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.ToS_Uri
+  nameWithType.vb: SwaggerConfig(Of TProgram).ToS_Uri
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).ToS_Uri
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.Docs_Name
+  name: Docs_Name
+  nameWithType: SwaggerConfig<TProgram>.Docs_Name
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.Docs_Name
+  nameWithType.vb: SwaggerConfig(Of TProgram).Docs_Name
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).Docs_Name
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowedRoles
+  name: AllowedRoles
+  nameWithType: SwaggerConfig<TProgram>.AllowedRoles
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowedRoles
+  nameWithType.vb: SwaggerConfig(Of TProgram).AllowedRoles
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowedRoles
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost*
+  commentId: Overload:es.efor.Utilities.Swagger.Models.SwaggerConfig`1.AllowLocalhost
+  name: AllowLocalhost
+  nameWithType: SwaggerConfig<TProgram>.AllowLocalhost
+  fullName: es.efor.Utilities.Swagger.Models.SwaggerConfig<TProgram>.AllowLocalhost
+  nameWithType.vb: SwaggerConfig(Of TProgram).AllowLocalhost
+  fullName.vb: es.efor.Utilities.Swagger.Models.SwaggerConfig(Of TProgram).AllowLocalhost
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

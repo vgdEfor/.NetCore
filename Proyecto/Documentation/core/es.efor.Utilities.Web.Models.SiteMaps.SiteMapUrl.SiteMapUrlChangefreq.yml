@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  commentId: T:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  id: SiteMapUrl.SiteMapUrlChangefreq
+  parent: es.efor.Utilities.Web.Models.SiteMaps
+  children:
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.always
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.daily
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.hourly
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.monthly
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.never
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.weekly
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.yearly
+  langs:
+  - csharp
+  - vb
+  name: SiteMapUrl.SiteMapUrlChangefreq
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  type: Enum
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SiteMapUrlChangefreq
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 33
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public enum SiteMapUrlChangefreq
+    content.vb: Public Enum SiteMapUrlChangefreq
+  extensionMethods:
+  - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+  - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.always
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.always
+  id: always
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: always
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.always
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.always
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: always
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 35
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: always = 0
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.hourly
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.hourly
+  id: hourly
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: hourly
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.hourly
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.hourly
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: hourly
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 36
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: hourly = 1
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.daily
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.daily
+  id: daily
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: daily
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.daily
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.daily
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: daily
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 37
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: daily = 2
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.weekly
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.weekly
+  id: weekly
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: weekly
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.weekly
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.weekly
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: weekly
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 38
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: weekly = 3
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.monthly
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.monthly
+  id: monthly
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: monthly
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.monthly
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.monthly
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: monthly
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 39
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: monthly = 4
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.yearly
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.yearly
+  id: yearly
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: yearly
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.yearly
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.yearly
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: yearly
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 40
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: yearly = 5
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.never
+  commentId: F:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.never
+  id: never
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  langs:
+  - csharp
+  - vb
+  name: never
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq.never
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq.never
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: never
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 41
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: never = 6
+    return:
+      type: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: es.efor.Utilities.Web.Models.SiteMaps
+  commentId: N:es.efor.Utilities.Web.Models.SiteMaps
+  name: es.efor.Utilities.Web.Models.SiteMaps
+  nameWithType: es.efor.Utilities.Web.Models.SiteMaps
+  fullName: es.efor.Utilities.Web.Models.SiteMaps
+- uid: System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  parent: es.efor.Utilities.General.EnumHelper
+  definition: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: EnumHelper.GetDescription()
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription()
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  parent: es.efor.Utilities.General.EnumHelper
+  definition: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  name: GetMembers()
+  nameWithType: EnumHelper.GetMembers()
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers()
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: EnumHelper.GetDescription(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.EnumHelper
+  commentId: T:es.efor.Utilities.General.EnumHelper
+  parent: es.efor.Utilities.General
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: es.efor.Utilities.General.EnumHelper
+- uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  isExternal: true
+  name: GetMembers(Enum)
+  nameWithType: EnumHelper.GetMembers(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  name: es.efor.Utilities.General
+  nameWithType: es.efor.Utilities.General
+  fullName: es.efor.Utilities.General
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  commentId: T:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  parent: es.efor.Utilities.Web.Models.SiteMaps
+  name: SiteMapUrl.SiteMapUrlChangefreq
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq

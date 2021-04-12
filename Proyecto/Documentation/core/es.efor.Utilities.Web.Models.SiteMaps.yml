@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Models.SiteMaps
+  commentId: N:es.efor.Utilities.Web.Models.SiteMaps
+  id: es.efor.Utilities.Web.Models.SiteMaps
+  children:
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrlset
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Models.SiteMaps
+  nameWithType: es.efor.Utilities.Web.Models.SiteMaps
+  fullName: es.efor.Utilities.Web.Models.SiteMaps
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  commentId: T:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  parent: es.efor.Utilities.Web.Models.SiteMaps
+  name: SiteMapUrl
+  nameWithType: SiteMapUrl
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  commentId: T:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  parent: es.efor.Utilities.Web.Models.SiteMaps
+  name: SiteMapUrl.SiteMapUrlChangefreq
+  nameWithType: SiteMapUrl.SiteMapUrlChangefreq
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrlset
+  commentId: T:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrlset
+  name: SiteMapUrlset
+  nameWithType: SiteMapUrlset
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrlset
+- uid: es.efor.Utilities.Web.Models.SiteMaps
+  commentId: N:es.efor.Utilities.Web.Models.SiteMaps
+  name: es.efor.Utilities.Web.Models.SiteMaps
+  nameWithType: es.efor.Utilities.Web.Models.SiteMaps
+  fullName: es.efor.Utilities.Web.Models.SiteMaps

@@ -1,0 +1,1226 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  commentId: T:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  id: EmployeeService
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  children:
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService})
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById(System.Int32)
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: EmployeeService
+  nameWithType: EmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  type: Class
+  source:
+    remote:
+      path: es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EmployeeService
+    path: ../es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Musaat.RRHH.Business
+  namespace: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  syntax:
+    content: 'public class EmployeeService : IEmployeeService'
+    content.vb: >-
+      Public Class EmployeeService
+
+          Implements IEmployeeService
+  inheritance:
+  - System.Object
+  implements:
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService})
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService})
+  id: '#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService})'
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  langs:
+  - csharp
+  - vb
+  name: EmployeeService(NexusContext, IMapper, ILogger<EmployeeService>)
+  nameWithType: EmployeeService.EmployeeService(NexusContext, IMapper, ILogger<EmployeeService>)
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.EmployeeService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, Microsoft.Extensions.Logging.ILogger<es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService>)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+    startLine: 23
+  assemblies:
+  - es.efor.Musaat.RRHH.Business
+  namespace: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  syntax:
+    content: public EmployeeService(NexusContext NexusContext, IMapper mapper, ILogger<EmployeeService> logger)
+    parameters:
+    - id: NexusContext
+      type: es.efor.Musaat.Data.Context.NexusContext
+    - id: mapper
+      type: AutoMapper.IMapper
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService}
+    content.vb: Public Sub New(NexusContext As NexusContext, mapper As IMapper, logger As ILogger(Of EmployeeService))
+  overload: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.#ctor*
+  nameWithType.vb: EmployeeService.EmployeeService(NexusContext, IMapper, ILogger(Of EmployeeService))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.EmployeeService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, Microsoft.Extensions.Logging.ILogger(Of es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService))
+  name.vb: EmployeeService(NexusContext, IMapper, ILogger(Of EmployeeService))
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll
+  id: GetAll
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: EmployeeService.GetAll()
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAll
+    path: ../es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+    startLine: 38
+  assemblies:
+  - es.efor.Musaat.RRHH.Business
+  namespace: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  summary: "\nReturns a list of employees\n"
+  example: []
+  syntax:
+    content: public Task<List<EmployeeDTO>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}}
+      description: ''
+    content.vb: Public Function GetAll As Task(Of List(Of EmployeeDTO))
+  overload: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll*
+  implements:
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  id: GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  langs:
+  - csharp
+  - vb
+  name: GetEmployees(String, String, String, String, String, Boolean)
+  nameWithType: EmployeeService.GetEmployees(String, String, String, String, String, Boolean)
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees(System.String, System.String, System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetEmployees
+    path: ../es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+    startLine: 49
+  assemblies:
+  - es.efor.Musaat.RRHH.Business
+  namespace: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  summary: "\nReturns a list of employees with filter\n"
+  example: []
+  syntax:
+    content: public Task<List<EmployeeDTO>> GetEmployees(string name, string surname, string department, string nif, string telephone, bool delete)
+    parameters:
+    - id: name
+      type: System.String
+    - id: surname
+      type: System.String
+    - id: department
+      type: System.String
+    - id: nif
+      type: System.String
+    - id: telephone
+      type: System.String
+    - id: delete
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}}
+      description: ''
+    content.vb: Public Function GetEmployees(name As String, surname As String, department As String, nif As String, telephone As String, delete As Boolean) As Task(Of List(Of EmployeeDTO))
+  overload: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees*
+  implements:
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById(System.Int32)
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById(System.Int32)
+  id: GetEmployeeById(System.Int32)
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  langs:
+  - csharp
+  - vb
+  name: GetEmployeeById(Int32)
+  nameWithType: EmployeeService.GetEmployeeById(Int32)
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetEmployeeById
+    path: ../es.efor.Musaat.RRHH.Business/Services/EmployeeService/EmployeeService.cs
+    startLine: 89
+  assemblies:
+  - es.efor.Musaat.RRHH.Business
+  namespace: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  summary: "\nReturns employee with the specified id\n"
+  example: []
+  syntax:
+    content: public Task<EmployeeDTO> GetEmployeeById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: ID to lookup
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}
+      description: ''
+    content.vb: Public Function GetEmployeeById(id As Integer) As Task(Of EmployeeDTO)
+  overload: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById*
+  implements:
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  commentId: N:es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  name: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  nameWithType: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  commentId: T:es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  name: IEmployeeService
+  nameWithType: IEmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.#ctor*
+  commentId: Overload:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.#ctor
+  name: EmployeeService
+  nameWithType: EmployeeService.EmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.EmployeeService
+- uid: es.efor.Musaat.Data.Context.NexusContext
+  commentId: T:es.efor.Musaat.Data.Context.NexusContext
+  parent: es.efor.Musaat.Data.Context
+  name: NexusContext
+  nameWithType: NexusContext
+  fullName: es.efor.Musaat.Data.Context.NexusContext
+- uid: AutoMapper.IMapper
+  commentId: T:AutoMapper.IMapper
+  parent: AutoMapper
+  isExternal: true
+  name: IMapper
+  nameWithType: IMapper
+  fullName: AutoMapper.IMapper
+- uid: Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<EmployeeService>
+  nameWithType: ILogger<EmployeeService>
+  fullName: Microsoft.Extensions.Logging.ILogger<es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService>
+  nameWithType.vb: ILogger(Of EmployeeService)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService)
+  name.vb: ILogger(Of EmployeeService)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+    name: EmployeeService
+    nameWithType: EmployeeService
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+    name: EmployeeService
+    nameWithType: EmployeeService
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Data.Context
+  commentId: N:es.efor.Musaat.Data.Context
+  name: es.efor.Musaat.Data.Context
+  nameWithType: es.efor.Musaat.Data.Context
+  fullName: es.efor.Musaat.Data.Context
+- uid: AutoMapper
+  commentId: N:AutoMapper
+  isExternal: true
+  name: AutoMapper
+  nameWithType: AutoMapper
+  fullName: AutoMapper
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TCategoryName
+    nameWithType: TCategoryName
+    fullName: TCategoryName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TCategoryName
+    nameWithType: TCategoryName
+    fullName: TCategoryName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll*
+  commentId: Overload:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll
+  name: GetAll
+  nameWithType: EmployeeService.GetAll
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetAll
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  name: GetAll()
+  nameWithType: IEmployeeService.GetAll()
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll()
+  spec.csharp:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+    name: GetAll
+    nameWithType: IEmployeeService.GetAll
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+    name: GetAll
+    nameWithType: IEmployeeService.GetAll
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetAll
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<EmployeeDTO>>
+  nameWithType: Task<List<EmployeeDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO>>
+  nameWithType.vb: Task(Of List(Of EmployeeDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO))
+  name.vb: Task(Of List(Of EmployeeDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+    name: EmployeeDTO
+    nameWithType: EmployeeDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+    name: EmployeeDTO
+    nameWithType: EmployeeDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees*
+  commentId: Overload:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees
+  name: GetEmployees
+  nameWithType: EmployeeService.GetEmployees
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployees
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  isExternal: true
+  name: GetEmployees(String, String, String, String, String, Boolean)
+  nameWithType: IEmployeeService.GetEmployees(String, String, String, String, String, Boolean)
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees(System.String, System.String, System.String, System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+    name: GetEmployees
+    nameWithType: IEmployeeService.GetEmployees
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+    name: GetEmployees
+    nameWithType: IEmployeeService.GetEmployees
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployees
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById*
+  commentId: Overload:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById
+  name: GetEmployeeById
+  nameWithType: EmployeeService.GetEmployeeById
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService.GetEmployeeById
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById(System.Int32)
+  commentId: M:es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById(System.Int32)
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  isExternal: true
+  name: GetEmployeeById(Int32)
+  nameWithType: IEmployeeService.GetEmployeeById(Int32)
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById(System.Int32)
+  spec.csharp:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById(System.Int32)
+    name: GetEmployeeById
+    nameWithType: IEmployeeService.GetEmployeeById
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById(System.Int32)
+    name: GetEmployeeById
+    nameWithType: IEmployeeService.GetEmployeeById
+    fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService.GetEmployeeById
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EmployeeDTO>
+  nameWithType: Task<EmployeeDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO>
+  nameWithType.vb: Task(Of EmployeeDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO)
+  name.vb: Task(Of EmployeeDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+    name: EmployeeDTO
+    nameWithType: EmployeeDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+    name: EmployeeDTO
+    nameWithType: EmployeeDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,14 @@
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Auth.deps.json
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Auth.pdb
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.pdb
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.pdb
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.csprojAssemblyReference.cache
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.AssemblyInfoInputs.cache
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.AssemblyInfo.cs
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.csproj.CoreCompileInputs.cache
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.csproj.CopyComplete
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\netcoreapp3.1\es.efor.Auth.pdb

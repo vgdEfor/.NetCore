@@ -1,0 +1,34 @@
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Auth.deps.json
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\ref\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Auth.pdb
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\Musaat\Principal\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.csprojAssemblyReference.cache
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.AssemblyInfoInputs.cache
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.AssemblyInfo.cs
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.csproj.CoreCompileInputs.cache
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.csproj.CopyComplete
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\ref\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.pdb
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Auth.deps.json
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Auth.dll
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\ref\es.efor.Auth.dll
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Auth.pdb
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\Proyecto Base\es.efor.Auth\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.csproj.CopyComplete
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.dll
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\ref\es.efor.Auth.dll
+C:\proyectos\Proyecto Base\es.efor.Auth\obj\Debug\net5.0\es.efor.Auth.pdb

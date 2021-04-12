@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Users.Model.Services.UsersServices
+  commentId: N:es.efor.Musaat.Users.Model.Services.UsersServices
+  id: es.efor.Musaat.Users.Model.Services.UsersServices
+  children:
+  - es.efor.Musaat.Users.Model.Services.UsersServices.UserService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Users.Model.Services.UsersServices
+  nameWithType: es.efor.Musaat.Users.Model.Services.UsersServices
+  fullName: es.efor.Musaat.Users.Model.Services.UsersServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Users.Business
+references:
+- uid: es.efor.Musaat.Users.Model.Services.UsersServices.UserService
+  commentId: T:es.efor.Musaat.Users.Model.Services.UsersServices.UserService
+  name: UserService
+  nameWithType: UserService
+  fullName: es.efor.Musaat.Users.Model.Services.UsersServices.UserService

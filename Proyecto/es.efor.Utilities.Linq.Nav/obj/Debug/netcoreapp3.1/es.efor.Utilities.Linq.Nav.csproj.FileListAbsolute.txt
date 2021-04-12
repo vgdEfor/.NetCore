@@ -1,0 +1,14 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.csprojAssemblyReference.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.csproj.CopyComplete
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq.Nav\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.Nav.pdb

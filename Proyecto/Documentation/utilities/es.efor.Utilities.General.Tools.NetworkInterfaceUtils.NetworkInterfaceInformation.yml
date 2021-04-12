@@ -1,0 +1,835 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  id: NetworkInterfaceUtils.NetworkInterfaceInformation
+  parent: es.efor.Utilities.General.Tools
+  children:
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  - es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  langs:
+  - csharp
+  - vb
+  name: NetworkInterfaceUtils.NetworkInterfaceInformation
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: NetworkInterfaceInformation
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 40
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public class NetworkInterfaceInformation
+    content.vb: Public Class NetworkInterfaceInformation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  id: Name
+  parent: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Name
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 42
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  id: Description
+  parent: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Description
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 43
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  id: Type
+  parent: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Type
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 44
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public NetworkInterfaceType Type { get; set; }
+    parameters: []
+    return:
+      type: System.Net.NetworkInformation.NetworkInterfaceType
+    content.vb: Public Property Type As NetworkInterfaceType
+  overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  id: Status
+  parent: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Status
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 45
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public OperationalStatus Status { get; set; }
+    parameters: []
+    return:
+      type: System.Net.NetworkInformation.OperationalStatus
+    content.vb: Public Property Status As OperationalStatus
+  overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  id: IPv4
+  parent: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: IPv4
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IPv4
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 46
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public IPAddress IPv4 { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Property IPv4 As IPAddress
+  overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+  commentId: M:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+  id: '#ctor'
+  parent: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+  langs:
+  - csharp
+  - vb
+  name: NetworkInterfaceInformation()
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation()
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation()
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+    startLine: 48
+  assemblies:
+  - es.efor.Utilities.General
+  namespace: es.efor.Utilities.General.Tools
+  syntax:
+    content: public NetworkInterfaceInformation()
+    content.vb: Public Sub New
+  overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Utilities.General.Tools
+  commentId: N:es.efor.Utilities.General.Tools
+  name: es.efor.Utilities.General.Tools
+  nameWithType: es.efor.Utilities.General.Tools
+  fullName: es.efor.Utilities.General.Tools
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name*
+  commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  name: Name
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description*
+  commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  name: Description
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type*
+  commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  name: Type
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+- uid: System.Net.NetworkInformation.NetworkInterfaceType
+  commentId: T:System.Net.NetworkInformation.NetworkInterfaceType
+  parent: System.Net.NetworkInformation
+  isExternal: true
+  name: NetworkInterfaceType
+  nameWithType: NetworkInterfaceType
+  fullName: System.Net.NetworkInformation.NetworkInterfaceType
+- uid: System.Net.NetworkInformation
+  commentId: N:System.Net.NetworkInformation
+  isExternal: true
+  name: System.Net.NetworkInformation
+  nameWithType: System.Net.NetworkInformation
+  fullName: System.Net.NetworkInformation
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status*
+  commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  name: Status
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+- uid: System.Net.NetworkInformation.OperationalStatus
+  commentId: T:System.Net.NetworkInformation.OperationalStatus
+  parent: System.Net.NetworkInformation
+  isExternal: true
+  name: OperationalStatus
+  nameWithType: OperationalStatus
+  fullName: System.Net.NetworkInformation.OperationalStatus
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4*
+  commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  name: IPv4
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+- uid: System.Net.IPAddress
+  commentId: T:System.Net.IPAddress
+  parent: System.Net
+  isExternal: true
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: System.Net.IPAddress
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor*
+  commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+  name: NetworkInterfaceInformation
+  nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation
+  fullName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation

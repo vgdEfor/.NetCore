@@ -1,0 +1,102 @@
+<!-- <ax-bs-menu
+    [menuItems]="_menuItems"></ax-bs-menu> -->
+
+
+<!-- Top navbar -->
+<nav class="navbar navbar-expand-xl sticky-top navbar-dark bg-primary fade-in shadow container-fluid py-0 pl-0">
+    <div class="container-fluid">
+        <div class="row w-100">
+            <div class="col-auto pl-0">
+                <div class="d-inline-block navbar-brand mr-auto mr-lg-0 py-0 position-relative">
+                    <img class="d-inline-block align-top bg-white h-100 mr-1" src="assets/img/logo/PryBase.png">
+                    <span class="pl-2">{{'APP_NAME' | translate}}</span>
+                    <a class="stretched-link" [routerLink]="'/dashboard'"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pl-lg-2 navbar-collapse offcanvas-collapse"
+                    [ngClass]="{'open' : _menuOpenned}">
+                    <ng-container [ngTemplateOutlet]="tmplMenu"></ng-container>
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <div class="navbar-langbar">
+                    <ng-container [ngTemplateOutlet]="tmplMenuLang"></ng-container>
+
+                    <button type="button" class="navbar-toggler p-0 border-0" [ngClass]="{'active' : _menuOpenned}"
+                        (click)="_menuOpenned = !_menuOpenned">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container-fluid"
+    role="main">
+    <router-outlet></router-outlet>
+</main>
+
+<ng-template #tmplMenu>
+    <ul class="navbar-nav ml-auto">
+        <ng-container *ngFor="let i of _menuItems;"
+            [ngTemplateOutlet]="tmplMenuItem" [ngTemplateOutletContext]="{ menuItem: i }"></ng-container>
+    </ul>
+</ng-template>
+<ng-template #tmplMenuItem let-i="menuItem">
+    <li class="nav-item"
+        [routerLinkActive]="i.routerLinkActiveCssClass">
+        <ng-container *ngIf="!i.hasChildren"
+            [ngTemplateOutlet]="tmplMenuItemContent"
+            [ngTemplateOutletContext]="{ menuItem: i}"></ng-container>
+
+        <ng-container *ngIf="i.hasChildren"
+            [ngTemplateOutlet]="tmplMenuItemContentWithChildren"
+            [ngTemplateOutletContext]="{ menuItem: i}"></ng-container>
+    </li>
+</ng-template>
+<ng-template #tmplMenuItemContent let-i="menuItem">
+    <a *ngIf="!i.hasChildren" class="nav-link" [routerLink]="i.routerLinkCommands">
+        <fa-icon class="mr-2" [icon]="[i.iconPreffix, i.iconName]"></fa-icon>
+        {{i.label | translate}}
+    </a>
+</ng-template>
+<ng-template #tmplMenuItemContentWithChildren let-i="menuItem">
+    <div class="btn-group"
+        dropdown container="body" placement="bottom left">
+        <a dropdownToggle class="nav-link dropdown-toggle"
+            [routerLinkActive]="i.routerLinkActiveCssClass">
+            <fa-icon class="mr-2" [icon]="[i.iconPreffix, i.iconName]"></fa-icon>
+            {{i.label | translate}} <span class="caret"></span>
+        </a>
+        <ul *dropdownMenu
+            class="dropdown-menu"
+            role="menu">
+            <li *ngFor="let c of i.children" role="menuitem">
+                <a class="dropdown-item"
+                    [routerLink]="c.routerLinkCommands"
+                    [routerLinkActive]="c.routerLinkActiveCssClass">
+                    <fa-icon class="mr-2" [icon]="[c.iconPreffix, c.iconName]"></fa-icon>
+                    {{c.label | translate}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</ng-template>
+
+<ng-template #tmplMenuLang>
+    <ul class="navbar-nav">
+        <ng-container *ngFor="let langCode of translate.langs"
+            [ngTemplateOutlet]="tmplMenuLangItem"
+            [ngTemplateOutletContext]="{ langCode: langCode }"></ng-container>
+    </ul>
+</ng-template>
+<ng-template #tmplMenuLangItem let-lang="langCode">
+    <li class="nav-item">
+        <a class="nav-link cursor-pointer"
+            [ngClass]="{'active' : translate.currentLang === lang}"
+            (click)="translate.use(lang)">{{(('LANG.' + lang + '_SHORT') | uppercase) | translate}}</a>
+    </li>
+</ng-template>

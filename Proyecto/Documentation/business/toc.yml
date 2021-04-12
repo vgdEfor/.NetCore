@@ -1,0 +1,66 @@
+### YamlMime:TableOfContent
+- uid: es.efor.Musaat.Imports.Model.Services
+  name: es.efor.Musaat.Imports.Model.Services
+  items:
+  - uid: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+    name: MapperProfileImports
+- uid: es.efor.Musaat.Imports.Model.Services.ImportServices
+  name: es.efor.Musaat.Imports.Model.Services.ImportServices
+  items:
+  - uid: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    name: IImportService
+  - uid: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+    name: ImportService
+- uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  name: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  items:
+  - uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    name: ILogImportService
+  - uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+    name: LogImportService
+- uid: es.efor.Musaat.Login.Model
+  name: es.efor.Musaat.Login.Model
+  items:
+  - uid: es.efor.Musaat.Login.Model.MapperProfileLogin
+    name: MapperProfileLogin
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  name: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  items:
+  - uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.AccessLoggerService
+    name: AccessLoggerService
+  - uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+    name: IAccessLoggerService
+- uid: es.efor.Musaat.RRHH.Model.Services
+  name: es.efor.Musaat.RRHH.Model.Services
+  items:
+  - uid: es.efor.Musaat.RRHH.Model.Services.MapperProfileRRHH
+    name: MapperProfileRRHH
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  name: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  items:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+    name: EmployeeService
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+    name: IEmployeeService
+- uid: es.efor.Musaat.Users.Model
+  name: es.efor.Musaat.Users.Model
+  items:
+  - uid: es.efor.Musaat.Users.Model.MapperProfileUsers
+    name: MapperProfileUsers
+- uid: es.efor.Musaat.Users.Model.Services
+  name: es.efor.Musaat.Users.Model.Services
+  items:
+  - uid: es.efor.Musaat.Users.Model.Services.IUserService
+    name: IUserService
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  name: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  items:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+    name: IPermissionService
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+    name: PermissionService
+- uid: es.efor.Musaat.Users.Model.Services.UsersServices
+  name: es.efor.Musaat.Users.Model.Services.UsersServices
+  items:
+  - uid: es.efor.Musaat.Users.Model.Services.UsersServices.UserService
+    name: UserService

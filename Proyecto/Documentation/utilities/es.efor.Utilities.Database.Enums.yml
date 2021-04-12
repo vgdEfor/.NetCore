@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Database.Enums
+  commentId: N:es.efor.Utilities.Database.Enums
+  id: es.efor.Utilities.Database.Enums
+  children:
+  - es.efor.Utilities.Database.Enums.EfDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Database.Enums
+  nameWithType: es.efor.Utilities.Database.Enums
+  fullName: es.efor.Utilities.Database.Enums
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Database
+references:
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType
+  commentId: T:es.efor.Utilities.Database.Enums.EfDatabaseType
+  parent: es.efor.Utilities.Database.Enums
+  name: EfDatabaseType
+  nameWithType: EfDatabaseType
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType
+- uid: es.efor.Utilities.Database.Enums
+  commentId: N:es.efor.Utilities.Database.Enums
+  name: es.efor.Utilities.Database.Enums
+  nameWithType: es.efor.Utilities.Database.Enums
+  fullName: es.efor.Utilities.Database.Enums

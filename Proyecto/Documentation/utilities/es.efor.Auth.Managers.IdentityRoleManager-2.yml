@@ -1,0 +1,3748 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2
+  commentId: T:es.efor.Auth.Managers.IdentityRoleManager`2
+  id: IdentityRoleManager`2
+  parent: es.efor.Auth.Managers
+  children:
+  - es.efor.Auth.Managers.IdentityRoleManager`2.#ctor(Microsoft.AspNetCore.Identity.IRoleStore{`1},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{`1}},Microsoft.AspNetCore.Identity.ILookupNormalizer,Microsoft.AspNetCore.Identity.IdentityErrorDescriber,Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{`1}})
+  - es.efor.Auth.Managers.IdentityRoleManager`2.AddClaimAsync(`1,System.Security.Claims.Claim)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.CreateAsync(`1)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.DeleteAsync(`1)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync(`0)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync(System.Collections.Generic.IEnumerable{`0})
+  - es.efor.Auth.Managers.IdentityRoleManager`2.GetClaimsAsync(`0)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.RemoveClaimAsync(`1,System.Security.Claims.Claim)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.SetRoleNameAsync(`1,System.String)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync(`1)
+  - es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync(System.Collections.Generic.IEnumerable{`1})
+  - es.efor.Auth.Managers.IdentityRoleManager`2.UpdateNormalizedRoleNameAsync(`1)
+  langs:
+  - csharp
+  - vb
+  name: IdentityRoleManager<TRoleId, TRole>
+  nameWithType: IdentityRoleManager<TRoleId, TRole>
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>
+  type: Class
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IdentityRoleManager
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: 'public class IdentityRoleManager<TRoleId, TRole> : RoleManager<TRole>, IDisposable where TRoleId : IEquatable<TRoleId> where TRole : Role<TRoleId>, new()'
+    typeParameters:
+    - id: TRoleId
+    - id: TRole
+    content.vb: >-
+      Public Class IdentityRoleManager(Of TRoleId As IEquatable(Of TRoleId), TRole As {Role(Of TRoleId), New})
+
+          Inherits RoleManager(Of TRole)
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.RoleExistsAsync(System.String)
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.NormalizeKey(System.String)
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.FindByIdAsync(System.String)
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.GetRoleNameAsync({TRole})
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.GetRoleIdAsync({TRole})
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.FindByNameAsync(System.String)
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.GetClaimsAsync({TRole})
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Dispose
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Dispose(System.Boolean)
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.ValidateRoleAsync({TRole})
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.UpdateRoleAsync({TRole})
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.ThrowIfDisposed
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.CancellationToken
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Store
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Logger
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.RoleValidators
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.ErrorDescriber
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.KeyNormalizer
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Roles
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.SupportsQueryableRoles
+  - Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.SupportsRoleClaims
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole)
+  name.vb: IdentityRoleManager(Of TRoleId, TRole)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.#ctor(Microsoft.AspNetCore.Identity.IRoleStore{`1},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{`1}},Microsoft.AspNetCore.Identity.ILookupNormalizer,Microsoft.AspNetCore.Identity.IdentityErrorDescriber,Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{`1}})
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.#ctor(Microsoft.AspNetCore.Identity.IRoleStore{`1},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{`1}},Microsoft.AspNetCore.Identity.ILookupNormalizer,Microsoft.AspNetCore.Identity.IdentityErrorDescriber,Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{`1}})
+  id: '#ctor(Microsoft.AspNetCore.Identity.IRoleStore{`1},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{`1}},Microsoft.AspNetCore.Identity.ILookupNormalizer,Microsoft.AspNetCore.Identity.IdentityErrorDescriber,Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{`1}})'
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: IdentityRoleManager(IRoleStore<TRole>, IEnumerable<IRoleValidator<TRole>>, ILookupNormalizer, IdentityErrorDescriber, ILogger<RoleManager<TRole>>)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.IdentityRoleManager(IRoleStore<TRole>, IEnumerable<IRoleValidator<TRole>>, ILookupNormalizer, IdentityErrorDescriber, ILogger<RoleManager<TRole>>)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.IdentityRoleManager(Microsoft.AspNetCore.Identity.IRoleStore<TRole>, System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Identity.IRoleValidator<TRole>>, Microsoft.AspNetCore.Identity.ILookupNormalizer, Microsoft.AspNetCore.Identity.IdentityErrorDescriber, Microsoft.Extensions.Logging.ILogger<Microsoft.AspNetCore.Identity.RoleManager<TRole>>)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public IdentityRoleManager(IRoleStore<TRole> store, IEnumerable<IRoleValidator<TRole>> roleValidators, ILookupNormalizer keyNormalizer, IdentityErrorDescriber errors, ILogger<RoleManager<TRole>> logger)
+    parameters:
+    - id: store
+      type: Microsoft.AspNetCore.Identity.IRoleStore{{TRole}}
+    - id: roleValidators
+      type: System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{{TRole}}}
+    - id: keyNormalizer
+      type: Microsoft.AspNetCore.Identity.ILookupNormalizer
+    - id: errors
+      type: Microsoft.AspNetCore.Identity.IdentityErrorDescriber
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{{TRole}}}
+    content.vb: Public Sub New(store As IRoleStore(Of TRole), roleValidators As IEnumerable(Of IRoleValidator(Of TRole)), keyNormalizer As ILookupNormalizer, errors As IdentityErrorDescriber, logger As ILogger(Of RoleManager(Of TRole)))
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.#ctor*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).IdentityRoleManager(IRoleStore(Of TRole), IEnumerable(Of IRoleValidator(Of TRole)), ILookupNormalizer, IdentityErrorDescriber, ILogger(Of RoleManager(Of TRole)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).IdentityRoleManager(Microsoft.AspNetCore.Identity.IRoleStore(Of TRole), System.Collections.Generic.IEnumerable(Of Microsoft.AspNetCore.Identity.IRoleValidator(Of TRole)), Microsoft.AspNetCore.Identity.ILookupNormalizer, Microsoft.AspNetCore.Identity.IdentityErrorDescriber, Microsoft.Extensions.Logging.ILogger(Of Microsoft.AspNetCore.Identity.RoleManager(Of TRole)))
+  name.vb: IdentityRoleManager(IRoleStore(Of TRole), IEnumerable(Of IRoleValidator(Of TRole)), ILookupNormalizer, IdentityErrorDescriber, ILogger(Of RoleManager(Of TRole)))
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync(System.Collections.Generic.IEnumerable{`0})
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync(System.Collections.Generic.IEnumerable{`0})
+  id: FindByIdAsync(System.Collections.Generic.IEnumerable{`0})
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: FindByIdAsync(IEnumerable<TRoleId>)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.FindByIdAsync(IEnumerable<TRoleId>)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.FindByIdAsync(System.Collections.Generic.IEnumerable<TRoleId>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: FindByIdAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 34
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public virtual Task<IEnumerable<TRole>> FindByIdAsync(IEnumerable<TRoleId> roleIds)
+    parameters:
+    - id: roleIds
+      type: System.Collections.Generic.IEnumerable{{TRoleId}}
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{TRole}}}
+    content.vb: Public Overridable Function FindByIdAsync(roleIds As IEnumerable(Of TRoleId)) As Task(Of IEnumerable(Of TRole))
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).FindByIdAsync(IEnumerable(Of TRoleId))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).FindByIdAsync(System.Collections.Generic.IEnumerable(Of TRoleId))
+  name.vb: FindByIdAsync(IEnumerable(Of TRoleId))
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync(`0)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync(`0)
+  id: FindByIdAsync(`0)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: FindByIdAsync(TRoleId)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.FindByIdAsync(TRoleId)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.FindByIdAsync(TRoleId)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: FindByIdAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 42
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public virtual Task<TRole> FindByIdAsync(TRoleId roleId)
+    parameters:
+    - id: roleId
+      type: '{TRoleId}'
+    return:
+      type: System.Threading.Tasks.Task{{TRole}}
+    content.vb: Public Overridable Function FindByIdAsync(roleId As TRoleId) As Task(Of TRole)
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).FindByIdAsync(TRoleId)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).FindByIdAsync(TRoleId)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync(System.Collections.Generic.IEnumerable{`1})
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync(System.Collections.Generic.IEnumerable{`1})
+  id: UpdateAsync(System.Collections.Generic.IEnumerable{`1})
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(IEnumerable<TRole>)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.UpdateAsync(IEnumerable<TRole>)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.UpdateAsync(System.Collections.Generic.IEnumerable<TRole>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UpdateAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 47
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public virtual Task<Dictionary<TRoleId, IdentityResult>> UpdateAsync(IEnumerable<TRole> roles)
+    parameters:
+    - id: roles
+      type: System.Collections.Generic.IEnumerable{{TRole}}
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{{TRoleId},Microsoft.AspNetCore.Identity.IdentityResult}}
+    content.vb: Public Overridable Function UpdateAsync(roles As IEnumerable(Of TRole)) As Task(Of Dictionary(Of TRoleId, IdentityResult))
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).UpdateAsync(IEnumerable(Of TRole))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).UpdateAsync(System.Collections.Generic.IEnumerable(Of TRole))
+  name.vb: UpdateAsync(IEnumerable(Of TRole))
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.GetClaimsAsync(`0)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.GetClaimsAsync(`0)
+  id: GetClaimsAsync(`0)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsAsync(TRoleId)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.GetClaimsAsync(TRoleId)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.GetClaimsAsync(TRoleId)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetClaimsAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 62
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public virtual Task<IList<Claim>> GetClaimsAsync(TRoleId roleId)
+    parameters:
+    - id: roleId
+      type: '{TRoleId}'
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IList{System.Security.Claims.Claim}}
+    content.vb: Public Overridable Function GetClaimsAsync(roleId As TRoleId) As Task(Of IList(Of Claim))
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.GetClaimsAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).GetClaimsAsync(TRoleId)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).GetClaimsAsync(TRoleId)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.CreateAsync(`1)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.CreateAsync(`1)
+  id: CreateAsync(`1)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(TRole)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.CreateAsync(TRole)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.CreateAsync(TRole)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: CreateAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 73
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task<IdentityResult> CreateAsync(TRole role)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+    content.vb: Public Overrides Function CreateAsync(role As TRole) As Task(Of IdentityResult)
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.CreateAsync({TRole})
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.CreateAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).CreateAsync(TRole)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).CreateAsync(TRole)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync(`1)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync(`1)
+  id: UpdateAsync(`1)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(TRole)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.UpdateAsync(TRole)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.UpdateAsync(TRole)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UpdateAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 82
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task<IdentityResult> UpdateAsync(TRole role)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+    content.vb: Public Overrides Function UpdateAsync(role As TRole) As Task(Of IdentityResult)
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.UpdateAsync({TRole})
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).UpdateAsync(TRole)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).UpdateAsync(TRole)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateNormalizedRoleNameAsync(`1)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.UpdateNormalizedRoleNameAsync(`1)
+  id: UpdateNormalizedRoleNameAsync(`1)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: UpdateNormalizedRoleNameAsync(TRole)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.UpdateNormalizedRoleNameAsync(TRole)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.UpdateNormalizedRoleNameAsync(TRole)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UpdateNormalizedRoleNameAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 91
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task UpdateNormalizedRoleNameAsync(TRole role)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function UpdateNormalizedRoleNameAsync(role As TRole) As Task
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.UpdateNormalizedRoleNameAsync({TRole})
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateNormalizedRoleNameAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).UpdateNormalizedRoleNameAsync(TRole)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).UpdateNormalizedRoleNameAsync(TRole)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.AddClaimAsync(`1,System.Security.Claims.Claim)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.AddClaimAsync(`1,System.Security.Claims.Claim)
+  id: AddClaimAsync(`1,System.Security.Claims.Claim)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: AddClaimAsync(TRole, Claim)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.AddClaimAsync(TRole, Claim)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.AddClaimAsync(TRole, System.Security.Claims.Claim)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AddClaimAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 96
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task<IdentityResult> AddClaimAsync(TRole role, Claim claim)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    - id: claim
+      type: System.Security.Claims.Claim
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+    content.vb: Public Overrides Function AddClaimAsync(role As TRole, claim As Claim) As Task(Of IdentityResult)
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.AddClaimAsync({TRole},System.Security.Claims.Claim)
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.AddClaimAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).AddClaimAsync(TRole, Claim)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).AddClaimAsync(TRole, System.Security.Claims.Claim)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.RemoveClaimAsync(`1,System.Security.Claims.Claim)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.RemoveClaimAsync(`1,System.Security.Claims.Claim)
+  id: RemoveClaimAsync(`1,System.Security.Claims.Claim)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveClaimAsync(TRole, Claim)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.RemoveClaimAsync(TRole, Claim)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.RemoveClaimAsync(TRole, System.Security.Claims.Claim)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: RemoveClaimAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 105
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task<IdentityResult> RemoveClaimAsync(TRole role, Claim claim)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    - id: claim
+      type: System.Security.Claims.Claim
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+    content.vb: Public Overrides Function RemoveClaimAsync(role As TRole, claim As Claim) As Task(Of IdentityResult)
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.RemoveClaimAsync({TRole},System.Security.Claims.Claim)
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.RemoveClaimAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).RemoveClaimAsync(TRole, Claim)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).RemoveClaimAsync(TRole, System.Security.Claims.Claim)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.SetRoleNameAsync(`1,System.String)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.SetRoleNameAsync(`1,System.String)
+  id: SetRoleNameAsync(`1,System.String)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: SetRoleNameAsync(TRole, String)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.SetRoleNameAsync(TRole, String)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.SetRoleNameAsync(TRole, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SetRoleNameAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 114
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task<IdentityResult> SetRoleNameAsync(TRole role, string name)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    - id: name
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+    content.vb: Public Overrides Function SetRoleNameAsync(role As TRole, name As String) As Task(Of IdentityResult)
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.SetRoleNameAsync({TRole},System.String)
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.SetRoleNameAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).SetRoleNameAsync(TRole, String)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).SetRoleNameAsync(TRole, System.String)
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.DeleteAsync(`1)
+  commentId: M:es.efor.Auth.Managers.IdentityRoleManager`2.DeleteAsync(`1)
+  id: DeleteAsync(`1)
+  parent: es.efor.Auth.Managers.IdentityRoleManager`2
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(TRole)
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.DeleteAsync(TRole)
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.DeleteAsync(TRole)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Managers/IdentityRoleManager.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DeleteAsync
+    path: ../es.efor.Auth/Managers/IdentityRoleManager.cs
+    startLine: 123
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Managers
+  syntax:
+    content: public override Task<IdentityResult> DeleteAsync(TRole role)
+    parameters:
+    - id: role
+      type: '{TRole}'
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+    content.vb: Public Overrides Function DeleteAsync(role As TRole) As Task(Of IdentityResult)
+  overridden: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.DeleteAsync({TRole})
+  overload: es.efor.Auth.Managers.IdentityRoleManager`2.DeleteAsync*
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).DeleteAsync(TRole)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).DeleteAsync(TRole)
+references:
+- uid: es.efor.Auth.Managers
+  commentId: N:es.efor.Auth.Managers
+  name: es.efor.Auth.Managers
+  nameWithType: es.efor.Auth.Managers
+  fullName: es.efor.Auth.Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  commentId: T:Microsoft.AspNetCore.Identity.RoleManager{`1}
+  parent: Microsoft.AspNetCore.Identity
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1
+  name: RoleManager<TRole>
+  nameWithType: RoleManager<TRole>
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>
+  nameWithType.vb: RoleManager(Of TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole)
+  name.vb: RoleManager(Of TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.RoleExistsAsync(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.RoleExistsAsync(System.String)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+  name: RoleExistsAsync(String)
+  nameWithType: RoleManager<TRole>.RoleExistsAsync(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RoleExistsAsync(System.String)
+  nameWithType.vb: RoleManager(Of TRole).RoleExistsAsync(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RoleExistsAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+    name: RoleExistsAsync
+    nameWithType: RoleManager<TRole>.RoleExistsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RoleExistsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+    name: RoleExistsAsync
+    nameWithType: RoleManager(Of TRole).RoleExistsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RoleExistsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.NormalizeKey(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.NormalizeKey(System.String)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+  name: NormalizeKey(String)
+  nameWithType: RoleManager<TRole>.NormalizeKey(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.NormalizeKey(System.String)
+  nameWithType.vb: RoleManager(Of TRole).NormalizeKey(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).NormalizeKey(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+    name: NormalizeKey
+    nameWithType: RoleManager<TRole>.NormalizeKey
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.NormalizeKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+    name: NormalizeKey
+    nameWithType: RoleManager(Of TRole).NormalizeKey
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).NormalizeKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.FindByIdAsync(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.FindByIdAsync(System.String)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+  name: FindByIdAsync(String)
+  nameWithType: RoleManager<TRole>.FindByIdAsync(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByIdAsync(System.String)
+  nameWithType.vb: RoleManager(Of TRole).FindByIdAsync(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByIdAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+    name: FindByIdAsync
+    nameWithType: RoleManager<TRole>.FindByIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+    name: FindByIdAsync
+    nameWithType: RoleManager(Of TRole).FindByIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.GetRoleNameAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.GetRoleNameAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+  name: GetRoleNameAsync(TRole)
+  nameWithType: RoleManager<TRole>.GetRoleNameAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleNameAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).GetRoleNameAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleNameAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+    name: GetRoleNameAsync
+    nameWithType: RoleManager<TRole>.GetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+    name: GetRoleNameAsync
+    nameWithType: RoleManager(Of TRole).GetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.GetRoleIdAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.GetRoleIdAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+  name: GetRoleIdAsync(TRole)
+  nameWithType: RoleManager<TRole>.GetRoleIdAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleIdAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).GetRoleIdAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleIdAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+    name: GetRoleIdAsync
+    nameWithType: RoleManager<TRole>.GetRoleIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+    name: GetRoleIdAsync
+    nameWithType: RoleManager(Of TRole).GetRoleIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.FindByNameAsync(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.FindByNameAsync(System.String)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+  name: FindByNameAsync(String)
+  nameWithType: RoleManager<TRole>.FindByNameAsync(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByNameAsync(System.String)
+  nameWithType.vb: RoleManager(Of TRole).FindByNameAsync(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByNameAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+    name: FindByNameAsync
+    nameWithType: RoleManager<TRole>.FindByNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+    name: FindByNameAsync
+    nameWithType: RoleManager(Of TRole).FindByNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.GetClaimsAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.GetClaimsAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+  name: GetClaimsAsync(TRole)
+  nameWithType: RoleManager<TRole>.GetClaimsAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetClaimsAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).GetClaimsAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetClaimsAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+    name: GetClaimsAsync
+    nameWithType: RoleManager<TRole>.GetClaimsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetClaimsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+    name: GetClaimsAsync
+    nameWithType: RoleManager(Of TRole).GetClaimsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetClaimsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Dispose
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.Dispose
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+  name: Dispose()
+  nameWithType: RoleManager<TRole>.Dispose()
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose()
+  nameWithType.vb: RoleManager(Of TRole).Dispose()
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+    name: Dispose
+    nameWithType: RoleManager<TRole>.Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+    name: Dispose
+    nameWithType: RoleManager(Of TRole).Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Dispose(System.Boolean)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.Dispose(System.Boolean)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  nameWithType: RoleManager<TRole>.Dispose(Boolean)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose(System.Boolean)
+  nameWithType.vb: RoleManager(Of TRole).Dispose(Boolean)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: RoleManager<TRole>.Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: RoleManager(Of TRole).Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.ValidateRoleAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.ValidateRoleAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+  name: ValidateRoleAsync(TRole)
+  nameWithType: RoleManager<TRole>.ValidateRoleAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ValidateRoleAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).ValidateRoleAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ValidateRoleAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+    name: ValidateRoleAsync
+    nameWithType: RoleManager<TRole>.ValidateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ValidateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+    name: ValidateRoleAsync
+    nameWithType: RoleManager(Of TRole).ValidateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ValidateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.UpdateRoleAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.UpdateRoleAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+  name: UpdateRoleAsync(TRole)
+  nameWithType: RoleManager<TRole>.UpdateRoleAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateRoleAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).UpdateRoleAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateRoleAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+    name: UpdateRoleAsync
+    nameWithType: RoleManager<TRole>.UpdateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+    name: UpdateRoleAsync
+    nameWithType: RoleManager(Of TRole).UpdateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.ThrowIfDisposed
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.ThrowIfDisposed
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+  name: ThrowIfDisposed()
+  nameWithType: RoleManager<TRole>.ThrowIfDisposed()
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ThrowIfDisposed()
+  nameWithType.vb: RoleManager(Of TRole).ThrowIfDisposed()
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ThrowIfDisposed()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+    name: ThrowIfDisposed
+    nameWithType: RoleManager<TRole>.ThrowIfDisposed
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ThrowIfDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+    name: ThrowIfDisposed
+    nameWithType: RoleManager(Of TRole).ThrowIfDisposed
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ThrowIfDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.CancellationToken
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.CancellationToken
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.CancellationToken
+  name: CancellationToken
+  nameWithType: RoleManager<TRole>.CancellationToken
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.CancellationToken
+  nameWithType.vb: RoleManager(Of TRole).CancellationToken
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).CancellationToken
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Store
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.Store
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.Store
+  name: Store
+  nameWithType: RoleManager<TRole>.Store
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Store
+  nameWithType.vb: RoleManager(Of TRole).Store
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Store
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Logger
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.Logger
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.Logger
+  name: Logger
+  nameWithType: RoleManager<TRole>.Logger
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Logger
+  nameWithType.vb: RoleManager(Of TRole).Logger
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Logger
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.RoleValidators
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.RoleValidators
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.RoleValidators
+  name: RoleValidators
+  nameWithType: RoleManager<TRole>.RoleValidators
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RoleValidators
+  nameWithType.vb: RoleManager(Of TRole).RoleValidators
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RoleValidators
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.ErrorDescriber
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.ErrorDescriber
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.ErrorDescriber
+  name: ErrorDescriber
+  nameWithType: RoleManager<TRole>.ErrorDescriber
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ErrorDescriber
+  nameWithType.vb: RoleManager(Of TRole).ErrorDescriber
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ErrorDescriber
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.KeyNormalizer
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.KeyNormalizer
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.KeyNormalizer
+  name: KeyNormalizer
+  nameWithType: RoleManager<TRole>.KeyNormalizer
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.KeyNormalizer
+  nameWithType.vb: RoleManager(Of TRole).KeyNormalizer
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).KeyNormalizer
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.Roles
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.Roles
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.Roles
+  name: Roles
+  nameWithType: RoleManager<TRole>.Roles
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Roles
+  nameWithType.vb: RoleManager(Of TRole).Roles
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Roles
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.SupportsQueryableRoles
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.SupportsQueryableRoles
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.SupportsQueryableRoles
+  name: SupportsQueryableRoles
+  nameWithType: RoleManager<TRole>.SupportsQueryableRoles
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SupportsQueryableRoles
+  nameWithType.vb: RoleManager(Of TRole).SupportsQueryableRoles
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SupportsQueryableRoles
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.SupportsRoleClaims
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager{`1}.SupportsRoleClaims
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.SupportsRoleClaims
+  name: SupportsRoleClaims
+  nameWithType: RoleManager<TRole>.SupportsRoleClaims
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SupportsRoleClaims
+  nameWithType.vb: RoleManager(Of TRole).SupportsRoleClaims
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SupportsRoleClaims
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1
+  commentId: T:Microsoft.AspNetCore.Identity.RoleManager`1
+  isExternal: true
+  name: RoleManager<TRole>
+  nameWithType: RoleManager<TRole>
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>
+  nameWithType.vb: RoleManager(Of TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole)
+  name.vb: RoleManager(Of TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity
+  commentId: N:Microsoft.AspNetCore.Identity
+  isExternal: true
+  name: Microsoft.AspNetCore.Identity
+  nameWithType: Microsoft.AspNetCore.Identity
+  fullName: Microsoft.AspNetCore.Identity
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+  isExternal: true
+  name: RoleExistsAsync(String)
+  nameWithType: RoleManager<TRole>.RoleExistsAsync(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RoleExistsAsync(System.String)
+  nameWithType.vb: RoleManager(Of TRole).RoleExistsAsync(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RoleExistsAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+    name: RoleExistsAsync
+    nameWithType: RoleManager<TRole>.RoleExistsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RoleExistsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RoleExistsAsync(System.String)
+    name: RoleExistsAsync
+    nameWithType: RoleManager(Of TRole).RoleExistsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RoleExistsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+  isExternal: true
+  name: NormalizeKey(String)
+  nameWithType: RoleManager<TRole>.NormalizeKey(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.NormalizeKey(System.String)
+  nameWithType.vb: RoleManager(Of TRole).NormalizeKey(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).NormalizeKey(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+    name: NormalizeKey
+    nameWithType: RoleManager<TRole>.NormalizeKey
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.NormalizeKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.NormalizeKey(System.String)
+    name: NormalizeKey
+    nameWithType: RoleManager(Of TRole).NormalizeKey
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).NormalizeKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+  isExternal: true
+  name: FindByIdAsync(String)
+  nameWithType: RoleManager<TRole>.FindByIdAsync(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByIdAsync(System.String)
+  nameWithType.vb: RoleManager(Of TRole).FindByIdAsync(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByIdAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+    name: FindByIdAsync
+    nameWithType: RoleManager<TRole>.FindByIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByIdAsync(System.String)
+    name: FindByIdAsync
+    nameWithType: RoleManager(Of TRole).FindByIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+  isExternal: true
+  name: GetRoleNameAsync(TRole)
+  nameWithType: RoleManager<TRole>.GetRoleNameAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleNameAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).GetRoleNameAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleNameAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+    name: GetRoleNameAsync
+    nameWithType: RoleManager<TRole>.GetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleNameAsync(`0)
+    name: GetRoleNameAsync
+    nameWithType: RoleManager(Of TRole).GetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+  isExternal: true
+  name: GetRoleIdAsync(TRole)
+  nameWithType: RoleManager<TRole>.GetRoleIdAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleIdAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).GetRoleIdAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleIdAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+    name: GetRoleIdAsync
+    nameWithType: RoleManager<TRole>.GetRoleIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetRoleIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetRoleIdAsync(`0)
+    name: GetRoleIdAsync
+    nameWithType: RoleManager(Of TRole).GetRoleIdAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetRoleIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+  isExternal: true
+  name: FindByNameAsync(String)
+  nameWithType: RoleManager<TRole>.FindByNameAsync(String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByNameAsync(System.String)
+  nameWithType.vb: RoleManager(Of TRole).FindByNameAsync(String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByNameAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+    name: FindByNameAsync
+    nameWithType: RoleManager<TRole>.FindByNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.FindByNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.FindByNameAsync(System.String)
+    name: FindByNameAsync
+    nameWithType: RoleManager(Of TRole).FindByNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).FindByNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+  isExternal: true
+  name: GetClaimsAsync(TRole)
+  nameWithType: RoleManager<TRole>.GetClaimsAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetClaimsAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).GetClaimsAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetClaimsAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+    name: GetClaimsAsync
+    nameWithType: RoleManager<TRole>.GetClaimsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.GetClaimsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.GetClaimsAsync(`0)
+    name: GetClaimsAsync
+    nameWithType: RoleManager(Of TRole).GetClaimsAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).GetClaimsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: RoleManager<TRole>.Dispose()
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose()
+  nameWithType.vb: RoleManager(Of TRole).Dispose()
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+    name: Dispose
+    nameWithType: RoleManager<TRole>.Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose
+    name: Dispose
+    nameWithType: RoleManager(Of TRole).Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: RoleManager<TRole>.Dispose(Boolean)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose(System.Boolean)
+  nameWithType.vb: RoleManager(Of TRole).Dispose(Boolean)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: RoleManager<TRole>.Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: RoleManager(Of TRole).Dispose
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+  isExternal: true
+  name: ValidateRoleAsync(TRole)
+  nameWithType: RoleManager<TRole>.ValidateRoleAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ValidateRoleAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).ValidateRoleAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ValidateRoleAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+    name: ValidateRoleAsync
+    nameWithType: RoleManager<TRole>.ValidateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ValidateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ValidateRoleAsync(`0)
+    name: ValidateRoleAsync
+    nameWithType: RoleManager(Of TRole).ValidateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ValidateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+  isExternal: true
+  name: UpdateRoleAsync(TRole)
+  nameWithType: RoleManager<TRole>.UpdateRoleAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateRoleAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).UpdateRoleAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateRoleAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+    name: UpdateRoleAsync
+    nameWithType: RoleManager<TRole>.UpdateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateRoleAsync(`0)
+    name: UpdateRoleAsync
+    nameWithType: RoleManager(Of TRole).UpdateRoleAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateRoleAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+  isExternal: true
+  name: ThrowIfDisposed()
+  nameWithType: RoleManager<TRole>.ThrowIfDisposed()
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ThrowIfDisposed()
+  nameWithType.vb: RoleManager(Of TRole).ThrowIfDisposed()
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ThrowIfDisposed()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+    name: ThrowIfDisposed
+    nameWithType: RoleManager<TRole>.ThrowIfDisposed
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ThrowIfDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.ThrowIfDisposed
+    name: ThrowIfDisposed
+    nameWithType: RoleManager(Of TRole).ThrowIfDisposed
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ThrowIfDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.CancellationToken
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: RoleManager<TRole>.CancellationToken
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.CancellationToken
+  nameWithType.vb: RoleManager(Of TRole).CancellationToken
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).CancellationToken
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.Store
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.Store
+  isExternal: true
+  name: Store
+  nameWithType: RoleManager<TRole>.Store
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Store
+  nameWithType.vb: RoleManager(Of TRole).Store
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Store
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.Logger
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.Logger
+  isExternal: true
+  name: Logger
+  nameWithType: RoleManager<TRole>.Logger
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Logger
+  nameWithType.vb: RoleManager(Of TRole).Logger
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Logger
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.RoleValidators
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.RoleValidators
+  isExternal: true
+  name: RoleValidators
+  nameWithType: RoleManager<TRole>.RoleValidators
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RoleValidators
+  nameWithType.vb: RoleManager(Of TRole).RoleValidators
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RoleValidators
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.ErrorDescriber
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.ErrorDescriber
+  isExternal: true
+  name: ErrorDescriber
+  nameWithType: RoleManager<TRole>.ErrorDescriber
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.ErrorDescriber
+  nameWithType.vb: RoleManager(Of TRole).ErrorDescriber
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).ErrorDescriber
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.KeyNormalizer
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.KeyNormalizer
+  isExternal: true
+  name: KeyNormalizer
+  nameWithType: RoleManager<TRole>.KeyNormalizer
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.KeyNormalizer
+  nameWithType.vb: RoleManager(Of TRole).KeyNormalizer
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).KeyNormalizer
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.Roles
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.Roles
+  isExternal: true
+  name: Roles
+  nameWithType: RoleManager<TRole>.Roles
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.Roles
+  nameWithType.vb: RoleManager(Of TRole).Roles
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).Roles
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.SupportsQueryableRoles
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.SupportsQueryableRoles
+  isExternal: true
+  name: SupportsQueryableRoles
+  nameWithType: RoleManager<TRole>.SupportsQueryableRoles
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SupportsQueryableRoles
+  nameWithType.vb: RoleManager(Of TRole).SupportsQueryableRoles
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SupportsQueryableRoles
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.SupportsRoleClaims
+  commentId: P:Microsoft.AspNetCore.Identity.RoleManager`1.SupportsRoleClaims
+  isExternal: true
+  name: SupportsRoleClaims
+  nameWithType: RoleManager<TRole>.SupportsRoleClaims
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SupportsRoleClaims
+  nameWithType.vb: RoleManager(Of TRole).SupportsRoleClaims
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SupportsRoleClaims
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.#ctor*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.#ctor
+  name: IdentityRoleManager
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.IdentityRoleManager
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.IdentityRoleManager
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).IdentityRoleManager
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).IdentityRoleManager
+- uid: Microsoft.AspNetCore.Identity.IRoleStore{{TRole}}
+  commentId: T:Microsoft.AspNetCore.Identity.IRoleStore{`1}
+  parent: Microsoft.AspNetCore.Identity
+  definition: Microsoft.AspNetCore.Identity.IRoleStore`1
+  name: IRoleStore<TRole>
+  nameWithType: IRoleStore<TRole>
+  fullName: Microsoft.AspNetCore.Identity.IRoleStore<TRole>
+  nameWithType.vb: IRoleStore(Of TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.IRoleStore(Of TRole)
+  name.vb: IRoleStore(Of TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IRoleStore`1
+    name: IRoleStore
+    nameWithType: IRoleStore
+    fullName: Microsoft.AspNetCore.Identity.IRoleStore
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IRoleStore`1
+    name: IRoleStore
+    nameWithType: IRoleStore
+    fullName: Microsoft.AspNetCore.Identity.IRoleStore
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{{TRole}}}
+  commentId: T:System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IRoleValidator{`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IRoleValidator<TRole>>
+  nameWithType: IEnumerable<IRoleValidator<TRole>>
+  fullName: System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Identity.IRoleValidator<TRole>>
+  nameWithType.vb: IEnumerable(Of IRoleValidator(Of TRole))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Microsoft.AspNetCore.Identity.IRoleValidator(Of TRole))
+  name.vb: IEnumerable(Of IRoleValidator(Of TRole))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.IRoleValidator`1
+    name: IRoleValidator
+    nameWithType: IRoleValidator
+    fullName: Microsoft.AspNetCore.Identity.IRoleValidator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.IRoleValidator`1
+    name: IRoleValidator
+    nameWithType: IRoleValidator
+    fullName: Microsoft.AspNetCore.Identity.IRoleValidator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.ILookupNormalizer
+  commentId: T:Microsoft.AspNetCore.Identity.ILookupNormalizer
+  parent: Microsoft.AspNetCore.Identity
+  isExternal: true
+  name: ILookupNormalizer
+  nameWithType: ILookupNormalizer
+  fullName: Microsoft.AspNetCore.Identity.ILookupNormalizer
+- uid: Microsoft.AspNetCore.Identity.IdentityErrorDescriber
+  commentId: T:Microsoft.AspNetCore.Identity.IdentityErrorDescriber
+  parent: Microsoft.AspNetCore.Identity
+  isExternal: true
+  name: IdentityErrorDescriber
+  nameWithType: IdentityErrorDescriber
+  fullName: Microsoft.AspNetCore.Identity.IdentityErrorDescriber
+- uid: Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{{TRole}}}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.RoleManager{`1}}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<RoleManager<TRole>>
+  nameWithType: ILogger<RoleManager<TRole>>
+  fullName: Microsoft.Extensions.Logging.ILogger<Microsoft.AspNetCore.Identity.RoleManager<TRole>>
+  nameWithType.vb: ILogger(Of RoleManager(Of TRole))
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of Microsoft.AspNetCore.Identity.RoleManager(Of TRole))
+  name.vb: ILogger(Of RoleManager(Of TRole))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.IRoleStore`1
+  commentId: T:Microsoft.AspNetCore.Identity.IRoleStore`1
+  isExternal: true
+  name: IRoleStore<TRole>
+  nameWithType: IRoleStore<TRole>
+  fullName: Microsoft.AspNetCore.Identity.IRoleStore<TRole>
+  nameWithType.vb: IRoleStore(Of TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.IRoleStore(Of TRole)
+  name.vb: IRoleStore(Of TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IRoleStore`1
+    name: IRoleStore
+    nameWithType: IRoleStore
+    fullName: Microsoft.AspNetCore.Identity.IRoleStore
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IRoleStore`1
+    name: IRoleStore
+    nameWithType: IRoleStore
+    fullName: Microsoft.AspNetCore.Identity.IRoleStore
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TCategoryName
+    nameWithType: TCategoryName
+    fullName: TCategoryName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TCategoryName
+    nameWithType: TCategoryName
+    fullName: TCategoryName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.FindByIdAsync
+  name: FindByIdAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.FindByIdAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.FindByIdAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).FindByIdAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).FindByIdAsync
+- uid: System.Collections.Generic.IEnumerable{{TRoleId}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TRoleId>
+  nameWithType: IEnumerable<TRoleId>
+  fullName: System.Collections.Generic.IEnumerable<TRoleId>
+  nameWithType.vb: IEnumerable(Of TRoleId)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TRoleId)
+  name.vb: IEnumerable(Of TRoleId)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRoleId
+    nameWithType: TRoleId
+    fullName: TRoleId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRoleId
+    nameWithType: TRoleId
+    fullName: TRoleId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{TRole}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{`1}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IEnumerable<TRole>>
+  nameWithType: Task<IEnumerable<TRole>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<TRole>>
+  nameWithType.vb: Task(Of IEnumerable(Of TRole))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of TRole))
+  name.vb: Task(Of IEnumerable(Of TRole))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: '{TRoleId}'
+  commentId: '!:TRoleId'
+  definition: TRoleId
+  name: TRoleId
+  nameWithType: TRoleId
+  fullName: TRoleId
+- uid: System.Threading.Tasks.Task{{TRole}}
+  commentId: T:System.Threading.Tasks.Task{`1}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TRole>
+  nameWithType: Task<TRole>
+  fullName: System.Threading.Tasks.Task<TRole>
+  nameWithType.vb: Task(Of TRole)
+  fullName.vb: System.Threading.Tasks.Task(Of TRole)
+  name.vb: Task(Of TRole)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TRoleId
+  name: TRoleId
+  nameWithType: TRoleId
+  fullName: TRoleId
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.UpdateAsync
+  name: UpdateAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.UpdateAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.UpdateAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).UpdateAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).UpdateAsync
+- uid: System.Collections.Generic.IEnumerable{{TRole}}
+  commentId: T:System.Collections.Generic.IEnumerable{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TRole>
+  nameWithType: IEnumerable<TRole>
+  fullName: System.Collections.Generic.IEnumerable<TRole>
+  nameWithType.vb: IEnumerable(Of TRole)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TRole)
+  name.vb: IEnumerable(Of TRole)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{{TRoleId},Microsoft.AspNetCore.Identity.IdentityResult}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{`0,Microsoft.AspNetCore.Identity.IdentityResult}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Dictionary<TRoleId, IdentityResult>>
+  nameWithType: Task<Dictionary<TRoleId, IdentityResult>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<TRoleId, Microsoft.AspNetCore.Identity.IdentityResult>>
+  nameWithType.vb: Task(Of Dictionary(Of TRoleId, IdentityResult))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of TRoleId, Microsoft.AspNetCore.Identity.IdentityResult))
+  name.vb: Task(Of Dictionary(Of TRoleId, IdentityResult))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRoleId
+    nameWithType: TRoleId
+    fullName: TRoleId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Identity.IdentityResult
+    name: IdentityResult
+    nameWithType: IdentityResult
+    fullName: Microsoft.AspNetCore.Identity.IdentityResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRoleId
+    nameWithType: TRoleId
+    fullName: TRoleId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Identity.IdentityResult
+    name: IdentityResult
+    nameWithType: IdentityResult
+    fullName: Microsoft.AspNetCore.Identity.IdentityResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.GetClaimsAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.GetClaimsAsync
+  name: GetClaimsAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.GetClaimsAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.GetClaimsAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).GetClaimsAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).GetClaimsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IList{System.Security.Claims.Claim}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IList{System.Security.Claims.Claim}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IList<Claim>>
+  nameWithType: Task<IList<Claim>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IList<System.Security.Claims.Claim>>
+  nameWithType.vb: Task(Of IList(Of Claim))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IList(Of System.Security.Claims.Claim))
+  name.vb: Task(Of IList(Of Claim))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.CreateAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.CreateAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+  name: CreateAsync(TRole)
+  nameWithType: RoleManager<TRole>.CreateAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.CreateAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).CreateAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).CreateAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+    name: CreateAsync
+    nameWithType: RoleManager<TRole>.CreateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.CreateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+    name: CreateAsync
+    nameWithType: RoleManager(Of TRole).CreateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).CreateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.CreateAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.CreateAsync
+  name: CreateAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.CreateAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.CreateAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).CreateAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).CreateAsync
+- uid: '{TRole}'
+  commentId: '!:TRole'
+  definition: TRole
+  name: TRole
+  nameWithType: TRole
+  fullName: TRole
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.AspNetCore.Identity.IdentityResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IdentityResult>
+  nameWithType: Task<IdentityResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Identity.IdentityResult>
+  nameWithType.vb: Task(Of IdentityResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Identity.IdentityResult)
+  name.vb: Task(Of IdentityResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.IdentityResult
+    name: IdentityResult
+    nameWithType: IdentityResult
+    fullName: Microsoft.AspNetCore.Identity.IdentityResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.IdentityResult
+    name: IdentityResult
+    nameWithType: IdentityResult
+    fullName: Microsoft.AspNetCore.Identity.IdentityResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+  isExternal: true
+  name: CreateAsync(TRole)
+  nameWithType: RoleManager<TRole>.CreateAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.CreateAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).CreateAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).CreateAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+    name: CreateAsync
+    nameWithType: RoleManager<TRole>.CreateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.CreateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.CreateAsync(`0)
+    name: CreateAsync
+    nameWithType: RoleManager(Of TRole).CreateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).CreateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TRole
+  name: TRole
+  nameWithType: TRole
+  fullName: TRole
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.UpdateAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.UpdateAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+  name: UpdateAsync(TRole)
+  nameWithType: RoleManager<TRole>.UpdateAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).UpdateAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: RoleManager<TRole>.UpdateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: RoleManager(Of TRole).UpdateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+  isExternal: true
+  name: UpdateAsync(TRole)
+  nameWithType: RoleManager<TRole>.UpdateAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).UpdateAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: RoleManager<TRole>.UpdateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: RoleManager(Of TRole).UpdateAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.UpdateNormalizedRoleNameAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.UpdateNormalizedRoleNameAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+  name: UpdateNormalizedRoleNameAsync(TRole)
+  nameWithType: RoleManager<TRole>.UpdateNormalizedRoleNameAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateNormalizedRoleNameAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).UpdateNormalizedRoleNameAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateNormalizedRoleNameAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+    name: UpdateNormalizedRoleNameAsync
+    nameWithType: RoleManager<TRole>.UpdateNormalizedRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateNormalizedRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+    name: UpdateNormalizedRoleNameAsync
+    nameWithType: RoleManager(Of TRole).UpdateNormalizedRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateNormalizedRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.UpdateNormalizedRoleNameAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.UpdateNormalizedRoleNameAsync
+  name: UpdateNormalizedRoleNameAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.UpdateNormalizedRoleNameAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.UpdateNormalizedRoleNameAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).UpdateNormalizedRoleNameAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).UpdateNormalizedRoleNameAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+  isExternal: true
+  name: UpdateNormalizedRoleNameAsync(TRole)
+  nameWithType: RoleManager<TRole>.UpdateNormalizedRoleNameAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateNormalizedRoleNameAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).UpdateNormalizedRoleNameAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateNormalizedRoleNameAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+    name: UpdateNormalizedRoleNameAsync
+    nameWithType: RoleManager<TRole>.UpdateNormalizedRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.UpdateNormalizedRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.UpdateNormalizedRoleNameAsync(`0)
+    name: UpdateNormalizedRoleNameAsync
+    nameWithType: RoleManager(Of TRole).UpdateNormalizedRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).UpdateNormalizedRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.AddClaimAsync({TRole},System.Security.Claims.Claim)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.AddClaimAsync(`1,System.Security.Claims.Claim)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+  name: AddClaimAsync(TRole, Claim)
+  nameWithType: RoleManager<TRole>.AddClaimAsync(TRole, Claim)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.AddClaimAsync(TRole, System.Security.Claims.Claim)
+  nameWithType.vb: RoleManager(Of TRole).AddClaimAsync(TRole, Claim)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).AddClaimAsync(TRole, System.Security.Claims.Claim)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+    name: AddClaimAsync
+    nameWithType: RoleManager<TRole>.AddClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.AddClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+    name: AddClaimAsync
+    nameWithType: RoleManager(Of TRole).AddClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).AddClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.AddClaimAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.AddClaimAsync
+  name: AddClaimAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.AddClaimAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.AddClaimAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).AddClaimAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).AddClaimAsync
+- uid: System.Security.Claims.Claim
+  commentId: T:System.Security.Claims.Claim
+  parent: System.Security.Claims
+  isExternal: true
+  name: Claim
+  nameWithType: Claim
+  fullName: System.Security.Claims.Claim
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+  isExternal: true
+  name: AddClaimAsync(TRole, Claim)
+  nameWithType: RoleManager<TRole>.AddClaimAsync(TRole, Claim)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.AddClaimAsync(TRole, System.Security.Claims.Claim)
+  nameWithType.vb: RoleManager(Of TRole).AddClaimAsync(TRole, Claim)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).AddClaimAsync(TRole, System.Security.Claims.Claim)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+    name: AddClaimAsync
+    nameWithType: RoleManager<TRole>.AddClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.AddClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.AddClaimAsync(`0,System.Security.Claims.Claim)
+    name: AddClaimAsync
+    nameWithType: RoleManager(Of TRole).AddClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).AddClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.RemoveClaimAsync({TRole},System.Security.Claims.Claim)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.RemoveClaimAsync(`1,System.Security.Claims.Claim)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+  name: RemoveClaimAsync(TRole, Claim)
+  nameWithType: RoleManager<TRole>.RemoveClaimAsync(TRole, Claim)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RemoveClaimAsync(TRole, System.Security.Claims.Claim)
+  nameWithType.vb: RoleManager(Of TRole).RemoveClaimAsync(TRole, Claim)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RemoveClaimAsync(TRole, System.Security.Claims.Claim)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+    name: RemoveClaimAsync
+    nameWithType: RoleManager<TRole>.RemoveClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RemoveClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+    name: RemoveClaimAsync
+    nameWithType: RoleManager(Of TRole).RemoveClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RemoveClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.RemoveClaimAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.RemoveClaimAsync
+  name: RemoveClaimAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.RemoveClaimAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.RemoveClaimAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).RemoveClaimAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).RemoveClaimAsync
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+  isExternal: true
+  name: RemoveClaimAsync(TRole, Claim)
+  nameWithType: RoleManager<TRole>.RemoveClaimAsync(TRole, Claim)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RemoveClaimAsync(TRole, System.Security.Claims.Claim)
+  nameWithType.vb: RoleManager(Of TRole).RemoveClaimAsync(TRole, Claim)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RemoveClaimAsync(TRole, System.Security.Claims.Claim)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+    name: RemoveClaimAsync
+    nameWithType: RoleManager<TRole>.RemoveClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.RemoveClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.RemoveClaimAsync(`0,System.Security.Claims.Claim)
+    name: RemoveClaimAsync
+    nameWithType: RoleManager(Of TRole).RemoveClaimAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).RemoveClaimAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.SetRoleNameAsync({TRole},System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.SetRoleNameAsync(`1,System.String)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+  name: SetRoleNameAsync(TRole, String)
+  nameWithType: RoleManager<TRole>.SetRoleNameAsync(TRole, String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SetRoleNameAsync(TRole, System.String)
+  nameWithType.vb: RoleManager(Of TRole).SetRoleNameAsync(TRole, String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SetRoleNameAsync(TRole, System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+    name: SetRoleNameAsync
+    nameWithType: RoleManager<TRole>.SetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+    name: SetRoleNameAsync
+    nameWithType: RoleManager(Of TRole).SetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.SetRoleNameAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.SetRoleNameAsync
+  name: SetRoleNameAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.SetRoleNameAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.SetRoleNameAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).SetRoleNameAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).SetRoleNameAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+  isExternal: true
+  name: SetRoleNameAsync(TRole, String)
+  nameWithType: RoleManager<TRole>.SetRoleNameAsync(TRole, String)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SetRoleNameAsync(TRole, System.String)
+  nameWithType.vb: RoleManager(Of TRole).SetRoleNameAsync(TRole, String)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SetRoleNameAsync(TRole, System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+    name: SetRoleNameAsync
+    nameWithType: RoleManager<TRole>.SetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.SetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.SetRoleNameAsync(`0,System.String)
+    name: SetRoleNameAsync
+    nameWithType: RoleManager(Of TRole).SetRoleNameAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).SetRoleNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}.DeleteAsync({TRole})
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager{`1}.DeleteAsync(`1)
+  parent: Microsoft.AspNetCore.Identity.RoleManager{{TRole}}
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+  name: DeleteAsync(TRole)
+  nameWithType: RoleManager<TRole>.DeleteAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.DeleteAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).DeleteAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).DeleteAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+    name: DeleteAsync
+    nameWithType: RoleManager<TRole>.DeleteAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.DeleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+    name: DeleteAsync
+    nameWithType: RoleManager(Of TRole).DeleteAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).DeleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2.DeleteAsync*
+  commentId: Overload:es.efor.Auth.Managers.IdentityRoleManager`2.DeleteAsync
+  name: DeleteAsync
+  nameWithType: IdentityRoleManager<TRoleId, TRole>.DeleteAsync
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>.DeleteAsync
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole).DeleteAsync
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole).DeleteAsync
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+  commentId: M:Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+  isExternal: true
+  name: DeleteAsync(TRole)
+  nameWithType: RoleManager<TRole>.DeleteAsync(TRole)
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.DeleteAsync(TRole)
+  nameWithType.vb: RoleManager(Of TRole).DeleteAsync(TRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).DeleteAsync(TRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+    name: DeleteAsync
+    nameWithType: RoleManager<TRole>.DeleteAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager<TRole>.DeleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(`0)
+    name: DeleteAsync
+    nameWithType: RoleManager(Of TRole).DeleteAsync
+    fullName: Microsoft.AspNetCore.Identity.RoleManager(Of TRole).DeleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )

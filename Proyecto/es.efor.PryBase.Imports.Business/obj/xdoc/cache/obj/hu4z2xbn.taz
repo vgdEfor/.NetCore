@@ -1,0 +1,3569 @@
+id: es.efor.Musaat.Imports.Business
+language: CSharp
+name:
+  Default: es.efor.Musaat.Imports.Business
+qualifiedName:
+  Default: es.efor.Musaat.Imports.Business
+type: Assembly
+modifiers: {}
+items:
+- id: es.efor.Musaat.Imports.Model.Services
+  commentId: N:es.efor.Musaat.Imports.Model.Services
+  language: CSharp
+  name:
+    CSharp: es.efor.Musaat.Imports.Model.Services
+    VB: es.efor.Musaat.Imports.Model.Services
+  nameWithType:
+    CSharp: es.efor.Musaat.Imports.Model.Services
+    VB: es.efor.Musaat.Imports.Model.Services
+  qualifiedName:
+    CSharp: es.efor.Musaat.Imports.Model.Services
+    VB: es.efor.Musaat.Imports.Model.Services
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Imports.Business
+  modifiers: {}
+  items:
+  - id: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+    commentId: T:es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+    language: CSharp
+    name:
+      CSharp: MapperProfileImports
+      VB: MapperProfileImports
+    nameWithType:
+      CSharp: MapperProfileImports
+      VB: MapperProfileImports
+    qualifiedName:
+      CSharp: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+      VB: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+    type: Class
+    assemblies:
+    - es.efor.Musaat.Imports.Business
+    namespace: es.efor.Musaat.Imports.Model.Services
+    source:
+      remote:
+        path: es.efor.Musaat.Imports.Business/Services/AutoMapperRegistrations.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+      id: MapperProfileImports
+      path: ../es.efor.Musaat.Imports.Business/Services/AutoMapperRegistrations.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: 'public sealed class MapperProfileImports : Profile, IProfileExpression, IProfileConfiguration'
+        VB: >-
+          Public NotInheritable Class MapperProfileImports
+
+              Inherits Profile
+
+              Implements IProfileExpression, IProfileConfiguration
+    inheritance:
+    - System.Object
+    - AutoMapper.Profile
+    implements:
+    - AutoMapper.IProfileExpression
+    - AutoMapper.Configuration.IProfileConfiguration
+    inheritedMembers:
+    - AutoMapper.Profile.DisableConstructorMapping
+    - AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression})
+    - AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})
+    - AutoMapper.Profile.CreateMap``2
+    - AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList)
+    - AutoMapper.Profile.CreateMap(System.Type,System.Type)
+    - AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList)
+    - AutoMapper.Profile.ClearPrefixes
+    - AutoMapper.Profile.RecognizeAlias(System.String,System.String)
+    - AutoMapper.Profile.ReplaceMemberName(System.String,System.String)
+    - AutoMapper.Profile.RecognizePrefixes(System.String[])
+    - AutoMapper.Profile.RecognizePostfixes(System.String[])
+    - AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[])
+    - AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[])
+    - AutoMapper.Profile.AddGlobalIgnore(System.String)
+    - AutoMapper.Profile.AddMemberConfiguration
+    - AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type)
+    - AutoMapper.Profile.DefaultMemberConfig
+    - AutoMapper.Profile.ConstructorMappingEnabled
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllPropertyMapActions
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllTypeMapActions
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#GlobalIgnores
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#MemberConfigurations
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#SourceExtensionMethods
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#TypeMapConfigs
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#OpenTypeMapConfigs
+    - AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#ValueTransformers
+    - AutoMapper.Profile.ProfileName
+    - AutoMapper.Profile.AllowNullDestinationValues
+    - AutoMapper.Profile.AllowNullCollections
+    - AutoMapper.Profile.EnableNullPropagationForQueryMapping
+    - AutoMapper.Profile.ShouldMapProperty
+    - AutoMapper.Profile.ShouldMapField
+    - AutoMapper.Profile.ShouldMapMethod
+    - AutoMapper.Profile.ShouldUseConstructor
+    - AutoMapper.Profile.SourceMemberNamingConvention
+    - AutoMapper.Profile.DestinationMemberNamingConvention
+    - AutoMapper.Profile.ValueTransformers
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - sealed
+      - class
+      VB:
+      - Public
+      - NotInheritable
+      - Class
+    items:
+    - id: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor
+      commentId: M:es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor
+      language: CSharp
+      name:
+        CSharp: MapperProfileImports()
+        VB: MapperProfileImports()
+      nameWithType:
+        CSharp: MapperProfileImports.MapperProfileImports()
+        VB: MapperProfileImports.MapperProfileImports()
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.MapperProfileImports()
+        VB: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.MapperProfileImports()
+      type: Constructor
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/AutoMapperRegistrations.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: .ctor
+        path: ../es.efor.Musaat.Imports.Business/Services/AutoMapperRegistrations.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public MapperProfileImports()
+          VB: Public Sub New
+      overload: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: es.efor.Musaat.Imports.Model.Services.ImportServices
+  commentId: N:es.efor.Musaat.Imports.Model.Services.ImportServices
+  language: CSharp
+  name:
+    CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices
+    VB: es.efor.Musaat.Imports.Model.Services.ImportServices
+  nameWithType:
+    CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices
+    VB: es.efor.Musaat.Imports.Model.Services.ImportServices
+  qualifiedName:
+    CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices
+    VB: es.efor.Musaat.Imports.Model.Services.ImportServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Imports.Business
+  modifiers: {}
+  items:
+  - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    commentId: T:es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    language: CSharp
+    name:
+      CSharp: IImportService
+      VB: IImportService
+    nameWithType:
+      CSharp: IImportService
+      VB: IImportService
+    qualifiedName:
+      CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+      VB: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    type: Interface
+    assemblies:
+    - es.efor.Musaat.Imports.Business
+    namespace: es.efor.Musaat.Imports.Model.Services.ImportServices
+    source:
+      remote:
+        path: es.efor.Musaat.Imports.Business/Services/ImportServices/IImportService.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+      id: IImportService
+      path: ../es.efor.Musaat.Imports.Business/Services/ImportServices/IImportService.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: public interface IImportService
+        VB: Public Interface IImportService
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+      language: CSharp
+      name:
+        CSharp: ImportEmployees(String)
+        VB: ImportEmployees(String)
+      nameWithType:
+        CSharp: IImportService.ImportEmployees(String)
+        VB: IImportService.ImportEmployees(String)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+        VB: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.ImportServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/ImportServices/IImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: ImportEmployees
+        path: ../es.efor.Musaat.Imports.Business/Services/ImportServices/IImportService.cs
+        startLine: 10
+      summary: "\nImport Employees\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Task<bool> ImportEmployees(string path)
+          VB: Function ImportEmployees(path As String) As Task(Of Boolean)
+        parameters:
+        - id: path
+          type: System.String
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees*
+      modifiers:
+        CSharp: []
+        VB: []
+  - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+    commentId: T:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+    language: CSharp
+    name:
+      CSharp: ImportService
+      VB: ImportService
+    nameWithType:
+      CSharp: ImportService
+      VB: ImportService
+    qualifiedName:
+      CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+      VB: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+    type: Class
+    assemblies:
+    - es.efor.Musaat.Imports.Business
+    namespace: es.efor.Musaat.Imports.Model.Services.ImportServices
+    source:
+      remote:
+        path: es.efor.Musaat.Imports.Business/Services/ImportServices/ImportService.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+      id: ImportService
+      path: ../es.efor.Musaat.Imports.Business/Services/ImportServices/ImportService.cs
+      startLine: 14
+    syntax:
+      content:
+        CSharp: 'public class ImportService : IImportService'
+        VB: >-
+          Public Class ImportService
+
+              Implements IImportService
+    inheritance:
+    - System.Object
+    implements:
+    - es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService})
+      commentId: M:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService})
+      language: CSharp
+      name:
+        CSharp: ImportService(NexusContext, IMapper, ILogger<ImportService>)
+        VB: ImportService(NexusContext, IMapper, ILogger(Of ImportService))
+      nameWithType:
+        CSharp: ImportService.ImportService(NexusContext, IMapper, ILogger<ImportService>)
+        VB: ImportService.ImportService(NexusContext, IMapper, ILogger(Of ImportService))
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, Microsoft.Extensions.Logging.ILogger<es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService>)
+        VB: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, Microsoft.Extensions.Logging.ILogger(Of es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService))
+      type: Constructor
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.ImportServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/ImportServices/ImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: .ctor
+        path: ../es.efor.Musaat.Imports.Business/Services/ImportServices/ImportService.cs
+        startLine: 23
+      syntax:
+        content:
+          CSharp: public ImportService(NexusContext NexusContext, IMapper mapper, ILogger<ImportService> logger)
+          VB: Public Sub New(NexusContext As NexusContext, mapper As IMapper, logger As ILogger(Of ImportService))
+        parameters:
+        - id: NexusContext
+          type: es.efor.Musaat.Data.Context.NexusContext
+        - id: mapper
+          type: AutoMapper.IMapper
+        - id: logger
+          type: Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService}
+      overload: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees(System.String)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees(System.String)
+      language: CSharp
+      name:
+        CSharp: ImportEmployees(String)
+        VB: ImportEmployees(String)
+      nameWithType:
+        CSharp: ImportService.ImportEmployees(String)
+        VB: ImportService.ImportEmployees(String)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees(System.String)
+        VB: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.ImportServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/ImportServices/ImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: ImportEmployees
+        path: ../es.efor.Musaat.Imports.Business/Services/ImportServices/ImportService.cs
+        startLine: 40
+      summary: "\nImport employees\nSave in DB.\nSave log in DB.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<bool> ImportEmployees(string path)
+          VB: Public Function ImportEmployees(path As String) As Task(Of Boolean)
+        parameters:
+        - id: path
+          type: System.String
+          description: User to save
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+          description: Status of the task
+      overload: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees*
+      implements:
+      - es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  commentId: N:es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  language: CSharp
+  name:
+    CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  nameWithType:
+    CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  qualifiedName:
+    CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Imports.Business
+  modifiers: {}
+  items:
+  - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    commentId: T:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    language: CSharp
+    name:
+      CSharp: ILogImportService
+      VB: ILogImportService
+    nameWithType:
+      CSharp: ILogImportService
+      VB: ILogImportService
+    qualifiedName:
+      CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+      VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    type: Interface
+    assemblies:
+    - es.efor.Musaat.Imports.Business
+    namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    source:
+      remote:
+        path: es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+      id: ILogImportService
+      path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public interface ILogImportService
+        VB: Public Interface ILogImportService
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+      language: CSharp
+      name:
+        CSharp: GetAll()
+        VB: GetAll()
+      nameWithType:
+        CSharp: ILogImportService.GetAll()
+        VB: ILogImportService.GetAll()
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll()
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll()
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: GetAll
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+        startLine: 12
+      summary: "\nReturns a list of logs\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Task<List<LogImportDTO>> GetAll()
+          VB: Function GetAll As Task(Of List(Of LogImportDTO))
+        return:
+          type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String)
+      language: CSharp
+      name:
+        CSharp: GetLogImports(String, String)
+        VB: GetLogImports(String, String)
+      nameWithType:
+        CSharp: ILogImportService.GetLogImports(String, String)
+        VB: ILogImportService.GetLogImports(String, String)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String, System.String)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String, System.String)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: GetLogImports
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+        startLine: 18
+      summary: "\nReturns a list of logs with filter\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Task<List<LogImportDTO>> GetLogImports(string dateFrom, string dateTo)
+          VB: Function GetLogImports(dateFrom As String, dateTo As String) As Task(Of List(Of LogImportDTO))
+        parameters:
+        - id: dateFrom
+          type: System.String
+        - id: dateTo
+          type: System.String
+        return:
+          type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetLogImportById(Int32)
+        VB: GetLogImportById(Int32)
+      nameWithType:
+        CSharp: ILogImportService.GetLogImportById(Int32)
+        VB: ILogImportService.GetLogImportById(Int32)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: GetLogImportById
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+        startLine: 25
+      summary: "\nReturns LogImportDTO with the specified id\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Task<LogImportDTO> GetLogImportById(int id)
+          VB: Function GetLogImportById(id As Integer) As Task(Of LogImportDTO)
+        parameters:
+        - id: id
+          type: System.Int32
+          description: Log ID to lookup
+        return:
+          type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      language: CSharp
+      name:
+        CSharp: Set(LogImportDTO)
+        VB: Set(LogImportDTO)
+      nameWithType:
+        CSharp: ILogImportService.Set(LogImportDTO)
+        VB: ILogImportService.Set(LogImportDTO)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: Set
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/ILogImportService.cs
+        startLine: 32
+      summary: "\nSaves the log to DB. If the log already exist, update it\n"
+      example: []
+      syntax:
+        content:
+          CSharp: Task<bool> Set(LogImportDTO logImport)
+          VB: Function Set(logImport As LogImportDTO) As Task(Of Boolean)
+        parameters:
+        - id: logImport
+          type: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+          description: Log to save
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+          description: Status of the task
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set*
+      modifiers:
+        CSharp: []
+        VB: []
+  - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+    commentId: T:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+    language: CSharp
+    name:
+      CSharp: LogImportService
+      VB: LogImportService
+    nameWithType:
+      CSharp: LogImportService
+      VB: LogImportService
+    qualifiedName:
+      CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+      VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+    type: Class
+    assemblies:
+    - es.efor.Musaat.Imports.Business
+    namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    source:
+      remote:
+        path: es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+      id: LogImportService
+      path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+      startLine: 13
+    syntax:
+      content:
+        CSharp: 'public class LogImportService : ILogImportService'
+        VB: >-
+          Public Class LogImportService
+
+              Implements ILogImportService
+    inheritance:
+    - System.Object
+    implements:
+    - es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService})
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService})
+      language: CSharp
+      name:
+        CSharp: LogImportService(NexusContext, IMapper, ILogger<LogImportService>)
+        VB: LogImportService(NexusContext, IMapper, ILogger(Of LogImportService))
+      nameWithType:
+        CSharp: LogImportService.LogImportService(NexusContext, IMapper, ILogger<LogImportService>)
+        VB: LogImportService.LogImportService(NexusContext, IMapper, ILogger(Of LogImportService))
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.LogImportService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, Microsoft.Extensions.Logging.ILogger<es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService>)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.LogImportService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, Microsoft.Extensions.Logging.ILogger(Of es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService))
+      type: Constructor
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: .ctor
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public LogImportService(NexusContext NexusContext, IMapper mapper, ILogger<LogImportService> logger)
+          VB: Public Sub New(NexusContext As NexusContext, mapper As IMapper, logger As ILogger(Of LogImportService))
+        parameters:
+        - id: NexusContext
+          type: es.efor.Musaat.Data.Context.NexusContext
+        - id: mapper
+          type: AutoMapper.IMapper
+        - id: logger
+          type: Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService}
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll
+      language: CSharp
+      name:
+        CSharp: GetAll()
+        VB: GetAll()
+      nameWithType:
+        CSharp: LogImportService.GetAll()
+        VB: LogImportService.GetAll()
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll()
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll()
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: GetAll
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+        startLine: 36
+      summary: "\nReturns a list of logs\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<List<LogImportDTO>> GetAll()
+          VB: Public Function GetAll As Task(Of List(Of LogImportDTO))
+        return:
+          type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll*
+      implements:
+      - es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports(System.String,System.String)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports(System.String,System.String)
+      language: CSharp
+      name:
+        CSharp: GetLogImports(String, String)
+        VB: GetLogImports(String, String)
+      nameWithType:
+        CSharp: LogImportService.GetLogImports(String, String)
+        VB: LogImportService.GetLogImports(String, String)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports(System.String, System.String)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports(System.String, System.String)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: GetLogImports
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+        startLine: 48
+      summary: "\nReturns a list of logs imports with filters\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<List<LogImportDTO>> GetLogImports(string dateFrom = "", string dateTo = "")
+          VB: Public Function GetLogImports(dateFrom As String = "", dateTo As String = "") As Task(Of List(Of LogImportDTO))
+        parameters:
+        - id: dateFrom
+          type: System.String
+        - id: dateTo
+          type: System.String
+        return:
+          type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports*
+      implements:
+      - es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById(System.Int32)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetLogImportById(Int32)
+        VB: GetLogImportById(Int32)
+      nameWithType:
+        CSharp: LogImportService.GetLogImportById(Int32)
+        VB: LogImportService.GetLogImportById(Int32)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById(System.Int32)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById(System.Int32)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: GetLogImportById
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+        startLine: 85
+      summary: "\nReturns LogImportDTO with the specified id\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<LogImportDTO> GetLogImportById(int id)
+          VB: Public Function GetLogImportById(id As Integer) As Task(Of LogImportDTO)
+        parameters:
+        - id: id
+          type: System.Int32
+          description: Log ID to lookup
+        return:
+          type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}
+          description: ''
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById*
+      implements:
+      - es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      language: CSharp
+      name:
+        CSharp: Set(LogImportDTO)
+        VB: Set(LogImportDTO)
+      nameWithType:
+        CSharp: LogImportService.Set(LogImportDTO)
+        VB: LogImportService.Set(LogImportDTO)
+      qualifiedName:
+        CSharp: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+        VB: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      type: Method
+      assemblies:
+      - es.efor.Musaat.Imports.Business
+      namespace: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      source:
+        remote:
+          path: es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+        id: Set
+        path: ../es.efor.Musaat.Imports.Business/Services/LogImportServices/LogImportService.cs
+        startLine: 99
+      summary: "\nSaves the log to DB. If the log already exist, update it\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<bool> Set(LogImportDTO logImport)
+          VB: Public Function Set(logImport As LogImportDTO) As Task(Of Boolean)
+        parameters:
+        - id: logImport
+          type: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+          description: Log to save
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+          description: Status of the task
+      overload: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set*
+      implements:
+      - es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  AutoMapper:
+    name:
+      CSharp:
+      - name: AutoMapper
+        nameWithType: AutoMapper
+        qualifiedName: AutoMapper
+        isExternal: true
+      VB:
+      - name: AutoMapper
+        nameWithType: AutoMapper
+        qualifiedName: AutoMapper
+    isDefinition: true
+    commentId: N:AutoMapper
+  AutoMapper.Profile:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile
+        name: Profile
+        nameWithType: Profile
+        qualifiedName: AutoMapper.Profile
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile
+        name: Profile
+        nameWithType: Profile
+        qualifiedName: AutoMapper.Profile
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper
+    commentId: T:AutoMapper.Profile
+  AutoMapper.Profile.DisableConstructorMapping:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.DisableConstructorMapping
+        name: DisableConstructorMapping
+        nameWithType: Profile.DisableConstructorMapping
+        qualifiedName: AutoMapper.Profile.DisableConstructorMapping
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.DisableConstructorMapping
+        name: DisableConstructorMapping
+        nameWithType: Profile.DisableConstructorMapping
+        qualifiedName: AutoMapper.Profile.DisableConstructorMapping
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.DisableConstructorMapping
+  AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression}):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression})
+        name: ForAllMaps
+        nameWithType: Profile.ForAllMaps
+        qualifiedName: AutoMapper.Profile.ForAllMaps
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Action`2
+        name: Action
+        nameWithType: Action
+        qualifiedName: System.Action
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: AutoMapper.TypeMap
+        name: TypeMap
+        nameWithType: TypeMap
+        qualifiedName: AutoMapper.TypeMap
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: AutoMapper.IMappingExpression
+        name: IMappingExpression
+        nameWithType: IMappingExpression
+        qualifiedName: AutoMapper.IMappingExpression
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression})
+        name: ForAllMaps
+        nameWithType: Profile.ForAllMaps
+        qualifiedName: AutoMapper.Profile.ForAllMaps
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Action`2
+        name: Action
+        nameWithType: Action
+        qualifiedName: System.Action
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: AutoMapper.TypeMap
+        name: TypeMap
+        nameWithType: TypeMap
+        qualifiedName: AutoMapper.TypeMap
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: AutoMapper.IMappingExpression
+        name: IMappingExpression
+        nameWithType: IMappingExpression
+        qualifiedName: AutoMapper.IMappingExpression
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression})
+  ? AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})
+  : name:
+      CSharp:
+      - id: AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})
+        name: ForAllPropertyMaps
+        nameWithType: Profile.ForAllPropertyMaps
+        qualifiedName: AutoMapper.Profile.ForAllPropertyMaps
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: AutoMapper.PropertyMap
+        name: PropertyMap
+        nameWithType: PropertyMap
+        qualifiedName: AutoMapper.PropertyMap
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Action`2
+        name: Action
+        nameWithType: Action
+        qualifiedName: System.Action
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: AutoMapper.PropertyMap
+        name: PropertyMap
+        nameWithType: PropertyMap
+        qualifiedName: AutoMapper.PropertyMap
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: AutoMapper.IMemberConfigurationExpression
+        name: IMemberConfigurationExpression
+        nameWithType: IMemberConfigurationExpression
+        qualifiedName: AutoMapper.IMemberConfigurationExpression
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})
+        name: ForAllPropertyMaps
+        nameWithType: Profile.ForAllPropertyMaps
+        qualifiedName: AutoMapper.Profile.ForAllPropertyMaps
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: AutoMapper.PropertyMap
+        name: PropertyMap
+        nameWithType: PropertyMap
+        qualifiedName: AutoMapper.PropertyMap
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Action`2
+        name: Action
+        nameWithType: Action
+        qualifiedName: System.Action
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: AutoMapper.PropertyMap
+        name: PropertyMap
+        nameWithType: PropertyMap
+        qualifiedName: AutoMapper.PropertyMap
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: AutoMapper.IMemberConfigurationExpression
+        name: IMemberConfigurationExpression
+        nameWithType: IMemberConfigurationExpression
+        qualifiedName: AutoMapper.IMemberConfigurationExpression
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})
+  AutoMapper.Profile.CreateMap``2:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.CreateMap``2
+        name: CreateMap<TSource, TDestination>
+        nameWithType: Profile.CreateMap<TSource, TDestination>
+        qualifiedName: AutoMapper.Profile.CreateMap<TSource, TDestination>
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.CreateMap``2
+        name: CreateMap(Of TSource, TDestination)
+        nameWithType: Profile.CreateMap(Of TSource, TDestination)
+        qualifiedName: AutoMapper.Profile.CreateMap(Of TSource, TDestination)
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.CreateMap``2
+  AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList)
+        name: CreateMap<TSource, TDestination>
+        nameWithType: Profile.CreateMap<TSource, TDestination>
+        qualifiedName: AutoMapper.Profile.CreateMap<TSource, TDestination>
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: AutoMapper.MemberList
+        name: MemberList
+        nameWithType: MemberList
+        qualifiedName: AutoMapper.MemberList
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList)
+        name: CreateMap(Of TSource, TDestination)
+        nameWithType: Profile.CreateMap(Of TSource, TDestination)
+        qualifiedName: AutoMapper.Profile.CreateMap(Of TSource, TDestination)
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: AutoMapper.MemberList
+        name: MemberList
+        nameWithType: MemberList
+        qualifiedName: AutoMapper.MemberList
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList)
+  AutoMapper.Profile.CreateMap(System.Type,System.Type):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.CreateMap(System.Type,System.Type)
+        name: CreateMap
+        nameWithType: Profile.CreateMap
+        qualifiedName: AutoMapper.Profile.CreateMap
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.CreateMap(System.Type,System.Type)
+        name: CreateMap
+        nameWithType: Profile.CreateMap
+        qualifiedName: AutoMapper.Profile.CreateMap
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.CreateMap(System.Type,System.Type)
+  AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList)
+        name: CreateMap
+        nameWithType: Profile.CreateMap
+        qualifiedName: AutoMapper.Profile.CreateMap
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: AutoMapper.MemberList
+        name: MemberList
+        nameWithType: MemberList
+        qualifiedName: AutoMapper.MemberList
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList)
+        name: CreateMap
+        nameWithType: Profile.CreateMap
+        qualifiedName: AutoMapper.Profile.CreateMap
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: AutoMapper.MemberList
+        name: MemberList
+        nameWithType: MemberList
+        qualifiedName: AutoMapper.MemberList
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList)
+  AutoMapper.Profile.ClearPrefixes:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ClearPrefixes
+        name: ClearPrefixes
+        nameWithType: Profile.ClearPrefixes
+        qualifiedName: AutoMapper.Profile.ClearPrefixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.ClearPrefixes
+        name: ClearPrefixes
+        nameWithType: Profile.ClearPrefixes
+        qualifiedName: AutoMapper.Profile.ClearPrefixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.ClearPrefixes
+  AutoMapper.Profile.RecognizeAlias(System.String,System.String):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.RecognizeAlias(System.String,System.String)
+        name: RecognizeAlias
+        nameWithType: Profile.RecognizeAlias
+        qualifiedName: AutoMapper.Profile.RecognizeAlias
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.RecognizeAlias(System.String,System.String)
+        name: RecognizeAlias
+        nameWithType: Profile.RecognizeAlias
+        qualifiedName: AutoMapper.Profile.RecognizeAlias
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.RecognizeAlias(System.String,System.String)
+  AutoMapper.Profile.ReplaceMemberName(System.String,System.String):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ReplaceMemberName(System.String,System.String)
+        name: ReplaceMemberName
+        nameWithType: Profile.ReplaceMemberName
+        qualifiedName: AutoMapper.Profile.ReplaceMemberName
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.ReplaceMemberName(System.String,System.String)
+        name: ReplaceMemberName
+        nameWithType: Profile.ReplaceMemberName
+        qualifiedName: AutoMapper.Profile.ReplaceMemberName
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.ReplaceMemberName(System.String,System.String)
+  AutoMapper.Profile.RecognizePrefixes(System.String[]):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.RecognizePrefixes(System.String[])
+        name: RecognizePrefixes
+        nameWithType: Profile.RecognizePrefixes
+        qualifiedName: AutoMapper.Profile.RecognizePrefixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.RecognizePrefixes(System.String[])
+        name: RecognizePrefixes
+        nameWithType: Profile.RecognizePrefixes
+        qualifiedName: AutoMapper.Profile.RecognizePrefixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.RecognizePrefixes(System.String[])
+  AutoMapper.Profile.RecognizePostfixes(System.String[]):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.RecognizePostfixes(System.String[])
+        name: RecognizePostfixes
+        nameWithType: Profile.RecognizePostfixes
+        qualifiedName: AutoMapper.Profile.RecognizePostfixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.RecognizePostfixes(System.String[])
+        name: RecognizePostfixes
+        nameWithType: Profile.RecognizePostfixes
+        qualifiedName: AutoMapper.Profile.RecognizePostfixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.RecognizePostfixes(System.String[])
+  AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[]):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[])
+        name: RecognizeDestinationPrefixes
+        nameWithType: Profile.RecognizeDestinationPrefixes
+        qualifiedName: AutoMapper.Profile.RecognizeDestinationPrefixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[])
+        name: RecognizeDestinationPrefixes
+        nameWithType: Profile.RecognizeDestinationPrefixes
+        qualifiedName: AutoMapper.Profile.RecognizeDestinationPrefixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[])
+  AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[]):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[])
+        name: RecognizeDestinationPostfixes
+        nameWithType: Profile.RecognizeDestinationPostfixes
+        qualifiedName: AutoMapper.Profile.RecognizeDestinationPostfixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[])
+        name: RecognizeDestinationPostfixes
+        nameWithType: Profile.RecognizeDestinationPostfixes
+        qualifiedName: AutoMapper.Profile.RecognizeDestinationPostfixes
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[])
+  AutoMapper.Profile.AddGlobalIgnore(System.String):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AddGlobalIgnore(System.String)
+        name: AddGlobalIgnore
+        nameWithType: Profile.AddGlobalIgnore
+        qualifiedName: AutoMapper.Profile.AddGlobalIgnore
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.AddGlobalIgnore(System.String)
+        name: AddGlobalIgnore
+        nameWithType: Profile.AddGlobalIgnore
+        qualifiedName: AutoMapper.Profile.AddGlobalIgnore
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.AddGlobalIgnore(System.String)
+  AutoMapper.Profile.AddMemberConfiguration:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AddMemberConfiguration
+        name: AddMemberConfiguration
+        nameWithType: Profile.AddMemberConfiguration
+        qualifiedName: AutoMapper.Profile.AddMemberConfiguration
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.AddMemberConfiguration
+        name: AddMemberConfiguration
+        nameWithType: Profile.AddMemberConfiguration
+        qualifiedName: AutoMapper.Profile.AddMemberConfiguration
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.AddMemberConfiguration
+  AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type):
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type)
+        name: IncludeSourceExtensionMethods
+        nameWithType: Profile.IncludeSourceExtensionMethods
+        qualifiedName: AutoMapper.Profile.IncludeSourceExtensionMethods
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type)
+        name: IncludeSourceExtensionMethods
+        nameWithType: Profile.IncludeSourceExtensionMethods
+        qualifiedName: AutoMapper.Profile.IncludeSourceExtensionMethods
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: M:AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type)
+  AutoMapper.Profile.DefaultMemberConfig:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.DefaultMemberConfig
+        name: DefaultMemberConfig
+        nameWithType: Profile.DefaultMemberConfig
+        qualifiedName: AutoMapper.Profile.DefaultMemberConfig
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.DefaultMemberConfig
+        name: DefaultMemberConfig
+        nameWithType: Profile.DefaultMemberConfig
+        qualifiedName: AutoMapper.Profile.DefaultMemberConfig
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.DefaultMemberConfig
+  AutoMapper.Profile.ConstructorMappingEnabled:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ConstructorMappingEnabled
+        name: ConstructorMappingEnabled
+        nameWithType: Profile.ConstructorMappingEnabled
+        qualifiedName: AutoMapper.Profile.ConstructorMappingEnabled
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ConstructorMappingEnabled
+        name: ConstructorMappingEnabled
+        nameWithType: Profile.ConstructorMappingEnabled
+        qualifiedName: AutoMapper.Profile.ConstructorMappingEnabled
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ConstructorMappingEnabled
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllPropertyMapActions:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllPropertyMapActions
+        name: IProfileConfiguration.AllPropertyMapActions
+        nameWithType: Profile.IProfileConfiguration.AllPropertyMapActions
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.AllPropertyMapActions
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllPropertyMapActions
+        name: AutoMapper.Configuration.IProfileConfiguration.AllPropertyMapActions
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.AllPropertyMapActions
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.AllPropertyMapActions
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllPropertyMapActions
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllTypeMapActions:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllTypeMapActions
+        name: IProfileConfiguration.AllTypeMapActions
+        nameWithType: Profile.IProfileConfiguration.AllTypeMapActions
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.AllTypeMapActions
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllTypeMapActions
+        name: AutoMapper.Configuration.IProfileConfiguration.AllTypeMapActions
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.AllTypeMapActions
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.AllTypeMapActions
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#AllTypeMapActions
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#GlobalIgnores:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#GlobalIgnores
+        name: IProfileConfiguration.GlobalIgnores
+        nameWithType: Profile.IProfileConfiguration.GlobalIgnores
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.GlobalIgnores
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#GlobalIgnores
+        name: AutoMapper.Configuration.IProfileConfiguration.GlobalIgnores
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.GlobalIgnores
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.GlobalIgnores
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#GlobalIgnores
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#MemberConfigurations:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#MemberConfigurations
+        name: IProfileConfiguration.MemberConfigurations
+        nameWithType: Profile.IProfileConfiguration.MemberConfigurations
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.MemberConfigurations
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#MemberConfigurations
+        name: AutoMapper.Configuration.IProfileConfiguration.MemberConfigurations
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.MemberConfigurations
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.MemberConfigurations
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#MemberConfigurations
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#SourceExtensionMethods:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#SourceExtensionMethods
+        name: IProfileConfiguration.SourceExtensionMethods
+        nameWithType: Profile.IProfileConfiguration.SourceExtensionMethods
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.SourceExtensionMethods
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#SourceExtensionMethods
+        name: AutoMapper.Configuration.IProfileConfiguration.SourceExtensionMethods
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.SourceExtensionMethods
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.SourceExtensionMethods
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#SourceExtensionMethods
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#TypeMapConfigs:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#TypeMapConfigs
+        name: IProfileConfiguration.TypeMapConfigs
+        nameWithType: Profile.IProfileConfiguration.TypeMapConfigs
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.TypeMapConfigs
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#TypeMapConfigs
+        name: AutoMapper.Configuration.IProfileConfiguration.TypeMapConfigs
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.TypeMapConfigs
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.TypeMapConfigs
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#TypeMapConfigs
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#OpenTypeMapConfigs:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#OpenTypeMapConfigs
+        name: IProfileConfiguration.OpenTypeMapConfigs
+        nameWithType: Profile.IProfileConfiguration.OpenTypeMapConfigs
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.OpenTypeMapConfigs
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#OpenTypeMapConfigs
+        name: AutoMapper.Configuration.IProfileConfiguration.OpenTypeMapConfigs
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.OpenTypeMapConfigs
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.OpenTypeMapConfigs
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#OpenTypeMapConfigs
+  AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#ValueTransformers:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#ValueTransformers
+        name: IProfileConfiguration.ValueTransformers
+        nameWithType: Profile.IProfileConfiguration.ValueTransformers
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.ValueTransformers
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#ValueTransformers
+        name: AutoMapper.Configuration.IProfileConfiguration.ValueTransformers
+        nameWithType: Profile.AutoMapper.Configuration.IProfileConfiguration.ValueTransformers
+        qualifiedName: AutoMapper.Profile.AutoMapper.Configuration.IProfileConfiguration.ValueTransformers
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AutoMapper#Configuration#IProfileConfiguration#ValueTransformers
+  AutoMapper.Profile.ProfileName:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ProfileName
+        name: ProfileName
+        nameWithType: Profile.ProfileName
+        qualifiedName: AutoMapper.Profile.ProfileName
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ProfileName
+        name: ProfileName
+        nameWithType: Profile.ProfileName
+        qualifiedName: AutoMapper.Profile.ProfileName
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ProfileName
+  AutoMapper.Profile.AllowNullDestinationValues:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AllowNullDestinationValues
+        name: AllowNullDestinationValues
+        nameWithType: Profile.AllowNullDestinationValues
+        qualifiedName: AutoMapper.Profile.AllowNullDestinationValues
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AllowNullDestinationValues
+        name: AllowNullDestinationValues
+        nameWithType: Profile.AllowNullDestinationValues
+        qualifiedName: AutoMapper.Profile.AllowNullDestinationValues
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AllowNullDestinationValues
+  AutoMapper.Profile.AllowNullCollections:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.AllowNullCollections
+        name: AllowNullCollections
+        nameWithType: Profile.AllowNullCollections
+        qualifiedName: AutoMapper.Profile.AllowNullCollections
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.AllowNullCollections
+        name: AllowNullCollections
+        nameWithType: Profile.AllowNullCollections
+        qualifiedName: AutoMapper.Profile.AllowNullCollections
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.AllowNullCollections
+  AutoMapper.Profile.EnableNullPropagationForQueryMapping:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.EnableNullPropagationForQueryMapping
+        name: EnableNullPropagationForQueryMapping
+        nameWithType: Profile.EnableNullPropagationForQueryMapping
+        qualifiedName: AutoMapper.Profile.EnableNullPropagationForQueryMapping
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.EnableNullPropagationForQueryMapping
+        name: EnableNullPropagationForQueryMapping
+        nameWithType: Profile.EnableNullPropagationForQueryMapping
+        qualifiedName: AutoMapper.Profile.EnableNullPropagationForQueryMapping
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.EnableNullPropagationForQueryMapping
+  AutoMapper.Profile.ShouldMapProperty:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ShouldMapProperty
+        name: ShouldMapProperty
+        nameWithType: Profile.ShouldMapProperty
+        qualifiedName: AutoMapper.Profile.ShouldMapProperty
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ShouldMapProperty
+        name: ShouldMapProperty
+        nameWithType: Profile.ShouldMapProperty
+        qualifiedName: AutoMapper.Profile.ShouldMapProperty
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ShouldMapProperty
+  AutoMapper.Profile.ShouldMapField:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ShouldMapField
+        name: ShouldMapField
+        nameWithType: Profile.ShouldMapField
+        qualifiedName: AutoMapper.Profile.ShouldMapField
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ShouldMapField
+        name: ShouldMapField
+        nameWithType: Profile.ShouldMapField
+        qualifiedName: AutoMapper.Profile.ShouldMapField
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ShouldMapField
+  AutoMapper.Profile.ShouldMapMethod:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ShouldMapMethod
+        name: ShouldMapMethod
+        nameWithType: Profile.ShouldMapMethod
+        qualifiedName: AutoMapper.Profile.ShouldMapMethod
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ShouldMapMethod
+        name: ShouldMapMethod
+        nameWithType: Profile.ShouldMapMethod
+        qualifiedName: AutoMapper.Profile.ShouldMapMethod
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ShouldMapMethod
+  AutoMapper.Profile.ShouldUseConstructor:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ShouldUseConstructor
+        name: ShouldUseConstructor
+        nameWithType: Profile.ShouldUseConstructor
+        qualifiedName: AutoMapper.Profile.ShouldUseConstructor
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ShouldUseConstructor
+        name: ShouldUseConstructor
+        nameWithType: Profile.ShouldUseConstructor
+        qualifiedName: AutoMapper.Profile.ShouldUseConstructor
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ShouldUseConstructor
+  AutoMapper.Profile.SourceMemberNamingConvention:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.SourceMemberNamingConvention
+        name: SourceMemberNamingConvention
+        nameWithType: Profile.SourceMemberNamingConvention
+        qualifiedName: AutoMapper.Profile.SourceMemberNamingConvention
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.SourceMemberNamingConvention
+        name: SourceMemberNamingConvention
+        nameWithType: Profile.SourceMemberNamingConvention
+        qualifiedName: AutoMapper.Profile.SourceMemberNamingConvention
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.SourceMemberNamingConvention
+  AutoMapper.Profile.DestinationMemberNamingConvention:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.DestinationMemberNamingConvention
+        name: DestinationMemberNamingConvention
+        nameWithType: Profile.DestinationMemberNamingConvention
+        qualifiedName: AutoMapper.Profile.DestinationMemberNamingConvention
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.DestinationMemberNamingConvention
+        name: DestinationMemberNamingConvention
+        nameWithType: Profile.DestinationMemberNamingConvention
+        qualifiedName: AutoMapper.Profile.DestinationMemberNamingConvention
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.DestinationMemberNamingConvention
+  AutoMapper.Profile.ValueTransformers:
+    name:
+      CSharp:
+      - id: AutoMapper.Profile.ValueTransformers
+        name: ValueTransformers
+        nameWithType: Profile.ValueTransformers
+        qualifiedName: AutoMapper.Profile.ValueTransformers
+        isExternal: true
+      VB:
+      - id: AutoMapper.Profile.ValueTransformers
+        name: ValueTransformers
+        nameWithType: Profile.ValueTransformers
+        qualifiedName: AutoMapper.Profile.ValueTransformers
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Profile
+    commentId: P:AutoMapper.Profile.ValueTransformers
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  AutoMapper.IProfileExpression:
+    name:
+      CSharp:
+      - id: AutoMapper.IProfileExpression
+        name: IProfileExpression
+        nameWithType: IProfileExpression
+        qualifiedName: AutoMapper.IProfileExpression
+        isExternal: true
+      VB:
+      - id: AutoMapper.IProfileExpression
+        name: IProfileExpression
+        nameWithType: IProfileExpression
+        qualifiedName: AutoMapper.IProfileExpression
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper
+    commentId: T:AutoMapper.IProfileExpression
+  AutoMapper.Configuration:
+    name:
+      CSharp:
+      - name: AutoMapper.Configuration
+        nameWithType: AutoMapper.Configuration
+        qualifiedName: AutoMapper.Configuration
+        isExternal: true
+      VB:
+      - name: AutoMapper.Configuration
+        nameWithType: AutoMapper.Configuration
+        qualifiedName: AutoMapper.Configuration
+    isDefinition: true
+    commentId: N:AutoMapper.Configuration
+  AutoMapper.Configuration.IProfileConfiguration:
+    name:
+      CSharp:
+      - id: AutoMapper.Configuration.IProfileConfiguration
+        name: IProfileConfiguration
+        nameWithType: IProfileConfiguration
+        qualifiedName: AutoMapper.Configuration.IProfileConfiguration
+        isExternal: true
+      VB:
+      - id: AutoMapper.Configuration.IProfileConfiguration
+        name: IProfileConfiguration
+        nameWithType: IProfileConfiguration
+        qualifiedName: AutoMapper.Configuration.IProfileConfiguration
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper.Configuration
+    commentId: T:AutoMapper.Configuration.IProfileConfiguration
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+      VB:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Helpers
+  es.efor.Utilities.General.Helpers.ObjectHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General.Helpers
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor*
+        name: MapperProfileImports
+        nameWithType: MapperProfileImports.MapperProfileImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.MapperProfileImports
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor*
+        name: MapperProfileImports
+        nameWithType: MapperProfileImports.MapperProfileImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.MapperProfileImports.MapperProfileImports
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.MapperProfileImports.#ctor
+  es.efor.Musaat.Imports.Model.Services.MapperProfileImports:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+        name: MapperProfileImports
+        nameWithType: MapperProfileImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+        name: MapperProfileImports
+        nameWithType: MapperProfileImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+    isDefinition: true
+    commentId: T:es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+  es.efor.Musaat.Imports.Model.Services:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Imports.Model.Services
+        nameWithType: es.efor.Musaat.Imports.Model.Services
+        qualifiedName: es.efor.Musaat.Imports.Model.Services
+      VB:
+      - name: es.efor.Musaat.Imports.Model.Services
+        nameWithType: es.efor.Musaat.Imports.Model.Services
+        qualifiedName: es.efor.Musaat.Imports.Model.Services
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Imports.Model.Services
+  System.Threading.Tasks.Task`1:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Threading.Tasks.Task`1
+  System.Threading.Tasks:
+    name:
+      CSharp:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+        isExternal: true
+      VB:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+    isDefinition: true
+    commentId: N:System.Threading.Tasks
+  System.Threading.Tasks.Task{System.Boolean}:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Threading.Tasks.Task`1
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees*
+        name: ImportEmployees
+        nameWithType: IImportService.ImportEmployees
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees*
+        name: ImportEmployees
+        nameWithType: IImportService.ImportEmployees
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees
+  es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+        name: IImportService
+        nameWithType: IImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+        name: IImportService
+        nameWithType: IImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.ImportServices
+    commentId: T:es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+  es.efor.Musaat.Imports.Model.Services.ImportServices:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Imports.Model.Services.ImportServices
+        nameWithType: es.efor.Musaat.Imports.Model.Services.ImportServices
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices
+      VB:
+      - name: es.efor.Musaat.Imports.Model.Services.ImportServices
+        nameWithType: es.efor.Musaat.Imports.Model.Services.ImportServices
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Imports.Model.Services.ImportServices
+  es.efor.Musaat.Data.Context:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Data.Context
+        nameWithType: es.efor.Musaat.Data.Context
+        qualifiedName: es.efor.Musaat.Data.Context
+      VB:
+      - name: es.efor.Musaat.Data.Context
+        nameWithType: es.efor.Musaat.Data.Context
+        qualifiedName: es.efor.Musaat.Data.Context
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Data.Context
+  es.efor.Musaat.Data.Context.NexusContext:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Data.Context.NexusContext
+        name: NexusContext
+        nameWithType: NexusContext
+        qualifiedName: es.efor.Musaat.Data.Context.NexusContext
+      VB:
+      - id: es.efor.Musaat.Data.Context.NexusContext
+        name: NexusContext
+        nameWithType: NexusContext
+        qualifiedName: es.efor.Musaat.Data.Context.NexusContext
+    isDefinition: true
+    parent: es.efor.Musaat.Data.Context
+    commentId: T:es.efor.Musaat.Data.Context.NexusContext
+  AutoMapper.IMapper:
+    name:
+      CSharp:
+      - id: AutoMapper.IMapper
+        name: IMapper
+        nameWithType: IMapper
+        qualifiedName: AutoMapper.IMapper
+        isExternal: true
+      VB:
+      - id: AutoMapper.IMapper
+        name: IMapper
+        nameWithType: IMapper
+        qualifiedName: AutoMapper.IMapper
+        isExternal: true
+    isDefinition: true
+    parent: AutoMapper
+    commentId: T:AutoMapper.IMapper
+  Microsoft.Extensions.Logging.ILogger`1:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TCategoryName
+        nameWithType: TCategoryName
+        qualifiedName: TCategoryName
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TCategoryName
+        nameWithType: TCategoryName
+        qualifiedName: TCategoryName
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  Microsoft.Extensions.Logging:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.Logging
+        nameWithType: Microsoft.Extensions.Logging
+        qualifiedName: Microsoft.Extensions.Logging
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.Logging
+        nameWithType: Microsoft.Extensions.Logging
+        qualifiedName: Microsoft.Extensions.Logging
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.Logging
+  Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService}:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+        name: ImportService
+        nameWithType: ImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+        name: ImportService
+        nameWithType: ImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Microsoft.Extensions.Logging.ILogger`1
+    parent: Microsoft.Extensions.Logging
+    commentId: T:Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService}
+  es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor*
+        name: ImportService
+        nameWithType: ImportService.ImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportService
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor*
+        name: ImportService
+        nameWithType: ImportService.ImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportService
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.#ctor
+  es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees*
+        name: ImportEmployees
+        nameWithType: ImportService.ImportEmployees
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees*
+        name: ImportEmployees
+        nameWithType: ImportService.ImportEmployees
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService.ImportEmployees
+  es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String):
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+        name: ImportEmployees
+        nameWithType: IImportService.ImportEmployees
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+        name: ImportEmployees
+        nameWithType: IImportService.ImportEmployees
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    commentId: M:es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService.ImportEmployees(System.String)
+  es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+        name: ImportService
+        nameWithType: ImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+        name: ImportService
+        nameWithType: ImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+    isDefinition: true
+    commentId: T:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+  System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}}:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Threading.Tasks.Task`1
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}}
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll*
+        name: GetAll
+        nameWithType: ILogImportService.GetAll
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll*
+        name: GetAll
+        nameWithType: ILogImportService.GetAll
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports*
+        name: GetLogImports
+        nameWithType: ILogImportService.GetLogImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports*
+        name: GetLogImports
+        nameWithType: ILogImportService.GetLogImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports
+  System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Threading.Tasks.Task`1
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO}
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById*
+        name: GetLogImportById
+        nameWithType: ILogImportService.GetLogImportById
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById*
+        name: GetLogImportById
+        nameWithType: ILogImportService.GetLogImportById
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById
+  es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+        nameWithType: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+      VB:
+      - name: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+        nameWithType: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      VB:
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+    isDefinition: true
+    parent: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+    commentId: T:es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set*
+        name: Set
+        nameWithType: ILogImportService.Set
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set*
+        name: Set
+        nameWithType: ILogImportService.Set
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+        name: ILogImportService
+        nameWithType: ILogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+        name: ILogImportService
+        nameWithType: ILogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    commentId: T:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices:
+    name:
+      CSharp:
+      - name: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+        nameWithType: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+      VB:
+      - name: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+        nameWithType: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+    isDefinition: true
+    commentId: N:es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService}:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+        name: LogImportService
+        nameWithType: LogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+        name: LogImportService
+        nameWithType: LogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Microsoft.Extensions.Logging.ILogger`1
+    parent: Microsoft.Extensions.Logging
+    commentId: T:Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService}
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor*
+        name: LogImportService
+        nameWithType: LogImportService.LogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.LogImportService
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor*
+        name: LogImportService
+        nameWithType: LogImportService.LogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.LogImportService
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.#ctor
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll*
+        name: GetAll
+        nameWithType: LogImportService.GetAll
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll*
+        name: GetAll
+        nameWithType: LogImportService.GetAll
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetAll
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+        name: GetAll
+        nameWithType: ILogImportService.GetAll
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+        name: GetAll
+        nameWithType: ILogImportService.GetAll
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetAll
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports*
+        name: GetLogImports
+        nameWithType: LogImportService.GetLogImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports*
+        name: GetLogImports
+        nameWithType: LogImportService.GetLogImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImports
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String):
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String)
+        name: GetLogImports
+        nameWithType: ILogImportService.GetLogImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String)
+        name: GetLogImports
+        nameWithType: ILogImportService.GetLogImports
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImports(System.String,System.String)
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById*
+        name: GetLogImportById
+        nameWithType: LogImportService.GetLogImportById
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById*
+        name: GetLogImportById
+        nameWithType: LogImportService.GetLogImportById
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.GetLogImportById
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32):
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+        name: GetLogImportById
+        nameWithType: ILogImportService.GetLogImportById
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+        name: GetLogImportById
+        nameWithType: ILogImportService.GetLogImportById
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.GetLogImportById(System.Int32)
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set*:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set*
+        name: Set
+        nameWithType: LogImportService.Set
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set*
+        name: Set
+        nameWithType: LogImportService.Set
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set
+    isDefinition: true
+    commentId: Overload:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService.Set
+  ? es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+  : name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+        name: Set
+        nameWithType: ILogImportService.Set
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+        name: Set
+        nameWithType: ILogImportService.Set
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+        name: LogImportDTO
+        nameWithType: LogImportDTO
+        qualifiedName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    commentId: M:es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService.Set(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)
+  es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService:
+    name:
+      CSharp:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+        name: LogImportService
+        nameWithType: LogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+      VB:
+      - id: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+        name: LogImportService
+        nameWithType: LogImportService
+        qualifiedName: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+    isDefinition: true
+    commentId: T:es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Imports.Model.Services.ImportServices
+  commentId: N:es.efor.Musaat.Imports.Model.Services.ImportServices
+  id: es.efor.Musaat.Imports.Model.Services.ImportServices
+  children:
+  - es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+  - es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Imports.Model.Services.ImportServices
+  nameWithType: es.efor.Musaat.Imports.Model.Services.ImportServices
+  fullName: es.efor.Musaat.Imports.Model.Services.ImportServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Imports.Business
+references:
+- uid: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+  commentId: T:es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+  parent: es.efor.Musaat.Imports.Model.Services.ImportServices
+  name: IImportService
+  nameWithType: IImportService
+  fullName: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+- uid: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+  commentId: T:es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+  name: ImportService
+  nameWithType: ImportService
+  fullName: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+- uid: es.efor.Musaat.Imports.Model.Services.ImportServices
+  commentId: N:es.efor.Musaat.Imports.Model.Services.ImportServices
+  name: es.efor.Musaat.Imports.Model.Services.ImportServices
+  nameWithType: es.efor.Musaat.Imports.Model.Services.ImportServices
+  fullName: es.efor.Musaat.Imports.Model.Services.ImportServices

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  commentId: N:es.efor.Musaat.Users.Model.Services.PermissionsServices
+  id: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  children:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  nameWithType: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Users.Business
+references:
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  commentId: T:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  name: IPermissionService
+  nameWithType: IPermissionService
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  commentId: T:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  name: PermissionService
+  nameWithType: PermissionService
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  commentId: N:es.efor.Musaat.Users.Model.Services.PermissionsServices
+  name: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  nameWithType: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices

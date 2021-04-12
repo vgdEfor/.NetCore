@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  id: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+  name: LogImportDTO
+  nameWithType: LogImportDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO

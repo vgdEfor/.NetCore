@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Data.CodeFirst.Migrations
+  commentId: N:es.efor.Musaat.Data.CodeFirst.Migrations
+  id: es.efor.Musaat.Data.CodeFirst.Migrations
+  children:
+  - es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Data.CodeFirst.Migrations
+  nameWithType: es.efor.Musaat.Data.CodeFirst.Migrations
+  fullName: es.efor.Musaat.Data.CodeFirst.Migrations
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Data.CodeFirst
+references:
+- uid: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+  commentId: T:es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+  name: Initial
+  nameWithType: Initial
+  fullName: es.efor.Musaat.Data.CodeFirst.Migrations.Initial

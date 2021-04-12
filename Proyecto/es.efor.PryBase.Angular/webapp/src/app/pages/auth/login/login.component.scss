@@ -1,0 +1,85 @@
+@import '../../../../styles.variables.scss';
+$page-bg: url('https://www.PryBase.es/assets/images/logos/PryBase.png');
+$page-bg-size: contain;
+$page-bg-scale: 0.95;
+$page-bg-blur: 3px;
+$card-logo-height: 31px;
+$card-logo-width: 100px;
+
+:host {
+    .background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        .bg-image {
+            height: 100%;
+            width: 100%;
+            background-image: $page-bg;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: $page-bg-size;
+            filter: blur($page-bg-blur);
+            transform: scale($page-bg-scale);
+        }
+    }
+    >form {
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .card-logo {
+        pointer-events: none;
+    }
+
+    .card {
+        max-width: 350px;
+        width: 100%;
+
+        .card-header {
+            .card-logo {
+                background-image: url('#{$app-logo-url}');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: $card-logo-height;
+                width: $card-logo-width;
+
+                &.card-logo-hanging {
+                    position: absolute;
+                    top: -#{$card-logo-height / 10};
+                    right: -#{$card-logo-width / 4};
+                }
+            }
+            .card-title,
+            .card-title {
+                margin: 0;
+                > * {
+                    margin: 0;
+                }
+            }
+        }
+        .card-footer {
+            .card-logo {
+                background-image: url('#{$app-logo-url}');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: $card-logo-height;
+                width: $card-logo-width;
+                position: relative;
+                float: left;
+
+                &.card-logo-hanging {
+                    float: none;
+                    position: absolute;
+                    bottom: -#{$card-logo-height / 2};
+                    left: #{$card-logo-width / 120};
+                }
+            }
+        }
+    }
+}

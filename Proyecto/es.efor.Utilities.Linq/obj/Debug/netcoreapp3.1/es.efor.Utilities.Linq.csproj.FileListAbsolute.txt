@@ -1,0 +1,9 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\bin\Debug\netcoreapp3.1\es.efor.Utilities.Linq.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.csprojAssemblyReference.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Linq\obj\Debug\netcoreapp3.1\es.efor.Utilities.Linq.pdb

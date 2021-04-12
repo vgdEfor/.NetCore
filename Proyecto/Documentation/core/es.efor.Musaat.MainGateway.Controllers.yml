@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.MainGateway.Controllers
+  commentId: N:es.efor.Musaat.MainGateway.Controllers
+  id: es.efor.Musaat.MainGateway.Controllers
+  children:
+  - es.efor.Musaat.MainGateway.Controllers.AccessController
+  - es.efor.Musaat.MainGateway.Controllers.AccountController
+  - es.efor.Musaat.MainGateway.Controllers.ImportsController
+  - es.efor.Musaat.MainGateway.Controllers.LanguageController
+  - es.efor.Musaat.MainGateway.Controllers.LayoutMenuController
+  - es.efor.Musaat.MainGateway.Controllers.LoginController
+  - es.efor.Musaat.MainGateway.Controllers.RRHHController
+  - es.efor.Musaat.MainGateway.Controllers.UsersController
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.MainGateway.Controllers
+  nameWithType: es.efor.Musaat.MainGateway.Controllers
+  fullName: es.efor.Musaat.MainGateway.Controllers
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.MainGateway
+references:
+- uid: es.efor.Musaat.MainGateway.Controllers.AccessController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.AccessController
+  name: AccessController
+  nameWithType: AccessController
+  fullName: es.efor.Musaat.MainGateway.Controllers.AccessController
+- uid: es.efor.Musaat.MainGateway.Controllers.AccountController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.AccountController
+  name: AccountController
+  nameWithType: AccountController
+  fullName: es.efor.Musaat.MainGateway.Controllers.AccountController
+- uid: es.efor.Musaat.MainGateway.Controllers.ImportsController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.ImportsController
+  name: ImportsController
+  nameWithType: ImportsController
+  fullName: es.efor.Musaat.MainGateway.Controllers.ImportsController
+- uid: es.efor.Musaat.MainGateway.Controllers.LanguageController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.LanguageController
+  name: LanguageController
+  nameWithType: LanguageController
+  fullName: es.efor.Musaat.MainGateway.Controllers.LanguageController
+- uid: es.efor.Musaat.MainGateway.Controllers.LayoutMenuController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.LayoutMenuController
+  name: LayoutMenuController
+  nameWithType: LayoutMenuController
+  fullName: es.efor.Musaat.MainGateway.Controllers.LayoutMenuController
+- uid: es.efor.Musaat.MainGateway.Controllers.LoginController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.LoginController
+  name: LoginController
+  nameWithType: LoginController
+  fullName: es.efor.Musaat.MainGateway.Controllers.LoginController
+- uid: es.efor.Musaat.MainGateway.Controllers.RRHHController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.RRHHController
+  name: RRHHController
+  nameWithType: RRHHController
+  fullName: es.efor.Musaat.MainGateway.Controllers.RRHHController
+- uid: es.efor.Musaat.MainGateway.Controllers.UsersController
+  commentId: T:es.efor.Musaat.MainGateway.Controllers.UsersController
+  name: UsersController
+  nameWithType: UsersController
+  fullName: es.efor.Musaat.MainGateway.Controllers.UsersController

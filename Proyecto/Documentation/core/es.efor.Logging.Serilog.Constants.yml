@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Logging.Serilog.Constants
+  commentId: N:es.efor.Logging.Serilog.Constants
+  id: es.efor.Logging.Serilog.Constants
+  children:
+  - es.efor.Logging.Serilog.Constants.EnrichProperties
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Logging.Serilog.Constants
+  nameWithType: es.efor.Logging.Serilog.Constants
+  fullName: es.efor.Logging.Serilog.Constants
+  type: Namespace
+  assemblies:
+  - es.efor.Logging.Serilog
+references:
+- uid: es.efor.Logging.Serilog.Constants.EnrichProperties
+  commentId: T:es.efor.Logging.Serilog.Constants.EnrichProperties
+  name: EnrichProperties
+  nameWithType: EnrichProperties
+  fullName: es.efor.Logging.Serilog.Constants.EnrichProperties

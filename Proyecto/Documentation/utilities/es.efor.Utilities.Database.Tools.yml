@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Database.Tools
+  commentId: N:es.efor.Utilities.Database.Tools
+  id: es.efor.Utilities.Database.Tools
+  children:
+  - es.efor.Utilities.Database.Tools.EntityFrameworkTools
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Database.Tools
+  nameWithType: es.efor.Utilities.Database.Tools
+  fullName: es.efor.Utilities.Database.Tools
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Database
+references:
+- uid: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+  commentId: T:es.efor.Utilities.Database.Tools.EntityFrameworkTools
+  name: EntityFrameworkTools
+  nameWithType: EntityFrameworkTools
+  fullName: es.efor.Utilities.Database.Tools.EntityFrameworkTools

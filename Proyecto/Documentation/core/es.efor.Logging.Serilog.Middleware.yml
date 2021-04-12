@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Logging.Serilog.Middleware
+  commentId: N:es.efor.Logging.Serilog.Middleware
+  id: es.efor.Logging.Serilog.Middleware
+  children:
+  - es.efor.Logging.Serilog.Middleware.BodyLoggerMiddleware
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Logging.Serilog.Middleware
+  nameWithType: es.efor.Logging.Serilog.Middleware
+  fullName: es.efor.Logging.Serilog.Middleware
+  type: Namespace
+  assemblies:
+  - es.efor.Logging.Serilog
+references:
+- uid: es.efor.Logging.Serilog.Middleware.BodyLoggerMiddleware
+  commentId: T:es.efor.Logging.Serilog.Middleware.BodyLoggerMiddleware
+  name: BodyLoggerMiddleware
+  nameWithType: BodyLoggerMiddleware
+  fullName: es.efor.Logging.Serilog.Middleware.BodyLoggerMiddleware

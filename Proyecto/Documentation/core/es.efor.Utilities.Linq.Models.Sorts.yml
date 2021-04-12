@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Models.Sorts
+  commentId: N:es.efor.Utilities.Linq.Models.Sorts
+  id: es.efor.Utilities.Linq.Models.Sorts
+  children:
+  - es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+  - es.efor.Utilities.Linq.Models.Sorts.SortOperator
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Linq.Models.Sorts
+  nameWithType: es.efor.Utilities.Linq.Models.Sorts
+  fullName: es.efor.Utilities.Linq.Models.Sorts
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+references:
+- uid: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+  commentId: T:es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+  name: SortCriteria
+  nameWithType: SortCriteria
+  fullName: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+- uid: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+  commentId: T:es.efor.Utilities.Linq.Models.Sorts.SortOperator
+  parent: es.efor.Utilities.Linq.Models.Sorts
+  name: SortOperator
+  nameWithType: SortOperator
+  fullName: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+- uid: es.efor.Utilities.Linq.Models.Sorts
+  commentId: N:es.efor.Utilities.Linq.Models.Sorts
+  name: es.efor.Utilities.Linq.Models.Sorts
+  nameWithType: es.efor.Utilities.Linq.Models.Sorts
+  fullName: es.efor.Utilities.Linq.Models.Sorts

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Logging.Serilog.Extensions
+  commentId: N:es.efor.Logging.Serilog.Extensions
+  id: es.efor.Logging.Serilog.Extensions
+  children:
+  - es.efor.Logging.Serilog.Extensions.IApplicationBuilderExtensions
+  - es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Logging.Serilog.Extensions
+  nameWithType: es.efor.Logging.Serilog.Extensions
+  fullName: es.efor.Logging.Serilog.Extensions
+  type: Namespace
+  assemblies:
+  - es.efor.Logging.Serilog
+references:
+- uid: es.efor.Logging.Serilog.Extensions.IApplicationBuilderExtensions
+  commentId: T:es.efor.Logging.Serilog.Extensions.IApplicationBuilderExtensions
+  name: IApplicationBuilderExtensions
+  nameWithType: IApplicationBuilderExtensions
+  fullName: es.efor.Logging.Serilog.Extensions.IApplicationBuilderExtensions
+- uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  commentId: T:es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+  name: IHostBuilderExtensions
+  nameWithType: IHostBuilderExtensions
+  fullName: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions

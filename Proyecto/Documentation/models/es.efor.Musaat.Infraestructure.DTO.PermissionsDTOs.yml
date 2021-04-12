@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  id: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+  - es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+  - es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+  - es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+  - es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  name: DetailDTO
+  nameWithType: DetailDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  name: FunctionalityDTO
+  nameWithType: FunctionalityDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+  name: MenuDTO
+  nameWithType: MenuDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  name: ModuleDTO
+  nameWithType: ModuleDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  name: PermissionDTO
+  nameWithType: PermissionDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs

@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Models.Entities
+  commentId: N:es.efor.Auth.Models.Entities
+  id: es.efor.Auth.Models.Entities
+  children:
+  - es.efor.Auth.Models.Entities.Role
+  - es.efor.Auth.Models.Entities.Role`1
+  - es.efor.Auth.Models.Entities.User
+  - es.efor.Auth.Models.Entities.User`1
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Models.Entities
+  nameWithType: es.efor.Auth.Models.Entities
+  fullName: es.efor.Auth.Models.Entities
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Models.Entities.Role
+  commentId: T:es.efor.Auth.Models.Entities.Role
+  name: Role
+  nameWithType: Role
+  fullName: es.efor.Auth.Models.Entities.Role
+- uid: es.efor.Auth.Models.Entities.Role`1
+  commentId: T:es.efor.Auth.Models.Entities.Role`1
+  name: Role<TId>
+  nameWithType: Role<TId>
+  fullName: es.efor.Auth.Models.Entities.Role<TId>
+  nameWithType.vb: Role(Of TId)
+  fullName.vb: es.efor.Auth.Models.Entities.Role(Of TId)
+  name.vb: Role(Of TId)
+  spec.csharp:
+  - uid: es.efor.Auth.Models.Entities.Role`1
+    name: Role
+    nameWithType: Role
+    fullName: es.efor.Auth.Models.Entities.Role
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Models.Entities.Role`1
+    name: Role
+    nameWithType: Role
+    fullName: es.efor.Auth.Models.Entities.Role
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Models.Entities.User
+  commentId: T:es.efor.Auth.Models.Entities.User
+  parent: es.efor.Auth.Models.Entities
+  name: User
+  nameWithType: User
+  fullName: es.efor.Auth.Models.Entities.User
+- uid: es.efor.Auth.Models.Entities.User`1
+  commentId: T:es.efor.Auth.Models.Entities.User`1
+  name: User<TId>
+  nameWithType: User<TId>
+  fullName: es.efor.Auth.Models.Entities.User<TId>
+  nameWithType.vb: User(Of TId)
+  fullName.vb: es.efor.Auth.Models.Entities.User(Of TId)
+  name.vb: User(Of TId)
+  spec.csharp:
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Models.Entities
+  commentId: N:es.efor.Auth.Models.Entities
+  name: es.efor.Auth.Models.Entities
+  nameWithType: es.efor.Auth.Models.Entities
+  fullName: es.efor.Auth.Models.Entities

@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: musaat-aspnetcore-kubernetes-deploy
+spec:
+  selector:
+    matchLabels:
+      app: musaat-aspnetcore-pod
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: musaat-aspnetcore-pod
+    spec:
+      volumes:
+          - name: shared-data
+            persistentVolumeClaim:
+                  claimName: 'musaat-aspnetcore-kubernetes-pvc'
+      containers:
+      - name: musaat-aspnetcore-kubernetes-container
+        image: musaat-aspnetcore:v0.0.1
+        volumeMounts:
+            - name: shared-data
+              mountPath: /usr/shared/musaat-aspnetcore-keys
+        resources:
+          limits:
+            memory: "60Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 9980

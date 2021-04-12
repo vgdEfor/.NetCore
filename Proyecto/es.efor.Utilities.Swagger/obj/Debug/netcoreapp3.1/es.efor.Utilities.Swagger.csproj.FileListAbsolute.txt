@@ -1,0 +1,9 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\netcoreapp3.1\es.efor.Utilities.Swagger.csprojAssemblyReference.cache

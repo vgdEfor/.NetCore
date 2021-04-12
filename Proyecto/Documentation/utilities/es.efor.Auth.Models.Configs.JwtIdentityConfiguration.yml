@@ -1,0 +1,895 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  commentId: T:es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  id: JwtIdentityConfiguration
+  parent: es.efor.Auth.Models.Configs
+  children:
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration.#ctor(System.String,System.String,System.String,System.String)
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate
+  langs:
+  - csharp
+  - vb
+  name: JwtIdentityConfiguration
+  nameWithType: JwtIdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  type: Class
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: JwtIdentityConfiguration
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public class JwtIdentityConfiguration
+    content.vb: Public Class JwtIdentityConfiguration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme
+  commentId: P:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme
+  id: Scheme
+  parent: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Scheme
+  nameWithType: JwtIdentityConfiguration.Scheme
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Scheme
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 9
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public string Scheme { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Scheme As String
+  overload: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience
+  commentId: P:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience
+  id: Audience
+  parent: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: JwtIdentityConfiguration.Audience
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Audience
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 11
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public string Audience { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Audience As String
+  overload: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer
+  commentId: P:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer
+  id: Issuer
+  parent: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Issuer
+  nameWithType: JwtIdentityConfiguration.Issuer
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Issuer
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public string Issuer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Issuer As String
+  overload: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier
+  commentId: P:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier
+  id: OptionModifier
+  parent: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OptionModifier
+  nameWithType: JwtIdentityConfiguration.OptionModifier
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: OptionModifier
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 16
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public Action<JwtBearerOptions> OptionModifier { get; set; }
+    parameters: []
+    return:
+      type: System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions}
+    content.vb: Public Property OptionModifier As Action(Of JwtBearerOptions)
+  overload: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.#ctor(System.String,System.String,System.String,System.String)
+  commentId: M:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.#ctor(System.String,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String)'
+  parent: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: JwtIdentityConfiguration(String, String, String, String)
+  nameWithType: JwtIdentityConfiguration.JwtIdentityConfiguration(String, String, String, String)
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.JwtIdentityConfiguration(System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 32
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  example: []
+  syntax:
+    content: public JwtIdentityConfiguration(string secret, string issuer, string audience = null, string scheme = null)
+    parameters:
+    - id: secret
+      type: System.String
+      description: "\nUsed to generate tokens. Keep it safe.\n<p>** IF THE TOKEN IS ISSUED WITH A DIFFERENT SECRET, IT WILL BE REJECTED.\nBEWARE OF APP INSTANCES, CLUSTERS, SERVER FARMS, KUBERNETES PODS... **</p>\n"
+    - id: issuer
+      type: System.String
+      description: "\nThe identity provider that is going to emit the auth token\n"
+    - id: audience
+      type: System.String
+      description: "\nThe identity provider that is going to validate the auth token.\nKeep it null to copy the <code data-dev-comment-type=\"paramref\" class=\"paramref\">issuer</code>.\n<p>** IF THE TOKEN HAS A DIFFERENT ISSUER THAN THE ONE SPECIFIED HERE, THE TOKEN WILL BE REJECTED.\nBEWARE OF APP INSTANCES, CLUSTERS, SERVER FARMS, KUBERNETES PODS... **</p>\n"
+    - id: scheme
+      type: System.String
+    content.vb: Public Sub New(secret As String, issuer As String, audience As String = Nothing, scheme As String = Nothing)
+  overload: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate
+  commentId: M:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate
+  id: Validate
+  parent: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Validate()
+  nameWithType: JwtIdentityConfiguration.Validate()
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Validate
+    path: ../es.efor.Auth/Models/Configs/JwtIdentityConfiguration.cs
+    startLine: 46
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nValidates the class&apos; information. Throws an exception if\nthe information is not valid.\n"
+  example: []
+  syntax:
+    content: public void Validate()
+    content.vb: Public Sub Validate
+  overload: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Auth.Models.Configs
+  commentId: N:es.efor.Auth.Models.Configs
+  name: es.efor.Auth.Models.Configs
+  nameWithType: es.efor.Auth.Models.Configs
+  fullName: es.efor.Auth.Models.Configs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme*
+  commentId: Overload:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme
+  name: Scheme
+  nameWithType: JwtIdentityConfiguration.Scheme
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Scheme
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience*
+  commentId: Overload:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience
+  name: Audience
+  nameWithType: JwtIdentityConfiguration.Audience
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Audience
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer*
+  commentId: Overload:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer
+  name: Issuer
+  nameWithType: JwtIdentityConfiguration.Issuer
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Issuer
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier*
+  commentId: Overload:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier
+  name: OptionModifier
+  nameWithType: JwtIdentityConfiguration.OptionModifier
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.OptionModifier
+- uid: System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions}
+  commentId: T:System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions}
+  parent: System
+  definition: System.Action`1
+  name: Action<JwtBearerOptions>
+  nameWithType: Action<JwtBearerOptions>
+  fullName: System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>
+  nameWithType.vb: Action(Of JwtBearerOptions)
+  fullName.vb: System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions)
+  name.vb: Action(Of JwtBearerOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions
+    name: JwtBearerOptions
+    nameWithType: JwtBearerOptions
+    fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions
+    name: JwtBearerOptions
+    nameWithType: JwtBearerOptions
+    fullName: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.#ctor*
+  commentId: Overload:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.#ctor
+  name: JwtIdentityConfiguration
+  nameWithType: JwtIdentityConfiguration.JwtIdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.JwtIdentityConfiguration
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate*
+  commentId: Overload:es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate
+  name: Validate
+  nameWithType: JwtIdentityConfiguration.Validate
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration.Validate

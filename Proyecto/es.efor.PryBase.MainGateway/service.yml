@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: PryBase-aspnetcore-kubernetes-service
+spec:
+  selector:
+    app: PryBase-aspnetcore-pod
+  ports:
+  - port: 9443
+    targetPort: 9980
+  type: LoadBalancer

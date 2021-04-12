@@ -1,0 +1,11 @@
+### YamlMime:TableOfContent
+- uid: es.efor.Musaat.Data.CodeFirst.Migrations
+  name: es.efor.Musaat.Data.CodeFirst.Migrations
+  items:
+  - uid: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+    name: Initial
+- uid: es.efor.Musaat.Data.Context
+  name: es.efor.Musaat.Data.Context
+  items:
+  - uid: es.efor.Musaat.Data.Context.NexusContext
+    name: NexusContext

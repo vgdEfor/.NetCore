@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Swagger.Middleware
+  commentId: N:es.efor.Utilities.Swagger.Middleware
+  id: es.efor.Utilities.Swagger.Middleware
+  children:
+  - es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Swagger.Middleware
+  nameWithType: es.efor.Utilities.Swagger.Middleware
+  fullName: es.efor.Utilities.Swagger.Middleware
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+references:
+- uid: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+  commentId: T:es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+  name: SwaggerAuthorizationMiddleware
+  nameWithType: SwaggerAuthorizationMiddleware
+  fullName: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware

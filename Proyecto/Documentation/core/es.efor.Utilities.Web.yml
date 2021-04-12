@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web
+  commentId: N:es.efor.Utilities.Web
+  id: es.efor.Utilities.Web
+  children:
+  - es.efor.Utilities.Web.IApplicationBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web
+  nameWithType: es.efor.Utilities.Web
+  fullName: es.efor.Utilities.Web
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.IApplicationBuilderExtensions
+  commentId: T:es.efor.Utilities.Web.IApplicationBuilderExtensions
+  name: IApplicationBuilderExtensions
+  nameWithType: IApplicationBuilderExtensions
+  fullName: es.efor.Utilities.Web.IApplicationBuilderExtensions

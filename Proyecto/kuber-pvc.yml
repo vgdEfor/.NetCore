@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+    name: musaat-aspnetcore-kubernetes-pvc
+spec:
+    accessModes:
+      - ReadWriteMany
+    storageClassName: musaatvolume
+    resources:
+        requests:
+            storage: 100Mi

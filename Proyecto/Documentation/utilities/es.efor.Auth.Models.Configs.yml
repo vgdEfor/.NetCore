@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Models.Configs
+  commentId: N:es.efor.Auth.Models.Configs
+  id: es.efor.Auth.Models.Configs
+  children:
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  - es.efor.Auth.Models.Configs.IdentityConfiguration
+  - es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Models.Configs
+  nameWithType: es.efor.Auth.Models.Configs
+  fullName: es.efor.Auth.Models.Configs
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  commentId: T:es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  parent: es.efor.Auth.Models.Configs
+  name: CookieIdentityConfiguration
+  nameWithType: CookieIdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+- uid: es.efor.Auth.Models.Configs.IdentityConfiguration
+  commentId: T:es.efor.Auth.Models.Configs.IdentityConfiguration
+  parent: es.efor.Auth.Models.Configs
+  name: IdentityConfiguration
+  nameWithType: IdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.IdentityConfiguration
+- uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  commentId: T:es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+  parent: es.efor.Auth.Models.Configs
+  name: JwtIdentityConfiguration
+  nameWithType: JwtIdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+- uid: es.efor.Auth.Models.Configs
+  commentId: N:es.efor.Auth.Models.Configs
+  name: es.efor.Auth.Models.Configs
+  nameWithType: es.efor.Auth.Models.Configs
+  fullName: es.efor.Auth.Models.Configs

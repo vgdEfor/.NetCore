@@ -1,0 +1,2184 @@
+id: es.efor.Utilities.Database
+language: CSharp
+name:
+  Default: es.efor.Utilities.Database
+qualifiedName:
+  Default: es.efor.Utilities.Database
+type: Assembly
+modifiers: {}
+items:
+- id: es.efor.Utilities.Database.Enums
+  commentId: N:es.efor.Utilities.Database.Enums
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Database.Enums
+    VB: es.efor.Utilities.Database.Enums
+  nameWithType:
+    CSharp: es.efor.Utilities.Database.Enums
+    VB: es.efor.Utilities.Database.Enums
+  qualifiedName:
+    CSharp: es.efor.Utilities.Database.Enums
+    VB: es.efor.Utilities.Database.Enums
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Database
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Database.Enums.EfDatabaseType
+    commentId: T:es.efor.Utilities.Database.Enums.EfDatabaseType
+    language: CSharp
+    name:
+      CSharp: EfDatabaseType
+      VB: EfDatabaseType
+    nameWithType:
+      CSharp: EfDatabaseType
+      VB: EfDatabaseType
+    qualifiedName:
+      CSharp: es.efor.Utilities.Database.Enums.EfDatabaseType
+      VB: es.efor.Utilities.Database.Enums.EfDatabaseType
+    type: Enum
+    assemblies:
+    - es.efor.Utilities.Database
+    namespace: es.efor.Utilities.Database.Enums
+    source:
+      remote:
+        path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: EfDatabaseType
+      path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public enum EfDatabaseType
+        VB: Public Enum EfDatabaseType
+    extensionMethods:
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+    - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+      commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+      language: CSharp
+      name:
+        CSharp: Unknown
+        VB: Unknown
+      nameWithType:
+        CSharp: EfDatabaseType.Unknown
+        VB: EfDatabaseType.Unknown
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+        VB: es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Enums
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Unknown
+        path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: Unknown = 0
+          VB: Unknown = 0
+        return:
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+      commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+      language: CSharp
+      name:
+        CSharp: Memory
+        VB: Memory
+      nameWithType:
+        CSharp: EfDatabaseType.Memory
+        VB: EfDatabaseType.Memory
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+        VB: es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Enums
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Memory
+        path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: Memory = 1
+          VB: Memory = 1
+        return:
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+      commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+      language: CSharp
+      name:
+        CSharp: MySql
+        VB: MySql
+      nameWithType:
+        CSharp: EfDatabaseType.MySql
+        VB: EfDatabaseType.MySql
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+        VB: es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Enums
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: MySql
+        path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: MySql = 2
+          VB: MySql = 2
+        return:
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+      commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+      language: CSharp
+      name:
+        CSharp: MariaDb
+        VB: MariaDb
+      nameWithType:
+        CSharp: EfDatabaseType.MariaDb
+        VB: EfDatabaseType.MariaDb
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+        VB: es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Enums
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: MariaDb
+        path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+        startLine: 12
+      syntax:
+        content:
+          CSharp: MariaDb = 3
+          VB: MariaDb = 3
+        return:
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+      commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+      language: CSharp
+      name:
+        CSharp: SqlServer
+        VB: SqlServer
+      nameWithType:
+        CSharp: EfDatabaseType.SqlServer
+        VB: EfDatabaseType.SqlServer
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+        VB: es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+      type: Field
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Enums
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: SqlServer
+        path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: SqlServer = 4
+          VB: SqlServer = 4
+        return:
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+- id: es.efor.Utilities.Database.Models
+  commentId: N:es.efor.Utilities.Database.Models
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Database.Models
+    VB: es.efor.Utilities.Database.Models
+  nameWithType:
+    CSharp: es.efor.Utilities.Database.Models
+    VB: es.efor.Utilities.Database.Models
+  qualifiedName:
+    CSharp: es.efor.Utilities.Database.Models
+    VB: es.efor.Utilities.Database.Models
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Database
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Database.Models.EforDbEntity`1
+    commentId: T:es.efor.Utilities.Database.Models.EforDbEntity`1
+    language: CSharp
+    name:
+      CSharp: EforDbEntity<TId>
+      VB: EforDbEntity(Of TId)
+    nameWithType:
+      CSharp: EforDbEntity<TId>
+      VB: EforDbEntity(Of TId)
+    qualifiedName:
+      CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId>
+      VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId)
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Database
+    namespace: es.efor.Utilities.Database.Models
+    source:
+      remote:
+        path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: EforDbEntity
+      path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: 'public class EforDbEntity<TId> : EforDbEntity<TId, string> where TId : IEquatable<TId>'
+        VB: >-
+          Public Class EforDbEntity(Of TId As IEquatable(Of TId))
+
+              Inherits EforDbEntity(Of TId, String)
+      typeParameters:
+      - id: TId
+    inheritance:
+    - System.Object
+    - es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}
+    inheritedMembers:
+    - es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}.Id
+    - es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}.CreatedBy
+    - es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}.ModifiedBy
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated
+      commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated
+      language: CSharp
+      name:
+        CSharp: DCreated
+        VB: DCreated
+      nameWithType:
+        CSharp: EforDbEntity<TId>.DCreated
+        VB: EforDbEntity(Of TId).DCreated
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId>.DCreated
+        VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId).DCreated
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: DCreated
+        path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+        startLine: 14
+      summary: "\nThe datetime on which the Entity was created\n"
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            [Required]
+
+            public virtual DateTimeOffset DCreated { get; set; }
+          VB: >-
+            <Required>
+
+            Public Overridable Property DCreated As DateTimeOffset
+        parameters: []
+        return:
+          type: System.DateTimeOffset
+      overload: es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated*
+      attributes:
+      - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+        ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        - get
+        - set
+        VB:
+        - Public
+        - Overridable
+    - id: es.efor.Utilities.Database.Models.EforDbEntity`1.DModified
+      commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`1.DModified
+      language: CSharp
+      name:
+        CSharp: DModified
+        VB: DModified
+      nameWithType:
+        CSharp: EforDbEntity<TId>.DModified
+        VB: EforDbEntity(Of TId).DModified
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId>.DModified
+        VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId).DModified
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: DModified
+        path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+        startLine: 20
+      summary: "\nThe datetime on which the Entity was modified.\nNull if it has not been modified since its creation.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual DateTimeOffset? DModified { get; set; }
+          VB: Public Overridable Property DModified As DateTimeOffset?
+        parameters: []
+        return:
+          type: System.Nullable{System.DateTimeOffset}
+      overload: es.efor.Utilities.Database.Models.EforDbEntity`1.DModified*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        - get
+        - set
+        VB:
+        - Public
+        - Overridable
+  - id: es.efor.Utilities.Database.Models.EforDbEntity`2
+    commentId: T:es.efor.Utilities.Database.Models.EforDbEntity`2
+    language: CSharp
+    name:
+      CSharp: EforDbEntity<TId, TCreatedBy>
+      VB: EforDbEntity(Of TId, TCreatedBy)
+    nameWithType:
+      CSharp: EforDbEntity<TId, TCreatedBy>
+      VB: EforDbEntity(Of TId, TCreatedBy)
+    qualifiedName:
+      CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>
+      VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy)
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Database
+    namespace: es.efor.Utilities.Database.Models
+    source:
+      remote:
+        path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: EforDbEntity
+      path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+      startLine: 22
+    syntax:
+      content:
+        CSharp: >-
+          public class EforDbEntity<TId, TCreatedBy>
+
+              where TId : IEquatable<TId> where TCreatedBy : IEquatable<TCreatedBy>
+        VB: Public Class EforDbEntity(Of TId As IEquatable(Of TId), TCreatedBy As IEquatable(Of TCreatedBy))
+      typeParameters:
+      - id: TId
+      - id: TCreatedBy
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+      commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: EforDbEntity<TId, TCreatedBy>.Id
+        VB: EforDbEntity(Of TId, TCreatedBy).Id
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.Id
+        VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).Id
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Id
+        path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+        startLine: 29
+      summary: "\nPrimary key of the Entity\n"
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            [Key]
+
+            [Required]
+
+            public virtual TId Id { get; set; }
+          VB: >-
+            <Key>
+
+            <Required>
+
+            Public Overridable Property Id As TId
+        parameters: []
+        return:
+          type: '{TId}'
+      overload: es.efor.Utilities.Database.Models.EforDbEntity`2.Id*
+      attributes:
+      - type: System.ComponentModel.DataAnnotations.KeyAttribute
+        ctor: System.ComponentModel.DataAnnotations.KeyAttribute.#ctor
+        arguments: []
+      - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+        ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+        arguments: []
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        - get
+        - set
+        VB:
+        - Public
+        - Overridable
+    - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+      commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+      language: CSharp
+      name:
+        CSharp: CreatedBy
+        VB: CreatedBy
+      nameWithType:
+        CSharp: EforDbEntity<TId, TCreatedBy>.CreatedBy
+        VB: EforDbEntity(Of TId, TCreatedBy).CreatedBy
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.CreatedBy
+        VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).CreatedBy
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: CreatedBy
+        path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+        startLine: 36
+      summary: "\nA string that identifies who the creator of the\nentity is. Can be an identifier or a label.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual TCreatedBy CreatedBy { get; set; }
+          VB: Public Overridable Property CreatedBy As TCreatedBy
+        parameters: []
+        return:
+          type: '{TCreatedBy}'
+      overload: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        - get
+        - set
+        VB:
+        - Public
+        - Overridable
+    - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+      commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+      language: CSharp
+      name:
+        CSharp: ModifiedBy
+        VB: ModifiedBy
+      nameWithType:
+        CSharp: EforDbEntity<TId, TCreatedBy>.ModifiedBy
+        VB: EforDbEntity(Of TId, TCreatedBy).ModifiedBy
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.ModifiedBy
+        VB: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).ModifiedBy
+      type: Property
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Models
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Models/EforDbEntity.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ModifiedBy
+        path: ../es.efor.Utilities.Database/Models/EforDbEntity.cs
+        startLine: 41
+      summary: "\nA string that identifies who modified the entity.\nCan be an identifier or a label.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual TCreatedBy ModifiedBy { get; set; }
+          VB: Public Overridable Property ModifiedBy As TCreatedBy
+        parameters: []
+        return:
+          type: '{TCreatedBy}'
+      overload: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        - get
+        - set
+        VB:
+        - Public
+        - Overridable
+- id: es.efor.Utilities.Database.Tools
+  commentId: N:es.efor.Utilities.Database.Tools
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.Database.Tools
+    VB: es.efor.Utilities.Database.Tools
+  nameWithType:
+    CSharp: es.efor.Utilities.Database.Tools
+    VB: es.efor.Utilities.Database.Tools
+  qualifiedName:
+    CSharp: es.efor.Utilities.Database.Tools
+    VB: es.efor.Utilities.Database.Tools
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Database
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+    commentId: T:es.efor.Utilities.Database.Tools.EntityFrameworkTools
+    language: CSharp
+    name:
+      CSharp: EntityFrameworkTools
+      VB: EntityFrameworkTools
+    nameWithType:
+      CSharp: EntityFrameworkTools
+      VB: EntityFrameworkTools
+    qualifiedName:
+      CSharp: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+      VB: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+    type: Class
+    assemblies:
+    - es.efor.Utilities.Database
+    namespace: es.efor.Utilities.Database.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.Database/Tools/EntityFrameworkTools.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: EntityFrameworkTools
+      path: ../es.efor.Utilities.Database/Tools/EntityFrameworkTools.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: public static class EntityFrameworkTools
+        VB: Public Module EntityFrameworkTools
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection``1(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,es.efor.Utilities.Database.Enums.EfDatabaseType,System.String,System.String,System.Boolean)
+      commentId: M:es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection``1(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,es.efor.Utilities.Database.Enums.EfDatabaseType,System.String,System.String,System.Boolean)
+      language: CSharp
+      name:
+        CSharp: ConfigureConnection<TDbContext>(DbContextOptionsBuilder, EfDatabaseType, String, String, Boolean)
+        VB: ConfigureConnection(Of TDbContext)(DbContextOptionsBuilder, EfDatabaseType, String, String, Boolean)
+      nameWithType:
+        CSharp: EntityFrameworkTools.ConfigureConnection<TDbContext>(DbContextOptionsBuilder, EfDatabaseType, String, String, Boolean)
+        VB: EntityFrameworkTools.ConfigureConnection(Of TDbContext)(DbContextOptionsBuilder, EfDatabaseType, String, String, Boolean)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection<TDbContext>(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, es.efor.Utilities.Database.Enums.EfDatabaseType, System.String, System.String, System.Boolean)
+        VB: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection(Of TDbContext)(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, es.efor.Utilities.Database.Enums.EfDatabaseType, System.String, System.String, System.Boolean)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Tools/EntityFrameworkTools.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ConfigureConnection
+        path: ../es.efor.Utilities.Database/Tools/EntityFrameworkTools.cs
+        startLine: 15
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            public static void ConfigureConnection<TDbContext>(DbContextOptionsBuilder options, EfDatabaseType dbType, string connectionString, string migrationAssembly = null, bool useLazyProxy = true)
+
+                where TDbContext : DbContext
+          VB: Public Shared Sub ConfigureConnection(Of TDbContext As DbContext)(options As DbContextOptionsBuilder, dbType As EfDatabaseType, connectionString As String, migrationAssembly As String = Nothing, useLazyProxy As Boolean = True)
+        parameters:
+        - id: options
+          type: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+          description: ''
+        - id: dbType
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+        - id: connectionString
+          type: System.String
+        - id: migrationAssembly
+          type: System.String
+          description: Use null to disable migrations.
+        - id: useLazyProxy
+          type: System.Boolean
+        typeParameters:
+        - id: TDbContext
+      overload: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations``1(System.IServiceProvider,es.efor.Utilities.Database.Enums.EfDatabaseType)
+      commentId: M:es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations``1(System.IServiceProvider,es.efor.Utilities.Database.Enums.EfDatabaseType)
+      language: CSharp
+      name:
+        CSharp: ApplyMigrations<TDbContext>(IServiceProvider, EfDatabaseType)
+        VB: ApplyMigrations(Of TDbContext)(IServiceProvider, EfDatabaseType)
+      nameWithType:
+        CSharp: EntityFrameworkTools.ApplyMigrations<TDbContext>(IServiceProvider, EfDatabaseType)
+        VB: EntityFrameworkTools.ApplyMigrations(Of TDbContext)(IServiceProvider, EfDatabaseType)
+      qualifiedName:
+        CSharp: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations<TDbContext>(System.IServiceProvider, es.efor.Utilities.Database.Enums.EfDatabaseType)
+        VB: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations(Of TDbContext)(System.IServiceProvider, es.efor.Utilities.Database.Enums.EfDatabaseType)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.Database
+      namespace: es.efor.Utilities.Database.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.Database/Tools/EntityFrameworkTools.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ApplyMigrations
+        path: ../es.efor.Utilities.Database/Tools/EntityFrameworkTools.cs
+        startLine: 78
+      syntax:
+        content:
+          CSharp: >-
+            public static Task ApplyMigrations<TDbContext>(IServiceProvider serviceProvider, EfDatabaseType dbType)
+
+                where TDbContext : DbContext
+          VB: Public Shared Function ApplyMigrations(Of TDbContext As DbContext)(serviceProvider As IServiceProvider, dbType As EfDatabaseType) As Task
+        parameters:
+        - id: serviceProvider
+          type: System.IServiceProvider
+        - id: dbType
+          type: es.efor.Utilities.Database.Enums.EfDatabaseType
+        typeParameters:
+        - id: TDbContext
+        return:
+          type: System.Threading.Tasks.Task
+      overload: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+references:
+  es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  es.efor.Utilities.General:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General
+        nameWithType: es.efor.Utilities.General
+        qualifiedName: es.efor.Utilities.General
+      VB:
+      - name: es.efor.Utilities.General
+        nameWithType: es.efor.Utilities.General
+        qualifiedName: es.efor.Utilities.General
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General
+  es.efor.Utilities.General.EnumHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper
+        name: EnumHelper
+        nameWithType: EnumHelper
+        qualifiedName: es.efor.Utilities.General.EnumHelper
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper
+        name: EnumHelper
+        nameWithType: EnumHelper
+        qualifiedName: es.efor.Utilities.General.EnumHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General
+    commentId: T:es.efor.Utilities.General.EnumHelper
+  System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    parent: es.efor.Utilities.General.EnumHelper
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    parent: es.efor.Utilities.General.EnumHelper
+    commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+      VB:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Helpers
+  es.efor.Utilities.General.Helpers.ObjectHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General.Helpers
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  es.efor.Utilities.Database.Enums:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Database.Enums
+        nameWithType: es.efor.Utilities.Database.Enums
+        qualifiedName: es.efor.Utilities.Database.Enums
+      VB:
+      - name: es.efor.Utilities.Database.Enums
+        nameWithType: es.efor.Utilities.Database.Enums
+        qualifiedName: es.efor.Utilities.Database.Enums
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Database.Enums
+  es.efor.Utilities.Database.Enums.EfDatabaseType:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Enums.EfDatabaseType
+        name: EfDatabaseType
+        nameWithType: EfDatabaseType
+        qualifiedName: es.efor.Utilities.Database.Enums.EfDatabaseType
+      VB:
+      - id: es.efor.Utilities.Database.Enums.EfDatabaseType
+        name: EfDatabaseType
+        nameWithType: EfDatabaseType
+        qualifiedName: es.efor.Utilities.Database.Enums.EfDatabaseType
+    isDefinition: true
+    parent: es.efor.Utilities.Database.Enums
+    commentId: T:es.efor.Utilities.Database.Enums.EfDatabaseType
+  es.efor.Utilities.Database.Models.EforDbEntity`2:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2
+        name: EforDbEntity
+        nameWithType: EforDbEntity
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TCreatedBy
+        nameWithType: TCreatedBy
+        qualifiedName: TCreatedBy
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2
+        name: EforDbEntity
+        nameWithType: EforDbEntity
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TCreatedBy
+        nameWithType: TCreatedBy
+        qualifiedName: TCreatedBy
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Database.Models.EforDbEntity`2
+  es.efor.Utilities.Database.Models:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Database.Models
+        nameWithType: es.efor.Utilities.Database.Models
+        qualifiedName: es.efor.Utilities.Database.Models
+      VB:
+      - name: es.efor.Utilities.Database.Models
+        nameWithType: es.efor.Utilities.Database.Models
+        qualifiedName: es.efor.Utilities.Database.Models
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Database.Models
+  es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2
+        name: EforDbEntity
+        nameWithType: EforDbEntity
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2
+        name: EforDbEntity
+        nameWithType: EforDbEntity
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.Database.Models.EforDbEntity`2
+    parent: es.efor.Utilities.Database.Models
+    commentId: T:es.efor.Utilities.Database.Models.EforDbEntity{`0,System.String}
+  es.efor.Utilities.Database.Models.EforDbEntity`2.Id:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+        name: Id
+        nameWithType: EforDbEntity<TId, TCreatedBy>.Id
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.Id
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+        name: Id
+        nameWithType: EforDbEntity(Of TId, TCreatedBy).Id
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).Id
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+  es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}.Id:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+        name: Id
+        nameWithType: EforDbEntity<TId, String>.Id
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, System.String>.Id
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+        name: Id
+        nameWithType: EforDbEntity(Of TId, String).Id
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, System.String).Id
+    isDefinition: false
+    definition: es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+    parent: es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}
+    commentId: P:es.efor.Utilities.Database.Models.EforDbEntity{`0,System.String}.Id
+  es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+        name: CreatedBy
+        nameWithType: EforDbEntity<TId, TCreatedBy>.CreatedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.CreatedBy
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+        name: CreatedBy
+        nameWithType: EforDbEntity(Of TId, TCreatedBy).CreatedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).CreatedBy
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+  es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}.CreatedBy:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+        name: CreatedBy
+        nameWithType: EforDbEntity<TId, String>.CreatedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, System.String>.CreatedBy
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+        name: CreatedBy
+        nameWithType: EforDbEntity(Of TId, String).CreatedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, System.String).CreatedBy
+    isDefinition: false
+    definition: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+    parent: es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}
+    commentId: P:es.efor.Utilities.Database.Models.EforDbEntity{`0,System.String}.CreatedBy
+  es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+        name: ModifiedBy
+        nameWithType: EforDbEntity<TId, TCreatedBy>.ModifiedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.ModifiedBy
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+        name: ModifiedBy
+        nameWithType: EforDbEntity(Of TId, TCreatedBy).ModifiedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).ModifiedBy
+    isDefinition: true
+    commentId: P:es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+  es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}.ModifiedBy:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+        name: ModifiedBy
+        nameWithType: EforDbEntity<TId, String>.ModifiedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, System.String>.ModifiedBy
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+        name: ModifiedBy
+        nameWithType: EforDbEntity(Of TId, String).ModifiedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, System.String).ModifiedBy
+    isDefinition: false
+    definition: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+    parent: es.efor.Utilities.Database.Models.EforDbEntity{{TId},System.String}
+    commentId: P:es.efor.Utilities.Database.Models.EforDbEntity{`0,System.String}.ModifiedBy
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.DateTimeOffset:
+    name:
+      CSharp:
+      - id: System.DateTimeOffset
+        name: DateTimeOffset
+        nameWithType: DateTimeOffset
+        qualifiedName: System.DateTimeOffset
+        isExternal: true
+      VB:
+      - id: System.DateTimeOffset
+        name: DateTimeOffset
+        nameWithType: DateTimeOffset
+        qualifiedName: System.DateTimeOffset
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.DateTimeOffset
+  es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated*
+        name: DCreated
+        nameWithType: EforDbEntity<TId>.DCreated
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId>.DCreated
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated*
+        name: DCreated
+        nameWithType: EforDbEntity(Of TId).DCreated
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId).DCreated
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Models.EforDbEntity`1.DCreated
+  System.ComponentModel.DataAnnotations:
+    name:
+      CSharp:
+      - name: System.ComponentModel.DataAnnotations
+        nameWithType: System.ComponentModel.DataAnnotations
+        qualifiedName: System.ComponentModel.DataAnnotations
+        isExternal: true
+      VB:
+      - name: System.ComponentModel.DataAnnotations
+        nameWithType: System.ComponentModel.DataAnnotations
+        qualifiedName: System.ComponentModel.DataAnnotations
+    isDefinition: true
+    commentId: N:System.ComponentModel.DataAnnotations
+  System.ComponentModel.DataAnnotations.RequiredAttribute:
+    name:
+      CSharp:
+      - id: System.ComponentModel.DataAnnotations.RequiredAttribute
+        name: RequiredAttribute
+        nameWithType: RequiredAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.RequiredAttribute
+        isExternal: true
+      VB:
+      - id: System.ComponentModel.DataAnnotations.RequiredAttribute
+        name: RequiredAttribute
+        nameWithType: RequiredAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.RequiredAttribute
+        isExternal: true
+    isDefinition: true
+    parent: System.ComponentModel.DataAnnotations
+    commentId: T:System.ComponentModel.DataAnnotations.RequiredAttribute
+  System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor:
+    name:
+      CSharp:
+      - id: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+        name: RequiredAttribute
+        nameWithType: RequiredAttribute.RequiredAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+        name: RequiredAttribute
+        nameWithType: RequiredAttribute.RequiredAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.RequiredAttribute.RequiredAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.ComponentModel.DataAnnotations.RequiredAttribute
+    commentId: M:System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+  System.Nullable`1:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Nullable`1
+  System.Nullable{System.DateTimeOffset}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.DateTimeOffset
+        name: DateTimeOffset
+        nameWithType: DateTimeOffset
+        qualifiedName: System.DateTimeOffset
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.DateTimeOffset
+        name: DateTimeOffset
+        nameWithType: DateTimeOffset
+        qualifiedName: System.DateTimeOffset
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.DateTimeOffset}
+  es.efor.Utilities.Database.Models.EforDbEntity`1.DModified*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`1.DModified*
+        name: DModified
+        nameWithType: EforDbEntity<TId>.DModified
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId>.DModified
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`1.DModified*
+        name: DModified
+        nameWithType: EforDbEntity(Of TId).DModified
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId).DModified
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Models.EforDbEntity`1.DModified
+  es.efor.Utilities.Database.Models.EforDbEntity`1:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`1
+        name: EforDbEntity
+        nameWithType: EforDbEntity
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`1
+        name: EforDbEntity
+        nameWithType: EforDbEntity
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Database.Models.EforDbEntity`1
+  TId:
+    name:
+      CSharp:
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      VB:
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+    isDefinition: true
+    commentId: '!:TId'
+  '{TId}':
+    name:
+      CSharp:
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+      VB:
+      - name: TId
+        nameWithType: TId
+        qualifiedName: TId
+    isDefinition: false
+    definition: TId
+    commentId: '!:TId'
+  es.efor.Utilities.Database.Models.EforDbEntity`2.Id*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id*
+        name: Id
+        nameWithType: EforDbEntity<TId, TCreatedBy>.Id
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.Id
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.Id*
+        name: Id
+        nameWithType: EforDbEntity(Of TId, TCreatedBy).Id
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).Id
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Models.EforDbEntity`2.Id
+  System.ComponentModel.DataAnnotations.KeyAttribute:
+    name:
+      CSharp:
+      - id: System.ComponentModel.DataAnnotations.KeyAttribute
+        name: KeyAttribute
+        nameWithType: KeyAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.KeyAttribute
+        isExternal: true
+      VB:
+      - id: System.ComponentModel.DataAnnotations.KeyAttribute
+        name: KeyAttribute
+        nameWithType: KeyAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.KeyAttribute
+        isExternal: true
+    isDefinition: true
+    parent: System.ComponentModel.DataAnnotations
+    commentId: T:System.ComponentModel.DataAnnotations.KeyAttribute
+  System.ComponentModel.DataAnnotations.KeyAttribute.#ctor:
+    name:
+      CSharp:
+      - id: System.ComponentModel.DataAnnotations.KeyAttribute.#ctor
+        name: KeyAttribute
+        nameWithType: KeyAttribute.KeyAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.ComponentModel.DataAnnotations.KeyAttribute.#ctor
+        name: KeyAttribute
+        nameWithType: KeyAttribute.KeyAttribute
+        qualifiedName: System.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.ComponentModel.DataAnnotations.KeyAttribute
+    commentId: M:System.ComponentModel.DataAnnotations.KeyAttribute.#ctor
+  TCreatedBy:
+    name:
+      CSharp:
+      - name: TCreatedBy
+        nameWithType: TCreatedBy
+        qualifiedName: TCreatedBy
+      VB:
+      - name: TCreatedBy
+        nameWithType: TCreatedBy
+        qualifiedName: TCreatedBy
+    isDefinition: true
+  '{TCreatedBy}':
+    name:
+      CSharp:
+      - name: TCreatedBy
+        nameWithType: TCreatedBy
+        qualifiedName: TCreatedBy
+      VB:
+      - name: TCreatedBy
+        nameWithType: TCreatedBy
+        qualifiedName: TCreatedBy
+    isDefinition: false
+    definition: TCreatedBy
+    commentId: '!:TCreatedBy'
+  es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy*
+        name: CreatedBy
+        nameWithType: EforDbEntity<TId, TCreatedBy>.CreatedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.CreatedBy
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy*
+        name: CreatedBy
+        nameWithType: EforDbEntity(Of TId, TCreatedBy).CreatedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).CreatedBy
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Models.EforDbEntity`2.CreatedBy
+  es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy*
+        name: ModifiedBy
+        nameWithType: EforDbEntity<TId, TCreatedBy>.ModifiedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity<TId, TCreatedBy>.ModifiedBy
+      VB:
+      - id: es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy*
+        name: ModifiedBy
+        nameWithType: EforDbEntity(Of TId, TCreatedBy).ModifiedBy
+        qualifiedName: es.efor.Utilities.Database.Models.EforDbEntity(Of TId, TCreatedBy).ModifiedBy
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Models.EforDbEntity`2.ModifiedBy
+  Microsoft.EntityFrameworkCore:
+    name:
+      CSharp:
+      - name: Microsoft.EntityFrameworkCore
+        nameWithType: Microsoft.EntityFrameworkCore
+        qualifiedName: Microsoft.EntityFrameworkCore
+        isExternal: true
+      VB:
+      - name: Microsoft.EntityFrameworkCore
+        nameWithType: Microsoft.EntityFrameworkCore
+        qualifiedName: Microsoft.EntityFrameworkCore
+    isDefinition: true
+    commentId: N:Microsoft.EntityFrameworkCore
+  Microsoft.EntityFrameworkCore.DbContextOptionsBuilder:
+    name:
+      CSharp:
+      - id: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+        name: DbContextOptionsBuilder
+        nameWithType: DbContextOptionsBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+        isExternal: true
+      VB:
+      - id: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+        name: DbContextOptionsBuilder
+        nameWithType: DbContextOptionsBuilder
+        qualifiedName: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.EntityFrameworkCore
+    commentId: T:Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection*
+        name: ConfigureConnection
+        nameWithType: EntityFrameworkTools.ConfigureConnection
+        qualifiedName: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection
+      VB:
+      - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection*
+        name: ConfigureConnection
+        nameWithType: EntityFrameworkTools.ConfigureConnection
+        qualifiedName: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Tools.EntityFrameworkTools.ConfigureConnection
+  System.Threading.Tasks:
+    name:
+      CSharp:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+        isExternal: true
+      VB:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+    isDefinition: true
+    commentId: N:System.Threading.Tasks
+  System.Threading.Tasks.Task:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      VB:
+      - id: System.Threading.Tasks.Task
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+    isDefinition: true
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task
+  System.IServiceProvider:
+    name:
+      CSharp:
+      - id: System.IServiceProvider
+        name: IServiceProvider
+        nameWithType: IServiceProvider
+        qualifiedName: System.IServiceProvider
+        isExternal: true
+      VB:
+      - id: System.IServiceProvider
+        name: IServiceProvider
+        nameWithType: IServiceProvider
+        qualifiedName: System.IServiceProvider
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.IServiceProvider
+  es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations*
+        name: ApplyMigrations
+        nameWithType: EntityFrameworkTools.ApplyMigrations
+        qualifiedName: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations
+      VB:
+      - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations*
+        name: ApplyMigrations
+        nameWithType: EntityFrameworkTools.ApplyMigrations
+        qualifiedName: es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.Database.Tools.EntityFrameworkTools.ApplyMigrations
+  es.efor.Utilities.Database.Tools.EntityFrameworkTools:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+        name: EntityFrameworkTools
+        nameWithType: EntityFrameworkTools
+        qualifiedName: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+      VB:
+      - id: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+        name: EntityFrameworkTools
+        nameWithType: EntityFrameworkTools
+        qualifiedName: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+    isDefinition: true
+    commentId: T:es.efor.Utilities.Database.Tools.EntityFrameworkTools
+  es.efor.Utilities.Database.Tools:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.Database.Tools
+        nameWithType: es.efor.Utilities.Database.Tools
+        qualifiedName: es.efor.Utilities.Database.Tools
+      VB:
+      - name: es.efor.Utilities.Database.Tools
+        nameWithType: es.efor.Utilities.Database.Tools
+        qualifiedName: es.efor.Utilities.Database.Tools
+    isDefinition: true
+    commentId: N:es.efor.Utilities.Database.Tools

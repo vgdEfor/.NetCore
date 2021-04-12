@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq
+  commentId: N:System.Linq
+  id: System.Linq
+  children:
+  - System.Linq.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: System.Linq
+  nameWithType: System.Linq
+  fullName: System.Linq
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+references:
+- uid: System.Linq.LinqExtensions
+  commentId: T:System.Linq.LinqExtensions
+  name: LinqExtensions
+  nameWithType: LinqExtensions
+  fullName: System.Linq.LinqExtensions

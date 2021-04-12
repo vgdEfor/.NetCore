@@ -1,0 +1,1109 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Models.Entities.User
+  commentId: T:es.efor.Auth.Models.Entities.User
+  id: User
+  parent: es.efor.Auth.Models.Entities
+  children:
+  - es.efor.Auth.Models.Entities.User.#ctor
+  - es.efor.Auth.Models.Entities.User.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: User
+  fullName: es.efor.Auth.Models.Entities.User
+  type: Class
+  source:
+    remote:
+      path: es.efor.Auth/Models/Entities/User.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: User
+    path: ../es.efor.Auth/Models/Entities/User.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Entities
+  summary: "\nClase de implementación para Users de Identity.\nUtilizar esta clase en lugar de la tipificada en la medida de lo posible.\nDe ser necesario editar el tipo de clave primaria, hacerlo en la definición de esta clase.\n"
+  example: []
+  syntax:
+    content: 'public class User : User<Guid>'
+    content.vb: >-
+      Public Class User
+
+          Inherits User(Of Guid)
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  - es.efor.Auth.Models.Entities.User{System.Guid}
+  inheritedMembers:
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.ToString
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.Id
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.UserName
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.NormalizedUserName
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.Email
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.NormalizedEmail
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.EmailConfirmed
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PasswordHash
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.SecurityStamp
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.ConcurrencyStamp
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PhoneNumber
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PhoneNumberConfirmed
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.TwoFactorEnabled
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.LockoutEnd
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.LockoutEnabled
+  - Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.AccessFailedCount
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Auth.Models.Entities.User.#ctor
+  commentId: M:es.efor.Auth.Models.Entities.User.#ctor
+  id: '#ctor'
+  parent: es.efor.Auth.Models.Entities.User
+  langs:
+  - csharp
+  - vb
+  name: User()
+  nameWithType: User.User()
+  fullName: es.efor.Auth.Models.Entities.User.User()
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Auth/Models/Entities/User.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Auth/Models/Entities/User.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Entities
+  syntax:
+    content: public User()
+    content.vb: Public Sub New
+  overload: es.efor.Auth.Models.Entities.User.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Entities.User.#ctor(System.String)
+  commentId: M:es.efor.Auth.Models.Entities.User.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: es.efor.Auth.Models.Entities.User
+  langs:
+  - csharp
+  - vb
+  name: User(String)
+  nameWithType: User.User(String)
+  fullName: es.efor.Auth.Models.Entities.User.User(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Auth/Models/Entities/User.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Auth/Models/Entities/User.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Entities
+  syntax:
+    content: public User(string userName)
+    parameters:
+    - id: userName
+      type: System.String
+    content.vb: Public Sub New(userName As String)
+  overload: es.efor.Auth.Models.Entities.User.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Auth.Models.Entities
+  commentId: N:es.efor.Auth.Models.Entities
+  name: es.efor.Auth.Models.Entities
+  nameWithType: es.efor.Auth.Models.Entities
+  fullName: es.efor.Auth.Models.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  commentId: T:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  parent: Microsoft.AspNetCore.Identity
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1
+  name: IdentityUser<Guid>
+  nameWithType: IdentityUser<Guid>
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>
+  nameWithType.vb: IdentityUser(Of Guid)
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid)
+  name.vb: IdentityUser(Of Guid)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Models.Entities.User{System.Guid}
+  commentId: T:es.efor.Auth.Models.Entities.User{System.Guid}
+  parent: es.efor.Auth.Models.Entities
+  definition: es.efor.Auth.Models.Entities.User`1
+  name: User<Guid>
+  nameWithType: User<Guid>
+  fullName: es.efor.Auth.Models.Entities.User<System.Guid>
+  nameWithType.vb: User(Of Guid)
+  fullName.vb: es.efor.Auth.Models.Entities.User(Of System.Guid)
+  name.vb: User(Of Guid)
+  spec.csharp:
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.ToString
+  commentId: M:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.ToString
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+  name: ToString()
+  nameWithType: IdentityUser<Guid>.ToString()
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.ToString()
+  nameWithType.vb: IdentityUser(Of Guid).ToString()
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).ToString()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+    name: ToString
+    nameWithType: IdentityUser<Guid>.ToString
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+    name: ToString
+    nameWithType: IdentityUser(Of Guid).ToString
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.Id
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.Id
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.Id
+  name: Id
+  nameWithType: IdentityUser<Guid>.Id
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.Id
+  nameWithType.vb: IdentityUser(Of Guid).Id
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).Id
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.UserName
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.UserName
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.UserName
+  name: UserName
+  nameWithType: IdentityUser<Guid>.UserName
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.UserName
+  nameWithType.vb: IdentityUser(Of Guid).UserName
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).UserName
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.NormalizedUserName
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.NormalizedUserName
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.NormalizedUserName
+  name: NormalizedUserName
+  nameWithType: IdentityUser<Guid>.NormalizedUserName
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.NormalizedUserName
+  nameWithType.vb: IdentityUser(Of Guid).NormalizedUserName
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).NormalizedUserName
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.Email
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.Email
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.Email
+  name: Email
+  nameWithType: IdentityUser<Guid>.Email
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.Email
+  nameWithType.vb: IdentityUser(Of Guid).Email
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).Email
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.NormalizedEmail
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.NormalizedEmail
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.NormalizedEmail
+  name: NormalizedEmail
+  nameWithType: IdentityUser<Guid>.NormalizedEmail
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.NormalizedEmail
+  nameWithType.vb: IdentityUser(Of Guid).NormalizedEmail
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).NormalizedEmail
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.EmailConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.EmailConfirmed
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.EmailConfirmed
+  name: EmailConfirmed
+  nameWithType: IdentityUser<Guid>.EmailConfirmed
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.EmailConfirmed
+  nameWithType.vb: IdentityUser(Of Guid).EmailConfirmed
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).EmailConfirmed
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PasswordHash
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PasswordHash
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.PasswordHash
+  name: PasswordHash
+  nameWithType: IdentityUser<Guid>.PasswordHash
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.PasswordHash
+  nameWithType.vb: IdentityUser(Of Guid).PasswordHash
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).PasswordHash
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.SecurityStamp
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.SecurityStamp
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.SecurityStamp
+  name: SecurityStamp
+  nameWithType: IdentityUser<Guid>.SecurityStamp
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.SecurityStamp
+  nameWithType.vb: IdentityUser(Of Guid).SecurityStamp
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).SecurityStamp
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.ConcurrencyStamp
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.ConcurrencyStamp
+  name: ConcurrencyStamp
+  nameWithType: IdentityUser<Guid>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.ConcurrencyStamp
+  nameWithType.vb: IdentityUser(Of Guid).ConcurrencyStamp
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).ConcurrencyStamp
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PhoneNumber
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PhoneNumber
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.PhoneNumber
+  name: PhoneNumber
+  nameWithType: IdentityUser<Guid>.PhoneNumber
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.PhoneNumber
+  nameWithType.vb: IdentityUser(Of Guid).PhoneNumber
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).PhoneNumber
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PhoneNumberConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.PhoneNumberConfirmed
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.PhoneNumberConfirmed
+  name: PhoneNumberConfirmed
+  nameWithType: IdentityUser<Guid>.PhoneNumberConfirmed
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.PhoneNumberConfirmed
+  nameWithType.vb: IdentityUser(Of Guid).PhoneNumberConfirmed
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).PhoneNumberConfirmed
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.TwoFactorEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.TwoFactorEnabled
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.TwoFactorEnabled
+  name: TwoFactorEnabled
+  nameWithType: IdentityUser<Guid>.TwoFactorEnabled
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.TwoFactorEnabled
+  nameWithType.vb: IdentityUser(Of Guid).TwoFactorEnabled
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).TwoFactorEnabled
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.LockoutEnd
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.LockoutEnd
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.LockoutEnd
+  name: LockoutEnd
+  nameWithType: IdentityUser<Guid>.LockoutEnd
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.LockoutEnd
+  nameWithType.vb: IdentityUser(Of Guid).LockoutEnd
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).LockoutEnd
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.LockoutEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.LockoutEnabled
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.LockoutEnabled
+  name: LockoutEnabled
+  nameWithType: IdentityUser<Guid>.LockoutEnabled
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.LockoutEnabled
+  nameWithType.vb: IdentityUser(Of Guid).LockoutEnabled
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).LockoutEnabled
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.AccessFailedCount
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}.AccessFailedCount
+  parent: Microsoft.AspNetCore.Identity.IdentityUser{System.Guid}
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1.AccessFailedCount
+  name: AccessFailedCount
+  nameWithType: IdentityUser<Guid>.AccessFailedCount
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<System.Guid>.AccessFailedCount
+  nameWithType.vb: IdentityUser(Of Guid).AccessFailedCount
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of System.Guid).AccessFailedCount
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+  commentId: T:Microsoft.AspNetCore.Identity.IdentityUser`1
+  isExternal: true
+  name: IdentityUser<TKey>
+  nameWithType: IdentityUser<TKey>
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>
+  nameWithType.vb: IdentityUser(Of TKey)
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey)
+  name.vb: IdentityUser(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity
+  commentId: N:Microsoft.AspNetCore.Identity
+  isExternal: true
+  name: Microsoft.AspNetCore.Identity
+  nameWithType: Microsoft.AspNetCore.Identity
+  fullName: Microsoft.AspNetCore.Identity
+- uid: es.efor.Auth.Models.Entities.User`1
+  commentId: T:es.efor.Auth.Models.Entities.User`1
+  name: User<TId>
+  nameWithType: User<TId>
+  fullName: es.efor.Auth.Models.Entities.User<TId>
+  nameWithType.vb: User(Of TId)
+  fullName.vb: es.efor.Auth.Models.Entities.User(Of TId)
+  name.vb: User(Of TId)
+  spec.csharp:
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TId
+    nameWithType: TId
+    fullName: TId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+  commentId: M:Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+  isExternal: true
+  name: ToString()
+  nameWithType: IdentityUser<TKey>.ToString()
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.ToString()
+  nameWithType.vb: IdentityUser(Of TKey).ToString()
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).ToString()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+    name: ToString
+    nameWithType: IdentityUser<TKey>.ToString
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1.ToString
+    name: ToString
+    nameWithType: IdentityUser(Of TKey).ToString
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.Id
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.Id
+  isExternal: true
+  name: Id
+  nameWithType: IdentityUser<TKey>.Id
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.Id
+  nameWithType.vb: IdentityUser(Of TKey).Id
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).Id
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.UserName
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: IdentityUser<TKey>.UserName
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.UserName
+  nameWithType.vb: IdentityUser(Of TKey).UserName
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).UserName
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.NormalizedUserName
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.NormalizedUserName
+  isExternal: true
+  name: NormalizedUserName
+  nameWithType: IdentityUser<TKey>.NormalizedUserName
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.NormalizedUserName
+  nameWithType.vb: IdentityUser(Of TKey).NormalizedUserName
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).NormalizedUserName
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.Email
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.Email
+  isExternal: true
+  name: Email
+  nameWithType: IdentityUser<TKey>.Email
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.Email
+  nameWithType.vb: IdentityUser(Of TKey).Email
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).Email
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.NormalizedEmail
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.NormalizedEmail
+  isExternal: true
+  name: NormalizedEmail
+  nameWithType: IdentityUser<TKey>.NormalizedEmail
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.NormalizedEmail
+  nameWithType.vb: IdentityUser(Of TKey).NormalizedEmail
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).NormalizedEmail
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.EmailConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.EmailConfirmed
+  isExternal: true
+  name: EmailConfirmed
+  nameWithType: IdentityUser<TKey>.EmailConfirmed
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.EmailConfirmed
+  nameWithType.vb: IdentityUser(Of TKey).EmailConfirmed
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).EmailConfirmed
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.PasswordHash
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.PasswordHash
+  isExternal: true
+  name: PasswordHash
+  nameWithType: IdentityUser<TKey>.PasswordHash
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.PasswordHash
+  nameWithType.vb: IdentityUser(Of TKey).PasswordHash
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).PasswordHash
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.SecurityStamp
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.SecurityStamp
+  isExternal: true
+  name: SecurityStamp
+  nameWithType: IdentityUser<TKey>.SecurityStamp
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.SecurityStamp
+  nameWithType.vb: IdentityUser(Of TKey).SecurityStamp
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).SecurityStamp
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.ConcurrencyStamp
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.ConcurrencyStamp
+  isExternal: true
+  name: ConcurrencyStamp
+  nameWithType: IdentityUser<TKey>.ConcurrencyStamp
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.ConcurrencyStamp
+  nameWithType.vb: IdentityUser(Of TKey).ConcurrencyStamp
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).ConcurrencyStamp
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.PhoneNumber
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: IdentityUser<TKey>.PhoneNumber
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.PhoneNumber
+  nameWithType.vb: IdentityUser(Of TKey).PhoneNumber
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).PhoneNumber
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.PhoneNumberConfirmed
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.PhoneNumberConfirmed
+  isExternal: true
+  name: PhoneNumberConfirmed
+  nameWithType: IdentityUser<TKey>.PhoneNumberConfirmed
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.PhoneNumberConfirmed
+  nameWithType.vb: IdentityUser(Of TKey).PhoneNumberConfirmed
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).PhoneNumberConfirmed
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.TwoFactorEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.TwoFactorEnabled
+  isExternal: true
+  name: TwoFactorEnabled
+  nameWithType: IdentityUser<TKey>.TwoFactorEnabled
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.TwoFactorEnabled
+  nameWithType.vb: IdentityUser(Of TKey).TwoFactorEnabled
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).TwoFactorEnabled
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.LockoutEnd
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.LockoutEnd
+  isExternal: true
+  name: LockoutEnd
+  nameWithType: IdentityUser<TKey>.LockoutEnd
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.LockoutEnd
+  nameWithType.vb: IdentityUser(Of TKey).LockoutEnd
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).LockoutEnd
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.LockoutEnabled
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.LockoutEnabled
+  isExternal: true
+  name: LockoutEnabled
+  nameWithType: IdentityUser<TKey>.LockoutEnabled
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.LockoutEnabled
+  nameWithType.vb: IdentityUser(Of TKey).LockoutEnabled
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).LockoutEnabled
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1.AccessFailedCount
+  commentId: P:Microsoft.AspNetCore.Identity.IdentityUser`1.AccessFailedCount
+  isExternal: true
+  name: AccessFailedCount
+  nameWithType: IdentityUser<TKey>.AccessFailedCount
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>.AccessFailedCount
+  nameWithType.vb: IdentityUser(Of TKey).AccessFailedCount
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey).AccessFailedCount
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Auth.Models.Entities.User.#ctor*
+  commentId: Overload:es.efor.Auth.Models.Entities.User.#ctor
+  name: User
+  nameWithType: User.User
+  fullName: es.efor.Auth.Models.Entities.User.User
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

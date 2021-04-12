@@ -1,0 +1,559 @@
+<h2 *ngIf="!esNuevoItem" class="section-title my-4">{{'PAGE.PROJECT.DETAILS.TITLE' | translate}}</h2>
+<h2 *ngIf="esNuevoItem" class="section-title my-4">{{'PAGE.PROJECT.NEW.TITLE' | translate}}</h2>
+
+<form (ngSubmit)="onBtnSave($event)" autocomplete="off">
+  <div class="form-row">
+    <div class="col form-group">
+      <label #lblName for="Name" [tooltip]="'PAGE.PROJECT.DETAILS.TOOLTIP.NAME' | translate " class="text-nowrap">
+        <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+        {{'PAGE.PROJECT.DETAILS.LABEL.NAME' | translate}}
+      </label>
+      <input type="text" autocomplete="off" class="form-control form-control-sm" [id]="lblName.getAttribute('for')"
+        [name]="lblName.getAttribute('for')" [(ngModel)]="_item.name" [disabled]="_isLoading" [required]="true">
+      <app-array-translator class="invalid-feedback d-block" [labels]="_itemErrors[lblName.getAttribute('for')]">
+      </app-array-translator>
+    </div>
+
+    <!-- aquí el dropdown
+    <div class="col form-group">
+      <label #lblResponsableId for="ResponsableId" [tooltip]="'PAGE.PROJECT.DETAILS.TOOLTIP.RESPONSABLEID' | translate "
+             class="text-nowrap">
+        <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+        {{'PAGE.PROJECT.DETAILS.LABEL.RESPONSABLEID' | translate}}
+      </label>
+      
+      <input type="text" autocomplete="off" class="form-control form-control-sm"
+             [id]="lblResponsableId.getAttribute('for')" [name]="lblResponsableId.getAttribute('for')"
+             [(ngModel)]="_item.responsableId"
+             [disabled]="_isLoading"
+             [required]="true">
+             
+      <app-array-translator class="invalid-feedback d-block"
+                            [labels]="_itemErrors[lblResponsableId.getAttribute('for')]"></app-array-translator>
+    </div>
+    ---->
+
+    <!-- este es el antiguo select
+    <div class="col form-group">
+      <label #lblResponsable for="Responsable" [tooltip]="'PAGE.PROJECT.DETAILS.LABEL.RESPONSABLEID' | translate "
+                   class="text-nowrap">
+              <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+              {{'PAGE.PROJECT.DETAILS.LABEL.RESPONSABLEID' | translate}}
+            </label>
+            <select class="form-control form-control-sm"
+                [id]="lblResponsable.getAttribute('for')" [name]="lblResponsable.getAttribute('for')"
+                [disabled]="_isLoading"
+                [(ngModel)]="responsableSelected"
+                [required]="true">   
+              <option  *ngFor="let r of responsables" value={{r.id}}>{{r.name}}</option>
+            </select>
+    </div>
+     -->
+
+    <!--  //Autocomplete -->
+    <div class="col form-group">
+      <ax-bs-form-autocomplete [id]="'controlautocomplete'"
+        [label]="'PAGE.PROJECT.DETAILS.LABEL.RESPONSABLEID' | translate"
+        [tooltipContent]="'PAGE.PROJECT.DETAILS.TOOLTIP.RESPONSABLEID' | translate "
+        [getterFn]="autocompleteResponsableGetterFn" [(selected)]="responsableSelected"
+        [(filter)]="_item.responsable.name" [debounceTimeMs]="200">
+
+        <!--<option  *ngFor="let r of autocompleteResponsableGetterFn" [value]="r.value">
+      {{r.label}}
+    </option>-->
+      </ax-bs-form-autocomplete>
+    </div>
+
+    <!--MOSTRAR EL PRIORITYTYPE-->
+    <div class="col form-group">
+      <label #lblPriority for="Priority" [tooltip]="'PAGE.PROJECT.DETAILS.TOOLTIP.PRIORITY' | translate "
+        class="text-nowrap">
+        <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+        {{'PAGE.PROJECT.DETAILS.LABEL.PRIORITY' | translate}}
+      </label>
+      <select class="form-control form-control-sm" [id]="lblPriority.getAttribute('for')"
+        [name]="lblPriority.getAttribute('for')" [disabled]="_isLoading" [(ngModel)]="_item.priorityType"
+        [required]="true">
+        <option *ngFor="let r of listaPriority " [value]="r.value">{{r.label}}</option>
+      </select>
+      <app-array-translator class="invalid-feedback d-block" [labels]="_itemErrors[lblPriority.getAttribute('for')]">
+      </app-array-translator>
+    </div>
+
+
+
+
+
+
+  </div>
+  <div class="form-row pb-5">
+    <div class="col form-group">
+      <label #lblDatetimeStart [attr.for]="'Post.DatetimeStart'"
+        [tooltip]="'PAGE.PROJECT.DETAILS.TOOLTIP.DATETIMESTART' | translate ">
+        <fa-icon [icon]="['fas', 'calendar-day']"></fa-icon>
+        {{'PAGE.PROJECT.DETAILS.LABEL.DATETIMESTART' | translate}}
+      </label>
+      <div class="input-group input-group-sm">
+        <input type="text" [id]="lblDatetimeStart.getAttribute('for')" [name]="lblDatetimeStart.getAttribute('for')"
+          placeholder="Datepicker" class="form-control" bsDatepicker [bsValue]="dstart"
+          (bsValueChange)="onDatepicketValueChange($event, 'dstart')">
+        <div class="input-group-append">
+          <button class="btn btn-outline-danger" type="button" [disabled]="dstart == null"
+            (click)="onDatepicketValueChange(null, 'dstart')">
+            <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+          </button>
+        </div>
+      </div>
+      <app-array-translator class="invalid-feedback d-block"
+        [labels]="_itemErrors[lblDatetimeStart.getAttribute('for')]">
+      </app-array-translator>
+    </div>
+
+    <div class="col form-group">
+      <label #lblDatetimeEnd [attr.for]="'Post.DatetimeEnd'"
+        [tooltip]="'PAGE.PROJECT.DETAILS.TOOLTIP.DATETIMEEND' | translate ">
+        <fa-icon [icon]="['fas', 'calendar-day']"></fa-icon>
+        {{'PAGE.PROJECT.DETAILS.LABEL.DATETIMEEND' | translate}}
+      </label>
+      <div class="input-group input-group-sm">
+        <input type="text" [id]="lblDatetimeEnd.getAttribute('for')" [name]="lblDatetimeEnd.getAttribute('for')"
+          placeholder="Datepicker" class="form-control" bsDatepicker [bsValue]="dend"
+          (bsValueChange)="onDatepicketValueChange($event, 'dend')">
+        <div class="input-group-append">
+          <button class="btn btn-outline-danger" type="button" [disabled]="dend == null"
+            (click)="onDatepicketValueChange(null, 'dend')">
+            <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+          </button>
+        </div>
+
+      </div>
+      <app-array-translator class="invalid-feedback d-block" [labels]="_itemErrors[lblDatetimeEnd.getAttribute('for')]">
+      </app-array-translator>
+    </div>
+
+  </div>
+
+
+  <div>
+
+
+
+  </div>
+
+  <div class="row footer-formbuttons position-fixed w-100">
+    <div class="col text-right" *ngIf="_item">
+      <!-- <div class="btn-group"> -->
+      <button type="button" *ngIf="_item.id" class="btn btn-secondary mr-1" [routerLink]="['/empleados/project']">
+        <fa-icon [icon]="['fas', 'chevron-left']"></fa-icon>
+        {{'GENERIC.BTN.GOTO.LIST' | translate}}
+      </button>
+      <button type="submit" class="btn btn-primary mx-1" [disabled]="_isLoading">
+        <ng-container *ngIf="_isLoading">
+          <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
+          {{'GENERIC.LABEL.LOADING' | translate}}
+        </ng-container>
+        <ng-container *ngIf="!_isLoading">
+          <fa-icon [icon]="['fas', 'save']"></fa-icon>
+          {{'GENERIC.BTN.SAVE' | translate}}
+        </ng-container>
+      </button>
+      <button type="button" *ngIf="_item.id" (click)="onBtnDelete($event)" class="btn btn-danger ml-1">
+        <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+        {{'GENERIC.BTN.DELETE' | translate}}
+      </button>
+      <!-- </div> -->
+    </div>
+  </div>
+
+
+</form>
+
+
+<div>
+  <button class="btn-primary" type="button" (click)="function()">Mostrar variación de priority</button>
+</div>
+<br>
+<div #myname *ngIf="isCollapsed">
+  <ax-bs-form-select [id]="'ddl-priority'" [label]="'PriorityVariation'" [tooltipContent]="'Priority variation'"
+    [getterFn]="selectPostionGetterFn" [(selected)]="_item.priorityType" [debounceTimeMs]="200">
+  </ax-bs-form-select>
+  <br>
+  <p>
+    Como variación para mostrar los elementos del enum priority, se ha procedido a crear una función<br>
+    que llamará al servicio trayendo desde la api una lista con los enum que serán mapeados para <br>
+    pasarselos al componente con el formato que pide. Con el getterFn llamarémos a la varaible que contendrá<br>
+    esa lista ya optimizada
+  </p>
+  <pre>
+    &lt;div&gt;
+    &lt;button type&#61;"button" (click)&#61;"function()"&gt;Mostrar variación de priority&lt;/button&gt;
+    &lt;/div&gt;
+    
+    &lt;div #myname *ngIf&#61;"isCollapsed"&gt;
+      &lt;ax-bs-form-select 
+        [id]&#61;"'ddl-priority'"
+        [label]&#61;"'PriorityVariation'"
+        [tooltipContent]&#61;"'Priority variation'"
+        [getterFn]&#61;"selectPostionGetterFn"
+        [(selected)]&#61;"_item.priorityType"
+        [debounceTimeMs]&#61;"200" &gt;
+      &lt;/ax-bs-form-select &gt;
+    &lt;/div &gt;
+  </pre>
+  <br>
+  <p>
+    Para rellenar la lista, tendremos que crear la variable selectPostionGetterFn: BsFormSelectGetterFn &lt;number
+    &gt;;<br>
+    A continuación, la implementaremos en una función en donde vamos a llamar a ese servicio que nos devolverá <br>
+    una lista la cual mapearemos para poder utilizarla. Estableceremos los valores de la label y el value.
+  </p>
+  <pre>
+    this.selectPostionGetterFn &#61; async ()&#61;&gt;&#123;
+      const fromApi &#61; await this.servicio.apiProjectPrioritylistGet$Json(&#123;&#125;)
+      .pipe(first())
+      .toPromise();
+      return fromApi.map(dvalue &#61;&gt; new LabelAndValueExtended&lt;number&gt;().setData( &#123;
+         label: dvalue.label,
+         value: dvalue.value
+        &#125;));
+      &#125;;
+  </pre>
+  <p>
+    Además se ha añadido un botón que hará que se muestre tanto la variación de priority como el texto explicativo. <br>
+    Este botón tiene un evento clic que lo que hará será acceder a una función cambiando el valor de un boolean. Este
+    <br>
+    boolean servirá para mostrar u ocultar toda esta composición.
+  </p>
+  <pre>
+      &lt;div #myname *ngIf&#61;"isCollapsed"&gt;&lt;/div&gt;
+    </pre>
+  <p>
+    Como se puede observar, habrá un div en donde se incorporará toda esta información y habrá una sentencia if que<br>
+    permitirá visualizar todo este contenido si se cumple.
+  </p>
+</div>
+
+
+<br>
+<div>
+  <button type="button" class="btn-primary" (click)="isDocumented = !isDocumented">Mostrar Documentación</button>
+</div>
+<div class="col form-group" *ngIf="isDocumented">
+  <br>
+  <h2>DOCUMENTACIÓN</h2>
+  <p>
+
+    <br><br>
+    Lo primero que se ha hecho es mirar por donde está entrando, si por nuevo o por detalles de un project.
+    Con este codigo se comprueba para ver el path y saber por donde va. Si entra como nuevo item, el valor
+    del boolean this.esNuevoItem será modificado y guardado.
+  </p>
+
+  <pre>
+    <code>
+    const childS = this.aRoute.paramMap.subscribe((data) =>&#123; 
+      const id = data.get('id');
+      if (parentUrl[0].path === 'new') &#123;
+        if (id) &#123;
+          this.goBack();
+          return;
+          &#125;
+        console.log("Entra por new");
+        this.esNuevoItem = true;
+        this._isLoading = false;
+        &#125; else &#123;
+        if (!id) &#123;
+          this.goBack();
+          return;
+          &#125;
+      </code></pre>
+
+  <p>
+    Con este codigo se llamará al servicio para que busque si existe el project a través del id, de esta forma,
+    tendremos el objeto project en todo momento guardado para posteriormente modificarlo o borrarlo.</p>
+  <pre>
+    this.servicio.apiProjectGetbyidGet$Json(&#123;  clave: this.newId &#125;).subscribe(result => &#123;
+      this._item = result;
+
+      if (this._item == null) &#123;
+        this.goBack();
+        return;
+        &#125;
+      if(this.newId === result.id)&#123;
+        this.dstart = new Date(result.dstart);
+        this.dend = new Date(result.dend);
+        this.responsableSelected = this._item.responsableId;
+        this._isLoading = false;
+        &#125;
+                 
+        &#125;);
+    
+     </pre>
+  <p>Cabe destacar que todos los elementos guardados en el ts que queramos mostrar y posteriormente<br>
+    tratar, tendrán que ir definidos en el HTML con el [(ngModel)].
+    Las variables que queramos modificar de nuestro item, las modificaremos a través de un input.<br>
+    Por ejemplo si quiero mostrar los valores<br>
+    dentro de mi elemento recogido por el id, tendré que hacerlo con la siguiente sintaxis.<br></p>
+  <pre>
+
+        &lt;input type&#61;"text" autocomplete&#61;"off" class=&#61;form-control form-control-sm"
+        [id]&#61;"lblName.getAttribute('for')" [name]&#61;"lblName.getAttribute('for')"
+        [(ngModel)]&#61;"_item.name"
+        [disabled]&#61;"_isLoading"
+        [required]&#61;"true"&gt;
+
+      </pre>
+  <br>
+  <p>
+    Ahora, este metodo recogerá las listas de empleados y de priority disponibles en el onInit para pasarselas
+    a los DropDownList.</p>
+  <pre>
+    inicializaDropList()&#123;
+    &nbsp;&nbsp;if(this.responsables.length&lt;=0)&#123;
+    &nbsp;&nbsp;&nbsp;&nbsp;this.employes.apiEmployeesGetlistcompletaPost$Json().subscribe(data =>&#123;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.responsables = data.items;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(data.items);
+    &nbsp;&nbsp;&nbsp;&nbsp;&#125;
+    &nbsp;&nbsp;)&#125;
+        
+    if(this.listaPriority.length&lt;= 0)&#123;
+    &nbsp;&nbsp;&nbsp;&nbsp;this.servicio.apiProjectPrioritylistGet$Json().subscribe(data =>&#123;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.listaPriority = data;
+    &nbsp;&nbsp;&nbsp;&nbsp;&#125;)
+    &nbsp;&nbsp; &#125;
+    &#125;
+
+    </pre>
+  <br>
+  <p>
+    En el ngModel se almacenará, en este caso, el tipo de Prioridad seleccionada, pero tambien sirve para los campos
+    dentro del formulario como se indicó anteriormente.<br>
+    Esto hará que se muestre ese atributo de _item y que, a su vez, si se modifica, que se pueda recuperar. La label
+    será lo que se muestre y el value será <br>
+    el valor que nos guardaremos.<br>
+  </p>
+  <pre>
+    &lt;select class="form-control form-control-sm"
+    [id]&#61;"lblPriority.getAttribute('for')" [name]&#61;"lblPriority.getAttribute('for')"
+    [disabled]&#61;"_isLoading"
+    [(ngModel)]&#61;"_item.priorityType"
+    [required]&#61;"true"&gt;   
+    &lt;option  *ngFor&#61;"let r of listaPriority | keyvalue" [value]&#61;"r.value.value"&gt;&#91;&#91;r.value.label&#93;&#93;&lt;/option&gt;
+    &lt;/select&gt;
+    </pre>
+  <p>
+    Una vez se hayan completado todos los campos, se procederá a guardar el resultado, ya sea al generar un nuevo<br>
+    project o bien modificar uno. Para ello en el siguiente codigo convertirá el formato fecha a uno legible, se <br>
+    comprobará que los campos no estén vacíos o sean errones mostrando con un modal una ventana que muestre que el
+    cliente no ha introducido<br>
+    bien los datos,se comprobará si es un nuevo project o se está modificando uno<br>
+    y posteriormente se harán los cambios llamando al metodo correspondiente en el servicio. A su vez habrá una pequeña
+    espera de 3 segundos y volverá al listado.<br>
+    <br>
+    Primero se crea una lista de strings,<br>
+    luego se va a recorrer los object dentro de error<br>
+    de cada object se va a sacar el string del mensaje y se añadirá a la lista<br>
+    desde el html se mostrará con un for la lista de errores.<br>
+    Mas abajo se explicará el metodo de validación y los errores.
+
+  </p>
+  <pre>
+
+      async onBtnSave(ev: MouseEvent) &#123;
+        this._isLoading = true;
+    
+        //guarda el formato fecha correctamente
+        if (this.dstart && this.dstart != undefined) &#123;
+          this._item.dstart = this.dstart.getFullYear() + "-" + (this.dstart.getMonth() + 1) + "-" + this.dstart.getDate();
+          &#125; else &#123;
+          this._item.dstart = "";
+          &#125;
+    
+        if (this.dend && this.dend != undefined) &#123;
+          this._item.dend = this.dend.getFullYear() + "-" + (this.dend.getMonth() + 1) + "-" + this.dend.getDate();
+          &#125; else &#123;
+          this._item.dend = "";
+          &#125;
+    
+    
+        //comprueba que el responsable exista, que no sea nulo, que el nombre este introducido, como la fecha
+        var isValid = false;
+        this.mensaje = [];
+        this._item.responsableId = this.responsableSelected;
+        if (this._item.responsableId == undefined || this._item.responsableId == null || this._item.responsableId &lt;= 0) &#123;
+          this.modalCreate.btnConfirmShown = false;
+          this.mensaje.push("Empleado no encontrado o no existe");
+          this.modalCreate.open();
+          this._isLoading = false;
+          return;
+          &#125; else &#123;
+          this.employes.apiEmployeesGetbyidGet$Json(&#123; id: this.responsableSelected }).subscribe(data =&gt; &#123;
+            this.employeeError = data;
+            if (this.employeeError.id &lt;= 0 ||
+              !this.responsables.find(element => element.name == this.employeeError.name) ||
+              !this.responsables.find(element => element.name == this._item.responsable.name) ||
+              this._item.name.length &lt;= 0 || this._item.dend.length &lt;= 0 || this._item.dstart.length &lt;= 0) &#123;
+    
+              this.modalCreate.btnConfirmShown = false;
+              this.mensaje.push("Empleado no encontrado o no existe");
+              this.modalCreate.open();
+              this._isLoading = false;
+              isValid = true;
+              &#125;
+    
+    
+            //comprueba si es nuevo o son los detalles de uno
+            if (this.esNuevoItem && !isValid) &#123;
+              console.log("Entra en nuevo");
+              this.servicio.apiProjectInsertPost$Json(&#123; body: this._item, commit: true &#125;).subscribe(data =&gt; &#123;
+                this._isLoading = false
+                this.contador();
+    
+                &#125;, error =&gt; &#123;
+                this.crearMensajeError(error.errorData);
+                this.modalCreate.btnConfirmShown = false;
+                this.modalCreate.open();
+                this._isLoading = false;
+                return;
+                &#125;
+              );
+    
+              &#125; else if (!this.esNuevoItem && !isValid) &#123;
+              console.log("Entra en update");
+              this.servicio.apiProjectUpdatePost$Json(&#123; body: this._item &#125;).subscribe(data =&gt; &#123;
+                this._isLoading = false
+                this.contador();
+    
+                &#125;, error =&gt; &#123;
+                this.crearMensajeError(error.errorData);
+                this.modalCreate.btnConfirmShown = false;
+                this.modalCreate.open();
+                this._isLoading = false;
+                return;
+                &#125;);
+              &#125;
+    
+            &#125;);
+          &#125;
+        &#125;
+
+    </pre><br>
+  <p>
+    Como se puede observar, cuando se comprueba si se ha introducido todos los datos bien, dicho modal estará declarado
+    en <br>
+    el html como se mostrará a continuación. Se le asignará un nombre y con la acción onClickConfirn llamará al boton
+    save <br>
+    en donde se aplicará todo el codio anteriormente mostrado.
+  </p>
+  <pre>
+
+        &lt;app-modal-confirmation-message 
+          #modalCreateConfirm
+          (onClickConfirm)&#61;"onBtnSave($event)"&gt;
+          &lt;h3&gt;Error&lt;/h3&gt;
+          &lt;p&gt; &#42;ngFor &#61;&#34;let m of mensaje&#34;&gt;&#123;&#123;m&#125; &#125;&lt;/p&gt;
+          &lt;/app-modal-confirmation-message&gt;
+
+      </pre>
+  <br>
+  <p>
+    Por ultimo, si se quiere eliminar un project, se ejcutará el siguiente codigo, que directamente llamará <br>
+    al metodo de borrado que le proporciona el servicio y le pasará el id del item a borrar. Al borrarse se volverá<br>
+    a la ventana anterior.<br></p>
+  <pre>
+      onModalDeleteConfirmed()&#123;
+        this.servicio.apiProjectDeleteDelete$Json(&#123;data:this._item.id&#125;).subscribe((data) => &#123;
+          this._isLoading = false;
+          this.goBack();
+          &#125;);
+    
+        this.modalDetails.close();
+        &#125;
+
+      </pre>
+  <br>
+  <h3>Validación y errores</h3><br>
+  <p>
+    A la hora de hacer una comprobación de un campo, esa validación se puede hacer tanto desde el cliente como desde el
+    servidor.<br>
+    En este ejemplo se verá como hacerlo desde el servidor. Cuando llamemos al servicio de creacion o de update, tbn
+    incluiremos el <br>
+    apartado de errores de la siguiente forma.
+  </p>
+  <pre>
+
+        &#125;, error => &#123;
+          this.crearMensajeError(error.errorData);    
+          this.modalCreate.btnConfirmShown = false;
+          this.modalCreate.open();
+          this._isLoading = false;
+        return;
+        &#125;
+      );
+
+      </pre>
+  <p>
+    Cuando salta un error de validación, se llamará a ese metodo mas luego creará un modal de confirmación que mostrará
+    el tipo de error <br>
+    producido. Este metodo recibe los errores del servidor y los guarda en un array de strings que posteriormente serán
+    mostrados con el<br>
+    modal de confirmación.
+  </p>
+  <pre>
+
+        crearMensajeError(errors : any) &#123;
+          console.log(errors);
+          alert("a1");
+          this.mensaje = ["Error"];
+          
+          if(errors["errors"])&#123; 
+            Object.keys(errors["errors"]).forEach((key:string)=&gt;&#123;
+              alert("a2");
+              if(key=="dstart")&#123;
+                this.mensaje[this.mensaje.length] = "La fecha de comienzo es obligatoria"; 
+                &#125; else if(key == "dend")&#123;
+                this.mensaje[this.mensaje.length] = "La fecha de comienzo es obligatoria";
+                &#125; else if (key=="Responsable.Name" || key == "responsableId" )&#123;
+                this.mensaje[this.mensaje.length] = "Nombre del responsable no asignado";
+                &#125; else &#123;
+                this.mensaje[this.mensaje.length] = errors["errors"][key][0];
+                &#125;
+              &#125;); 
+            &#125; else &#123; 
+            alert("a3");  
+            Object.keys(errors).forEach((keyErrors:string)=&gt;&#123;
+                this.mensaje[this.mensaje.length] = errors[keyErrors][0];
+                &#125;);
+            &#125;
+        
+          &#125;
+
+      </pre>
+  <p>
+    Con este metodo se le pasa el tipo de error y se filtra si es un error de validación desde el servidor sin pasar por
+    el controller<br>
+    o si es un error que si pasa por el controlador y se comprueba ahí. Como los errores almacenan object, se va a
+    recoger la key perteneciente<br>
+    a cada nombre que se le ha asignado a ese error.<br>
+    En ambos casos, se almacenará el mensaje de error en el array para luego pasarselo al modal para que este recorra
+    esta lista<br>
+    mostrando los errores.
+  </p>
+
+
+</div>
+
+<pre>
+
+
+
+</pre>
+<app-modal-confirmation-message #modalDeleteConfirm (onClickConfirm)="onModalDeleteConfirmed()">
+  <h3>Eliminar</h3>
+  <p>¿Desea eliminar este proyecto?</p>
+</app-modal-confirmation-message>
+
+<app-modal-confirmation-message #modalCreateConfirm (onClickConfirm)="onBtnSave($event)">
+  <h3>Error</h3>
+  <p *ngFor="let m of mensaje">{{m}}</p>
+</app-modal-confirmation-message>

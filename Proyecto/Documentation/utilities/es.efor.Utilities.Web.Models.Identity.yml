@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Models.Identity
+  commentId: N:es.efor.Utilities.Web.Models.Identity
+  id: es.efor.Utilities.Web.Models.Identity
+  children:
+  - es.efor.Utilities.Web.Models.Identity.AccountLoginRequest
+  - es.efor.Utilities.Web.Models.Identity.AuthenticationState
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Models.Identity
+  nameWithType: es.efor.Utilities.Web.Models.Identity
+  fullName: es.efor.Utilities.Web.Models.Identity
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Models.Identity.AccountLoginRequest
+  commentId: T:es.efor.Utilities.Web.Models.Identity.AccountLoginRequest
+  parent: es.efor.Utilities.Web.Models.Identity
+  name: AccountLoginRequest
+  nameWithType: AccountLoginRequest
+  fullName: es.efor.Utilities.Web.Models.Identity.AccountLoginRequest
+- uid: es.efor.Utilities.Web.Models.Identity.AuthenticationState
+  commentId: T:es.efor.Utilities.Web.Models.Identity.AuthenticationState
+  parent: es.efor.Utilities.Web.Models.Identity
+  name: AuthenticationState
+  nameWithType: AuthenticationState
+  fullName: es.efor.Utilities.Web.Models.Identity.AuthenticationState
+- uid: es.efor.Utilities.Web.Models.Identity
+  commentId: N:es.efor.Utilities.Web.Models.Identity
+  name: es.efor.Utilities.Web.Models.Identity
+  nameWithType: es.efor.Utilities.Web.Models.Identity
+  fullName: es.efor.Utilities.Web.Models.Identity

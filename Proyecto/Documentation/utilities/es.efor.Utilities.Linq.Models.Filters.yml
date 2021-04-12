@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  id: es.efor.Utilities.Linq.Models.Filters
+  children:
+  - es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  - es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - es.efor.Utilities.Linq.Models.Filters.FilterDBType
+  - es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  - es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Linq.Models.Filters
+  nameWithType: es.efor.Utilities.Linq.Models.Filters
+  fullName: es.efor.Utilities.Linq.Models.Filters
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+references:
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterConditionJoin
+  nameWithType: FilterConditionJoin
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterCriteria
+  nameWithType: FilterCriteria
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDBType
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterDBType
+  nameWithType: FilterDBType
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+  name: FilterDefinition
+  nameWithType: FilterDefinition
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterOperator
+  nameWithType: FilterOperator
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+- uid: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  name: es.efor.Utilities.Linq.Models.Filters
+  nameWithType: es.efor.Utilities.Linq.Models.Filters
+  fullName: es.efor.Utilities.Linq.Models.Filters

@@ -1,0 +1,2092 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  commentId: T:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  id: PermissionService
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  children:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,es.efor.Musaat.Users.Model.Services.IUserService,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService})
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser(System.String)
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions(System.String[],System.Int32)
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment(System.Int32)
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  langs:
+  - csharp
+  - vb
+  name: PermissionService
+  nameWithType: PermissionService
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  type: Class
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PermissionService
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  syntax:
+    content: 'public class PermissionService : IPermissionService'
+    content.vb: >-
+      Public Class PermissionService
+
+          Implements IPermissionService
+  inheritance:
+  - System.Object
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,es.efor.Musaat.Users.Model.Services.IUserService,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService})
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,es.efor.Musaat.Users.Model.Services.IUserService,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService})
+  id: '#ctor(es.efor.Musaat.Data.Context.NexusContext,AutoMapper.IMapper,es.efor.Musaat.Users.Model.Services.IUserService,Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService})'
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: PermissionService(NexusContext, IMapper, IUserService, ILogger<PermissionService>)
+  nameWithType: PermissionService.PermissionService(NexusContext, IMapper, IUserService, ILogger<PermissionService>)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.PermissionService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, es.efor.Musaat.Users.Model.Services.IUserService, Microsoft.Extensions.Logging.ILogger<es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService>)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 23
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  syntax:
+    content: public PermissionService(NexusContext NexusContext, IMapper mapper, IUserService usersService, ILogger<PermissionService> logger)
+    parameters:
+    - id: NexusContext
+      type: es.efor.Musaat.Data.Context.NexusContext
+    - id: mapper
+      type: AutoMapper.IMapper
+    - id: usersService
+      type: es.efor.Musaat.Users.Model.Services.IUserService
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService}
+    content.vb: Public Sub New(NexusContext As NexusContext, mapper As IMapper, usersService As IUserService, logger As ILogger(Of PermissionService))
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.#ctor*
+  nameWithType.vb: PermissionService.PermissionService(NexusContext, IMapper, IUserService, ILogger(Of PermissionService))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.PermissionService(es.efor.Musaat.Data.Context.NexusContext, AutoMapper.IMapper, es.efor.Musaat.Users.Model.Services.IUserService, Microsoft.Extensions.Logging.ILogger(Of es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService))
+  name.vb: PermissionService(NexusContext, IMapper, IUserService, ILogger(Of PermissionService))
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser(System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser(System.String)
+  id: GetMenuByUser(System.String)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetMenuByUser(String)
+  nameWithType: PermissionService.GetMenuByUser(String)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser(System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetMenuByUser
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 40
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns the menu nodes for the user\n"
+  example: []
+  syntax:
+    content: public Task<MenuDTO> GetMenuByUser(string user)
+    parameters:
+    - id: user
+      type: System.String
+      description: Selected user
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO}
+      description: ''
+    content.vb: Public Function GetMenuByUser(user As String) As Task(Of MenuDTO)
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules
+  id: GetAllModules
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetAllModules()
+  nameWithType: PermissionService.GetAllModules()
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllModules
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 95
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns all modules\n"
+  example: []
+  syntax:
+    content: public Task<List<ModuleDTO>> GetAllModules()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO}}
+      description: ''
+    content.vb: Public Function GetAllModules As Task(Of List(Of ModuleDTO))
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities
+  id: GetAllFunctionalities
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetAllFunctionalities()
+  nameWithType: PermissionService.GetAllFunctionalities()
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllFunctionalities
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 105
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns all functionalities\n"
+  example: []
+  syntax:
+    content: public Task<List<FunctionalityDTO>> GetAllFunctionalities()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO}}
+      description: ''
+    content.vb: Public Function GetAllFunctionalities As Task(Of List(Of FunctionalityDTO))
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails
+  id: GetAllDetails
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetAllDetails()
+  nameWithType: PermissionService.GetAllDetails()
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAllDetails
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 115
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns all details\n"
+  example: []
+  syntax:
+    content: public Task<List<DetailDTO>> GetAllDetails()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO}}
+      description: ''
+    content.vb: Public Function GetAllDetails As Task(Of List(Of DetailDTO))
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions(System.String[],System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions(System.String[],System.Int32)
+  id: GetPermissions(System.String[],System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetPermissions(String[], Int32)
+  nameWithType: PermissionService.GetPermissions(String[], Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions(System.String[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetPermissions
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 127
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns all permission for the specified department and level\n"
+  example: []
+  syntax:
+    content: public Task<List<PermissionDTO>> GetPermissions(string[] departments, int level)
+    parameters:
+    - id: departments
+      type: System.String[]
+      description: ''
+    - id: level
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}}
+      description: ''
+    content.vb: Public Function GetPermissions(departments As String(), level As Integer) As Task(Of List(Of PermissionDTO))
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String[],System.Int32)
+  nameWithType.vb: PermissionService.GetPermissions(String(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions(System.String(), System.Int32)
+  name.vb: GetPermissions(String(), Int32)
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetPermissionByFilter(Int32, Int32, Int32, Int32)
+  nameWithType: PermissionService.GetPermissionByFilter(Int32, Int32, Int32, Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetPermissionByFilter
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 164
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns the permission for the specified filter\n"
+  example: []
+  syntax:
+    content: public Task<PermissionDTO> GetPermissionByFilter(int department, int level, int functionality, int detail)
+    parameters:
+    - id: department
+      type: System.Int32
+      description: ''
+    - id: level
+      type: System.Int32
+      description: ''
+    - id: functionality
+      type: System.Int32
+      description: ''
+    - id: detail
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}
+      description: ''
+    content.vb: Public Function GetPermissionByFilter(department As Integer, level As Integer, functionality As Integer, detail As Integer) As Task(Of PermissionDTO)
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment(System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment(System.Int32)
+  id: GetPermissionsByDepartment(System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: GetPermissionsByDepartment(Int32)
+  nameWithType: PermissionService.GetPermissionsByDepartment(Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetPermissionsByDepartment
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 191
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nReturns number of permissions by department Id\n"
+  example: []
+  syntax:
+    content: public Task<int> GetPermissionsByDepartment(int departmentId)
+    parameters:
+    - id: departmentId
+      type: System.Int32
+      description: Department Id
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: ''
+    content.vb: Public Function GetPermissionsByDepartment(departmentId As Integer) As Task(Of Integer)
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  id: SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  langs:
+  - csharp
+  - vb
+  name: SetPermissions(List<PermissionDTO>)
+  nameWithType: PermissionService.SetPermissions(List<PermissionDTO>)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions(System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SetPermissions
+    path: ../es.efor.Musaat.Users.Business/Services/PermissionsServices/PermissionService.cs
+    startLine: 203
+  assemblies:
+  - es.efor.Musaat.Users.Business
+  namespace: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  summary: "\nSaves the lines for a set of permissions to DB.\n"
+  example: []
+  syntax:
+    content: public Task<bool> SetPermissions(List<PermissionDTO> permissions)
+    parameters:
+    - id: permissions
+      type: System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}
+      description: Department to save
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Status of the task
+    content.vb: Public Function SetPermissions(permissions As List(Of PermissionDTO)) As Task(Of Boolean)
+  overload: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions*
+  implements:
+  - es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  nameWithType.vb: PermissionService.SetPermissions(List(Of PermissionDTO))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions(System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO))
+  name.vb: SetPermissions(List(Of PermissionDTO))
+references:
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  commentId: N:es.efor.Musaat.Users.Model.Services.PermissionsServices
+  name: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  nameWithType: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  commentId: T:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  name: IPermissionService
+  nameWithType: IPermissionService
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.#ctor*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.#ctor
+  name: PermissionService
+  nameWithType: PermissionService.PermissionService
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.PermissionService
+- uid: es.efor.Musaat.Data.Context.NexusContext
+  commentId: T:es.efor.Musaat.Data.Context.NexusContext
+  parent: es.efor.Musaat.Data.Context
+  name: NexusContext
+  nameWithType: NexusContext
+  fullName: es.efor.Musaat.Data.Context.NexusContext
+- uid: AutoMapper.IMapper
+  commentId: T:AutoMapper.IMapper
+  parent: AutoMapper
+  isExternal: true
+  name: IMapper
+  nameWithType: IMapper
+  fullName: AutoMapper.IMapper
+- uid: es.efor.Musaat.Users.Model.Services.IUserService
+  commentId: T:es.efor.Musaat.Users.Model.Services.IUserService
+  parent: es.efor.Musaat.Users.Model.Services
+  name: IUserService
+  nameWithType: IUserService
+  fullName: es.efor.Musaat.Users.Model.Services.IUserService
+- uid: Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<PermissionService>
+  nameWithType: ILogger<PermissionService>
+  fullName: Microsoft.Extensions.Logging.ILogger<es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService>
+  nameWithType.vb: ILogger(Of PermissionService)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService)
+  name.vb: ILogger(Of PermissionService)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+    name: PermissionService
+    nameWithType: PermissionService
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+    name: PermissionService
+    nameWithType: PermissionService
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Data.Context
+  commentId: N:es.efor.Musaat.Data.Context
+  name: es.efor.Musaat.Data.Context
+  nameWithType: es.efor.Musaat.Data.Context
+  fullName: es.efor.Musaat.Data.Context
+- uid: AutoMapper
+  commentId: N:AutoMapper
+  isExternal: true
+  name: AutoMapper
+  nameWithType: AutoMapper
+  fullName: AutoMapper
+- uid: es.efor.Musaat.Users.Model.Services
+  commentId: N:es.efor.Musaat.Users.Model.Services
+  name: es.efor.Musaat.Users.Model.Services
+  nameWithType: es.efor.Musaat.Users.Model.Services
+  fullName: es.efor.Musaat.Users.Model.Services
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TCategoryName
+    nameWithType: TCategoryName
+    fullName: TCategoryName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TCategoryName
+    nameWithType: TCategoryName
+    fullName: TCategoryName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser
+  name: GetMenuByUser
+  nameWithType: PermissionService.GetMenuByUser
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetMenuByUser
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser(System.String)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser(System.String)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  isExternal: true
+  name: GetMenuByUser(String)
+  nameWithType: IPermissionService.GetMenuByUser(String)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser(System.String)
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser(System.String)
+    name: GetMenuByUser
+    nameWithType: IPermissionService.GetMenuByUser
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser(System.String)
+    name: GetMenuByUser
+    nameWithType: IPermissionService.GetMenuByUser
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetMenuByUser
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MenuDTO>
+  nameWithType: Task<MenuDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO>
+  nameWithType.vb: Task(Of MenuDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO)
+  name.vb: Task(Of MenuDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+    name: MenuDTO
+    nameWithType: MenuDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+    name: MenuDTO
+    nameWithType: MenuDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules
+  name: GetAllModules
+  nameWithType: PermissionService.GetAllModules
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllModules
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  name: GetAllModules()
+  nameWithType: IPermissionService.GetAllModules()
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules()
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+    name: GetAllModules
+    nameWithType: IPermissionService.GetAllModules
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+    name: GetAllModules
+    nameWithType: IPermissionService.GetAllModules
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllModules
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<ModuleDTO>>
+  nameWithType: Task<List<ModuleDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO>>
+  nameWithType.vb: Task(Of List(Of ModuleDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO))
+  name.vb: Task(Of List(Of ModuleDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+    name: ModuleDTO
+    nameWithType: ModuleDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+    name: ModuleDTO
+    nameWithType: ModuleDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities
+  name: GetAllFunctionalities
+  nameWithType: PermissionService.GetAllFunctionalities
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllFunctionalities
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  name: GetAllFunctionalities()
+  nameWithType: IPermissionService.GetAllFunctionalities()
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities()
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+    name: GetAllFunctionalities
+    nameWithType: IPermissionService.GetAllFunctionalities
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+    name: GetAllFunctionalities
+    nameWithType: IPermissionService.GetAllFunctionalities
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllFunctionalities
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<FunctionalityDTO>>
+  nameWithType: Task<List<FunctionalityDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO>>
+  nameWithType.vb: Task(Of List(Of FunctionalityDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO))
+  name.vb: Task(Of List(Of FunctionalityDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+    name: FunctionalityDTO
+    nameWithType: FunctionalityDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+    name: FunctionalityDTO
+    nameWithType: FunctionalityDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails
+  name: GetAllDetails
+  nameWithType: PermissionService.GetAllDetails
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetAllDetails
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  name: GetAllDetails()
+  nameWithType: IPermissionService.GetAllDetails()
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails()
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+    name: GetAllDetails
+    nameWithType: IPermissionService.GetAllDetails
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+    name: GetAllDetails
+    nameWithType: IPermissionService.GetAllDetails
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetAllDetails
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<DetailDTO>>
+  nameWithType: Task<List<DetailDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO>>
+  nameWithType.vb: Task(Of List(Of DetailDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO))
+  name.vb: Task(Of List(Of DetailDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+    name: DetailDTO
+    nameWithType: DetailDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+    name: DetailDTO
+    nameWithType: DetailDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions
+  name: GetPermissions
+  nameWithType: PermissionService.GetPermissions
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissions
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String[],System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String[],System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  isExternal: true
+  name: GetPermissions(String[], Int32)
+  nameWithType: IPermissionService.GetPermissions(String[], Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String[], System.Int32)
+  nameWithType.vb: IPermissionService.GetPermissions(String(), Int32)
+  fullName.vb: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String(), System.Int32)
+  name.vb: GetPermissions(String(), Int32)
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String[],System.Int32)
+    name: GetPermissions
+    nameWithType: IPermissionService.GetPermissions
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions(System.String[],System.Int32)
+    name: GetPermissions
+    nameWithType: IPermissionService.GetPermissions
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<PermissionDTO>>
+  nameWithType: Task<List<PermissionDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO>>
+  nameWithType.vb: Task(Of List(Of PermissionDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO))
+  name.vb: Task(Of List(Of PermissionDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter
+  name: GetPermissionByFilter
+  nameWithType: PermissionService.GetPermissionByFilter
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionByFilter
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  isExternal: true
+  name: GetPermissionByFilter(Int32, Int32, Int32, Int32)
+  nameWithType: IPermissionService.GetPermissionByFilter(Int32, Int32, Int32, Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter(System.Int32, System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: GetPermissionByFilter
+    nameWithType: IPermissionService.GetPermissionByFilter
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: GetPermissionByFilter
+    nameWithType: IPermissionService.GetPermissionByFilter
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionByFilter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PermissionDTO>
+  nameWithType: Task<PermissionDTO>
+  fullName: System.Threading.Tasks.Task<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO>
+  nameWithType.vb: Task(Of PermissionDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO)
+  name.vb: Task(Of PermissionDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment
+  name: GetPermissionsByDepartment
+  nameWithType: PermissionService.GetPermissionsByDepartment
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.GetPermissionsByDepartment
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment(System.Int32)
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment(System.Int32)
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  isExternal: true
+  name: GetPermissionsByDepartment(Int32)
+  nameWithType: IPermissionService.GetPermissionsByDepartment(Int32)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment(System.Int32)
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment(System.Int32)
+    name: GetPermissionsByDepartment
+    nameWithType: IPermissionService.GetPermissionsByDepartment
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment(System.Int32)
+    name: GetPermissionsByDepartment
+    nameWithType: IPermissionService.GetPermissionsByDepartment
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.GetPermissionsByDepartment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions*
+  commentId: Overload:es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions
+  name: SetPermissions
+  nameWithType: PermissionService.SetPermissions
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService.SetPermissions
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  commentId: M:es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+  parent: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+  isExternal: true
+  name: SetPermissions(List<PermissionDTO>)
+  nameWithType: IPermissionService.SetPermissions(List<PermissionDTO>)
+  fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO>)
+  nameWithType.vb: IPermissionService.SetPermissions(List(Of PermissionDTO))
+  fullName.vb: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO))
+  name.vb: SetPermissions(List(Of PermissionDTO))
+  spec.csharp:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+    name: SetPermissions
+    nameWithType: IPermissionService.SetPermissions
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})
+    name: SetPermissions
+    nameWithType: IPermissionService.SetPermissions
+    fullName: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService.SetPermissions
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}
+  commentId: T:System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PermissionDTO>
+  nameWithType: List<PermissionDTO>
+  fullName: System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO>
+  nameWithType.vb: List(Of PermissionDTO)
+  fullName.vb: System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO)
+  name.vb: List(Of PermissionDTO)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+    nameWithType: PermissionDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

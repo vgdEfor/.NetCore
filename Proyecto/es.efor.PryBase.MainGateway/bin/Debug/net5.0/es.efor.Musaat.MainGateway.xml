@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>es.efor.Musaat.MainGateway</name>
+    </assembly>
+    <members>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.AccountController.JwtTokenAsync(es.efor.Utilities.Web.Models.Identity.AccountLoginRequest)">
+            <inheritdoc cref="M:es.efor.Auth.Controllers.AccountSimpleController.JwtTokenAsync(es.efor.Utilities.Web.Models.Identity.AccountLoginRequest)"/>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.AccountController.JwtTokenFormAsync(es.efor.Utilities.Web.Models.Identity.AccountLoginRequest)">
+            <inheritdoc cref="M:es.efor.Auth.Controllers.AccountSimpleController.JwtTokenAsync(es.efor.Utilities.Web.Models.Identity.AccountLoginRequest)"/>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.AccountController.LoginAsync(es.efor.Utilities.Web.Models.Identity.AccountLoginRequest)">
+            <inheritdoc cref="M:es.efor.Auth.Controllers.AccountSimpleController.LoginAsync(es.efor.Utilities.Web.Models.Identity.AccountLoginRequest)"/>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.AccountController.GetPolicies">
+            <summary>
+            Only used to map Policies to OpenAPI (Swagger). Response will always be 200.
+            </summary>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.ImportsController.GetAll">
+            <summary>
+            Returns a list of logs
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.ImportsController.GetLogImports(System.String,System.String)">
+            <summary>
+            Returns a list of logs with filters
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.ImportsController.GetLogImportById(System.Int32)">
+            <summary>
+            Returns LogImportDTO with the specified id
+            </summary>
+            <param name="id">Log ID to lookup</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.ImportsController.ImportFiles(System.String)">
+            <summary>
+            Process to import files
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.ImportsController.SetLogImport(es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO)">
+            <summary>
+            Saves the log to DB. If the log already exist, update it
+            </summary>
+            <param name="log">Log to save</param>
+            <returns>Status of the task</returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.LoginController.GetAll">
+            <summary>
+            Returns a list of logged users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.LoginController.CreateLog">
+            <summary>
+            Create new AccessLoggerDTO
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.RRHHController.GetAllEmployees">
+            <summary>
+            Returns a list of employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.RRHHController.GetEmployees(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Returns a list of employees with filters
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.RRHHController.GetEmployeeById(System.Int32)">
+            <summary>
+            Returns employee with the specified id
+            </summary>
+            <param name="id">ID to lookup</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllUsers">
+            <summary>
+            Returns a list of registered users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetUserByName(System.String)">
+            <summary>
+            Returns userDTO for the username specified
+            </summary>
+            <param name="user">Username to lookup</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetUserById(System.Guid)">
+            <summary>
+            Returns userDTO for the user with the specified id
+            </summary>
+            <param name="id">User ID to lookup</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetUsersByDepartment(System.Int32)">
+            <summary>
+            Returns a number of users by department Id
+            </summary>
+            <param name="departmentId">Department Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllADUsers">
+            <summary>
+            Return list of all users of Active Directory
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetMenuByUser(System.String)">
+            <summary>
+            Returns the menu nodes for the user
+            </summary>
+            <param name="user">Selected user</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllDepartments">
+            <summary>
+            Returns all departments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllLevels">
+            <summary>
+            Returns all levels
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetDepartmentById(System.Int32)">
+            <summary>
+            Returns UserDepartmentDTO for the department with the specified id
+            </summary>
+            <param name="id">Department ID to lookup</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetLevelById(System.Int32)">
+            <summary>
+            Returns UserLevelDTO for the level with the specified id
+            </summary>
+            <param name="id">Level ID to lookup</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllModules">
+            <summary>
+            Returns all modules
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllFunctionalities">
+            <summary>
+            Returns all functionalities
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetAllDetails">
+            <summary>
+            Returns all details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetPermissionByFilter(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns the permission by filter
+            </summary>
+            <param name="department">Department to search permissions</param>
+            <param name="level">Level to search permissions</param>
+            <param name="functionality">Functionality to search permissions</param>
+            <param name="detail">Detail to search permissions</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetPermissionsByDepartment(System.Int32)">
+            <summary>
+            Returns number of permissions by department Id
+            </summary>
+            <param name="departmentId">Department Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.SetUser(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO)">
+            <summary>
+            Saves the user to DB. If the user already exist, update it
+            </summary>
+            <param name="user">User to save</param>
+            <returns>Status of the task</returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.SetDepartment(es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO)">
+            <summary>
+            Saves the department to DB. If the department already exist, update it
+            </summary>
+            <param name="department">Department to save</param>
+            <returns>Status of the task</returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.GetPermissions(System.String[],System.Int32)">
+            <summary>
+            Returns all the permission for the specified user
+            </summary>
+            <param name="departments">Department</param>
+            <param name="level">Level to search permissions</param>
+            <returns></returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.SetPermissions(System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO})">
+            <summary>
+            Saves the lines for a set of permissions to DB.
+            </summary>
+            <param name="permissions">Department to save</param>
+            <returns>Status of the task</returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.DeleteUser(System.Guid)">
+            <summary>
+            Logic delete the user from DB. 
+            </summary>
+            <param name="id"></param>
+            <returns>Status of the task</returns>
+        </member>
+        <member name="M:es.efor.Musaat.MainGateway.Controllers.UsersController.DeleteDepartment(System.Int32)">
+            <summary>
+            Logic delete the department from DB. 
+            </summary>
+            <param name="id">Department ID to delete</param>
+            <returns>Status of the task</returns>
+        </member>
+    </members>
+</doc>

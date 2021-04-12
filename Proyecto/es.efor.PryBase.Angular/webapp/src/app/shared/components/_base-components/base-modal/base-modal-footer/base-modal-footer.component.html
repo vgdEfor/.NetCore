@@ -1,0 +1,20 @@
+<div class="modal-footer">
+  <div class="btn-group">
+    <button *ngIf="btnConfirmShown" type="button"
+      [ngClass]="'btn btn-primary'"
+      [disabled]="isDisabledConfirm || isLoadingConfirm"
+      (click)="onClickConfirm.next()">
+      <fa-icon class="mr-1" *ngIf="isLoadingConfirm" [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
+      <fa-icon class="mr-1" *ngIf="!isLoadingConfirm" [icon]="['fas', 'check']"></fa-icon>
+      {{btnLabelConfirm}}
+    </button>
+    <button *ngIf="btnCloseShown" type="button"
+      [ngClass]="'btn btn-secondary'"
+      [disabled]="isDisabledClose || isLoadingClose"
+      (click)="onClickClose.next()">
+      <fa-icon class="mr-1" *ngIf="isLoadingClose" [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
+      <fa-icon class="mr-1" *ngIf="!isLoadingClose" [icon]="['fas', 'times']"></fa-icon>
+      {{btnLabelClose}}
+    </button>
+  </div>
+</div>

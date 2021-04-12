@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Identity.Authorization.Claims
+  commentId: N:es.efor.Utilities.Web.Identity.Authorization.Claims
+  id: es.efor.Utilities.Web.Identity.Authorization.Claims
+  children:
+  - es.efor.Utilities.Web.Identity.Authorization.Claims.AppClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Identity.Authorization.Claims
+  nameWithType: es.efor.Utilities.Web.Identity.Authorization.Claims
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Claims
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Identity.Authorization.Claims.AppClaimTypes
+  commentId: T:es.efor.Utilities.Web.Identity.Authorization.Claims.AppClaimTypes
+  name: AppClaimTypes
+  nameWithType: AppClaimTypes
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Claims.AppClaimTypes

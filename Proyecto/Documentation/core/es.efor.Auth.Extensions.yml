@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Extensions
+  commentId: N:es.efor.Auth.Extensions
+  id: es.efor.Auth.Extensions
+  children:
+  - es.efor.Auth.Extensions.IApplicationBuilderExtensions
+  - es.efor.Auth.Extensions.IServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Extensions
+  nameWithType: es.efor.Auth.Extensions
+  fullName: es.efor.Auth.Extensions
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Extensions.IApplicationBuilderExtensions
+  commentId: T:es.efor.Auth.Extensions.IApplicationBuilderExtensions
+  name: IApplicationBuilderExtensions
+  nameWithType: IApplicationBuilderExtensions
+  fullName: es.efor.Auth.Extensions.IApplicationBuilderExtensions
+- uid: es.efor.Auth.Extensions.IServiceCollectionExtensions
+  commentId: T:es.efor.Auth.Extensions.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+  fullName: es.efor.Auth.Extensions.IServiceCollectionExtensions

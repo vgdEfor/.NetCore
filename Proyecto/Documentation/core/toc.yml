@@ -1,0 +1,460 @@
+### YamlMime:TableOfContent
+- uid: es.efor.Auth.Attributes
+  name: es.efor.Auth.Attributes
+  items:
+  - uid: es.efor.Auth.Attributes.PolicyRequiredClaimsAttribute
+    name: PolicyRequiredClaimsAttribute
+- uid: es.efor.Auth.Constants.Claims
+  name: es.efor.Auth.Constants.Claims
+  items:
+  - uid: es.efor.Auth.Constants.Claims.AppClaimTypes
+    name: AppClaimTypes
+- uid: es.efor.Auth.Controllers
+  name: es.efor.Auth.Controllers
+  items:
+  - uid: es.efor.Auth.Controllers.AccessController
+    name: AccessController
+  - uid: es.efor.Auth.Controllers.AccountIdentityController`2
+    name: AccountIdentityController<TUser, TUSerKey>
+    name.vb: AccountIdentityController(Of TUser, TUSerKey)
+  - uid: es.efor.Auth.Controllers.AccountSimpleController
+    name: AccountSimpleController
+- uid: es.efor.Auth.Extensions
+  name: es.efor.Auth.Extensions
+  items:
+  - uid: es.efor.Auth.Extensions.IApplicationBuilderExtensions
+    name: IApplicationBuilderExtensions
+  - uid: es.efor.Auth.Extensions.IServiceCollectionExtensions
+    name: IServiceCollectionExtensions
+- uid: es.efor.Auth.Identity.Models.Api
+  name: es.efor.Auth.Identity.Models.Api
+  items:
+  - uid: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+    name: JsonWebTokenResponse
+- uid: es.efor.Auth.Managers
+  name: es.efor.Auth.Managers
+  items:
+  - uid: es.efor.Auth.Managers.IdentityRoleManager`2
+    name: IdentityRoleManager<TRoleId, TRole>
+    name.vb: IdentityRoleManager(Of TRoleId, TRole)
+  - uid: es.efor.Auth.Managers.IdentitySignInManager`2
+    name: IdentitySignInManager<TUserId, TUser>
+    name.vb: IdentitySignInManager(Of TUserId, TUser)
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager<TUserId, TUser>
+    name.vb: IdentityUserManager(Of TUserId, TUser)
+- uid: es.efor.Auth.Middlewares
+  name: es.efor.Auth.Middlewares
+  items:
+  - uid: es.efor.Auth.Middlewares.ClaimRefreshMiddleware`5
+    name: ClaimRefreshMiddleware<TKey, TUser, TSignInManager, TUserManager, TRole>
+    name.vb: ClaimRefreshMiddleware(Of TKey, TUser, TSignInManager, TUserManager, TRole)
+- uid: es.efor.Auth.Models.Configs
+  name: es.efor.Auth.Models.Configs
+  items:
+  - uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+    name: CookieIdentityConfiguration
+  - uid: es.efor.Auth.Models.Configs.IdentityConfiguration
+    name: IdentityConfiguration
+  - uid: es.efor.Auth.Models.Configs.JwtIdentityConfiguration
+    name: JwtIdentityConfiguration
+- uid: es.efor.Auth.Models.Entities
+  name: es.efor.Auth.Models.Entities
+  items:
+  - uid: es.efor.Auth.Models.Entities.Role
+    name: Role
+  - uid: es.efor.Auth.Models.Entities.Role`1
+    name: Role<TId>
+    name.vb: Role(Of TId)
+  - uid: es.efor.Auth.Models.Entities.User
+    name: User
+  - uid: es.efor.Auth.Models.Entities.User`1
+    name: User<TId>
+    name.vb: User(Of TId)
+- uid: es.efor.Auth.Utilities
+  name: es.efor.Auth.Utilities
+  items:
+  - uid: es.efor.Auth.Utilities.AuthorizationPolicyUtilities
+    name: AuthorizationPolicyUtilities
+  - uid: es.efor.Auth.Utilities.JwtUtilities
+    name: JwtUtilities
+- uid: es.efor.Logging.Serilog.Constants
+  name: es.efor.Logging.Serilog.Constants
+  items:
+  - uid: es.efor.Logging.Serilog.Constants.EnrichProperties
+    name: EnrichProperties
+- uid: es.efor.Logging.Serilog.Extensions
+  name: es.efor.Logging.Serilog.Extensions
+  items:
+  - uid: es.efor.Logging.Serilog.Extensions.IApplicationBuilderExtensions
+    name: IApplicationBuilderExtensions
+  - uid: es.efor.Logging.Serilog.Extensions.IHostBuilderExtensions
+    name: IHostBuilderExtensions
+- uid: es.efor.Logging.Serilog.Middleware
+  name: es.efor.Logging.Serilog.Middleware
+  items:
+  - uid: es.efor.Logging.Serilog.Middleware.BodyLoggerMiddleware
+    name: BodyLoggerMiddleware
+- uid: es.efor.Musaat.Console.Imports
+  name: es.efor.Musaat.Console.Imports
+  items:
+  - uid: es.efor.Musaat.Console.Imports.Program
+    name: Program
+- uid: es.efor.Musaat.Data.CodeFirst.Migrations
+  name: es.efor.Musaat.Data.CodeFirst.Migrations
+  items:
+  - uid: es.efor.Musaat.Data.CodeFirst.Migrations.Initial
+    name: Initial
+- uid: es.efor.Musaat.Data.Context
+  name: es.efor.Musaat.Data.Context
+  items:
+  - uid: es.efor.Musaat.Data.Context.NexusContext
+    name: NexusContext
+- uid: es.efor.Musaat.Data.Database
+  name: es.efor.Musaat.Data.Database
+  items:
+  - uid: es.efor.Musaat.Data.Database.AccessLogger
+    name: AccessLogger
+  - uid: es.efor.Musaat.Data.Database.Details
+    name: Details
+  - uid: es.efor.Musaat.Data.Database.Employees
+    name: Employees
+  - uid: es.efor.Musaat.Data.Database.Functionalities
+    name: Functionalities
+  - uid: es.efor.Musaat.Data.Database.LogImports
+    name: LogImports
+  - uid: es.efor.Musaat.Data.Database.Modules
+    name: Modules
+  - uid: es.efor.Musaat.Data.Database.Permissions
+    name: Permissions
+  - uid: es.efor.Musaat.Data.Database.Role
+    name: Role
+  - uid: es.efor.Musaat.Data.Database.User
+    name: User
+  - uid: es.efor.Musaat.Data.Database.UserDepartment
+    name: UserDepartment
+  - uid: es.efor.Musaat.Data.Database.UserLevel
+    name: UserLevel
+- uid: es.efor.Musaat.Imports.Model.Services
+  name: es.efor.Musaat.Imports.Model.Services
+  items:
+  - uid: es.efor.Musaat.Imports.Model.Services.MapperProfileImports
+    name: MapperProfileImports
+- uid: es.efor.Musaat.Imports.Model.Services.ImportServices
+  name: es.efor.Musaat.Imports.Model.Services.ImportServices
+  items:
+  - uid: es.efor.Musaat.Imports.Model.Services.ImportServices.IImportService
+    name: IImportService
+  - uid: es.efor.Musaat.Imports.Model.Services.ImportServices.ImportService
+    name: ImportService
+- uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  name: es.efor.Musaat.Imports.Model.Services.LogImportsServices
+  items:
+  - uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices.ILogImportService
+    name: ILogImportService
+  - uid: es.efor.Musaat.Imports.Model.Services.LogImportsServices.LogImportService
+    name: LogImportService
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+    name: AccessLoggerDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.EmployeesDTOs.EmployeeDTO
+    name: EmployeeDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.Extensions
+  name: es.efor.Musaat.Infraestructure.DTO.Extensions
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.Extensions.IdentityExtensions
+    name: IdentityExtensions
+- uid: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs.Language_Dto
+    name: Language_Dto
+- uid: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.LogImportsDTOs.LogImportDTO
+    name: LogImportDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.DetailDTO
+    name: DetailDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.FunctionalityDTO
+    name: FunctionalityDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.MenuDTO
+    name: MenuDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.ModuleDTO
+    name: ModuleDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.PermissionsDTOs.PermissionDTO
+    name: PermissionDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  items:
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+    name: ADUserDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+    name: UserDepartmentDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+    name: UserDTO
+  - uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+    name: UserLevelDTO
+- uid: es.efor.Musaat.Login.Model
+  name: es.efor.Musaat.Login.Model
+  items:
+  - uid: es.efor.Musaat.Login.Model.MapperProfileLogin
+    name: MapperProfileLogin
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  name: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  items:
+  - uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.AccessLoggerService
+    name: AccessLoggerService
+  - uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+    name: IAccessLoggerService
+- uid: es.efor.Musaat.MainGateway
+  name: es.efor.Musaat.MainGateway
+  items:
+  - uid: es.efor.Musaat.MainGateway.Program
+    name: Program
+  - uid: es.efor.Musaat.MainGateway.Startup
+    name: Startup
+- uid: es.efor.Musaat.MainGateway.Controllers
+  name: es.efor.Musaat.MainGateway.Controllers
+  items:
+  - uid: es.efor.Musaat.MainGateway.Controllers.AccessController
+    name: AccessController
+  - uid: es.efor.Musaat.MainGateway.Controllers.AccountController
+    name: AccountController
+  - uid: es.efor.Musaat.MainGateway.Controllers.ImportsController
+    name: ImportsController
+  - uid: es.efor.Musaat.MainGateway.Controllers.LanguageController
+    name: LanguageController
+  - uid: es.efor.Musaat.MainGateway.Controllers.LayoutMenuController
+    name: LayoutMenuController
+  - uid: es.efor.Musaat.MainGateway.Controllers.LoginController
+    name: LoginController
+  - uid: es.efor.Musaat.MainGateway.Controllers.RRHHController
+    name: RRHHController
+  - uid: es.efor.Musaat.MainGateway.Controllers.UsersController
+    name: UsersController
+- uid: es.efor.Musaat.RRHH.Model.Services
+  name: es.efor.Musaat.RRHH.Model.Services
+  items:
+  - uid: es.efor.Musaat.RRHH.Model.Services.MapperProfileRRHH
+    name: MapperProfileRRHH
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  name: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  items:
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+    name: EmployeeService
+  - uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+    name: IEmployeeService
+- uid: es.efor.Musaat.Users.Model
+  name: es.efor.Musaat.Users.Model
+  items:
+  - uid: es.efor.Musaat.Users.Model.MapperProfileUsers
+    name: MapperProfileUsers
+- uid: es.efor.Musaat.Users.Model.Services
+  name: es.efor.Musaat.Users.Model.Services
+  items:
+  - uid: es.efor.Musaat.Users.Model.Services.IUserService
+    name: IUserService
+- uid: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  name: es.efor.Musaat.Users.Model.Services.PermissionsServices
+  items:
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.IPermissionService
+    name: IPermissionService
+  - uid: es.efor.Musaat.Users.Model.Services.PermissionsServices.PermissionService
+    name: PermissionService
+- uid: es.efor.Musaat.Users.Model.Services.UsersServices
+  name: es.efor.Musaat.Users.Model.Services.UsersServices
+  items:
+  - uid: es.efor.Musaat.Users.Model.Services.UsersServices.UserService
+    name: UserService
+- uid: es.efor.Utilities.Database.Enums
+  name: es.efor.Utilities.Database.Enums
+  items:
+  - uid: es.efor.Utilities.Database.Enums.EfDatabaseType
+    name: EfDatabaseType
+- uid: es.efor.Utilities.Database.Models
+  name: es.efor.Utilities.Database.Models
+  items:
+  - uid: es.efor.Utilities.Database.Models.EforDbEntity`2
+    name: EforDbEntity<TId, TCreatedBy>
+    name.vb: EforDbEntity(Of TId, TCreatedBy)
+  - uid: es.efor.Utilities.Database.Models.EforDbEntity`1
+    name: EforDbEntity<TId>
+    name.vb: EforDbEntity(Of TId)
+- uid: es.efor.Utilities.Database.Tools
+  name: es.efor.Utilities.Database.Tools
+  items:
+  - uid: es.efor.Utilities.Database.Tools.EntityFrameworkTools
+    name: EntityFrameworkTools
+- uid: es.efor.Utilities.General
+  name: es.efor.Utilities.General
+  items:
+  - uid: es.efor.Utilities.General.CollectionList`1
+    name: CollectionList<T>
+    name.vb: CollectionList(Of T)
+  - uid: es.efor.Utilities.General.DictionaryExtensions
+    name: DictionaryExtensions
+  - uid: es.efor.Utilities.General.EnumHelper
+    name: EnumHelper
+  - uid: es.efor.Utilities.General.StringHelpers
+    name: StringHelpers
+- uid: es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  items:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper
+    name: ObjectHelper
+- uid: es.efor.Utilities.General.Tools
+  name: es.efor.Utilities.General.Tools
+  items:
+  - uid: es.efor.Utilities.General.Tools.AppInformation
+    name: AppInformation
+  - uid: es.efor.Utilities.General.Tools.AppUtils
+    name: AppUtils
+  - uid: es.efor.Utilities.General.Tools.DateTimeUtils
+    name: DateTimeUtils
+  - uid: es.efor.Utilities.General.Tools.FileUtil
+    name: FileUtil
+  - uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+    name: NetworkInterfaceUtils
+  - uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+    name: NetworkInterfaceUtils.NetworkInformation
+  - uid: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+    name: NetworkInterfaceUtils.NetworkInterfaceInformation
+- uid: es.efor.Utilities.Linq.Constants
+  name: es.efor.Utilities.Linq.Constants
+  items:
+  - uid: es.efor.Utilities.Linq.Constants.QueryConstants
+    name: QueryConstants
+- uid: es.efor.Utilities.Linq.Models.Filters
+  name: es.efor.Utilities.Linq.Models.Filters
+  items:
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterConditionJoin
+    name: FilterConditionJoin
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+    name: FilterDBType
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterDefinition
+    name: FilterDefinition
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    name: FilterOperator
+- uid: es.efor.Utilities.Linq.Models.Sorts
+  name: es.efor.Utilities.Linq.Models.Sorts
+  items:
+  - uid: es.efor.Utilities.Linq.Models.Sorts.SortCriteria
+    name: SortCriteria
+  - uid: es.efor.Utilities.Linq.Models.Sorts.SortOperator
+    name: SortOperator
+- uid: es.efor.Utilities.Linq.Nav.Models
+  name: es.efor.Utilities.Linq.Nav.Models
+  items:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter<TField>
+    name.vb: NavFilter(Of TField)
+- uid: es.efor.Utilities.Linq.Nav.Tools
+  name: es.efor.Utilities.Linq.Nav.Tools
+  items:
+  - uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+    name: NavConverter<TFilter, TField>
+    name.vb: NavConverter(Of TFilter, TField)
+- uid: es.efor.Utilities.Swagger.DocumentFilters
+  name: es.efor.Utilities.Swagger.DocumentFilters
+  items:
+  - uid: es.efor.Utilities.Swagger.DocumentFilters.LowercaseDocumentFilter
+    name: LowercaseDocumentFilter
+- uid: es.efor.Utilities.Swagger.Extensions
+  name: es.efor.Utilities.Swagger.Extensions
+  items:
+  - uid: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+    name: IApplicationBuilderExtensions
+  - uid: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+    name: IServiceCollectionExtensions
+- uid: es.efor.Utilities.Swagger.Middleware
+  name: es.efor.Utilities.Swagger.Middleware
+  items:
+  - uid: es.efor.Utilities.Swagger.Middleware.SwaggerAuthorizationMiddleware
+    name: SwaggerAuthorizationMiddleware
+- uid: es.efor.Utilities.Swagger.Models
+  name: es.efor.Utilities.Swagger.Models
+  items:
+  - uid: es.efor.Utilities.Swagger.Models.SwaggerConfig
+    name: SwaggerConfig
+  - uid: es.efor.Utilities.Swagger.Models.SwaggerConfig`1
+    name: SwaggerConfig<TProgram>
+    name.vb: SwaggerConfig(Of TProgram)
+- uid: es.efor.Utilities.Web
+  name: es.efor.Utilities.Web
+  items:
+  - uid: es.efor.Utilities.Web.IApplicationBuilderExtensions
+    name: IApplicationBuilderExtensions
+- uid: es.efor.Utilities.Web.Controllers
+  name: es.efor.Utilities.Web.Controllers
+  items:
+  - uid: es.efor.Utilities.Web.Controllers.BaseEforController
+    name: BaseEforController
+- uid: es.efor.Utilities.Web.Identity
+  name: es.efor.Utilities.Web.Identity
+  items:
+  - uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+    name: IPrincipalExtensions
+- uid: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  name: es.efor.Utilities.Web.Identity.Authorization.Attributes
+  items:
+  - uid: es.efor.Utilities.Web.Identity.Authorization.Attributes.AuthorizeExtendedAttribute
+    name: AuthorizeExtendedAttribute
+- uid: es.efor.Utilities.Web.Identity.Authorization.Claims
+  name: es.efor.Utilities.Web.Identity.Authorization.Claims
+  items:
+  - uid: es.efor.Utilities.Web.Identity.Authorization.Claims.AppClaimTypes
+    name: AppClaimTypes
+- uid: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  name: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  items:
+  - uid: es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicyModelView
+    name: PolicyModelView
+  - uid: es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicySectionModelView
+    name: PolicySectionModelView
+- uid: es.efor.Utilities.Web.Middleware
+  name: es.efor.Utilities.Web.Middleware
+  items:
+  - uid: es.efor.Utilities.Web.Middleware.AngularRoutingMiddleware
+    name: AngularRoutingMiddleware
+- uid: es.efor.Utilities.Web.Models.Identity
+  name: es.efor.Utilities.Web.Models.Identity
+  items:
+  - uid: es.efor.Utilities.Web.Models.Identity.AccountLoginRequest
+    name: AccountLoginRequest
+  - uid: es.efor.Utilities.Web.Models.Identity.AuthenticationState
+    name: AuthenticationState
+- uid: es.efor.Utilities.Web.Models.Layout
+  name: es.efor.Utilities.Web.Models.Layout
+  items:
+  - uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    name: LayoutMenuItem
+- uid: es.efor.Utilities.Web.Models.SiteMaps
+  name: es.efor.Utilities.Web.Models.SiteMaps
+  items:
+  - uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+    name: SiteMapUrl
+  - uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+    name: SiteMapUrl.SiteMapUrlChangefreq
+  - uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrlset
+    name: SiteMapUrlset
+- uid: es.efor.Utilities.Web.Services
+  name: es.efor.Utilities.Web.Services
+  items:
+  - uid: es.efor.Utilities.Web.Services.SiteMapService
+    name: SiteMapService
+- uid: System.Linq
+  name: System.Linq
+  items:
+  - uid: System.Linq.LinqExtensions
+    name: LinqExtensions

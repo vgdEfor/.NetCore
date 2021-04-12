@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Nav.Tools
+  commentId: N:es.efor.Utilities.Linq.Nav.Tools
+  id: es.efor.Utilities.Linq.Nav.Tools
+  children:
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Linq.Nav.Tools
+  nameWithType: es.efor.Utilities.Linq.Nav.Tools
+  fullName: es.efor.Utilities.Linq.Nav.Tools
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+references:
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  commentId: T:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  name: NavConverter<TFilter, TField>
+  nameWithType: NavConverter<TFilter, TField>
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>
+  nameWithType.vb: NavConverter(Of TFilter, TField)
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField)
+  name.vb: NavConverter(Of TFilter, TField)
+  spec.csharp:
+  - uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+    name: NavConverter
+    nameWithType: NavConverter
+    fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFilter
+    nameWithType: TFilter
+    fullName: TFilter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+    name: NavConverter
+    nameWithType: NavConverter
+    fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFilter
+    nameWithType: TFilter
+    fullName: TFilter
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: )
+    nameWithType: )
+    fullName: )

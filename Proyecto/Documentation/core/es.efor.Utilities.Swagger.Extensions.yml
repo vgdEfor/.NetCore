@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Swagger.Extensions
+  commentId: N:es.efor.Utilities.Swagger.Extensions
+  id: es.efor.Utilities.Swagger.Extensions
+  children:
+  - es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+  - es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Swagger.Extensions
+  nameWithType: es.efor.Utilities.Swagger.Extensions
+  fullName: es.efor.Utilities.Swagger.Extensions
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Swagger
+references:
+- uid: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+  commentId: T:es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+  name: IApplicationBuilderExtensions
+  nameWithType: IApplicationBuilderExtensions
+  fullName: es.efor.Utilities.Swagger.Extensions.IApplicationBuilderExtensions
+- uid: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+  commentId: T:es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions
+  name: IServiceCollectionExtensions
+  nameWithType: IServiceCollectionExtensions
+  fullName: es.efor.Utilities.Swagger.Extensions.IServiceCollectionExtensions

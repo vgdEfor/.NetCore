@@ -1,0 +1,481 @@
+<h2 class="section-title my-4">{{'PAGE.EMPLOYEES.DETAILS.TITLE' | translate}}</h2>
+
+<form (ngSubmit)="onBtnSave($event)" autocomplete="off">
+    <div class="form-row">
+          <div class="col form-group">
+
+            <label #lblName for="Name" [tooltip]="'PAGE.EMPLOYEES.DETAILS.LABEL.NAME' | translate "
+                   class="text-nowrap">
+              <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+              {{'PAGE.EMPLOYEES.DETAILS.LABEL.NAME' | translate}}
+            </label>
+            <input type="text" autocomplete="off" class="form-control form-control-sm"
+                   [id]="lblName.getAttribute('for')" [name]="lblName.getAttribute('for')"
+                   [(ngModel)]="_item.name"
+                   [disabled]="_isLoading"
+                   [required]="true">
+            <app-array-translator class="invalid-feedback d-block"
+                                  [labels]="_itemErrors[lblName.getAttribute('for')]"></app-array-translator>
+          </div>
+
+          <div class="col form-group">
+            <label #lblSurname for="Surname" [tooltip]="'PAGE.EMPLOYEES.DETAILS.LABEL.SURNAME' | translate "
+                   class="text-nowrap">
+              <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+              {{'PAGE.EMPLOYEES.DETAILS.LABEL.SURNAME' | translate}}
+            </label>
+            <input type="text" autocomplete="off" class="form-control form-control-sm"
+                   [id]="lblSurname.getAttribute('for')" [name]="lblSurname.getAttribute('for')"
+                   [(ngModel)]="_item.surname"
+                   [disabled]="_isLoading"
+                   [required]="true">
+            <app-array-translator class="invalid-feedback d-block"
+                                  [labels]="_itemErrors[lblSurname.getAttribute('for')]"></app-array-translator>
+          </div>
+
+          
+          <div class="col form-group">
+            <label #lblPosition for="Position" [tooltip]="'PAGE.EMPLOYEES.DETAILS.LABEL.POSITION' | translate "
+                   class="text-nowrap">
+              <fa-icon [icon]="['fas', 'user-circle']"></fa-icon>
+              {{'PAGE.EMPLOYEES.DETAILS.LABEL.POSITION' | translate}}
+            </label>
+            <select class="form-control form-control-sm"
+                [id]="lblPosition.getAttribute('for')" [name]="lblPosition.getAttribute('for')"
+                [disabled]="_isLoading"
+                [(ngModel)]="_item.position"
+                [required]="true">
+                <option  *ngFor="let position of listaPositions" [value]="position.data">{{position.label}}</option>
+                <!--<option value="0">Chief</option>
+                <option value="1">Manager</option>
+                <option value="2">Supervisor</option>
+                <option value="3">Developer</option>
+                <option value="4">Tester</option>-->
+            </select>
+          </div>
+
+    </div>
+    
+    <div class="form-row pb-5" *ngIf="_item">
+
+        <div class="col form-group">
+            <label #lblDateBirth [attr.for]="'Post.DatetimeBirth'" [tooltip]="'PAGE.EMPLOYEES.DETAILS.LABEL.DATEBIRTH' | translate ">
+              <fa-icon [icon]="['fas', 'calendar-day']"></fa-icon>
+              {{'PAGE.EMPLOYEES.DETAILS.LABEL.DATEBIRTH' | translate}}
+            </label>
+            <div class="input-group input-group-sm">
+              <input type="text"
+                     [id]="lblDateBirth.getAttribute('for')" [name]="lblDateBirth.getAttribute('for')"
+                     placeholder="Fecha nacimiento"
+                     class="form-control"
+                     bsDatepicker
+                     [bsValue]="datebirth"
+                     (bsValueChange)="onDatepicketValueChange($event, 'datebirth')">
+              <div class="input-group-append">
+                <button class="btn btn-outline-danger"
+                        type="button"
+                        [disabled]="datebirth == null"
+                        (click)="onDatepicketValueChange(null, 'datebirth')">
+                  <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+                </button>
+              </div>
+            </div>
+            <app-array-translator class="invalid-feedback d-block" [labels]="_itemErrors[lblDateBirth.getAttribute('for')]">
+            </app-array-translator>
+        </div>
+
+        <div class="col form-group">
+            <label #lblDateStart [attr.for]="'Post.DatetimeStart'" [tooltip]="'PAGE.EMPLOYEES.DETAILS.LABEL.DATESTART' | translate ">
+              <fa-icon [icon]="['fas', 'calendar-day']"></fa-icon>
+              {{'PAGE.EMPLOYEES.DETAILS.LABEL.DATESTART' | translate}}
+            </label>
+            <div class="input-group input-group-sm">
+              <input type="text"
+                     [id]="lblDateStart.getAttribute('for')" [name]="lblDateStart.getAttribute('for')"
+                     placeholder="Fecha inicio"
+                     class="form-control"
+                     bsDatepicker
+                     [bsValue]="datestart"
+                     (bsValueChange)="onDatepicketValueChange($event, 'datestart')">
+              <div class="input-group-append">
+                <button class="btn btn-outline-danger"
+                        type="button"
+                        [disabled]="datestart == null"
+                        (click)="onDatepicketValueChange(null, 'datestart')">
+                  <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+                </button>
+              </div>
+            </div>
+            <app-array-translator class="invalid-feedback d-block" [labels]="_itemErrors[lblDateStart.getAttribute('for')]">
+            </app-array-translator>
+        </div>
+
+    </div>
+
+    <button #botonDocumentacion class="btn-primary" type="button" (click)="mostrarSelect=!mostrarSelect">Mostar select alternativo</button>
+    
+    <div #documentacion [collapse]="mostrarSelect" [isAnimated]="true">
+      <h4>Método alternantivo para el select de enums. Componente ax-bs-form-select</h4>
+      <div  class="form-row pb-5" *ngIf="_item">
+        <div class="col form-group">
+          <ax-bs-form-select
+            [id]="'position'"
+            [label]="'Posición'"
+            [tooltipContent]="'Posición'"
+            [getterFn]="selectPostionGetterFn"
+            [(selected)]="_item.position"
+            [debounceTimeMs]="200">
+          </ax-bs-form-select>
+
+        </div>
+      </div>
+    </div>
+
+    <!--BOTONES-->
+    <div class="row footer-formbuttons position-fixed w-100">
+        <div class="col text-right" *ngIf="_item">
+          <!-- <div class="btn-group"> -->
+
+          <button type="button" *ngIf="_item.id"
+                  class="btn btn-secondary mr-1"
+                  [routerLink]="['/empleados/employees']">
+            <fa-icon [icon]="['fas', 'chevron-left']"></fa-icon>
+            {{'GENERIC.BTN.GOTO.LIST' | translate}}
+          </button>
+
+          <button type="submit" class="btn btn-primary mx-1" [disabled]="_isLoading">
+            <ng-container *ngIf="_isLoading">
+              <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
+              {{'GENERIC.LABEL.LOADING' | translate}}
+            </ng-container>
+            <ng-container *ngIf="!_isLoading">
+              <fa-icon [icon]="['fas', 'save']"></fa-icon>
+              {{'GENERIC.BTN.SAVE' | translate}}
+            </ng-container>
+          </button>
+
+          <button type="button" *ngIf="_item.id"
+                  class="btn btn-danger ml-1" (click)="onBtnDelete()">
+            <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+            {{'GENERIC.BTN.DELETE' | translate}}
+          </button>
+
+          <!-- </div> -->
+        </div>
+    </div>
+
+</form>
+
+<app-modal-confirmation-message 
+    #modalDeleteConfirm
+    (onClickConfirm)="onModalDeleteConfirmed()">
+    <h3>Eliminar</h3>
+    <p>¿Desea eliminar este empleado?</p>
+</app-modal-confirmation-message>
+
+<app-modal-confirmation-message 
+    #modalEmpleadoConProyectos>
+    <h3>Eliminar</h3>
+    <p>No puedes borrar este empleado. Tiene proyectos asignados. Borra antes sus proyectos.</p>
+</app-modal-confirmation-message>
+
+<app-modal-confirmation-message 
+    #modalDatosRequired>
+    <h3>Guardar</h3>
+    <p *ngFor="let m of mensaje">{{m}}</p>
+</app-modal-confirmation-message>
+
+
+<br>
+<button #botonDocumentacion class="btn-primary" (click)="mostrarDoc=!mostrarDoc">Mostar documentación</button>
+
+<div #documentacion [collapse]="mostrarDoc" [isAnimated]="true">
+
+<hr>
+<h4>DOCUMENTACIÓN</h4>
+<p>Para mostrar está página comenzaremos creando un formulario:</p>
+<pre>
+<code>
+    &lt;form (ngSubmit)&#61;"onBtnSave($event)" autocomplete="off"&gt;&lt;/form&gt;
+</code>
+</pre>
+<p>En ngSubmit indicaremos el método que se ejecutará al hacer el submit del formulario.
+
+Cada fila del formulario la incluiremos dentro de un div con la siguiente clase:</p>
+<pre>
+<code>
+    &lt;div class="form-row"&gt;
+</code>
+</pre>
+<h5>Elementos del formulario</h5>
+<p>Cada elemento del formulario lo incluiremos dentro de un div con la siguientes clases:</p>
+<pre>
+<code>
+    &lt;div class="col form-group"&gt;
+</code>
+</pre>
+<p>Para mostrar cada elemento del formulario usaremos el siguiente código:</p>
+<pre>
+<code>
+    &lt;label #lblName for="Name" [tooltip]&#61;"'PAGE.EMPLOYEES.DETAILS.LABEL.NAME' | translate "
+            class="text-nowrap">
+      &lt;fa-icon [icon]&#61;"['fas', 'user-circle']"&gt;&lt;/fa-icon&gt;
+      &#123;&#123;'PAGE.EMPLOYEES.DETAILS.LABEL.NAME' | translate&#125;&#125;
+    &lt;/label&gt;
+    &lt;input type="text" autocomplete="off" class="form-control form-control-sm"
+            [id]&#61;"lblName.getAttribute('for')" [name]&#61;"lblName.getAttribute('for')"
+            [(ngModel)]&#61;"_item.name"
+            [disabled]&#61;"_isLoading"
+            [required]&#61;"true"&gt;
+    &lt;app-array-translator class="invalid-feedback d-block"
+      [labels]&#61;"_itemErrors[lblName.getAttribute('for')]"&gt;&lt;/app-array-translator&gt;
+</code>
+</pre>
+<p>
+- #lblName será el id de la label del input<br>
+- for indicará a que input hará referencia la label. Se establecerá como id y name del input a través de [id]&#61;"lblName.getAttribute('for')" [name]&#61;"lblName.getAttribute('for')"<br>
+- ngModel indicará la variable que modificará el input.</p><br>
+<h5>Fechas</h5>
+<p>
+En el caso de que el campo sea una fecha necesitaremos añadir el siguiente código adicional al input para
+convertirlo en un datepicker
+</p>
+<pre>
+<code>
+    class="form-control"
+    bsDatepicker
+    [bsValue]&#61;"datebirth"
+    (bsValueChange)&#61;"onDatepicketValueChange($event, 'datebirth')"&gt;
+    &lt;div class="input-group-append"&gt;
+    &lt;button class="btn btn-outline-danger"
+        type="button"
+        [disabled]&#61;"datebirth == null"
+        (click)&#61;"onDatepicketValueChange(null, 'datebirth')"&gt;
+    &lt;fa-icon [icon]&#61;"['fas', 'trash']"&gt;&lt;/fa-icon&gt;
+    &lt;/button&gt;
+    &lt;/div&gt;
+</code>
+</pre>
+<p>- bsValue sustituirá a ngModel
+- En bsValueChange indicaremos el método que se ejecutará cuando cambie el valor de la fecha</p>
+<h5>Selects</h5>
+<p>
+En el caso del dropdown list usaremos el siguiente código:
+</p>
+<pre>
+<code>
+    &lt;select class&#61;"form-control form-control-sm"
+    [id]&#61;"lblPosition.getAttribute('for')" [name]&#61;"lblPosition.getAttribute('for')"
+    [disabled]&#61;"_isLoading"
+    [(ngModel)]&#61;"_item.position"
+    [required]&#61;"true"&gt;
+      &lt;option  *ngFor&#61;"let position of listaPositions | keyvalue" [value]&#61;"position.value.data"&gt;&#123; &#123;position.value.label&#125;&#125;&lt;/option&gt;
+    &lt;/select&gt;
+</code>
+</pre>
+<p>Haremos un bucle para que muestre una opción para cada valor de la lista de enums. Para cargar los valores del enum usaremos el siguiente código en el componente:</p>
+<pre>
+<code>
+    if(this.listaPositions.length &lt;= 0)&#123;
+      this.employeeSV.apiEmployeesPositionlistGet$Json().subscribe(data =&gt;&#123;
+        this.listaPositions = data;
+      &#125;);
+    &#125;
+</code>
+</pre>
+<h5>Select - método alternativo</h5>
+<p>Usando el componente ax-bs-form-select tenemos una forma alternativa de mostrar los enums en el select.</p>
+<pre>
+<code>
+    &lt;ax-bs-form-select
+      [id]&#61;"'position'"
+      [label]&#61;"'Posición'"
+      [tooltipContent]&#61;"'Posición'"
+      [getterFn]&#61;"selectPostionGetterFn"
+      [(selected)]&#61;"_item.position"
+      [debounceTimeMs]&#61;"200"&gt;
+    &lt;/ax-bs-form-select&gt;
+</code>
+</pre>
+<p>- getterFn será la variable que se encargue de recoger los datos de la api y cargarlos en el select.<br>
+- selected será la variable que modificará el componente.<br>
+Para cargar la lista usaremos el siguiente código en el componente:</p>
+<pre>
+<code>
+    private initSelectPosition()&#123;
+        this.selectPostionGetterFn = async ()=&gt;&#123;
+          const fromApi = await this.employeeSV.apiEmployeesPositionlistGet$Json(&#123;&#125;)
+          .pipe(first())
+          .toPromise();
+          return fromApi.map(dvalue =&gt; new LabelAndValueExtended&lt;number&gt;().setData( &#123;
+            label: dvalue.label,
+            value: dvalue.data
+          &#125;));
+        &#125;;
+    &#125;
+</code>
+</pre>
+<p>De esta forma cargaremos los datos de la api y los mapaearemos de la forma en la que el componente los necesita.</p>
+<h5>Guardar/Eliminar</h5>
+<p>Para mostrar los botones de Volver a lista/Guardar/Eliminar usaremos el siguinete código:</p>
+<pre>
+<code>
+      &lt;div class="row footer-formbuttons position-fixed w-100"&gt;
+      &lt;div class="col text-right" *ngIf&#61;"_item"&gt;
+        
+        &lt;button type="button" *ngIf&#61;"_item.id"
+                class="btn btn-secondary mr-1"
+                [routerLink]&#61;"['/empleados/employees']"&gt;
+          &lt;fa-icon [icon]&#61;"['fas', 'chevron-left']"&gt;&lt;/fa-icon&gt;
+          &#123;&#123;'GENERIC.BTN.GOTO.LIST' | translate&#125;&#125;
+        &lt;/button&gt;
+
+        &lt;button type="submit" class="btn btn-primary mx-1" [disabled]&#61;"_isLoading"&gt;
+          &lt;ng-container *ngIf&#61;"_isLoading"&gt;
+            &lt;fa-icon [icon]&#61;"['fas', 'sync']" [spin]&#61;"true"&gt;&lt;/fa-icon&gt;
+            &#123;&#123;'GENERIC.LABEL.LOADING' | translate&#125;&#125;
+          &lt;/ng-container&gt;
+          &lt;ng-container *ngIf&#61;"!_isLoading"&gt;
+            &lt;fa-icon [icon]&#61;"['fas', 'save']"&gt;&lt;/fa-icon&gt;
+            &#123;&#123;'GENERIC.BTN.SAVE' | translate&#125;&#125;
+          &lt;/ng-container&gt;
+        &lt;/button&gt;
+
+        &lt;button type="button" *ngIf&#61;"_item.id"
+                class="btn btn-danger ml-1" (click)&#61;"onBtnDelete()"&gt;
+          &lt;fa-icon [icon]&#61;"['fas', 'trash']"&gt;&lt;/fa-icon&gt;
+          &#123;&#123;'GENERIC.BTN.DELETE' | translate&#125;&#125;
+        &lt;/button&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+</code>
+</pre>
+<p>Para sacar una ventana modal usaremos el siguiente código HTML</p>
+<pre>
+<code>
+    &lt;app-modal-confirmation-message 
+      #modalDeleteConfirm
+      (onClickConfirm)&#61;"onModalDeleteConfirmed()"&gt;
+      &lt;h3&gt;Eliminar&lt;/h3&gt;
+      &lt;p&gt;¿Desea eliminar este empleado?&lt;/p&gt;
+    &lt;/app-modal-confirmation-message&gt;
+</code>
+</pre>
+<p>En el componente rescataremos el modal con esta variable</p>
+<pre>
+<code>
+    @ViewChild('modalDeleteConfirm') modalDetails:ModalConfirmationMessageComponent;
+</code>
+</pre>
+<p>
+Para mostrar y cerrar el modal usaremos:
+
+    this.modalDetails.open();
+    this.modalDetails.close();
+
+Para guardar un empleado usaremos el siguiente código:
+</p>
+<pre>
+<code>
+    onBtnSave(ev: MouseEvent): void &#123;
+        console.log("GUARDANDO...");
+        this._isLoading = true;
+
+        this._item.dbirth = this.datebirth.getFullYear() + "-" + (this.datebirth.getMonth()+1) + "-" + this.datebirth.getDate();
+        this._item.dstart = this.datestart.getFullYear() + "-" + (this.datestart.getMonth()+1) + "-" + this.datestart.getDate();
+
+        if (this._isNewItem)&#123;
+          console.log(this._item);
+          this.employeeSV.apiEmployeesInsertPost$Json(&#123;body:this._item&#125;).subscribe((data) => &#123;
+            console.log("Creado: " + data.id + " - " + data.name);
+            this._isLoading = false;
+            this.goBack();
+          &#125;);
+        &#125; else &#123;
+          this.employeeSV.apiEmployeesUpdatePost$Json(&#123;body:this._item&#125;).subscribe((data) => &#123;
+            console.log("Actualizado: " + data.id + " - " + data.name);
+            this._isLoading = false;
+            this.goBack();
+          &#125;);
+        &#125;
+        
+    &#125;
+</code>
+</pre>
+<p>Para eliminar un empleado usaremos el siguiente código:</p>
+<pre>
+<code>
+    onModalDeleteConfirmed()&#123;
+      this.employeeSV.apiEmployeesDeleteDelete$Json(&#123;id:this._item.id&#125;).subscribe((data) => &#123;
+        console.log("Borrado: " + data.id + " - " + data.name);
+        this._isLoading = false;
+        this.goBack();
+      &#125;);
+
+      this.modalDetails.close();
+    &#125;
+</code>
+</pre>
+<h5>Cargar el empleado</h5>
+<p>A la hora de cargar los datos en el formulario primero tendremos que comprobar los datos de la ruta:</p>
+<pre>
+<code>
+    const parentS = this.aRoute.parent.url.subscribe((parentUrl) =&gt; &#123;
+</code>
+</pre>
+<p>Si el valor de la ruta es nulo o vacío, no será una navegación correcta. En caso contrario comprobaremos
+la ruta hija:</p>
+<pre>
+<code>
+    const childS = this.aRoute.paramMap.subscribe((data) => &#123;
+        const id = data.get('id');
+</code>
+</pre>
+<p>Si el valor de la ruta es new, significará que estamos creado un empleado nuevo y no necesitamos cargar datos:</p>
+<pre>
+<code>
+    if (parentUrl[0].path === 'new') &#123;
+      if (id) &#123;
+        this.goBack();
+        return;
+      &#125;
+      this._isNewItem = true;
+      this._isLoading = false;
+    &#125; 
+</code>
+</pre>
+<p>En caso contrario comprobamos que el id introducido en la ruta exista y cargamos los datos en el formulario.
+En el caso de las fechas será necesario transformarlas a Date para que el datepicker las reconozca.</p>
+<pre>
+<code>
+    if (!id) &#123;
+      this.goBack();
+      return;
+    &#125;
+
+    this.employeeSV.apiEmployeesGetbyidGet$Json(&#123;id:parseInt(id)&#125;).subscribe((data) => &#123;
+        this._item = data;
+        this._isLoading = true;
+
+        // 404
+        if (this._item == null) &#123;
+          this.goBack();
+          return;
+        &#125;
+
+        if (parseInt(id) === this._item.id) &#123;
+          this.datebirth = new Date(this._item.dbirth);
+          this.datestart = new Date(this._item.dstart);
+          this._isLoading = false;
+        &#125;
+
+    &#125;);
+</code>
+</pre>
+</div>
+
+<pre>
+
+
+</pre>

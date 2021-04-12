@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType
+  commentId: T:es.efor.Utilities.Database.Enums.EfDatabaseType
+  id: EfDatabaseType
+  parent: es.efor.Utilities.Database.Enums
+  children:
+  - es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+  - es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+  - es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+  - es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+  - es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: EfDatabaseType
+  nameWithType: EfDatabaseType
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType
+  type: Enum
+  source:
+    remote:
+      path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: EfDatabaseType
+    path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Utilities.Database
+  namespace: es.efor.Utilities.Database.Enums
+  syntax:
+    content: public enum EfDatabaseType
+    content.vb: Public Enum EfDatabaseType
+  extensionMethods:
+  - System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+  - System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+  commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+  id: Unknown
+  parent: es.efor.Utilities.Database.Enums.EfDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: EfDatabaseType.Unknown
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType.Unknown
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Unknown
+    path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+    startLine: 9
+  assemblies:
+  - es.efor.Utilities.Database
+  namespace: es.efor.Utilities.Database.Enums
+  syntax:
+    content: Unknown = 0
+    return:
+      type: es.efor.Utilities.Database.Enums.EfDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+  commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+  id: Memory
+  parent: es.efor.Utilities.Database.Enums.EfDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: Memory
+  nameWithType: EfDatabaseType.Memory
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType.Memory
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Memory
+    path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Utilities.Database
+  namespace: es.efor.Utilities.Database.Enums
+  syntax:
+    content: Memory = 1
+    return:
+      type: es.efor.Utilities.Database.Enums.EfDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+  commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+  id: MySql
+  parent: es.efor.Utilities.Database.Enums.EfDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: MySql
+  nameWithType: EfDatabaseType.MySql
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType.MySql
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: MySql
+    path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+    startLine: 11
+  assemblies:
+  - es.efor.Utilities.Database
+  namespace: es.efor.Utilities.Database.Enums
+  syntax:
+    content: MySql = 2
+    return:
+      type: es.efor.Utilities.Database.Enums.EfDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+  commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+  id: MariaDb
+  parent: es.efor.Utilities.Database.Enums.EfDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: MariaDb
+  nameWithType: EfDatabaseType.MariaDb
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType.MariaDb
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: MariaDb
+    path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Utilities.Database
+  namespace: es.efor.Utilities.Database.Enums
+  syntax:
+    content: MariaDb = 3
+    return:
+      type: es.efor.Utilities.Database.Enums.EfDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+  commentId: F:es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+  id: SqlServer
+  parent: es.efor.Utilities.Database.Enums.EfDatabaseType
+  langs:
+  - csharp
+  - vb
+  name: SqlServer
+  nameWithType: EfDatabaseType.SqlServer
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType.SqlServer
+  type: Field
+  source:
+    remote:
+      path: es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SqlServer
+    path: ../es.efor.Utilities.Database/Enums/EfDatabaseType.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Utilities.Database
+  namespace: es.efor.Utilities.Database.Enums
+  syntax:
+    content: SqlServer = 4
+    return:
+      type: es.efor.Utilities.Database.Enums.EfDatabaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: es.efor.Utilities.Database.Enums
+  commentId: N:es.efor.Utilities.Database.Enums
+  name: es.efor.Utilities.Database.Enums
+  nameWithType: es.efor.Utilities.Database.Enums
+  fullName: es.efor.Utilities.Database.Enums
+- uid: System.Enum.es.efor.Utilities.General.EnumHelper.GetDescription
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  parent: es.efor.Utilities.General.EnumHelper
+  definition: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: EnumHelper.GetDescription()
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription()
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Enum.es.efor.Utilities.General.EnumHelper.GetMembers
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  parent: es.efor.Utilities.General.EnumHelper
+  definition: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  name: GetMembers()
+  nameWithType: EnumHelper.GetMembers()
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers()
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: EnumHelper.GetDescription(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: EnumHelper.GetDescription
+    fullName: es.efor.Utilities.General.EnumHelper.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.EnumHelper
+  commentId: T:es.efor.Utilities.General.EnumHelper
+  parent: es.efor.Utilities.General
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: es.efor.Utilities.General.EnumHelper
+- uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  isExternal: true
+  name: GetMembers(Enum)
+  nameWithType: EnumHelper.GetMembers(Enum)
+  fullName: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+    name: GetMembers
+    nameWithType: EnumHelper.GetMembers
+    fullName: es.efor.Utilities.General.EnumHelper.GetMembers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  name: es.efor.Utilities.General
+  nameWithType: es.efor.Utilities.General
+  fullName: es.efor.Utilities.General
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Database.Enums.EfDatabaseType
+  commentId: T:es.efor.Utilities.Database.Enums.EfDatabaseType
+  parent: es.efor.Utilities.Database.Enums
+  name: EfDatabaseType
+  nameWithType: EfDatabaseType
+  fullName: es.efor.Utilities.Database.Enums.EfDatabaseType

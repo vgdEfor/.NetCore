@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Identity.Models.Api
+  commentId: N:es.efor.Auth.Identity.Models.Api
+  id: es.efor.Auth.Identity.Models.Api
+  children:
+  - es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Identity.Models.Api
+  nameWithType: es.efor.Auth.Identity.Models.Api
+  fullName: es.efor.Auth.Identity.Models.Api
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+  commentId: T:es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+  parent: es.efor.Auth.Identity.Models.Api
+  name: JsonWebTokenResponse
+  nameWithType: JsonWebTokenResponse
+  fullName: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+- uid: es.efor.Auth.Identity.Models.Api
+  commentId: N:es.efor.Auth.Identity.Models.Api
+  name: es.efor.Auth.Identity.Models.Api
+  nameWithType: es.efor.Auth.Identity.Models.Api
+  fullName: es.efor.Auth.Identity.Models.Api

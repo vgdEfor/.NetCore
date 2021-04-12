@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  commentId: T:es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  id: IPrincipalExtensions
+  parent: es.efor.Utilities.Web.Identity
+  children:
+  - es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim(System.Security.Principal.IPrincipal,System.String)
+  - es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName(System.Security.Principal.IPrincipal)
+  - es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId(System.Security.Principal.IPrincipal)
+  - es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName(System.Security.Principal.IPrincipal)
+  langs:
+  - csharp
+  - vb
+  name: IPrincipalExtensions
+  nameWithType: IPrincipalExtensions
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IPrincipalExtensions
+    path: ../es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+    startLine: 5
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Identity
+  syntax:
+    content: public static class IPrincipalExtensions
+    content.vb: Public Module IPrincipalExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim(System.Security.Principal.IPrincipal,System.String)
+  commentId: M:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim(System.Security.Principal.IPrincipal,System.String)
+  id: GetClaim(System.Security.Principal.IPrincipal,System.String)
+  isExtensionMethod: true
+  parent: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetClaim(IPrincipal, String)
+  nameWithType: IPrincipalExtensions.GetClaim(IPrincipal, String)
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim(System.Security.Principal.IPrincipal, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetClaim
+    path: ../es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Identity
+  syntax:
+    content: public static string GetClaim(this IPrincipal user, string claimType)
+    parameters:
+    - id: user
+      type: System.Security.Principal.IPrincipal
+    - id: claimType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetClaim(user As IPrincipal, claimType As String) As String
+  overload: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName(System.Security.Principal.IPrincipal)
+  commentId: M:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName(System.Security.Principal.IPrincipal)
+  id: GetClaimUserName(System.Security.Principal.IPrincipal)
+  isExtensionMethod: true
+  parent: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetClaimUserName(IPrincipal)
+  nameWithType: IPrincipalExtensions.GetClaimUserName(IPrincipal)
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName(System.Security.Principal.IPrincipal)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetClaimUserName
+    path: ../es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+    startLine: 13
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Identity
+  syntax:
+    content: public static string GetClaimUserName(this IPrincipal user)
+    parameters:
+    - id: user
+      type: System.Security.Principal.IPrincipal
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetClaimUserName(user As IPrincipal) As String
+  overload: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId(System.Security.Principal.IPrincipal)
+  commentId: M:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId(System.Security.Principal.IPrincipal)
+  id: GetClaimId(System.Security.Principal.IPrincipal)
+  isExtensionMethod: true
+  parent: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetClaimId(IPrincipal)
+  nameWithType: IPrincipalExtensions.GetClaimId(IPrincipal)
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId(System.Security.Principal.IPrincipal)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetClaimId
+    path: ../es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Identity
+  syntax:
+    content: public static string GetClaimId(this IPrincipal user)
+    parameters:
+    - id: user
+      type: System.Security.Principal.IPrincipal
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetClaimId(user As IPrincipal) As String
+  overload: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName(System.Security.Principal.IPrincipal)
+  commentId: M:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName(System.Security.Principal.IPrincipal)
+  id: GetClaimGivenName(System.Security.Principal.IPrincipal)
+  isExtensionMethod: true
+  parent: es.efor.Utilities.Web.Identity.IPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetClaimGivenName(IPrincipal)
+  nameWithType: IPrincipalExtensions.GetClaimGivenName(IPrincipal)
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName(System.Security.Principal.IPrincipal)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetClaimGivenName
+    path: ../es.efor.Utilities.Web/Identity/IPrincipalExtensions.cs
+    startLine: 21
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Identity
+  syntax:
+    content: public static string GetClaimGivenName(this IPrincipal user)
+    parameters:
+    - id: user
+      type: System.Security.Principal.IPrincipal
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetClaimGivenName(user As IPrincipal) As String
+  overload: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: es.efor.Utilities.Web.Identity
+  commentId: N:es.efor.Utilities.Web.Identity
+  name: es.efor.Utilities.Web.Identity
+  nameWithType: es.efor.Utilities.Web.Identity
+  fullName: es.efor.Utilities.Web.Identity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim*
+  commentId: Overload:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim
+  name: GetClaim
+  nameWithType: IPrincipalExtensions.GetClaim
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaim
+- uid: System.Security.Principal.IPrincipal
+  commentId: T:System.Security.Principal.IPrincipal
+  parent: System.Security.Principal
+  isExternal: true
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: System.Security.Principal.IPrincipal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName*
+  commentId: Overload:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName
+  name: GetClaimUserName
+  nameWithType: IPrincipalExtensions.GetClaimUserName
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimUserName
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId*
+  commentId: Overload:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId
+  name: GetClaimId
+  nameWithType: IPrincipalExtensions.GetClaimId
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimId
+- uid: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName*
+  commentId: Overload:es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName
+  name: GetClaimGivenName
+  nameWithType: IPrincipalExtensions.GetClaimGivenName
+  fullName: es.efor.Utilities.Web.Identity.IPrincipalExtensions.GetClaimGivenName

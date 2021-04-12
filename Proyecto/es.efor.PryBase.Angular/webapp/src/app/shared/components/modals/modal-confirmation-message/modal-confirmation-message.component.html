@@ -1,0 +1,20 @@
+<ng-template #tmplModal>
+    <app-base-modal-header
+        [ngClass]="cssClassHeader"
+        (onClickClose)="close()">{{labelHeader}}</app-base-modal-header>
+    <app-base-modal-body>
+        <ng-content></ng-content>
+    </app-base-modal-body>
+    <app-base-modal-footer
+        [btnConfirmShown]="btnConfirmShown"
+        [btnCloseShown]="btnCloseShown"
+        [btnLabelConfirm]="btnLabelConfirm"
+        [btnLabelClose]="btnLabelClose"
+        [isDisabledClose]="isDisabledClose"
+        [isDisabledConfirm]="isDisabledConfirm"
+        [isLoadingClose]="isLoadingClose"
+        [isLoadingConfirm]="isLoadingConfirm"
+        (onClickClose)="close()"
+        (onClickConfirm)="onClickConfirm.next()"></app-base-modal-footer>
+</ng-template>
+

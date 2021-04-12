@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0M5rtRR7VXZvg/2ts+4nJ3ntkrKx9hYYre9FHJdr6Yi3INSki5ryoNfkcRfnEexCbZSa9uu7a9z8l3UoRi9T+Q==",
+  "success": true,
+  "projectFilePath": "C:\\proyectos\\Proyecto Base\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jlusarreta\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

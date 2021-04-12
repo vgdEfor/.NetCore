@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Managers\**" />
+    <Compile Remove="Middleware\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Utilities\**" />
+    <Compile Remove="_Internal\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Managers\**" />
+    <EmbeddedResource Remove="Middleware\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Utilities\**" />
+    <EmbeddedResource Remove="_Internal\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Managers\**" />
+    <None Remove="Middleware\**" />
+    <None Remove="Models\**" />
+    <None Remove="Utilities\**" />
+    <None Remove="_Internal\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\es.efor.Auth\es.efor.Auth.csproj" />
+    <ProjectReference Include="..\es.efor.PryBase.Data\es.efor.PryBase.Data.csproj" />
+  </ItemGroup>
+
+</Project>

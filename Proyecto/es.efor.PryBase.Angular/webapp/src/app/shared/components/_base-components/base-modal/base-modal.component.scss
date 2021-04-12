@@ -1,0 +1,11 @@
+:host {
+    ::ng-deep {
+        .modal-dialog.modal-notify.modal-info {
+            .modal-header .fa,
+            .modal-body .fa,
+            .modal-footer .fa {
+                color: inherit;
+            }
+        }
+    }
+}

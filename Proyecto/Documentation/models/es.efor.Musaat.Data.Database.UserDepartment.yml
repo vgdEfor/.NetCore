@@ -1,0 +1,1151 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Data.Database.UserDepartment
+  commentId: T:es.efor.Musaat.Data.Database.UserDepartment
+  id: UserDepartment
+  parent: es.efor.Musaat.Data.Database
+  children:
+  - es.efor.Musaat.Data.Database.UserDepartment.#ctor
+  - es.efor.Musaat.Data.Database.UserDepartment.DeleteDate
+  - es.efor.Musaat.Data.Database.UserDepartment.DeleteUser
+  - es.efor.Musaat.Data.Database.UserDepartment.Id
+  - es.efor.Musaat.Data.Database.UserDepartment.Name
+  - es.efor.Musaat.Data.Database.UserDepartment.Permissions
+  - es.efor.Musaat.Data.Database.UserDepartment.Role
+  - es.efor.Musaat.Data.Database.UserDepartment.User
+  langs:
+  - csharp
+  - vb
+  name: UserDepartment
+  nameWithType: UserDepartment
+  fullName: es.efor.Musaat.Data.Database.UserDepartment
+  type: Class
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: UserDepartment
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 5
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public class UserDepartment
+    content.vb: Public Class UserDepartment
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Musaat.Data.Database.UserDepartment.#ctor
+  commentId: M:es.efor.Musaat.Data.Database.UserDepartment.#ctor
+  id: '#ctor'
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: UserDepartment()
+  nameWithType: UserDepartment.UserDepartment()
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.UserDepartment()
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public UserDepartment()
+    content.vb: Public Sub New
+  overload: es.efor.Musaat.Data.Database.UserDepartment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Id
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.Id
+  id: Id
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: UserDepartment.Id
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Id
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Id
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: es.efor.Musaat.Data.Database.UserDepartment.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Name
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.Name
+  id: Name
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UserDepartment.Name
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Name
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Name
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 15
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: es.efor.Musaat.Data.Database.UserDepartment.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Data.Database.UserDepartment.DeleteDate
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.DeleteDate
+  id: DeleteDate
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: DeleteDate
+  nameWithType: UserDepartment.DeleteDate
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.DeleteDate
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DeleteDate
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 16
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public DateTime? DeleteDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property DeleteDate As Date?
+  overload: es.efor.Musaat.Data.Database.UserDepartment.DeleteDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Data.Database.UserDepartment.DeleteUser
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.DeleteUser
+  id: DeleteUser
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: DeleteUser
+  nameWithType: UserDepartment.DeleteUser
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.DeleteUser
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: DeleteUser
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public string DeleteUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeleteUser As String
+  overload: es.efor.Musaat.Data.Database.UserDepartment.DeleteUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Permissions
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.Permissions
+  id: Permissions
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: UserDepartment.Permissions
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Permissions
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Permissions
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public virtual ICollection<Permissions> Permissions { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.Permissions}
+    content.vb: Public Overridable Property Permissions As ICollection(Of Permissions)
+  overload: es.efor.Musaat.Data.Database.UserDepartment.Permissions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: es.efor.Musaat.Data.Database.UserDepartment.User
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.User
+  id: User
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: UserDepartment.User
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.User
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: User
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 20
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public virtual ICollection<User> User { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.User}
+    content.vb: Public Overridable Property User As ICollection(Of User)
+  overload: es.efor.Musaat.Data.Database.UserDepartment.User*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Role
+  commentId: P:es.efor.Musaat.Data.Database.UserDepartment.Role
+  id: Role
+  parent: es.efor.Musaat.Data.Database.UserDepartment
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: UserDepartment.Role
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Role
+  type: Property
+  source:
+    remote:
+      path: es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Role
+    path: ../es.efor.Musaat.Infraestructure/Database/UserDepartment.cs
+    startLine: 21
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+  namespace: es.efor.Musaat.Data.Database
+  syntax:
+    content: public virtual ICollection<Role> Role { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.Role}
+    content.vb: Public Overridable Property Role As ICollection(Of Role)
+  overload: es.efor.Musaat.Data.Database.UserDepartment.Role*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: es.efor.Musaat.Data.Database
+  commentId: N:es.efor.Musaat.Data.Database
+  name: es.efor.Musaat.Data.Database
+  nameWithType: es.efor.Musaat.Data.Database
+  fullName: es.efor.Musaat.Data.Database
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Musaat.Data.Database.UserDepartment.#ctor*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.#ctor
+  name: UserDepartment
+  nameWithType: UserDepartment.UserDepartment
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.UserDepartment
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Id*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.Id
+  name: Id
+  nameWithType: UserDepartment.Id
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Name*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.Name
+  name: Name
+  nameWithType: UserDepartment.Name
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Musaat.Data.Database.UserDepartment.DeleteDate*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.DeleteDate
+  name: DeleteDate
+  nameWithType: UserDepartment.DeleteDate
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.DeleteDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Data.Database.UserDepartment.DeleteUser*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.DeleteUser
+  name: DeleteUser
+  nameWithType: UserDepartment.DeleteUser
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.DeleteUser
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Permissions*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.Permissions
+  name: Permissions
+  nameWithType: UserDepartment.Permissions
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Permissions
+- uid: System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.Permissions}
+  commentId: T:System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.Permissions}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<Permissions>
+  nameWithType: ICollection<Permissions>
+  fullName: System.Collections.Generic.ICollection<es.efor.Musaat.Data.Database.Permissions>
+  nameWithType.vb: ICollection(Of Permissions)
+  fullName.vb: System.Collections.Generic.ICollection(Of es.efor.Musaat.Data.Database.Permissions)
+  name.vb: ICollection(Of Permissions)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Data.Database.Permissions
+    name: Permissions
+    nameWithType: Permissions
+    fullName: es.efor.Musaat.Data.Database.Permissions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Data.Database.Permissions
+    name: Permissions
+    nameWithType: Permissions
+    fullName: es.efor.Musaat.Data.Database.Permissions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: es.efor.Musaat.Data.Database.UserDepartment.User*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.User
+  name: User
+  nameWithType: UserDepartment.User
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.User
+- uid: System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.User}
+  commentId: T:System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.User}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<User>
+  nameWithType: ICollection<User>
+  fullName: System.Collections.Generic.ICollection<es.efor.Musaat.Data.Database.User>
+  nameWithType.vb: ICollection(Of User)
+  fullName.vb: System.Collections.Generic.ICollection(Of es.efor.Musaat.Data.Database.User)
+  name.vb: ICollection(Of User)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Data.Database.User
+    name: User
+    nameWithType: User
+    fullName: es.efor.Musaat.Data.Database.User
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Data.Database.User
+    name: User
+    nameWithType: User
+    fullName: es.efor.Musaat.Data.Database.User
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Data.Database.UserDepartment.Role*
+  commentId: Overload:es.efor.Musaat.Data.Database.UserDepartment.Role
+  name: Role
+  nameWithType: UserDepartment.Role
+  fullName: es.efor.Musaat.Data.Database.UserDepartment.Role
+- uid: System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.Role}
+  commentId: T:System.Collections.Generic.ICollection{es.efor.Musaat.Data.Database.Role}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<Role>
+  nameWithType: ICollection<Role>
+  fullName: System.Collections.Generic.ICollection<es.efor.Musaat.Data.Database.Role>
+  nameWithType.vb: ICollection(Of Role)
+  fullName.vb: System.Collections.Generic.ICollection(Of es.efor.Musaat.Data.Database.Role)
+  name.vb: ICollection(Of Role)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Data.Database.Role
+    name: Role
+    nameWithType: Role
+    fullName: es.efor.Musaat.Data.Database.Role
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Data.Database.Role
+    name: Role
+    nameWithType: Role
+    fullName: es.efor.Musaat.Data.Database.Role
+  - name: )
+    nameWithType: )
+    fullName: )

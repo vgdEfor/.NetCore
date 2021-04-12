@@ -1,0 +1,14 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: musaat-aspnetcore-kubernetes-pv
+  labels:
+    type: local
+spec:
+  storageClassName: musaatvolume
+  capacity:
+    storage: 100Mi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/mnt/musaatvolume"

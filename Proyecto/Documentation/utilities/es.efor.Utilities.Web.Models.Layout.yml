@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Models.Layout
+  commentId: N:es.efor.Utilities.Web.Models.Layout
+  id: es.efor.Utilities.Web.Models.Layout
+  children:
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Models.Layout
+  nameWithType: es.efor.Utilities.Web.Models.Layout
+  fullName: es.efor.Utilities.Web.Models.Layout
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  commentId: T:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  parent: es.efor.Utilities.Web.Models.Layout
+  name: LayoutMenuItem
+  nameWithType: LayoutMenuItem
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+- uid: es.efor.Utilities.Web.Models.Layout
+  commentId: N:es.efor.Utilities.Web.Models.Layout
+  name: es.efor.Utilities.Web.Models.Layout
+  nameWithType: es.efor.Utilities.Web.Models.Layout
+  fullName: es.efor.Utilities.Web.Models.Layout

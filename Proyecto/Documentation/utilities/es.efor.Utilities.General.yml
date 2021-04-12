@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  id: es.efor.Utilities.General
+  children:
+  - es.efor.Utilities.General.CollectionList`1
+  - es.efor.Utilities.General.DictionaryExtensions
+  - es.efor.Utilities.General.EnumHelper
+  - es.efor.Utilities.General.StringHelpers
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.General
+  nameWithType: es.efor.Utilities.General
+  fullName: es.efor.Utilities.General
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.General
+references:
+- uid: es.efor.Utilities.General.DictionaryExtensions
+  commentId: T:es.efor.Utilities.General.DictionaryExtensions
+  name: DictionaryExtensions
+  nameWithType: DictionaryExtensions
+  fullName: es.efor.Utilities.General.DictionaryExtensions
+- uid: es.efor.Utilities.General.EnumHelper
+  commentId: T:es.efor.Utilities.General.EnumHelper
+  parent: es.efor.Utilities.General
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: es.efor.Utilities.General.EnumHelper
+- uid: es.efor.Utilities.General.StringHelpers
+  commentId: T:es.efor.Utilities.General.StringHelpers
+  name: StringHelpers
+  nameWithType: StringHelpers
+  fullName: es.efor.Utilities.General.StringHelpers
+- uid: es.efor.Utilities.General.CollectionList`1
+  commentId: T:es.efor.Utilities.General.CollectionList`1
+  name: CollectionList<T>
+  nameWithType: CollectionList<T>
+  fullName: es.efor.Utilities.General.CollectionList<T>
+  nameWithType.vb: CollectionList(Of T)
+  fullName.vb: es.efor.Utilities.General.CollectionList(Of T)
+  name.vb: CollectionList(Of T)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.CollectionList`1
+    name: CollectionList
+    nameWithType: CollectionList
+    fullName: es.efor.Utilities.General.CollectionList
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.General.CollectionList`1
+    name: CollectionList
+    nameWithType: CollectionList
+    fullName: es.efor.Utilities.General.CollectionList
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  name: es.efor.Utilities.General
+  nameWithType: es.efor.Utilities.General
+  fullName: es.efor.Utilities.General

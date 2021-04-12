@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>01feaab7-35de-41b7-a3c8-4a08205ee82c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+	  <Deterministic>false</Deterministic>
+    <AssemblyVersion>1.0.0.*</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\es.efor.Auth\es.efor.Auth.csproj" />
+    <ProjectReference Include="..\es.efor.Logging.Serilog\es.efor.Logging.Serilog.csproj" />
+    <ProjectReference Include="..\es.efor.PryBase.Auth\es.efor.PryBase.Auth.csproj" />
+    <ProjectReference Include="..\es.efor.PryBase.Data.CodeFirst\es.efor.PryBase.Data.CodeFirst.csproj" />
+    <ProjectReference Include="..\es.efor.PryBase.Employees.Busisnes\es.efor.PryBase.Employees.Business.csproj" />
+    <ProjectReference Include="..\es.efor.PryBase.Imports.Business\es.efor.PryBase.Imports.Business.csproj" />
+    <ProjectReference Include="..\es.efor.PryBase.Users.Business\es.efor.PryBase.Users.Business.csproj" />
+    <ProjectReference Include="..\es.efor.Utilities.Database\es.efor.Utilities.Database.csproj" />
+    <ProjectReference Include="..\es.efor.Utilities.Swagger\es.efor.Utilities.Swagger.csproj" />
+    <ProjectReference Include="..\es.efor.Utilities.Web\es.efor.Utilities.Web.csproj" />
+  </ItemGroup>
+</Project>

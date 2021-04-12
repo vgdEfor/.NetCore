@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  commentId: N:es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  id: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  children:
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  - es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  nameWithType: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.RRHH.Business
+references:
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  commentId: T:es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+  name: EmployeeService
+  nameWithType: EmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.EmployeeService
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  commentId: T:es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+  parent: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  name: IEmployeeService
+  nameWithType: IEmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService.IEmployeeService
+- uid: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  commentId: N:es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  name: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  nameWithType: es.efor.Musaat.RRHH.Model.Services.EmployeeService
+  fullName: es.efor.Musaat.RRHH.Model.Services.EmployeeService

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Attributes
+  commentId: N:es.efor.Auth.Attributes
+  id: es.efor.Auth.Attributes
+  children:
+  - es.efor.Auth.Attributes.PolicyRequiredClaimsAttribute
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Attributes
+  nameWithType: es.efor.Auth.Attributes
+  fullName: es.efor.Auth.Attributes
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Attributes.PolicyRequiredClaimsAttribute
+  commentId: T:es.efor.Auth.Attributes.PolicyRequiredClaimsAttribute
+  name: PolicyRequiredClaimsAttribute
+  nameWithType: PolicyRequiredClaimsAttribute
+  fullName: es.efor.Auth.Attributes.PolicyRequiredClaimsAttribute

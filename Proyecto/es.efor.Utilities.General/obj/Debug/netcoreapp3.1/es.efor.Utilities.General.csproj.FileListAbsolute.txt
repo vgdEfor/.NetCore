@@ -1,0 +1,9 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\obj\Debug\netcoreapp3.1\es.efor.Utilities.General.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\obj\Debug\netcoreapp3.1\es.efor.Utilities.General.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\obj\Debug\netcoreapp3.1\es.efor.Utilities.General.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\obj\Debug\netcoreapp3.1\es.efor.Utilities.General.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\obj\Debug\netcoreapp3.1\es.efor.Utilities.General.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.General\obj\Debug\netcoreapp3.1\es.efor.Utilities.General.csprojAssemblyReference.cache

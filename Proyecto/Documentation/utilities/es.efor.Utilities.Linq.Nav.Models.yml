@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Nav.Models
+  commentId: N:es.efor.Utilities.Linq.Nav.Models
+  id: es.efor.Utilities.Linq.Nav.Models
+  children:
+  - es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Linq.Nav.Models
+  nameWithType: es.efor.Utilities.Linq.Nav.Models
+  fullName: es.efor.Utilities.Linq.Nav.Models
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+references:
+- uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+  commentId: T:es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+  name: NavFilter<TField>
+  nameWithType: NavFilter<TField>
+  fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter<TField>
+  nameWithType.vb: NavFilter(Of TField)
+  fullName.vb: es.efor.Utilities.Linq.Nav.Models.NavFilter(Of TField)
+  name.vb: NavFilter(Of TField)
+  spec.csharp:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: )
+    nameWithType: )
+    fullName: )

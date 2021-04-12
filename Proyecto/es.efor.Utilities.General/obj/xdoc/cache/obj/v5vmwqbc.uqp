@@ -1,0 +1,4432 @@
+id: es.efor.Utilities.General
+language: CSharp
+name:
+  Default: es.efor.Utilities.General
+qualifiedName:
+  Default: es.efor.Utilities.General
+type: Assembly
+modifiers: {}
+items:
+- id: es.efor.Utilities.General
+  commentId: N:es.efor.Utilities.General
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.General
+    VB: es.efor.Utilities.General
+  nameWithType:
+    CSharp: es.efor.Utilities.General
+    VB: es.efor.Utilities.General
+  qualifiedName:
+    CSharp: es.efor.Utilities.General
+    VB: es.efor.Utilities.General
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.General
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.General.DictionaryExtensions
+    commentId: T:es.efor.Utilities.General.DictionaryExtensions
+    language: CSharp
+    name:
+      CSharp: DictionaryExtensions
+      VB: DictionaryExtensions
+    nameWithType:
+      CSharp: DictionaryExtensions
+      VB: DictionaryExtensions
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.DictionaryExtensions
+      VB: es.efor.Utilities.General.DictionaryExtensions
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General
+    source:
+      remote:
+        path: es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: DictionaryExtensions
+      path: ../es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: public static class DictionaryExtensions
+        VB: Public Module DictionaryExtensions
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.DictionaryExtensions.AddFluent``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+      commentId: M:es.efor.Utilities.General.DictionaryExtensions.AddFluent``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+      language: CSharp
+      name:
+        CSharp: AddFluent<TKey, TValue>(Dictionary<TKey, TValue>, TKey, TValue)
+        VB: AddFluent(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey, TValue)
+      nameWithType:
+        CSharp: DictionaryExtensions.AddFluent<TKey, TValue>(Dictionary<TKey, TValue>, TKey, TValue)
+        VB: DictionaryExtensions.AddFluent(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey, TValue)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.DictionaryExtensions.AddFluent<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>, TKey, TValue)
+        VB: es.efor.Utilities.General.DictionaryExtensions.AddFluent(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue), TKey, TValue)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AddFluent
+        path: ../es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public static Dictionary<TKey, TValue> AddFluent<TKey, TValue>(this Dictionary<TKey, TValue> source, TKey key, TValue value)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function AddFluent(Of TKey, TValue)(source As Dictionary(Of TKey, TValue), key As TKey, value As TValue) As Dictionary(Of TKey, TValue)
+        parameters:
+        - id: source
+          type: System.Collections.Generic.Dictionary{{TKey},{TValue}}
+        - id: key
+          type: '{TKey}'
+        - id: value
+          type: '{TValue}'
+        typeParameters:
+        - id: TKey
+        - id: TValue
+        return:
+          type: System.Collections.Generic.Dictionary{{TKey},{TValue}}
+      overload: es.efor.Utilities.General.DictionaryExtensions.AddFluent*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0)
+      commentId: M:es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0)
+      language: CSharp
+      name:
+        CSharp: GetValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey)
+        VB: GetValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey)
+      nameWithType:
+        CSharp: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey)
+        VB: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>, TKey)
+        VB: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue), TKey)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetValueOrDefault
+        path: ../es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: public static TValue GetValueOrDefault<TKey, TValue>(this Dictionary<TKey, TValue> source, TKey key)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetValueOrDefault(Of TKey, TValue)(source As Dictionary(Of TKey, TValue), key As TKey) As TValue
+        parameters:
+        - id: source
+          type: System.Collections.Generic.Dictionary{{TKey},{TValue}}
+        - id: key
+          type: '{TKey}'
+        typeParameters:
+        - id: TKey
+        - id: TValue
+        return:
+          type: '{TValue}'
+      overload: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+      commentId: M:es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+      language: CSharp
+      name:
+        CSharp: GetValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey, TValue)
+        VB: GetValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey, TValue)
+      nameWithType:
+        CSharp: DictionaryExtensions.GetValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey, TValue)
+        VB: DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey, TValue)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>, TKey, TValue)
+        VB: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue), TKey, TValue)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetValueOrDefault
+        path: ../es.efor.Utilities.General/Helpers/DictionaryHelpers.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: public static TValue GetValueOrDefault<TKey, TValue>(this Dictionary<TKey, TValue> source, TKey key, TValue defaultValue)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetValueOrDefault(Of TKey, TValue)(source As Dictionary(Of TKey, TValue), key As TKey, defaultValue As TValue) As TValue
+        parameters:
+        - id: source
+          type: System.Collections.Generic.Dictionary{{TKey},{TValue}}
+        - id: key
+          type: '{TKey}'
+        - id: defaultValue
+          type: '{TValue}'
+        typeParameters:
+        - id: TKey
+        - id: TValue
+        return:
+          type: '{TValue}'
+      overload: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.EnumHelper
+    commentId: T:es.efor.Utilities.General.EnumHelper
+    language: CSharp
+    name:
+      CSharp: EnumHelper
+      VB: EnumHelper
+    nameWithType:
+      CSharp: EnumHelper
+      VB: EnumHelper
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.EnumHelper
+      VB: es.efor.Utilities.General.EnumHelper
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General
+    source:
+      remote:
+        path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: EnumHelper
+      path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public static class EnumHelper
+        VB: Public Module EnumHelper
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+      commentId: M:es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+      language: CSharp
+      name:
+        CSharp: GetDescription(Enum)
+        VB: GetDescription(Enum)
+      nameWithType:
+        CSharp: EnumHelper.GetDescription(Enum)
+        VB: EnumHelper.GetDescription(Enum)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+        VB: es.efor.Utilities.General.EnumHelper.GetDescription(System.Enum)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetDescription
+        path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public static string GetDescription(this Enum value)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetDescription(value As  Enum) As String
+        parameters:
+        - id: value
+          type: System.Enum
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.EnumHelper.GetDescription*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+      commentId: M:es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+      language: CSharp
+      name:
+        CSharp: GetEnumValues(Type)
+        VB: GetEnumValues(Type)
+      nameWithType:
+        CSharp: EnumHelper.GetEnumValues(Type)
+        VB: EnumHelper.GetEnumValues(Type)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+        VB: es.efor.Utilities.General.EnumHelper.GetEnumValues(System.Type)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetEnumValues
+        path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public static Array GetEnumValues(Type enumType)
+          VB: Public Shared Function GetEnumValues(enumType As Type) As Array
+        parameters:
+        - id: enumType
+          type: System.Type
+        return:
+          type: System.Array
+      overload: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.EnumHelper.GetEnumValues``1
+      commentId: M:es.efor.Utilities.General.EnumHelper.GetEnumValues``1
+      language: CSharp
+      name:
+        CSharp: GetEnumValues<T>()
+        VB: GetEnumValues(Of T)()
+      nameWithType:
+        CSharp: EnumHelper.GetEnumValues<T>()
+        VB: EnumHelper.GetEnumValues(Of T)()
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.EnumHelper.GetEnumValues<T>()
+        VB: es.efor.Utilities.General.EnumHelper.GetEnumValues(Of T)()
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetEnumValues
+        path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+        startLine: 26
+      syntax:
+        content:
+          CSharp: >-
+            public static IEnumerable<T> GetEnumValues<T>()
+
+                where T : Enum
+          VB: Public Shared Function GetEnumValues(Of T As  Enum) As IEnumerable(Of T)
+        typeParameters:
+        - id: T
+        return:
+          type: System.Collections.Generic.IEnumerable{{T}}
+      overload: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+      commentId: M:es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+      language: CSharp
+      name:
+        CSharp: GetMembers(Enum)
+        VB: GetMembers(Enum)
+      nameWithType:
+        CSharp: EnumHelper.GetMembers(Enum)
+        VB: EnumHelper.GetMembers(Enum)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+        VB: es.efor.Utilities.General.EnumHelper.GetMembers(System.Enum)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/EnumHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetMembers
+        path: ../es.efor.Utilities.General/Helpers/EnumHelpers.cs
+        startLine: 33
+      syntax:
+        content:
+          CSharp: public static IEnumerable<Enum> GetMembers(this Enum enum)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetMembers(enum As  Enum) As IEnumerable(Of  Enum)
+        parameters:
+        - id: enum
+          type: System.Enum
+        return:
+          type: System.Collections.Generic.IEnumerable{System.Enum}
+      overload: es.efor.Utilities.General.EnumHelper.GetMembers*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.StringHelpers
+    commentId: T:es.efor.Utilities.General.StringHelpers
+    language: CSharp
+    name:
+      CSharp: StringHelpers
+      VB: StringHelpers
+    nameWithType:
+      CSharp: StringHelpers
+      VB: StringHelpers
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.StringHelpers
+      VB: es.efor.Utilities.General.StringHelpers
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General
+    source:
+      remote:
+        path: es.efor.Utilities.General/Helpers/StringHelpers.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: StringHelpers
+      path: ../es.efor.Utilities.General/Helpers/StringHelpers.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: public static class StringHelpers
+        VB: Public Module StringHelpers
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - id: es.efor.Utilities.General.StringHelpers.Slugify(System.String)
+      commentId: M:es.efor.Utilities.General.StringHelpers.Slugify(System.String)
+      language: CSharp
+      name:
+        CSharp: Slugify(String)
+        VB: Slugify(String)
+      nameWithType:
+        CSharp: StringHelpers.Slugify(String)
+        VB: StringHelpers.Slugify(String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.StringHelpers.Slugify(System.String)
+        VB: es.efor.Utilities.General.StringHelpers.Slugify(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/StringHelpers.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Slugify
+        path: ../es.efor.Utilities.General/Helpers/StringHelpers.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public static string Slugify(string input)
+          VB: Public Shared Function Slugify(input As String) As String
+        parameters:
+        - id: input
+          type: System.String
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.StringHelpers.Slugify*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.CollectionList`1
+    commentId: T:es.efor.Utilities.General.CollectionList`1
+    language: CSharp
+    name:
+      CSharp: CollectionList<T>
+      VB: CollectionList(Of T)
+    nameWithType:
+      CSharp: CollectionList<T>
+      VB: CollectionList(Of T)
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.CollectionList<T>
+      VB: es.efor.Utilities.General.CollectionList(Of T)
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General
+    source:
+      remote:
+        path: es.efor.Utilities.General/Models/CollectionList.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: CollectionList
+      path: ../es.efor.Utilities.General/Models/CollectionList.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public class CollectionList<T>
+        VB: Public Class CollectionList(Of T)
+      typeParameters:
+      - id: T
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.CollectionList`1.Total
+      commentId: P:es.efor.Utilities.General.CollectionList`1.Total
+      language: CSharp
+      name:
+        CSharp: Total
+        VB: Total
+      nameWithType:
+        CSharp: CollectionList<T>.Total
+        VB: CollectionList(Of T).Total
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.CollectionList<T>.Total
+        VB: es.efor.Utilities.General.CollectionList(Of T).Total
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Models/CollectionList.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Total
+        path: ../es.efor.Utilities.General/Models/CollectionList.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public int Total { get; set; }
+          VB: Public Property Total As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: es.efor.Utilities.General.CollectionList`1.Total*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.CollectionList`1.Items
+      commentId: P:es.efor.Utilities.General.CollectionList`1.Items
+      language: CSharp
+      name:
+        CSharp: Items
+        VB: Items
+      nameWithType:
+        CSharp: CollectionList<T>.Items
+        VB: CollectionList(Of T).Items
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.CollectionList<T>.Items
+        VB: es.efor.Utilities.General.CollectionList(Of T).Items
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Models/CollectionList.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Items
+        path: ../es.efor.Utilities.General/Models/CollectionList.cs
+        startLine: 16
+      syntax:
+        content:
+          CSharp: public IEnumerable<T> Items { get; set; }
+          VB: Public Property Items As IEnumerable(Of T)
+        parameters: []
+        return:
+          type: System.Collections.Generic.IEnumerable{{T}}
+      overload: es.efor.Utilities.General.CollectionList`1.Items*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.CollectionList`1.#ctor
+      commentId: M:es.efor.Utilities.General.CollectionList`1.#ctor
+      language: CSharp
+      name:
+        CSharp: CollectionList()
+        VB: CollectionList()
+      nameWithType:
+        CSharp: CollectionList<T>.CollectionList()
+        VB: CollectionList(Of T).CollectionList()
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.CollectionList<T>.CollectionList()
+        VB: es.efor.Utilities.General.CollectionList(Of T).CollectionList()
+      type: Constructor
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Models/CollectionList.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: .ctor
+        path: ../es.efor.Utilities.General/Models/CollectionList.cs
+        startLine: 18
+      syntax:
+        content:
+          CSharp: public CollectionList()
+          VB: Public Sub New
+      overload: es.efor.Utilities.General.CollectionList`1.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.CollectionList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Nullable{System.Int32})
+      commentId: M:es.efor.Utilities.General.CollectionList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Nullable{System.Int32})
+      language: CSharp
+      name:
+        CSharp: CollectionList(IEnumerable<T>, Nullable<Int32>)
+        VB: CollectionList(IEnumerable(Of T), Nullable(Of Int32))
+      nameWithType:
+        CSharp: CollectionList<T>.CollectionList(IEnumerable<T>, Nullable<Int32>)
+        VB: CollectionList(Of T).CollectionList(IEnumerable(Of T), Nullable(Of Int32))
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.CollectionList<T>.CollectionList(System.Collections.Generic.IEnumerable<T>, System.Nullable<System.Int32>)
+        VB: es.efor.Utilities.General.CollectionList(Of T).CollectionList(System.Collections.Generic.IEnumerable(Of T), System.Nullable(Of System.Int32))
+      type: Constructor
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Models/CollectionList.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: .ctor
+        path: ../es.efor.Utilities.General/Models/CollectionList.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public CollectionList(IEnumerable<T> itemsCollection, int? totalItems = default(int? ))
+          VB: Public Sub New(itemsCollection As IEnumerable(Of T), totalItems As Integer? = Nothing)
+        parameters:
+        - id: itemsCollection
+          type: System.Collections.Generic.IEnumerable{{T}}
+        - id: totalItems
+          type: System.Nullable{System.Int32}
+      overload: es.efor.Utilities.General.CollectionList`1.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.CollectionList`1.ConvertTo``1(System.Func{`0,``0})
+      commentId: M:es.efor.Utilities.General.CollectionList`1.ConvertTo``1(System.Func{`0,``0})
+      language: CSharp
+      name:
+        CSharp: ConvertTo<TDestination>(Func<T, TDestination>)
+        VB: ConvertTo(Of TDestination)(Func(Of T, TDestination))
+      nameWithType:
+        CSharp: CollectionList<T>.ConvertTo<TDestination>(Func<T, TDestination>)
+        VB: CollectionList(Of T).ConvertTo(Of TDestination)(Func(Of T, TDestination))
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.CollectionList<T>.ConvertTo<TDestination>(System.Func<T, TDestination>)
+        VB: es.efor.Utilities.General.CollectionList(Of T).ConvertTo(Of TDestination)(System.Func(Of T, TDestination))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General
+      source:
+        remote:
+          path: es.efor.Utilities.General/Models/CollectionList.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ConvertTo
+        path: ../es.efor.Utilities.General/Models/CollectionList.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: public CollectionList<TDestination> ConvertTo<TDestination>(Func<T, TDestination> converter)
+          VB: Public Function ConvertTo(Of TDestination)(converter As Func(Of T, TDestination)) As CollectionList(Of TDestination)
+        parameters:
+        - id: converter
+          type: System.Func{{T},{TDestination}}
+        typeParameters:
+        - id: TDestination
+        return:
+          type: es.efor.Utilities.General.CollectionList{{TDestination}}
+      overload: es.efor.Utilities.General.CollectionList`1.ConvertTo*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.General.Helpers
+    VB: es.efor.Utilities.General.Helpers
+  nameWithType:
+    CSharp: es.efor.Utilities.General.Helpers
+    VB: es.efor.Utilities.General.Helpers
+  qualifiedName:
+    CSharp: es.efor.Utilities.General.Helpers
+    VB: es.efor.Utilities.General.Helpers
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.General
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+    language: CSharp
+    name:
+      CSharp: ObjectHelper
+      VB: ObjectHelper
+    nameWithType:
+      CSharp: ObjectHelper
+      VB: ObjectHelper
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB: es.efor.Utilities.General.Helpers.ObjectHelper
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Helpers
+    source:
+      remote:
+        path: es.efor.Utilities.General/Helpers/ObjectHelper.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: ObjectHelper
+      path: ../es.efor.Utilities.General/Helpers/ObjectHelper.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public static class ObjectHelper
+        VB: Public Module ObjectHelper
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+      commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+      language: CSharp
+      name:
+        CSharp: CopyMap<TDestination>(Object, JsonSerializerSettings)
+        VB: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+      nameWithType:
+        CSharp: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+        VB: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+        VB: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Helpers
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/ObjectHelper.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: CopyMap
+        path: ../es.efor.Utilities.General/Helpers/ObjectHelper.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public static TDestination CopyMap<TDestination>(this object source, JsonSerializerSettings serializerSettings)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function CopyMap(Of TDestination)(source As Object, serializerSettings As JsonSerializerSettings) As TDestination
+        parameters:
+        - id: source
+          type: System.Object
+        - id: serializerSettings
+          type: Newtonsoft.Json.JsonSerializerSettings
+        typeParameters:
+        - id: TDestination
+        return:
+          type: '{TDestination}'
+      overload: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+      commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+      language: CSharp
+      name:
+        CSharp: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+        VB: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+      nameWithType:
+        CSharp: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+        VB: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+        VB: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Helpers
+      source:
+        remote:
+          path: es.efor.Utilities.General/Helpers/ObjectHelper.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: CopyMap
+        path: ../es.efor.Utilities.General/Helpers/ObjectHelper.cs
+        startLine: 16
+      syntax:
+        content:
+          CSharp: public static TDestination CopyMap<TDestination>(this object source, ReferenceLoopHandling loopHandling = ReferenceLoopHandling.Ignore)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function CopyMap(Of TDestination)(source As Object, loopHandling As ReferenceLoopHandling = ReferenceLoopHandling.Ignore) As TDestination
+        parameters:
+        - id: source
+          type: System.Object
+        - id: loopHandling
+          type: Newtonsoft.Json.ReferenceLoopHandling
+        typeParameters:
+        - id: TDestination
+        return:
+          type: '{TDestination}'
+      overload: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+- id: es.efor.Utilities.General.Tools
+  commentId: N:es.efor.Utilities.General.Tools
+  language: CSharp
+  name:
+    CSharp: es.efor.Utilities.General.Tools
+    VB: es.efor.Utilities.General.Tools
+  nameWithType:
+    CSharp: es.efor.Utilities.General.Tools
+    VB: es.efor.Utilities.General.Tools
+  qualifiedName:
+    CSharp: es.efor.Utilities.General.Tools
+    VB: es.efor.Utilities.General.Tools
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.General
+  modifiers: {}
+  items:
+  - id: es.efor.Utilities.General.Tools.AppUtils
+    commentId: T:es.efor.Utilities.General.Tools.AppUtils
+    language: CSharp
+    name:
+      CSharp: AppUtils
+      VB: AppUtils
+    nameWithType:
+      CSharp: AppUtils
+      VB: AppUtils
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.AppUtils
+      VB: es.efor.Utilities.General.Tools.AppUtils
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/AppUtils.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: AppUtils
+      path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public static class AppUtils
+        VB: Public Module AppUtils
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - id: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation
+      commentId: M:es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation
+      language: CSharp
+      name:
+        CSharp: GetCurrentAppInformation()
+        VB: GetCurrentAppInformation()
+      nameWithType:
+        CSharp: AppUtils.GetCurrentAppInformation()
+        VB: AppUtils.GetCurrentAppInformation()
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation()
+        VB: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation()
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/AppUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetCurrentAppInformation
+        path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public static AppInformation GetCurrentAppInformation()
+          VB: Public Shared Function GetCurrentAppInformation As AppInformation
+        return:
+          type: es.efor.Utilities.General.Tools.AppInformation
+      overload: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo
+      commentId: M:es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo
+      language: CSharp
+      name:
+        CSharp: PrintAppAndNetworkInfo()
+        VB: PrintAppAndNetworkInfo()
+      nameWithType:
+        CSharp: AppUtils.PrintAppAndNetworkInfo()
+        VB: AppUtils.PrintAppAndNetworkInfo()
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo()
+        VB: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo()
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/AppUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: PrintAppAndNetworkInfo
+        path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public static void PrintAppAndNetworkInfo()
+          VB: Public Shared Sub PrintAppAndNetworkInfo
+      overload: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.Tools.AppInformation
+    commentId: T:es.efor.Utilities.General.Tools.AppInformation
+    language: CSharp
+    name:
+      CSharp: AppInformation
+      VB: AppInformation
+    nameWithType:
+      CSharp: AppInformation
+      VB: AppInformation
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.AppInformation
+      VB: es.efor.Utilities.General.Tools.AppInformation
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/AppUtils.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: AppInformation
+      path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+      startLine: 42
+    syntax:
+      content:
+        CSharp: public class AppInformation
+        VB: Public Class AppInformation
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.Tools.AppInformation.ProcessId
+      commentId: P:es.efor.Utilities.General.Tools.AppInformation.ProcessId
+      language: CSharp
+      name:
+        CSharp: ProcessId
+        VB: ProcessId
+      nameWithType:
+        CSharp: AppInformation.ProcessId
+        VB: AppInformation.ProcessId
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.AppInformation.ProcessId
+        VB: es.efor.Utilities.General.Tools.AppInformation.ProcessId
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/AppUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: ProcessId
+        path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+        startLine: 44
+      syntax:
+        content:
+          CSharp: public string ProcessId { get; set; }
+          VB: Public Property ProcessId As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.AppInformation.ProcessId*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.AppInformation.AppName
+      commentId: P:es.efor.Utilities.General.Tools.AppInformation.AppName
+      language: CSharp
+      name:
+        CSharp: AppName
+        VB: AppName
+      nameWithType:
+        CSharp: AppInformation.AppName
+        VB: AppInformation.AppName
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.AppInformation.AppName
+        VB: es.efor.Utilities.General.Tools.AppInformation.AppName
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/AppUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AppName
+        path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+        startLine: 45
+      syntax:
+        content:
+          CSharp: public string AppName { get; set; }
+          VB: Public Property AppName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.AppInformation.AppName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+      commentId: P:es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+      language: CSharp
+      name:
+        CSharp: FrameworkVersion
+        VB: FrameworkVersion
+      nameWithType:
+        CSharp: AppInformation.FrameworkVersion
+        VB: AppInformation.FrameworkVersion
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+        VB: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/AppUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: FrameworkVersion
+        path: ../es.efor.Utilities.General/Tools/AppUtils.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: public Version FrameworkVersion { get; set; }
+          VB: Public Property FrameworkVersion As Version
+        parameters: []
+        return:
+          type: System.Version
+      overload: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: es.efor.Utilities.General.Tools.DateTimeUtils
+    commentId: T:es.efor.Utilities.General.Tools.DateTimeUtils
+    language: CSharp
+    name:
+      CSharp: DateTimeUtils
+      VB: DateTimeUtils
+    nameWithType:
+      CSharp: DateTimeUtils
+      VB: DateTimeUtils
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.DateTimeUtils
+      VB: es.efor.Utilities.General.Tools.DateTimeUtils
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/DateTimeUtils.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: DateTimeUtils
+      path: ../es.efor.Utilities.General/Tools/DateTimeUtils.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: public class DateTimeUtils
+        VB: Public Class DateTimeUtils
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan(System.String)
+      commentId: M:es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan(System.String)
+      language: CSharp
+      name:
+        CSharp: StringToTimeSpan(String)
+        VB: StringToTimeSpan(String)
+      nameWithType:
+        CSharp: DateTimeUtils.StringToTimeSpan(String)
+        VB: DateTimeUtils.StringToTimeSpan(String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan(System.String)
+        VB: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/DateTimeUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: StringToTimeSpan
+        path: ../es.efor.Utilities.General/Tools/DateTimeUtils.cs
+        startLine: 11
+      summary: "\nDevuelve Timespan de la hora pasada como parametro, en formato HH:mm:ss\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static TimeSpan StringToTimeSpan(string Time)
+          VB: Public Shared Function StringToTimeSpan(Time As String) As TimeSpan
+        parameters:
+        - id: Time
+          type: System.String
+          description: ''
+        return:
+          type: System.TimeSpan
+          description: ''
+      overload: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString(System.TimeSpan)
+      commentId: M:es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString(System.TimeSpan)
+      language: CSharp
+      name:
+        CSharp: TimeSpanToString(TimeSpan)
+        VB: TimeSpanToString(TimeSpan)
+      nameWithType:
+        CSharp: DateTimeUtils.TimeSpanToString(TimeSpan)
+        VB: DateTimeUtils.TimeSpanToString(TimeSpan)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString(System.TimeSpan)
+        VB: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString(System.TimeSpan)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/DateTimeUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: TimeSpanToString
+        path: ../es.efor.Utilities.General/Tools/DateTimeUtils.cs
+        startLine: 33
+      syntax:
+        content:
+          CSharp: public static string TimeSpanToString(TimeSpan time)
+          VB: Public Shared Function TimeSpanToString(time As TimeSpan) As String
+        parameters:
+        - id: time
+          type: System.TimeSpan
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString(System.DateTime,System.Boolean)
+      commentId: M:es.efor.Utilities.General.Tools.DateTimeUtils.DateToString(System.DateTime,System.Boolean)
+      language: CSharp
+      name:
+        CSharp: DateToString(DateTime, Boolean)
+        VB: DateToString(DateTime, Boolean)
+      nameWithType:
+        CSharp: DateTimeUtils.DateToString(DateTime, Boolean)
+        VB: DateTimeUtils.DateToString(DateTime, Boolean)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString(System.DateTime, System.Boolean)
+        VB: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString(System.DateTime, System.Boolean)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/DateTimeUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: DateToString
+        path: ../es.efor.Utilities.General/Tools/DateTimeUtils.cs
+        startLine: 47
+      summary: "\nDevuelve la fecha en formato dd:mm_yy HH:mm:ss\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string DateToString(DateTime date, bool WithHour = false)
+          VB: Public Shared Function DateToString(date As Date, WithHour As Boolean = False) As String
+        parameters:
+        - id: date
+          type: System.DateTime
+          description: ''
+        - id: WithHour
+          type: System.Boolean
+        return:
+          type: System.String
+          description: ''
+      overload: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths(System.Int32,System.Int32)
+      commentId: M:es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths(System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: AddMonths(Int32, Int32)
+        VB: AddMonths(Int32, Int32)
+      nameWithType:
+        CSharp: DateTimeUtils.AddMonths(Int32, Int32)
+        VB: DateTimeUtils.AddMonths(Int32, Int32)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths(System.Int32, System.Int32)
+        VB: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths(System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/DateTimeUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AddMonths
+        path: ../es.efor.Utilities.General/Tools/DateTimeUtils.cs
+        startLine: 57
+      syntax:
+        content:
+          CSharp: public static int AddMonths(int Month, int Increment)
+          VB: Public Shared Function AddMonths(Month As Integer, Increment As Integer) As Integer
+        parameters:
+        - id: Month
+          type: System.Int32
+        - id: Increment
+          type: System.Int32
+        return:
+          type: System.Int32
+      overload: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.Tools.FileUtil
+    commentId: T:es.efor.Utilities.General.Tools.FileUtil
+    language: CSharp
+    name:
+      CSharp: FileUtil
+      VB: FileUtil
+    nameWithType:
+      CSharp: FileUtil
+      VB: FileUtil
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.FileUtil
+      VB: es.efor.Utilities.General.Tools.FileUtil
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/FileUtil.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: FileUtil
+      path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public class FileUtil
+        VB: Public Class FileUtil
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+      commentId: M:es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+      language: CSharp
+      name:
+        CSharp: Base64Encode(String)
+        VB: Base64Encode(String)
+      nameWithType:
+        CSharp: FileUtil.Base64Encode(String)
+        VB: FileUtil.Base64Encode(String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+        VB: es.efor.Utilities.General.Tools.FileUtil.Base64Encode(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/FileUtil.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Base64Encode
+        path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+        startLine: 13
+      summary: "\nBase 64 Encode Europ\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string Base64Encode(string plainText)
+          VB: Public Shared Function Base64Encode(plainText As String) As String
+        parameters:
+        - id: plainText
+          type: System.String
+          description: ''
+        return:
+          type: System.String
+          description: ''
+      overload: es.efor.Utilities.General.Tools.FileUtil.Base64Encode*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+      commentId: M:es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+      language: CSharp
+      name:
+        CSharp: Base64Decode(String)
+        VB: Base64Decode(String)
+      nameWithType:
+        CSharp: FileUtil.Base64Decode(String)
+        VB: FileUtil.Base64Decode(String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+        VB: es.efor.Utilities.General.Tools.FileUtil.Base64Decode(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/FileUtil.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Base64Decode
+        path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+        startLine: 24
+      summary: "\nBase 64 Decode Europ\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string Base64Decode(string base64EncodedData)
+          VB: Public Shared Function Base64Decode(base64EncodedData As String) As String
+        parameters:
+        - id: base64EncodedData
+          type: System.String
+          description: ''
+        return:
+          type: System.String
+          description: ''
+      overload: es.efor.Utilities.General.Tools.FileUtil.Base64Decode*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String,System.String,System.String@)
+      commentId: M:es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String,System.String,System.String@)
+      language: CSharp
+      name:
+        CSharp: GetValidFilePath(String, String, ref String)
+        VB: GetValidFilePath(String, String, ByRef String)
+      nameWithType:
+        CSharp: FileUtil.GetValidFilePath(String, String, ref String)
+        VB: FileUtil.GetValidFilePath(String, String, ByRef String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String, System.String, ref System.String)
+        VB: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath(System.String, System.String, ByRef System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/FileUtil.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetValidFilePath
+        path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+        startLine: 36
+      summary: "\nDevuelve una ruta de fichero valida. Si el fichero existe, añade sufijo.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static void GetValidFilePath(string BasePath, string FileName, ref string FullFileSavePath)
+          VB: Public Shared Sub GetValidFilePath(BasePath As String, FileName As String, ByRef FullFileSavePath As String)
+        parameters:
+        - id: BasePath
+          type: System.String
+          description: 'Dirección fisica completa de la ruta donde se guarda el fichero: c:/ '
+        - id: FileName
+          type: System.String
+          description: Nombre del fichero, con extensión
+        - id: FullFileSavePath
+          type: System.String
+          description: Ruta completa donde se guardará el fichero. Incluye nombre de fichero.
+      overload: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+      commentId: M:es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+      language: CSharp
+      name:
+        CSharp: GetFileNameSuffix(String)
+        VB: GetFileNameSuffix(String)
+      nameWithType:
+        CSharp: FileUtil.GetFileNameSuffix(String)
+        VB: FileUtil.GetFileNameSuffix(String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+        VB: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix(System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/FileUtil.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetFileNameSuffix
+        path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+        startLine: 52
+      summary: "\nDevuelve sufijo de fichero. No es aleatorio\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static int GetFileNameSuffix(string FilePath)
+          VB: Public Shared Function GetFileNameSuffix(FilePath As String) As Integer
+        parameters:
+        - id: FilePath
+          type: System.String
+          description: ''
+        return:
+          type: System.Int32
+          description: ''
+      overload: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String,System.String)
+      commentId: M:es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String,System.String)
+      language: CSharp
+      name:
+        CSharp: AddToFileName(String, String)
+        VB: AddToFileName(String, String)
+      nameWithType:
+        CSharp: FileUtil.AddToFileName(String, String)
+        VB: FileUtil.AddToFileName(String, String)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String, System.String)
+        VB: es.efor.Utilities.General.Tools.FileUtil.AddToFileName(System.String, System.String)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/FileUtil.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: AddToFileName
+        path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+        startLine: 65
+      syntax:
+        content:
+          CSharp: public static string AddToFileName(string FilePath, string Suffix)
+          VB: Public Shared Function AddToFileName(FilePath As String, Suffix As String) As String
+        parameters:
+        - id: FilePath
+          type: System.String
+        - id: Suffix
+          type: System.String
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.FileUtil.AddToFileName*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String,System.Int64)
+      commentId: M:es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String,System.Int64)
+      language: CSharp
+      name:
+        CSharp: CheckFileLength(String, Int64)
+        VB: CheckFileLength(String, Int64)
+      nameWithType:
+        CSharp: FileUtil.CheckFileLength(String, Int64)
+        VB: FileUtil.CheckFileLength(String, Int64)
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String, System.Int64)
+        VB: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength(System.String, System.Int64)
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/FileUtil.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: CheckFileLength
+        path: ../es.efor.Utilities.General/Tools/FileUtil.cs
+        startLine: 80
+      summary: "\nComprueba longitud máxima permitida de un fichero\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static bool CheckFileLength(string FilePath, long HighestFileLength)
+          VB: Public Shared Function CheckFileLength(FilePath As String, HighestFileLength As Long) As Boolean
+        parameters:
+        - id: FilePath
+          type: System.String
+          description: ''
+        - id: HighestFileLength
+          type: System.Int64
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+    commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+    language: CSharp
+    name:
+      CSharp: NetworkInterfaceUtils
+      VB: NetworkInterfaceUtils
+    nameWithType:
+      CSharp: NetworkInterfaceUtils
+      VB: NetworkInterfaceUtils
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+      VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: NetworkInterfaceUtils
+      path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      startLine: 9
+    syntax:
+      content:
+        CSharp: public class NetworkInterfaceUtils
+        VB: Public Class NetworkInterfaceUtils
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation(System.Nullable{System.Net.NetworkInformation.NetworkInterfaceType},System.Nullable{System.Net.NetworkInformation.OperationalStatus})
+      commentId: M:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation(System.Nullable{System.Net.NetworkInformation.NetworkInterfaceType},System.Nullable{System.Net.NetworkInformation.OperationalStatus})
+      language: CSharp
+      name:
+        CSharp: GetNetworkInformation(Nullable<NetworkInterfaceType>, Nullable<OperationalStatus>)
+        VB: GetNetworkInformation(Nullable(Of NetworkInterfaceType), Nullable(Of OperationalStatus))
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.GetNetworkInformation(Nullable<NetworkInterfaceType>, Nullable<OperationalStatus>)
+        VB: NetworkInterfaceUtils.GetNetworkInformation(Nullable(Of NetworkInterfaceType), Nullable(Of OperationalStatus))
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation(System.Nullable<System.Net.NetworkInformation.NetworkInterfaceType>, System.Nullable<System.Net.NetworkInformation.OperationalStatus>)
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation(System.Nullable(Of System.Net.NetworkInformation.NetworkInterfaceType), System.Nullable(Of System.Net.NetworkInformation.OperationalStatus))
+      type: Method
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: GetNetworkInformation
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: public static NetworkInterfaceUtils.NetworkInformation GetNetworkInformation(NetworkInterfaceType? interfaceType = default(NetworkInterfaceType? ), OperationalStatus? operationalStatus = default(OperationalStatus? ))
+          VB: Public Shared Function GetNetworkInformation(interfaceType As NetworkInterfaceType? = Nothing, operationalStatus As OperationalStatus? = Nothing) As NetworkInterfaceUtils.NetworkInformation
+        parameters:
+        - id: interfaceType
+          type: System.Nullable{System.Net.NetworkInformation.NetworkInterfaceType}
+        - id: operationalStatus
+          type: System.Nullable{System.Net.NetworkInformation.OperationalStatus}
+        return:
+          type: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+    commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+    language: CSharp
+    name:
+      CSharp: NetworkInterfaceUtils.NetworkInformation
+      VB: NetworkInterfaceUtils.NetworkInformation
+    nameWithType:
+      CSharp: NetworkInterfaceUtils.NetworkInformation
+      VB: NetworkInterfaceUtils.NetworkInformation
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+      VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: NetworkInformation
+      path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      startLine: 26
+    syntax:
+      content:
+        CSharp: public class NetworkInformation
+        VB: Public Class NetworkInformation
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+      language: CSharp
+      name:
+        CSharp: HostName
+        VB: HostName
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInformation.HostName
+        VB: NetworkInterfaceUtils.NetworkInformation.HostName
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: HostName
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: public string HostName { get; set; }
+          VB: Public Property HostName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+      language: CSharp
+      name:
+        CSharp: Interfaces
+        VB: Interfaces
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInformation.Interfaces
+        VB: NetworkInterfaceUtils.NetworkInformation.Interfaces
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Interfaces
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: public IEnumerable<NetworkInterfaceUtils.NetworkInterfaceInformation> Interfaces { get; set; }
+          VB: Public Property Interfaces As IEnumerable(Of NetworkInterfaceUtils.NetworkInterfaceInformation)
+        parameters: []
+        return:
+          type: System.Collections.Generic.IEnumerable{es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation}
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor
+      commentId: M:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor
+      language: CSharp
+      name:
+        CSharp: NetworkInformation()
+        VB: NetworkInformation()
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInformation.NetworkInformation()
+        VB: NetworkInterfaceUtils.NetworkInformation.NetworkInformation()
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.NetworkInformation()
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.NetworkInformation()
+      type: Constructor
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: .ctor
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 31
+      syntax:
+        content:
+          CSharp: public NetworkInformation()
+          VB: Public Sub New
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+    commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+    language: CSharp
+    name:
+      CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation
+      VB: NetworkInterfaceUtils.NetworkInterfaceInformation
+    nameWithType:
+      CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation
+      VB: NetworkInterfaceUtils.NetworkInterfaceInformation
+    qualifiedName:
+      CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+      VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+    type: Class
+    assemblies:
+    - es.efor.Utilities.General
+    namespace: es.efor.Utilities.General.Tools
+    source:
+      remote:
+        path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        branch: master
+        repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+      id: NetworkInterfaceInformation
+      path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+      startLine: 40
+    syntax:
+      content:
+        CSharp: public class NetworkInterfaceInformation
+        VB: Public Class NetworkInterfaceInformation
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    extensionMethods:
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+      language: CSharp
+      name:
+        CSharp: Name
+        VB: Name
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+        VB: NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Name
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 42
+      syntax:
+        content:
+          CSharp: public string Name { get; set; }
+          VB: Public Property Name As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+      language: CSharp
+      name:
+        CSharp: Description
+        VB: Description
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+        VB: NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Description
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 43
+      syntax:
+        content:
+          CSharp: public string Description { get; set; }
+          VB: Public Property Description As String
+        parameters: []
+        return:
+          type: System.String
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+      language: CSharp
+      name:
+        CSharp: Type
+        VB: Type
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+        VB: NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Type
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 44
+      syntax:
+        content:
+          CSharp: public NetworkInterfaceType Type { get; set; }
+          VB: Public Property Type As NetworkInterfaceType
+        parameters: []
+        return:
+          type: System.Net.NetworkInformation.NetworkInterfaceType
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+      language: CSharp
+      name:
+        CSharp: Status
+        VB: Status
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+        VB: NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: Status
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 45
+      syntax:
+        content:
+          CSharp: public OperationalStatus Status { get; set; }
+          VB: Public Property Status As OperationalStatus
+        parameters: []
+        return:
+          type: System.Net.NetworkInformation.OperationalStatus
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+      commentId: P:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+      language: CSharp
+      name:
+        CSharp: IPv4
+        VB: IPv4
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+        VB: NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+      type: Property
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: IPv4
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 46
+      syntax:
+        content:
+          CSharp: public IPAddress IPv4 { get; set; }
+          VB: Public Property IPv4 As IPAddress
+        parameters: []
+        return:
+          type: System.Net.IPAddress
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+      commentId: M:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+      language: CSharp
+      name:
+        CSharp: NetworkInterfaceInformation()
+        VB: NetworkInterfaceInformation()
+      nameWithType:
+        CSharp: NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation()
+        VB: NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation()
+      qualifiedName:
+        CSharp: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation()
+        VB: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation()
+      type: Constructor
+      assemblies:
+      - es.efor.Utilities.General
+      namespace: es.efor.Utilities.General.Tools
+      source:
+        remote:
+          path: es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+          branch: master
+          repo: https://dev.azure.com/EforDevelop/PryBase/_git/PryBase_Med
+        id: .ctor
+        path: ../es.efor.Utilities.General/Tools/NetworkInterfaceUtils.cs
+        startLine: 48
+      syntax:
+        content:
+          CSharp: public NetworkInterfaceInformation()
+          VB: Public Sub New
+      overload: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Collections.Generic.Dictionary`2:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.Dictionary`2
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.Dictionary{{TKey},{TValue}}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.Dictionary`2
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.Dictionary{``0,``1}
+  TKey:
+    name:
+      CSharp:
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      VB:
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+    isDefinition: true
+  '{TKey}':
+    name:
+      CSharp:
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      VB:
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+    isDefinition: false
+    definition: TKey
+    commentId: '!:TKey'
+  TValue:
+    name:
+      CSharp:
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      VB:
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+    isDefinition: true
+  '{TValue}':
+    name:
+      CSharp:
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      VB:
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+    isDefinition: false
+    definition: TValue
+    commentId: '!:TValue'
+  es.efor.Utilities.General.DictionaryExtensions.AddFluent*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.DictionaryExtensions.AddFluent*
+        name: AddFluent
+        nameWithType: DictionaryExtensions.AddFluent
+        qualifiedName: es.efor.Utilities.General.DictionaryExtensions.AddFluent
+      VB:
+      - id: es.efor.Utilities.General.DictionaryExtensions.AddFluent*
+        name: AddFluent
+        nameWithType: DictionaryExtensions.AddFluent
+        qualifiedName: es.efor.Utilities.General.DictionaryExtensions.AddFluent
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.DictionaryExtensions.AddFluent
+  es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault*
+        name: GetValueOrDefault
+        nameWithType: DictionaryExtensions.GetValueOrDefault
+        qualifiedName: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault
+      VB:
+      - id: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault*
+        name: GetValueOrDefault
+        nameWithType: DictionaryExtensions.GetValueOrDefault
+        qualifiedName: es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.DictionaryExtensions.GetValueOrDefault
+  es.efor.Utilities.General.DictionaryExtensions:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.DictionaryExtensions
+        name: DictionaryExtensions
+        nameWithType: DictionaryExtensions
+        qualifiedName: es.efor.Utilities.General.DictionaryExtensions
+      VB:
+      - id: es.efor.Utilities.General.DictionaryExtensions
+        name: DictionaryExtensions
+        nameWithType: DictionaryExtensions
+        qualifiedName: es.efor.Utilities.General.DictionaryExtensions
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.DictionaryExtensions
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  System.Enum:
+    name:
+      CSharp:
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      VB:
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Enum
+  es.efor.Utilities.General.EnumHelper.GetDescription*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription*
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetDescription*
+        name: GetDescription
+        nameWithType: EnumHelper.GetDescription
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetDescription
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.EnumHelper.GetDescription
+  System.Array:
+    name:
+      CSharp:
+      - id: System.Array
+        name: Array
+        nameWithType: Array
+        qualifiedName: System.Array
+        isExternal: true
+      VB:
+      - id: System.Array
+        name: Array
+        nameWithType: Array
+        qualifiedName: System.Array
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Array
+  System.Type:
+    name:
+      CSharp:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      VB:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Type
+  es.efor.Utilities.General.EnumHelper.GetEnumValues*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+        name: GetEnumValues
+        nameWithType: EnumHelper.GetEnumValues
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetEnumValues
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetEnumValues*
+        name: GetEnumValues
+        nameWithType: EnumHelper.GetEnumValues
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetEnumValues
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.EnumHelper.GetEnumValues
+  System.Collections.Generic.IEnumerable`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.IEnumerable`1
+  System.Collections.Generic.IEnumerable{{T}}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{``0}
+  System.Collections.Generic.IEnumerable{System.Enum}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Enum
+        name: Enum
+        nameWithType: Enum
+        qualifiedName: System.Enum
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{System.Enum}
+  es.efor.Utilities.General.EnumHelper.GetMembers*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers*
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper.GetMembers*
+        name: GetMembers
+        nameWithType: EnumHelper.GetMembers
+        qualifiedName: es.efor.Utilities.General.EnumHelper.GetMembers
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.EnumHelper.GetMembers
+  es.efor.Utilities.General.EnumHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.EnumHelper
+        name: EnumHelper
+        nameWithType: EnumHelper
+        qualifiedName: es.efor.Utilities.General.EnumHelper
+      VB:
+      - id: es.efor.Utilities.General.EnumHelper
+        name: EnumHelper
+        nameWithType: EnumHelper
+        qualifiedName: es.efor.Utilities.General.EnumHelper
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.EnumHelper
+  es.efor.Utilities.General.StringHelpers.Slugify*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.StringHelpers.Slugify*
+        name: Slugify
+        nameWithType: StringHelpers.Slugify
+        qualifiedName: es.efor.Utilities.General.StringHelpers.Slugify
+      VB:
+      - id: es.efor.Utilities.General.StringHelpers.Slugify*
+        name: Slugify
+        nameWithType: StringHelpers.Slugify
+        qualifiedName: es.efor.Utilities.General.StringHelpers.Slugify
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.StringHelpers.Slugify
+  es.efor.Utilities.General.StringHelpers:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.StringHelpers
+        name: StringHelpers
+        nameWithType: StringHelpers
+        qualifiedName: es.efor.Utilities.General.StringHelpers
+      VB:
+      - id: es.efor.Utilities.General.StringHelpers
+        name: StringHelpers
+        nameWithType: StringHelpers
+        qualifiedName: es.efor.Utilities.General.StringHelpers
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.StringHelpers
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+      VB:
+      - name: es.efor.Utilities.General.Helpers
+        nameWithType: es.efor.Utilities.General.Helpers
+        qualifiedName: es.efor.Utilities.General.Helpers
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Helpers
+  es.efor.Utilities.General.Helpers.ObjectHelper:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper
+        name: ObjectHelper
+        nameWithType: ObjectHelper
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper
+    isDefinition: true
+    parent: es.efor.Utilities.General.Helpers
+    commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling):
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap<TDestination>
+        nameWithType: ObjectHelper.CopyMap<TDestination>
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+        name: CopyMap(Of TDestination)
+        nameWithType: ObjectHelper.CopyMap(Of TDestination)
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    parent: es.efor.Utilities.General.Helpers.ObjectHelper
+    commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  es.efor.Utilities.General.CollectionList`1.Total*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.CollectionList`1.Total*
+        name: Total
+        nameWithType: CollectionList<T>.Total
+        qualifiedName: es.efor.Utilities.General.CollectionList<T>.Total
+      VB:
+      - id: es.efor.Utilities.General.CollectionList`1.Total*
+        name: Total
+        nameWithType: CollectionList(Of T).Total
+        qualifiedName: es.efor.Utilities.General.CollectionList(Of T).Total
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.CollectionList`1.Total
+  es.efor.Utilities.General.CollectionList`1.Items*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.CollectionList`1.Items*
+        name: Items
+        nameWithType: CollectionList<T>.Items
+        qualifiedName: es.efor.Utilities.General.CollectionList<T>.Items
+      VB:
+      - id: es.efor.Utilities.General.CollectionList`1.Items*
+        name: Items
+        nameWithType: CollectionList(Of T).Items
+        qualifiedName: es.efor.Utilities.General.CollectionList(Of T).Items
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.CollectionList`1.Items
+  es.efor.Utilities.General.CollectionList`1.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.CollectionList`1.#ctor*
+        name: CollectionList
+        nameWithType: CollectionList<T>.CollectionList
+        qualifiedName: es.efor.Utilities.General.CollectionList<T>.CollectionList
+      VB:
+      - id: es.efor.Utilities.General.CollectionList`1.#ctor*
+        name: CollectionList
+        nameWithType: CollectionList(Of T).CollectionList
+        qualifiedName: es.efor.Utilities.General.CollectionList(Of T).CollectionList
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.CollectionList`1.#ctor
+  System.Nullable`1:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Nullable`1
+  System.Nullable{System.Int32}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.Int32}
+  es.efor.Utilities.General.CollectionList`1:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.CollectionList`1
+        name: CollectionList
+        nameWithType: CollectionList
+        qualifiedName: es.efor.Utilities.General.CollectionList
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.General.CollectionList`1
+        name: CollectionList
+        nameWithType: CollectionList
+        qualifiedName: es.efor.Utilities.General.CollectionList
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.CollectionList`1
+  es.efor.Utilities.General:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General
+        nameWithType: es.efor.Utilities.General
+        qualifiedName: es.efor.Utilities.General
+      VB:
+      - name: es.efor.Utilities.General
+        nameWithType: es.efor.Utilities.General
+        qualifiedName: es.efor.Utilities.General
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General
+  es.efor.Utilities.General.CollectionList{{TDestination}}:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.CollectionList`1
+        name: CollectionList
+        nameWithType: CollectionList
+        qualifiedName: es.efor.Utilities.General.CollectionList
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: es.efor.Utilities.General.CollectionList`1
+        name: CollectionList
+        nameWithType: CollectionList
+        qualifiedName: es.efor.Utilities.General.CollectionList
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: es.efor.Utilities.General.CollectionList`1
+    parent: es.efor.Utilities.General
+    commentId: T:es.efor.Utilities.General.CollectionList{``0}
+  System.Func`2:
+    name:
+      CSharp:
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Func`2
+  System.Func{{T},{TDestination}}:
+    name:
+      CSharp:
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Func`2
+    parent: System
+    commentId: T:System.Func{`0,``0}
+  es.efor.Utilities.General.CollectionList`1.ConvertTo*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.CollectionList`1.ConvertTo*
+        name: ConvertTo
+        nameWithType: CollectionList<T>.ConvertTo
+        qualifiedName: es.efor.Utilities.General.CollectionList<T>.ConvertTo
+      VB:
+      - id: es.efor.Utilities.General.CollectionList`1.ConvertTo*
+        name: ConvertTo
+        nameWithType: CollectionList(Of T).ConvertTo
+        qualifiedName: es.efor.Utilities.General.CollectionList(Of T).ConvertTo
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.CollectionList`1.ConvertTo
+  TDestination:
+    name:
+      CSharp:
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+      VB:
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+    isDefinition: true
+  '{TDestination}':
+    name:
+      CSharp:
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+      VB:
+      - name: TDestination
+        nameWithType: TDestination
+        qualifiedName: TDestination
+    isDefinition: false
+    definition: TDestination
+    commentId: '!:TDestination'
+  Newtonsoft.Json:
+    name:
+      CSharp:
+      - name: Newtonsoft.Json
+        nameWithType: Newtonsoft.Json
+        qualifiedName: Newtonsoft.Json
+        isExternal: true
+      VB:
+      - name: Newtonsoft.Json
+        nameWithType: Newtonsoft.Json
+        qualifiedName: Newtonsoft.Json
+    isDefinition: true
+    commentId: N:Newtonsoft.Json
+  Newtonsoft.Json.JsonSerializerSettings:
+    name:
+      CSharp:
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+      VB:
+      - id: Newtonsoft.Json.JsonSerializerSettings
+        name: JsonSerializerSettings
+        nameWithType: JsonSerializerSettings
+        qualifiedName: Newtonsoft.Json.JsonSerializerSettings
+        isExternal: true
+    isDefinition: true
+    parent: Newtonsoft.Json
+    commentId: T:Newtonsoft.Json.JsonSerializerSettings
+  es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap*
+        name: CopyMap
+        nameWithType: ObjectHelper.CopyMap
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap
+      VB:
+      - id: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap*
+        name: CopyMap
+        nameWithType: ObjectHelper.CopyMap
+        qualifiedName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap
+  Newtonsoft.Json.ReferenceLoopHandling:
+    name:
+      CSharp:
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+      VB:
+      - id: Newtonsoft.Json.ReferenceLoopHandling
+        name: ReferenceLoopHandling
+        nameWithType: ReferenceLoopHandling
+        qualifiedName: Newtonsoft.Json.ReferenceLoopHandling
+        isExternal: true
+    isDefinition: true
+    parent: Newtonsoft.Json
+    commentId: T:Newtonsoft.Json.ReferenceLoopHandling
+  es.efor.Utilities.General.Tools:
+    name:
+      CSharp:
+      - name: es.efor.Utilities.General.Tools
+        nameWithType: es.efor.Utilities.General.Tools
+        qualifiedName: es.efor.Utilities.General.Tools
+      VB:
+      - name: es.efor.Utilities.General.Tools
+        nameWithType: es.efor.Utilities.General.Tools
+        qualifiedName: es.efor.Utilities.General.Tools
+    isDefinition: true
+    commentId: N:es.efor.Utilities.General.Tools
+  es.efor.Utilities.General.Tools.AppInformation:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppInformation
+        name: AppInformation
+        nameWithType: AppInformation
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppInformation
+        name: AppInformation
+        nameWithType: AppInformation
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation
+    isDefinition: true
+    parent: es.efor.Utilities.General.Tools
+    commentId: T:es.efor.Utilities.General.Tools.AppInformation
+  es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation*
+        name: GetCurrentAppInformation
+        nameWithType: AppUtils.GetCurrentAppInformation
+        qualifiedName: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation*
+        name: GetCurrentAppInformation
+        nameWithType: AppUtils.GetCurrentAppInformation
+        qualifiedName: es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.AppUtils.GetCurrentAppInformation
+  es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo*
+        name: PrintAppAndNetworkInfo
+        nameWithType: AppUtils.PrintAppAndNetworkInfo
+        qualifiedName: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo*
+        name: PrintAppAndNetworkInfo
+        nameWithType: AppUtils.PrintAppAndNetworkInfo
+        qualifiedName: es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.AppUtils.PrintAppAndNetworkInfo
+  es.efor.Utilities.General.Tools.AppUtils:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppUtils
+        name: AppUtils
+        nameWithType: AppUtils
+        qualifiedName: es.efor.Utilities.General.Tools.AppUtils
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppUtils
+        name: AppUtils
+        nameWithType: AppUtils
+        qualifiedName: es.efor.Utilities.General.Tools.AppUtils
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.Tools.AppUtils
+  es.efor.Utilities.General.Tools.AppInformation.ProcessId*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppInformation.ProcessId*
+        name: ProcessId
+        nameWithType: AppInformation.ProcessId
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation.ProcessId
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppInformation.ProcessId*
+        name: ProcessId
+        nameWithType: AppInformation.ProcessId
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation.ProcessId
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.AppInformation.ProcessId
+  es.efor.Utilities.General.Tools.AppInformation.AppName*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppInformation.AppName*
+        name: AppName
+        nameWithType: AppInformation.AppName
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation.AppName
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppInformation.AppName*
+        name: AppName
+        nameWithType: AppInformation.AppName
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation.AppName
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.AppInformation.AppName
+  System.Version:
+    name:
+      CSharp:
+      - id: System.Version
+        name: Version
+        nameWithType: Version
+        qualifiedName: System.Version
+        isExternal: true
+      VB:
+      - id: System.Version
+        name: Version
+        nameWithType: Version
+        qualifiedName: System.Version
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Version
+  es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion*
+        name: FrameworkVersion
+        nameWithType: AppInformation.FrameworkVersion
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+      VB:
+      - id: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion*
+        name: FrameworkVersion
+        nameWithType: AppInformation.FrameworkVersion
+        qualifiedName: es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.AppInformation.FrameworkVersion
+  System.TimeSpan:
+    name:
+      CSharp:
+      - id: System.TimeSpan
+        name: TimeSpan
+        nameWithType: TimeSpan
+        qualifiedName: System.TimeSpan
+        isExternal: true
+      VB:
+      - id: System.TimeSpan
+        name: TimeSpan
+        nameWithType: TimeSpan
+        qualifiedName: System.TimeSpan
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.TimeSpan
+  es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan*
+        name: StringToTimeSpan
+        nameWithType: DateTimeUtils.StringToTimeSpan
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan
+      VB:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan*
+        name: StringToTimeSpan
+        nameWithType: DateTimeUtils.StringToTimeSpan
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.DateTimeUtils.StringToTimeSpan
+  es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString*
+        name: TimeSpanToString
+        nameWithType: DateTimeUtils.TimeSpanToString
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString
+      VB:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString*
+        name: TimeSpanToString
+        nameWithType: DateTimeUtils.TimeSpanToString
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.DateTimeUtils.TimeSpanToString
+  System.DateTime:
+    name:
+      CSharp:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      VB:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.DateTime
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  es.efor.Utilities.General.Tools.DateTimeUtils.DateToString*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString*
+        name: DateToString
+        nameWithType: DateTimeUtils.DateToString
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString
+      VB:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString*
+        name: DateToString
+        nameWithType: DateTimeUtils.DateToString
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.DateToString
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.DateTimeUtils.DateToString
+  es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths*
+        name: AddMonths
+        nameWithType: DateTimeUtils.AddMonths
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths
+      VB:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths*
+        name: AddMonths
+        nameWithType: DateTimeUtils.AddMonths
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.DateTimeUtils.AddMonths
+  es.efor.Utilities.General.Tools.DateTimeUtils:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils
+        name: DateTimeUtils
+        nameWithType: DateTimeUtils
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils
+      VB:
+      - id: es.efor.Utilities.General.Tools.DateTimeUtils
+        name: DateTimeUtils
+        nameWithType: DateTimeUtils
+        qualifiedName: es.efor.Utilities.General.Tools.DateTimeUtils
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.Tools.DateTimeUtils
+  es.efor.Utilities.General.Tools.FileUtil.Base64Encode*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil.Base64Encode*
+        name: Base64Encode
+        nameWithType: FileUtil.Base64Encode
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.Base64Encode
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil.Base64Encode*
+        name: Base64Encode
+        nameWithType: FileUtil.Base64Encode
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.Base64Encode
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.Base64Encode
+  es.efor.Utilities.General.Tools.FileUtil.Base64Decode*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil.Base64Decode*
+        name: Base64Decode
+        nameWithType: FileUtil.Base64Decode
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.Base64Decode
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil.Base64Decode*
+        name: Base64Decode
+        nameWithType: FileUtil.Base64Decode
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.Base64Decode
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.Base64Decode
+  es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath*
+        name: GetValidFilePath
+        nameWithType: FileUtil.GetValidFilePath
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath*
+        name: GetValidFilePath
+        nameWithType: FileUtil.GetValidFilePath
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.GetValidFilePath
+  es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix*
+        name: GetFileNameSuffix
+        nameWithType: FileUtil.GetFileNameSuffix
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix*
+        name: GetFileNameSuffix
+        nameWithType: FileUtil.GetFileNameSuffix
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.GetFileNameSuffix
+  es.efor.Utilities.General.Tools.FileUtil.AddToFileName*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil.AddToFileName*
+        name: AddToFileName
+        nameWithType: FileUtil.AddToFileName
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.AddToFileName
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil.AddToFileName*
+        name: AddToFileName
+        nameWithType: FileUtil.AddToFileName
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.AddToFileName
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.AddToFileName
+  System.Int64:
+    name:
+      CSharp:
+      - id: System.Int64
+        name: Int64
+        nameWithType: Int64
+        qualifiedName: System.Int64
+        isExternal: true
+      VB:
+      - id: System.Int64
+        name: Int64
+        nameWithType: Int64
+        qualifiedName: System.Int64
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int64
+  es.efor.Utilities.General.Tools.FileUtil.CheckFileLength*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength*
+        name: CheckFileLength
+        nameWithType: FileUtil.CheckFileLength
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength*
+        name: CheckFileLength
+        nameWithType: FileUtil.CheckFileLength
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil.CheckFileLength
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.FileUtil.CheckFileLength
+  es.efor.Utilities.General.Tools.FileUtil:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.FileUtil
+        name: FileUtil
+        nameWithType: FileUtil
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil
+      VB:
+      - id: es.efor.Utilities.General.Tools.FileUtil
+        name: FileUtil
+        nameWithType: FileUtil
+        qualifiedName: es.efor.Utilities.General.Tools.FileUtil
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.Tools.FileUtil
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+        name: NetworkInterfaceUtils.NetworkInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+        name: NetworkInterfaceUtils.NetworkInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+    isDefinition: true
+    parent: es.efor.Utilities.General.Tools
+    commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation
+  System.Nullable{System.Net.NetworkInformation.NetworkInterfaceType}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Net.NetworkInformation.NetworkInterfaceType
+        name: NetworkInterfaceType
+        nameWithType: NetworkInterfaceType
+        qualifiedName: System.Net.NetworkInformation.NetworkInterfaceType
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Net.NetworkInformation.NetworkInterfaceType
+        name: NetworkInterfaceType
+        nameWithType: NetworkInterfaceType
+        qualifiedName: System.Net.NetworkInformation.NetworkInterfaceType
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.Net.NetworkInformation.NetworkInterfaceType}
+  System.Nullable{System.Net.NetworkInformation.OperationalStatus}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Net.NetworkInformation.OperationalStatus
+        name: OperationalStatus
+        nameWithType: OperationalStatus
+        qualifiedName: System.Net.NetworkInformation.OperationalStatus
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Net.NetworkInformation.OperationalStatus
+        name: OperationalStatus
+        nameWithType: OperationalStatus
+        qualifiedName: System.Net.NetworkInformation.OperationalStatus
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.Net.NetworkInformation.OperationalStatus}
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation*
+        name: GetNetworkInformation
+        nameWithType: NetworkInterfaceUtils.GetNetworkInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation*
+        name: GetNetworkInformation
+        nameWithType: NetworkInterfaceUtils.GetNetworkInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.GetNetworkInformation
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+        name: NetworkInterfaceUtils
+        nameWithType: NetworkInterfaceUtils
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+        name: NetworkInterfaceUtils
+        nameWithType: NetworkInterfaceUtils
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName*
+        name: HostName
+        nameWithType: NetworkInterfaceUtils.NetworkInformation.HostName
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName*
+        name: HostName
+        nameWithType: NetworkInterfaceUtils.NetworkInformation.HostName
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.HostName
+  System.Collections.Generic.IEnumerable{es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+        name: NetworkInterfaceUtils.NetworkInterfaceInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+        name: NetworkInterfaceUtils.NetworkInterfaceInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation}
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces*
+        name: Interfaces
+        nameWithType: NetworkInterfaceUtils.NetworkInformation.Interfaces
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces*
+        name: Interfaces
+        nameWithType: NetworkInterfaceUtils.NetworkInformation.Interfaces
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.Interfaces
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor*
+        name: NetworkInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInformation.NetworkInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.NetworkInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor*
+        name: NetworkInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInformation.NetworkInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.NetworkInformation
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInformation.#ctor
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name*
+        name: Name
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name*
+        name: Name
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Name
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description*
+        name: Description
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description*
+        name: Description
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Description
+  System.Net.NetworkInformation:
+    name:
+      CSharp:
+      - name: System.Net.NetworkInformation
+        nameWithType: System.Net.NetworkInformation
+        qualifiedName: System.Net.NetworkInformation
+        isExternal: true
+      VB:
+      - name: System.Net.NetworkInformation
+        nameWithType: System.Net.NetworkInformation
+        qualifiedName: System.Net.NetworkInformation
+    isDefinition: true
+    commentId: N:System.Net.NetworkInformation
+  System.Net.NetworkInformation.NetworkInterfaceType:
+    name:
+      CSharp:
+      - id: System.Net.NetworkInformation.NetworkInterfaceType
+        name: NetworkInterfaceType
+        nameWithType: NetworkInterfaceType
+        qualifiedName: System.Net.NetworkInformation.NetworkInterfaceType
+        isExternal: true
+      VB:
+      - id: System.Net.NetworkInformation.NetworkInterfaceType
+        name: NetworkInterfaceType
+        nameWithType: NetworkInterfaceType
+        qualifiedName: System.Net.NetworkInformation.NetworkInterfaceType
+        isExternal: true
+    isDefinition: true
+    parent: System.Net.NetworkInformation
+    commentId: T:System.Net.NetworkInformation.NetworkInterfaceType
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type*
+        name: Type
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type*
+        name: Type
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Type
+  System.Net.NetworkInformation.OperationalStatus:
+    name:
+      CSharp:
+      - id: System.Net.NetworkInformation.OperationalStatus
+        name: OperationalStatus
+        nameWithType: OperationalStatus
+        qualifiedName: System.Net.NetworkInformation.OperationalStatus
+        isExternal: true
+      VB:
+      - id: System.Net.NetworkInformation.OperationalStatus
+        name: OperationalStatus
+        nameWithType: OperationalStatus
+        qualifiedName: System.Net.NetworkInformation.OperationalStatus
+        isExternal: true
+    isDefinition: true
+    parent: System.Net.NetworkInformation
+    commentId: T:System.Net.NetworkInformation.OperationalStatus
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status*
+        name: Status
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status*
+        name: Status
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.Status
+  System.Net:
+    name:
+      CSharp:
+      - name: System.Net
+        nameWithType: System.Net
+        qualifiedName: System.Net
+        isExternal: true
+      VB:
+      - name: System.Net
+        nameWithType: System.Net
+        qualifiedName: System.Net
+    isDefinition: true
+    commentId: N:System.Net
+  System.Net.IPAddress:
+    name:
+      CSharp:
+      - id: System.Net.IPAddress
+        name: IPAddress
+        nameWithType: IPAddress
+        qualifiedName: System.Net.IPAddress
+        isExternal: true
+      VB:
+      - id: System.Net.IPAddress
+        name: IPAddress
+        nameWithType: IPAddress
+        qualifiedName: System.Net.IPAddress
+        isExternal: true
+    isDefinition: true
+    parent: System.Net
+    commentId: T:System.Net.IPAddress
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4*
+        name: IPv4
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4*
+        name: IPv4
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.IPv4
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor*:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor*
+        name: NetworkInterfaceInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor*
+        name: NetworkInterfaceInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.NetworkInterfaceInformation
+    isDefinition: true
+    commentId: Overload:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation.#ctor
+  es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation:
+    name:
+      CSharp:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+        name: NetworkInterfaceUtils.NetworkInterfaceInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+      VB:
+      - id: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+        name: NetworkInterfaceUtils.NetworkInterfaceInformation
+        nameWithType: NetworkInterfaceUtils.NetworkInterfaceInformation
+        qualifiedName: es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation
+    isDefinition: true
+    commentId: T:es.efor.Utilities.General.Tools.NetworkInterfaceUtils.NetworkInterfaceInformation

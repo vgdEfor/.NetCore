@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  id: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  name: AccessLoggerDTO
+  nameWithType: AccessLoggerDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs

@@ -1,0 +1,1130 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  commentId: T:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  id: LayoutMenuItem
+  parent: es.efor.Utilities.Web.Models.Layout
+  children:
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild(es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[])
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand(System.String[])
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass
+  - es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands
+  langs:
+  - csharp
+  - vb
+  name: LayoutMenuItem
+  nameWithType: LayoutMenuItem
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LayoutMenuItem
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public class LayoutMenuItem
+    content.vb: Public Class LayoutMenuItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label
+  id: Label
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: LayoutMenuItem.Label
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Label
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 9
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Label As String
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix
+  id: IconPreffix
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: IconPreffix
+  nameWithType: LayoutMenuItem.IconPreffix
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IconPreffix
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 11
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public string IconPreffix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IconPreffix As String
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName
+  id: IconName
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: IconName
+  nameWithType: LayoutMenuItem.IconName
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IconName
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public string IconName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IconName As String
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands
+  id: RouterLinkCommands
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: RouterLinkCommands
+  nameWithType: LayoutMenuItem.RouterLinkCommands
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: RouterLinkCommands
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public IEnumerable<string> RouterLinkCommands { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Property RouterLinkCommands As IEnumerable(Of String)
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass
+  id: RouterLinkActiveCssClass
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: RouterLinkActiveCssClass
+  nameWithType: LayoutMenuItem.RouterLinkActiveCssClass
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: RouterLinkActiveCssClass
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 15
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public string RouterLinkActiveCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RouterLinkActiveCssClass As String
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children
+  id: Children
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: LayoutMenuItem.Children
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Children
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 16
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public IEnumerable<LayoutMenuItem> Children { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Web.Models.Layout.LayoutMenuItem}
+    content.vb: Public Property Children As IEnumerable(Of LayoutMenuItem)
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren
+  commentId: P:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren
+  id: HasChildren
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: HasChildren
+  nameWithType: LayoutMenuItem.HasChildren
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: HasChildren
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public bool HasChildren { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasChildren As Boolean
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand(System.String[])
+  commentId: M:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand(System.String[])
+  id: AddRouterLinkCommand(System.String[])
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: AddRouterLinkCommand(String[])
+  nameWithType: LayoutMenuItem.AddRouterLinkCommand(String[])
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand(System.String[])
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AddRouterLinkCommand
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public LayoutMenuItem AddRouterLinkCommand(params string[] commands)
+    parameters:
+    - id: commands
+      type: System.String[]
+    return:
+      type: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    content.vb: Public Function AddRouterLinkCommand(ParamArray commands As String()) As LayoutMenuItem
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand*
+  nameWithType.vb: LayoutMenuItem.AddRouterLinkCommand(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand(System.String())
+  name.vb: AddRouterLinkCommand(String())
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild(es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[])
+  commentId: M:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild(es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[])
+  id: AddChild(es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[])
+  parent: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  langs:
+  - csharp
+  - vb
+  name: AddChild(LayoutMenuItem[])
+  nameWithType: LayoutMenuItem.AddChild(LayoutMenuItem[])
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild(es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[])
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: AddChild
+    path: ../es.efor.Utilities.Web/Models/Layout/LayoutMenu.cs
+    startLine: 24
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.Layout
+  syntax:
+    content: public LayoutMenuItem AddChild(params LayoutMenuItem[] items)
+    parameters:
+    - id: items
+      type: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[]
+    return:
+      type: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    content.vb: Public Function AddChild(ParamArray items As LayoutMenuItem()) As LayoutMenuItem
+  overload: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild*
+  nameWithType.vb: LayoutMenuItem.AddChild(LayoutMenuItem())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild(es.efor.Utilities.Web.Models.Layout.LayoutMenuItem())
+  name.vb: AddChild(LayoutMenuItem())
+references:
+- uid: es.efor.Utilities.Web.Models.Layout
+  commentId: N:es.efor.Utilities.Web.Models.Layout
+  name: es.efor.Utilities.Web.Models.Layout
+  nameWithType: es.efor.Utilities.Web.Models.Layout
+  fullName: es.efor.Utilities.Web.Models.Layout
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label
+  name: Label
+  nameWithType: LayoutMenuItem.Label
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix
+  name: IconPreffix
+  nameWithType: LayoutMenuItem.IconPreffix
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconPreffix
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName
+  name: IconName
+  nameWithType: LayoutMenuItem.IconName
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.IconName
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands
+  name: RouterLinkCommands
+  nameWithType: LayoutMenuItem.RouterLinkCommands
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkCommands
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass
+  name: RouterLinkActiveCssClass
+  nameWithType: LayoutMenuItem.RouterLinkActiveCssClass
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.RouterLinkActiveCssClass
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children
+  name: Children
+  nameWithType: LayoutMenuItem.Children
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.Children
+- uid: System.Collections.Generic.IEnumerable{es.efor.Utilities.Web.Models.Layout.LayoutMenuItem}
+  commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Web.Models.Layout.LayoutMenuItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<LayoutMenuItem>
+  nameWithType: IEnumerable<LayoutMenuItem>
+  fullName: System.Collections.Generic.IEnumerable<es.efor.Utilities.Web.Models.Layout.LayoutMenuItem>
+  nameWithType.vb: IEnumerable(Of LayoutMenuItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Web.Models.Layout.LayoutMenuItem)
+  name.vb: IEnumerable(Of LayoutMenuItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    name: LayoutMenuItem
+    nameWithType: LayoutMenuItem
+    fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    name: LayoutMenuItem
+    nameWithType: LayoutMenuItem
+    fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren
+  name: HasChildren
+  nameWithType: LayoutMenuItem.HasChildren
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.HasChildren
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand
+  name: AddRouterLinkCommand
+  nameWithType: LayoutMenuItem.AddRouterLinkCommand
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddRouterLinkCommand
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  commentId: T:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  parent: es.efor.Utilities.Web.Models.Layout
+  name: LayoutMenuItem
+  nameWithType: LayoutMenuItem
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild*
+  commentId: Overload:es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild
+  name: AddChild
+  nameWithType: LayoutMenuItem.AddChild
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem.AddChild
+- uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[]
+  isExternal: true
+  name: LayoutMenuItem[]
+  nameWithType: LayoutMenuItem[]
+  fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem[]
+  nameWithType.vb: LayoutMenuItem()
+  fullName.vb: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem()
+  name.vb: LayoutMenuItem()
+  spec.csharp:
+  - uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    name: LayoutMenuItem
+    nameWithType: LayoutMenuItem
+    fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+    name: LayoutMenuItem
+    nameWithType: LayoutMenuItem
+    fullName: es.efor.Utilities.Web.Models.Layout.LayoutMenuItem
+  - name: ()
+    nameWithType: ()
+    fullName: ()

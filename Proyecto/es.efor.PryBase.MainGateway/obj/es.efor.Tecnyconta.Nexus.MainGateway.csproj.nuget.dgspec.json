@@ -1,0 +1,608 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.MainGateway\\es.efor.Tecnyconta.Nexus.MainGateway.csproj": {}
+  },
+  "projects": {
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj",
+        "projectName": "es.efor.PryBase.Nexus.Crosscutting.Main",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj",
+        "projectName": "es.efor.PryBase.Data",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Imports.Model\\es.efor.Tecnyconta.Nexus.Imports.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Imports.Model\\es.efor.Tecnyconta.Nexus.Imports.Model.csproj",
+        "projectName": "es.efor.Tecnyconta.Nexus.Imports.Model",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Imports.Model\\es.efor.Tecnyconta.Nexus.Imports.Model.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Imports.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj",
+        "projectName": "es.efor.PryBase.Infraestructure.DTO",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Login.Model\\es.efor.Tecnyconta.Nexus.Login.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Login.Model\\es.efor.Tecnyconta.Nexus.Login.Model.csproj",
+        "projectName": "es.efor.Tecnyconta.Nexus.Login.Model",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Login.Model\\es.efor.Tecnyconta.Nexus.Login.Model.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Login.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.MainGateway\\es.efor.Tecnyconta.Nexus.MainGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.MainGateway\\es.efor.Tecnyconta.Nexus.MainGateway.csproj",
+        "projectName": "es.efor.Tecnyconta.Nexus.MainGateway",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.MainGateway\\es.efor.Tecnyconta.Nexus.MainGateway.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.MainGateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Crosscutting.Main\\es.efor.PryBase.Nexus.Crosscutting.Main.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Imports.Model\\es.efor.Tecnyconta.Nexus.Imports.Model.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Imports.Model\\es.efor.Tecnyconta.Nexus.Imports.Model.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Login.Model\\es.efor.Tecnyconta.Nexus.Login.Model.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Login.Model\\es.efor.Tecnyconta.Nexus.Login.Model.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.RRHH.Model\\es.efor.Tecnyconta.Nexus.RRHH.Model.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.RRHH.Model\\es.efor.Tecnyconta.Nexus.RRHH.Model.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Users.Model\\es.efor.Tecnyconta.Nexus.Users.Model.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Users.Model\\es.efor.Tecnyconta.Nexus.Users.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.RRHH.Model\\es.efor.Tecnyconta.Nexus.RRHH.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.RRHH.Model\\es.efor.Tecnyconta.Nexus.RRHH.Model.csproj",
+        "projectName": "es.efor.Tecnyconta.Nexus.RRHH.Model",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.RRHH.Model\\es.efor.Tecnyconta.Nexus.RRHH.Model.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.RRHH.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Users.Model\\es.efor.Tecnyconta.Nexus.Users.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Users.Model\\es.efor.Tecnyconta.Nexus.Users.Model.csproj",
+        "projectName": "es.efor.Tecnyconta.Nexus.Users.Model",
+        "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Users.Model\\es.efor.Tecnyconta.Nexus.Users.Model.csproj",
+        "packagesPath": "C:\\Users\\jlusarreta\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Users.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jlusarreta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj": {
+                "projectPath": "C:\\proyectos\\PryBase\\Principal\\es.efor.Tecnyconta.Nexus.Infraestructure.DTO\\es.efor.PryBase.Infraestructure.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

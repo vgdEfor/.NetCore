@@ -1,0 +1,30 @@
+{
+  "name": "musaat-app",
+  "private": true,
+  "scripts": {
+    "ng": "cd es.efor.PryBase.Angular/webapp && npm run ng",
+    "start": "cd es.efor.PryBase.Angular/webapp && npm run start",
+    "postinstall": "cd es.efor.PryBase.Angular/webapp && npm run postinstall",
+    "build": "cd es.efor.PryBase.Angular/webapp && npm run build",
+    "build:dev": "cd es.efor.PryBase.Angular/webapp && npm run build:dev",
+    "build:prod": "cd es.efor.PryBase.Angular/webapp && npm run build:prod",
+    "build:prod-aot": "cd es.efor.PryBase.Angular/webapp && npm run build:prod-aot",
+    "build:prod-jit": "cd es.efor.PryBase.Angular/webapp && npm run build:prod-jit",
+    "build:prod-jit-stats": "cd es.efor.PryBase.Angular/webapp && npm run build:prod-jit-stats",
+    "build:prod-aot-stats": "cd es.efor.PryBase.Angular/webapp && npm run build:prod-aot-stats",
+    "dock:build":"docker build -t musaat-aspnetcore:v0.0.1 .",
+    "kub:apply": "kubectl apply -f ./kuber-pv.yml && kubectl apply -f ./kuber-pvc.yml && kubectl apply -f ./kuber-deployment.yml && kubectl apply -f ./kuber-service.yml",
+    "kub:restart": "kubectl rollout restart deployment musaat-aspnetcore-kubernetes-deploy",
+    "kub:autoscale": "kubectl delete hpa musaat-aspnetcore-kubernetes-deploy && kubectl autoscale deployment musaat-aspnetcore-kubernetes-deploy --min=2 --max=10",
+    "kub:deploy": "npm run kub:apply && npm run kub:restart && npm run kub:autoscale",
+    "deploy": "npm run build:prod && npm run dock:build && npm run kub:deploy",
+    "swagger": "cd es.efor.PryBase.Angular/webapp && npm run swagger",
+    "translate": "cd es.efor.PryBase.Angular/webapp && npm run translate",
+    "test": "cd es.efor.PryBase.Angular/webapp && npm run test",
+    "lint": "cd es.efor.PryBase.Angular/webapp && npm run lint",
+    "e2e": "cd es.efor.PryBase.Angular/webapp && npm run e2e",
+    "stats": "cd es.efor.PryBase.Angular/webapp && npm run stats",
+    "stats:prod": "cd es.efor.PryBase.Angular/webapp && npm run stats:prod",
+    "analyze": "cd es.efor.PryBase.Angular/webapp && npm run analyze"
+  }
+}

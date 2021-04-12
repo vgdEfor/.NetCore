@@ -1,0 +1,50 @@
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_mixins';
+@import '~src/styles.bootstrap.variables.scss';
+@import '~bootstrap/scss/_variables';
+
+:host {
+    tr.row-filter>*:first-child {
+        padding-left: 0.7rem;
+    }
+    tr.row-filter>*:last-child {
+        padding-right: 0.7rem;
+    }
+    td,
+    th {
+        &.cell-narrow {
+            width: 1px;
+        }
+        .col-filter {
+            overflow: hidden;
+            transition: height .3s, max-height .3s;
+            max-height: 40px;
+            &.filter-hidden {
+                max-height: 0px;
+            }
+        }
+    }
+    .dt-toolbar {
+        .btn {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+
+    ::ng-deep pagination {
+        .pagination-page {
+            &.page-item {
+                &.active {
+                    .page-link {
+                        background-color: color("white");
+                        border: 1px solid theme-color("primary");
+                        color: theme-color("primary");
+                        font-weight: bold;
+                        box-shadow: inset 0px -16px 0px -13px theme-color("primary");
+                        // text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

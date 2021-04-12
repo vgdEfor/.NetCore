@@ -1,0 +1,225 @@
+<h2 class="section-title my-4">{{'PAGE.EMPLOYEES.LIST.TITLE' | translate}}</h2>
+
+<ax-bs-datatable
+    [columns]="dtColumns"
+    [actionButtonShowRefresh]="false"
+    urlData="api/employees/datatable"
+    ></ax-bs-datatable>
+    <!--[dataGetterFn]="filterDataTableGetterFn"-->
+
+<button #botonTablaAlt class="btn-primary" (click)="mostrarTabla=!mostrarTabla">Mostar tabla alternativa</button><br>
+
+<div #tablaAlt [collapse]="mostrarTabla" [isAnimated]="true">
+
+<h4>Método de cargado de tabla alternativo: GetterFn</h4>
+
+    <ax-bs-datatable
+    [columns]="dtColumns"
+    [actionButtonShowRefresh]="false"
+    [dataGetterFn]="filterDataTableGetterFn"
+    ></ax-bs-datatable>
+
+</div>
+
+<br>
+<button #botonDocumentacion class="btn-primary" (click)="mostrarDoc=!mostrarDoc">Mostar documentación</button>
+
+<div #documentacion [collapse]="mostrarDoc" [isAnimated]="true">
+<hr>
+<h4>DOCUMENTACIÓN</h4>
+<p>Para crear la siguiente tabla usaremos el siguiente código:</p>
+<pre>
+<code>
+        &lt;ax-bs-datatable
+        [columns]&#61;"dtColumns"
+        [actionButtonShowRefresh]&#61;"false"
+        urlData&#61;"api/employees/datatable"
+        &gt;&lt;/ax-bs-datatable&gt;
+</code>
+</pre>
+<p>
+dtColumns será la variable que guarde las columnas en nuestro componente.
+</p>
+<pre>
+<code>
+        dtColumns: DtColumnItem&lt;Employee&gt;[] = [];
+</code>
+</pre>
+<p>urlData se encargará de acceder a la ruta marcada para extraer los datos de la lista en el servidor. Podemos usar un método alternativo con getterFn para cargar la tabla:</p>
+<pre>
+<code>
+    &lt;ax-bs-datatable
+    [columns]&#61;"dtColumns"
+    [actionButtonShowRefresh]&#61;"false"
+    [dataGetterFn]&#61;"filterDataTableGetterFn"
+    &gt;&lt;/ax-bs-datatable&gt;
+</code>
+</pre>
+<p>dataGetterFn sustituirá a urlData. filterDataTableGetterFn será la variable que se encargue de cargar los datos de la tabla:</p>
+<pre>
+<code>
+    filterDataTableGetterFn: DtDataGetterFn&lt;Employee&gt;;
+</code>
+</pre>
+<p>Para cargar los datos en la variable usaremos el siguiente código en el componente:</p>
+<pre>
+<code>
+    this.filterDataTableGetterFn = (queryParams, filters) =&gt; &#123;
+    return this.employeesSV.apiEmployeesDatatablePost$Json(&#123;body:filters as any,pi:queryParams.pi as any,ps:queryParams.ps as any&#125;)
+    .pipe(first())
+    .pipe(map((d) =&gt; new DtApiResponse&lt;Employee&gt;().setData(&#123;
+      items:d.items,
+      pageIndex:Number(queryParams.pi),
+      pageSize:Number(queryParams.ps),
+      total:d.total
+    &#125;)
+    )).toPromise();
+  &#125;;
+  &#125;;
+</code>
+</pre>
+<p>De está forma accederemos a la api y maparemos los datos con el formato que acepta datatable.</p>
+<p>Para establecer las columnas de la tabla modificaremos la variable dtColumns:</p>
+<pre>
+<code>
+        this.dtColumns = []
+</code>
+</pre>
+<p>Dentro de los corchetes añadiremos los disitintos DTColumnItem. A cada DtColumnItem podemos añadirle las siguientes opciones:</p>
+<p>
+- columnName (string) - Nombre que tendrá la columna.<br>
+- field (string) - Variable del componente que mostrará la columna.<br>
+- fieldDisplayWrapperClass (string) - Clase que se asignará al div contenido en cada td de la columna<br>
+- fieldDisplayType (FieldDisplayType) - Indica el tipo de campo que mostrará la columna. Los valores posibles a indicar son: 'text', 'html', 'url', 'boolean', 'date', 'datetime', 'time', 'currency', 'array'.<br>
+- fieldDisplayPreffix (string) - Añade un texto delante de cada valor en cada fila de la columna.<br>
+- fieldDisplaySuffix (string) - Añade un texto detrás de cada valor en cada fila de la columna.<br>
+- fieldDisplayMiddleware (FieldDisplayMiddleware&lt;TRow, TCellValue&gt;) - Nos permite formatear los datos de la celda de la forma deseada. Por ejemplo, para añadir el prefijo "AX-" delante de cada dato usaríamos:<br>
+</p>
+<pre>
+<code>
+        fieldDisplayMiddleware: (data) => &#123; 
+            return ('AX-' + data);
+        &#125;
+</code>
+</pre>
+<p> 
+- fieldDisplayFormatDate (string), fieldDisplayFormatTime (string) y fieldDisplayFormatDateTime (string) - Indica el formato de fecha y hora en el caso de que sea un campo de fecha y/o hora. Puedes ver los distintos formartos que se pueden aplicar desde <a href="https://momentjs.com/docs/#/parsing/string-format/" target="_black">aquí</a>.<br>
+- filter (boolean) - Indica si se podrá filtrar por la columna de la tabla.<br>
+- filterItem (DtFilterItem&lt;unknown&gt;) - Personaliza el campo de filtrado de la columna. Podemos asignarle los siguientes valores al filterItem:<br>
+</p>
+<ul>
+    <li>field (string) - Variable a modificar por el filtro.</li>
+    <li>value (TValue) - Valor que tendrá el filtro por defecto</li>
+    <li>op (FilterOpType) - Tipo de operador que usará el filtro. Las opciones son: Eq (Equal), Ne (Not equal), EqualOrNotEqual (equal and not equal), Lt (less than), Le (Less or equal), Gt (Greater), Ge (Greater or equal), Bw (Begins with), Bn (Does not begin with), In (Is in), Ni (Is not in), Ew (Ends with), En (Does not end with), Cn (Contains), Nc (Does not contain), Nu (Is null), Nn(Is not null), NoTextOperators, TextOperators, NullOperators.</li>
+    <li>format (FilterFormatType) - Indica el formato del filtro. Las opciones son: Literal, String, DateTime, Guid, Date = 2, Bool, Int.</li>
+    <li>options (LabelAndValueExtended&lt;TValue, any&gt;[]) - Añade opciones extra al filtro.</li>
+    <li>type (AxBsDatatableFilterType) - Tipo de input que usará el filtro. Las opciones son: text, textarea, date, number, dataselect, autocomplete = 5, daterange = 6.</li>
+    <li>getterFn (BsAutocompleteGetterFn&lt;TFilterValue&gt; | BsFormSelectGetterFn&lt;TFilterValue&gt;) - Variable getterFn que servirá para generar los datos del filtro si este es un dataselect o un autocomplete.</li>
+    <li>filterText (string) - Texto por defecto para el filtro si es de tipo autocomplete.</li>
+</ul>
+        
+<p>
+Por ejemplo, podemos establecer un datepicker para el filtro de la siguiente forma:
+</p>
+<pre>
+<code>
+    filterItem:  new DtFilterItem().setData(&#123;
+        format:FilterFormatType.Date,
+        type:AxBsDatatableFilterType.date,
+        &#125;)
+</code>
+</pre>
+
+<p>  
+- sort: (boolean) - Indica si se podrá ordenar por la columna de la tabla.<br>
+- isSorting (boolean) - Indica si se está ordenando por la columna.<br>
+- sortDirection (SortDirection) - Indica el sentido en que se hace la ordenación. Las opciones son: Ascendent = 0, Descendent = 1.<br>
+- buttons (DtActionColumnButton&lt;TRow, TCellValue&gt;[]) - Añade botones a la columna. Ver ejemplo debajo.<br>
+- buttonWrapperClass (string) - Clase que se asignará al div que contiene los botones en la columna.<br>
+- thTHeadClass (string) - Clase que se asignará al th de la columna<br><br>
+    
+Otros campos que puedes añadir son:
+- fieldExcelExportMiddleware (FieldDisplayMiddleware&lt;TRow, TCellValue&gt;) Nos permite formatear los datos de la celda de la forma deseada cuando son exportados a excel.<br>
+- fieldDisplay (string)<br>
+- isBooleanFalseIcon (ColumnItemIconDefinition)<br>
+- isBooleanBooleanIcon (ColumnItemIconDefinition)<br>
+- valueIcons (ColumnItemIconConfig&lt;TCellValue&gt;[])<br>
+- fieldCssClass (string)<br>
+</p>
+<h4>Ejemplo de DtColumns para una tabla</h4>
+<p> La primera columna de la tabla será el botón de detalles:</p>
+<pre>
+<code>
+        new DtColumnItem().setData(&#123;
+            thTHeadClass: 'cell-narrow',
+            buttons: [
+            new DtActionColumnButton&lt;Employee, string&gt;().setData(&#123;
+                url: '/empleados/employees/details/&#123;id&#125;',
+                urlTarget: '_self',
+                iconPreffix: 'fas',
+                iconName: 'eye',
+                btnClass: 'btn btn-outline-secondary btn-sm',
+            &#125;),
+            ],
+            &#125;),
+</code>
+</pre>
+<p>Para añadir una columna de un campo de texto añadiremos el siguiente código a dtColumns:</p>
+<pre>
+<code>
+        new DtColumnItem().setData(&#123;
+            columnName: 'Nombre',
+            field: 'name',
+            filter: true,
+            &#125;),
+</code>
+</pre>
+<p>columnName indica el nombre que se mostrará en el header de la columna field será el nombre del atributo del objeto que queremos mostrar en la columna filter indica si se podrá filtrar por esa columna
+
+Para los campos que se traten de una fecha añadiremos el siguiente código adicional:</p>
+<pre>
+<code>
+        fieldDisplayType: 'datetime',
+        fieldDisplayMiddleware: (data) => &#123;
+            if (data == null) &#123; return ''; &#125;
+            const transformed = this.dPipe.transform(data, this.translateSV.instant('FORMAT.DATETIME'));
+            return transformed;
+        &#125;
+</code>
+</pre>
+<p>
+    Primero se va a crear una variable BsFormSelectGetterFn para obtener las position. Para ello, crearemos el <br>
+    método que se encargará de traernos estos datos desde la api y mappearlos para poder ser usados.<br>
+    Inicializamos este metodo dentro del initDatatables().
+</p>
+<pre>
+    this.filtroPosition = async ()=>&#123;
+        const fromApi = await this.employeesSV.apiEmployeesPositionlistGet$Json(&#123;&#125;)
+        .pipe(first())
+        .toPromise();
+        return fromApi.map(dvalue => new LabelAndValueExtended&lt;number&gt;().setData( &#123;
+           label: dvalue.data,
+           value: dvalue.value
+           &#125;));
+        &#125;;
+</pre>
+<br>
+<p>
+   Una vez creamos el metodo, pasamos a añadirselo al dtColumns para que cree una columna que se pueda filtrar <br>
+   por los valores que le pasaremos. Para ello, cuando creamos un filterItem, le pasamos esta variable BsFormSelectGetterFn<br>
+   creada con anterioridad y ya inicializada al getterFn.
+</p>
+<pre>
+    new DtColumnItem().setData(&#123;
+        columnName: 'Posición',
+        field: 'position',
+        filter: true,
+        filterItem: new DtFilterItem().setData(&#123;
+          format:FilterFormatType.Int,
+          type:AxBsDatatableFilterType.autocomplete,
+          getterFn: this.filtroPosition
+          &#125;)
+        &#125;),
+</pre>
+
+</div>

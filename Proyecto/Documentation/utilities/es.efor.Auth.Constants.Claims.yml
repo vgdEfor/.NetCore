@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Constants.Claims
+  commentId: N:es.efor.Auth.Constants.Claims
+  id: es.efor.Auth.Constants.Claims
+  children:
+  - es.efor.Auth.Constants.Claims.AppClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Constants.Claims
+  nameWithType: es.efor.Auth.Constants.Claims
+  fullName: es.efor.Auth.Constants.Claims
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Constants.Claims.AppClaimTypes
+  commentId: T:es.efor.Auth.Constants.Claims.AppClaimTypes
+  name: AppClaimTypes
+  nameWithType: AppClaimTypes
+  fullName: es.efor.Auth.Constants.Claims.AppClaimTypes

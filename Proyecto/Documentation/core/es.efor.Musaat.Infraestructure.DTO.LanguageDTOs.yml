@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  id: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.LanguageDTOs.Language_Dto
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs.Language_Dto
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.LanguageDTOs.Language_Dto
+  name: Language_Dto
+  nameWithType: Language_Dto
+  fullName: es.efor.Musaat.Infraestructure.DTO.LanguageDTOs.Language_Dto

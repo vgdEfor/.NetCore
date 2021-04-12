@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  commentId: N:es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  id: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  children:
+  - es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicyModelView
+  - es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicySectionModelView
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  nameWithType: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Policies.Models
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicyModelView
+  commentId: T:es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicyModelView
+  name: PolicyModelView
+  nameWithType: PolicyModelView
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicyModelView
+- uid: es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicySectionModelView
+  commentId: T:es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicySectionModelView
+  name: PolicySectionModelView
+  nameWithType: PolicySectionModelView
+  fullName: es.efor.Utilities.Web.Identity.Authorization.Policies.Models.PolicySectionModelView

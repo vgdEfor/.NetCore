@@ -1,0 +1,143 @@
+<h2 class="section-title my-4">{{'PAGE.INSURANCE.DETAILS.TITLE' | translate}}</h2>
+
+<form (ngSubmit)="onBtnSave($event)" autocomplete="off">
+    <div class="form-row">
+        <div class="col form-group">
+            <label #lblName for="Name" [tooltip]="'PAGE.INSURANCE.DETAILS.TOOLTIP.NAME' | translate "
+                class="text-nowrap">
+                <fa-icon [icon]="['fas', 'user-circle']" ></fa-icon>
+                {{'PAGE.INSURANCE.DETAILS.LABEL.NAME' | translate}}
+            </label>
+            <input type="text" autocomplete="off" class="form-control form-control-sm"
+                [id]="lblName.getAttribute('for')" [name]="lblName.getAttribute('for')"
+                [(ngModel)]="_item.name"
+                [disabled]="_isLoading"
+                [required]="true">
+            <app-array-translator class="invalid-feedback d-block"
+                [labels]="_itemErrors[lblName.getAttribute('for')]"></app-array-translator>
+        </div>
+        <div class="col form-group">
+            <label #lblSurname1 for="Surname1" [tooltip]="'PAGE.INSURANCE.DETAILS.TOOLTIP.SURNAME1' | translate "
+                class="text-nowrap">
+                <fa-icon [icon]="['fas', 'user-circle']" ></fa-icon>
+                {{'PAGE.INSURANCE.DETAILS.LABEL.SURNAME1' | translate}}
+            </label>
+            <input type="text" autocomplete="off" class="form-control form-control-sm"
+                [id]="lblSurname1.getAttribute('for')" [name]="lblSurname1.getAttribute('for')"
+                [(ngModel)]="_item.surname1"
+                [disabled]="_isLoading"
+                [required]="true">
+            <app-array-translator class="invalid-feedback d-block"
+                [labels]="_itemErrors[lblSurname1.getAttribute('for')]"></app-array-translator>
+        </div>
+        <div class="col form-group">
+            <label #lblSurname2 for="Surname2" [tooltip]="'PAGE.INSURANCE.DETAILS.TOOLTIP.SURNAME2' | translate "
+                class="text-nowrap">
+                <fa-icon [icon]="['fas', 'user-circle']" ></fa-icon>
+                {{'PAGE.INSURANCE.DETAILS.LABEL.SURNAME2' | translate}}
+            </label>
+            <input type="text" autocomplete="off" class="form-control form-control-sm"
+                [id]="lblSurname2.getAttribute('for')" [name]="lblSurname2.getAttribute('for')"
+                [(ngModel)]="_item.surname2"
+                [disabled]="_isLoading">
+            <app-array-translator class="invalid-feedback d-block"
+                [labels]="_itemErrors[lblSurname2.getAttribute('for')]"></app-array-translator>
+        </div>
+    </div>
+
+    <div class="form-row pb-5">
+        <div class="col form-group">
+            <label #lblDatetime [attr.for]="'Post.DatetimeStart'" [tooltip]="'PAGE.INSURANCE.DETAILS.TOOLTIP.DATETIME' | translate ">
+                <fa-icon [icon]="['fas', 'calendar-day']"></fa-icon>
+                {{'PAGE.INSURANCE.DETAILS.LABEL.DATETIME' | translate}}
+            </label>
+            <div class="input-group input-group-sm">
+                <input type="text"
+                    [id]="lblDatetime.getAttribute('for')" [name]="lblDatetime.getAttribute('for')"
+                    placeholder="Datepicker"
+                    class="form-control"
+                    bsDatepicker
+                    [bsValue]="_item.datetime"
+                    (bsValueChange)="onDatepicketValueChange($event, 'datetime')">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-danger"
+                        type="button"
+                        [disabled]="_item.datetime == null"
+                        (click)="onDatepicketValueChange(null, 'datetime')">
+                        <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+                    </button>
+                </div>
+            </div>
+            <app-array-translator class="invalid-feedback d-block" [labels]="_itemErrors[lblDatetime.getAttribute('for')]">
+            </app-array-translator>
+        </div>
+        <div class="col form-group">
+            <label #lblAmount for="Amount" [tooltip]="'PAGE.INSURANCE.DETAILS.TOOLTIP.AMOUNT' | translate "
+                class="text-nowrap">
+                <fa-icon [icon]="['fas', 'money-bill']" ></fa-icon>
+                {{'PAGE.INSURANCE.DETAILS.LABEL.NAME' | translate}}
+            </label>
+            <input type="text" autocomplete="off" class="form-control form-control-sm"
+                [id]="lblAmount.getAttribute('for')" [name]="lblAmount.getAttribute('for')"
+                [value]="_item.amount | decimalToString:2:2:'-'"
+                (change)="onTextNumberValueChange($event, 'amount')"
+                [disabled]="_isLoading">
+            <app-array-translator class="invalid-feedback d-block"
+                [labels]="_itemErrors[lblAmount.getAttribute('for')]"></app-array-translator>
+        </div>
+
+        <div class="col form-group align-self-end">
+            <ng-container [ngTemplateOutlet]="tmplBooleanCheckbox"
+                [ngTemplateOutletContext]="{
+                    propertyName: 'isPremium',
+                    label: 'PAGE.INSURANCE.DETAILS.LABEL.ISPREMIUM'| translate
+                }">
+            </ng-container>
+        </div>
+    </div>
+
+    <div class="row footer-formbuttons position-fixed w-100">
+        <div class="col text-right">
+            <!-- <div class="btn-group"> -->
+                <button type="button" *ngIf="_item.id"
+                    class="btn btn-secondary mr-1"
+                    [routerLink]="['/insurance']">
+                    <fa-icon [icon]="['fas', 'chevron-left']"></fa-icon>
+                    {{'GENERIC.BTN.GOTO.LIST' | translate}}
+                </button>
+                <button type="submit" class="btn btn-primary mx-1" [disabled]="_isLoading">
+                    <ng-container *ngIf="_isLoading">
+                        <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
+                        {{'GENERIC.LABEL.LOADING' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="!_isLoading">
+                        <fa-icon [icon]="['fas', 'save']"></fa-icon>
+                        {{'GENERIC.BTN.SAVE' | translate}}
+                    </ng-container>
+                </button>
+                <button type="button" *ngIf="_item.id"
+                    class="btn btn-danger ml-1">
+                    <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+                    {{'GENERIC.BTN.DELETE' | translate}}
+                </button>
+            <!-- </div> -->
+        </div>
+    </div>
+</form>
+
+
+<ng-template #tmplBooleanCheckbox
+    let-pn="propertyName"
+    let-lbl="label">
+    <div class="form-check form-check-inline custom-checkbox">
+        <input [id]="pn" [name]="pn"
+            class="form-check-input custom-control-input"
+            type="checkbox"
+            [checked]="_item[pn]"
+            (change)="onBooleanCheckboxToggle(pn)"
+            [disabled]="_isLoading">
+        <label class="custom-control-label form-check-label" [attr.for]="pn">
+            {{lbl}}
+        </label>
+    </div>
+</ng-template>

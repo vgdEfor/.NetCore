@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Middlewares
+  commentId: N:es.efor.Auth.Middlewares
+  id: es.efor.Auth.Middlewares
+  children:
+  - es.efor.Auth.Middlewares.ClaimRefreshMiddleware`5
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Middlewares
+  nameWithType: es.efor.Auth.Middlewares
+  fullName: es.efor.Auth.Middlewares
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Middlewares.ClaimRefreshMiddleware`5
+  commentId: T:es.efor.Auth.Middlewares.ClaimRefreshMiddleware`5
+  name: ClaimRefreshMiddleware<TKey, TUser, TSignInManager, TUserManager, TRole>
+  nameWithType: ClaimRefreshMiddleware<TKey, TUser, TSignInManager, TUserManager, TRole>
+  fullName: es.efor.Auth.Middlewares.ClaimRefreshMiddleware<TKey, TUser, TSignInManager, TUserManager, TRole>
+  nameWithType.vb: ClaimRefreshMiddleware(Of TKey, TUser, TSignInManager, TUserManager, TRole)
+  fullName.vb: es.efor.Auth.Middlewares.ClaimRefreshMiddleware(Of TKey, TUser, TSignInManager, TUserManager, TRole)
+  name.vb: ClaimRefreshMiddleware(Of TKey, TUser, TSignInManager, TUserManager, TRole)
+  spec.csharp:
+  - uid: es.efor.Auth.Middlewares.ClaimRefreshMiddleware`5
+    name: ClaimRefreshMiddleware
+    nameWithType: ClaimRefreshMiddleware
+    fullName: es.efor.Auth.Middlewares.ClaimRefreshMiddleware
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSignInManager
+    nameWithType: TSignInManager
+    fullName: TSignInManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUserManager
+    nameWithType: TUserManager
+    fullName: TUserManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Middlewares.ClaimRefreshMiddleware`5
+    name: ClaimRefreshMiddleware
+    nameWithType: ClaimRefreshMiddleware
+    fullName: es.efor.Auth.Middlewares.ClaimRefreshMiddleware
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSignInManager
+    nameWithType: TSignInManager
+    fullName: TSignInManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUserManager
+    nameWithType: TUserManager
+    fullName: TUserManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )

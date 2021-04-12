@@ -1,0 +1,1088 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Utilities.JwtUtilities
+  commentId: T:es.efor.Auth.Utilities.JwtUtilities
+  id: JwtUtilities
+  parent: es.efor.Auth.Utilities
+  children:
+  - es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(es.efor.Auth.Models.Entities.User,es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User})
+  - es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  - es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  - es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken``1(Microsoft.AspNetCore.Identity.IdentityUser{``0},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{``0}})
+  - es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken``3(``1,``2)
+  langs:
+  - csharp
+  - vb
+  name: JwtUtilities
+  nameWithType: JwtUtilities
+  fullName: es.efor.Auth.Utilities.JwtUtilities
+  type: Class
+  source:
+    remote:
+      path: es.efor.Auth/Utilities/JwtUtilities.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: JwtUtilities
+    path: ../es.efor.Auth/Utilities/JwtUtilities.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Utilities
+  syntax:
+    content: public static class JwtUtilities
+    content.vb: Public Module JwtUtilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  commentId: M:es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  id: GetAuthBearerToken(System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  parent: es.efor.Auth.Utilities.JwtUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetAuthBearerToken(String, String, String, String, IEnumerable<Claim>)
+  nameWithType: JwtUtilities.GetAuthBearerToken(String, String, String, String, IEnumerable<Claim>)
+  fullName: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.String, System.String, System.String, System.String, System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Utilities/JwtUtilities.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAuthBearerToken
+    path: ../es.efor.Auth/Utilities/JwtUtilities.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Utilities
+  syntax:
+    content: public static Task<JsonWebTokenResponse> GetAuthBearerToken(string stringifiedUserId, string userName, string name = null, string email = null, IEnumerable<Claim> extraClaims = null)
+    parameters:
+    - id: stringifiedUserId
+      type: System.String
+    - id: userName
+      type: System.String
+    - id: name
+      type: System.String
+    - id: email
+      type: System.String
+    - id: extraClaims
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+    content.vb: Public Shared Function GetAuthBearerToken(stringifiedUserId As String, userName As String, name As String = Nothing, email As String = Nothing, extraClaims As IEnumerable(Of Claim) = Nothing) As Task(Of JsonWebTokenResponse)
+  overload: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken*
+  nameWithType.vb: JwtUtilities.GetAuthBearerToken(String, String, String, String, IEnumerable(Of Claim))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.String, System.String, System.String, System.String, System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim))
+  name.vb: GetAuthBearerToken(String, String, String, String, IEnumerable(Of Claim))
+- uid: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  commentId: M:es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  id: GetAuthBearerToken(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  parent: es.efor.Auth.Utilities.JwtUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetAuthBearerToken(IEnumerable<Claim>)
+  nameWithType: JwtUtilities.GetAuthBearerToken(IEnumerable<Claim>)
+  fullName: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Utilities/JwtUtilities.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAuthBearerToken
+    path: ../es.efor.Auth/Utilities/JwtUtilities.cs
+    startLine: 35
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Utilities
+  syntax:
+    content: public static Task<JsonWebTokenResponse> GetAuthBearerToken(IEnumerable<Claim> claims)
+    parameters:
+    - id: claims
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+    content.vb: Public Shared Function GetAuthBearerToken(claims As IEnumerable(Of Claim)) As Task(Of JsonWebTokenResponse)
+  overload: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken*
+  nameWithType.vb: JwtUtilities.GetAuthBearerToken(IEnumerable(Of Claim))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim))
+  name.vb: GetAuthBearerToken(IEnumerable(Of Claim))
+- uid: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(es.efor.Auth.Models.Entities.User,es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User})
+  commentId: M:es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(es.efor.Auth.Models.Entities.User,es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User})
+  id: GetAuthBearerToken(es.efor.Auth.Models.Entities.User,es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User})
+  parent: es.efor.Auth.Utilities.JwtUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetAuthBearerToken(User, IdentityUserManager<Guid, User>)
+  nameWithType: JwtUtilities.GetAuthBearerToken(User, IdentityUserManager<Guid, User>)
+  fullName: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(es.efor.Auth.Models.Entities.User, es.efor.Auth.Managers.IdentityUserManager<System.Guid, es.efor.Auth.Models.Entities.User>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Utilities/JwtUtilities.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAuthBearerToken
+    path: ../es.efor.Auth/Utilities/JwtUtilities.cs
+    startLine: 53
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Utilities
+  syntax:
+    content: public static Task<JsonWebTokenResponse> GetAuthBearerToken(User user, IdentityUserManager<Guid, User> userManager)
+    parameters:
+    - id: user
+      type: es.efor.Auth.Models.Entities.User
+    - id: userManager
+      type: es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User}
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+    content.vb: Public Shared Function GetAuthBearerToken(user As User, userManager As IdentityUserManager(Of Guid, User)) As Task(Of JsonWebTokenResponse)
+  overload: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken*
+  nameWithType.vb: JwtUtilities.GetAuthBearerToken(User, IdentityUserManager(Of Guid, User))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(es.efor.Auth.Models.Entities.User, es.efor.Auth.Managers.IdentityUserManager(Of System.Guid, es.efor.Auth.Models.Entities.User))
+  name.vb: GetAuthBearerToken(User, IdentityUserManager(Of Guid, User))
+- uid: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken``1(Microsoft.AspNetCore.Identity.IdentityUser{``0},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{``0}})
+  commentId: M:es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken``1(Microsoft.AspNetCore.Identity.IdentityUser{``0},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{``0}})
+  id: GetAuthBearerToken``1(Microsoft.AspNetCore.Identity.IdentityUser{``0},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{``0}})
+  parent: es.efor.Auth.Utilities.JwtUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetAuthBearerToken<TKey>(IdentityUser<TKey>, UserManager<IdentityUser<TKey>>)
+  nameWithType: JwtUtilities.GetAuthBearerToken<TKey>(IdentityUser<TKey>, UserManager<IdentityUser<TKey>>)
+  fullName: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken<TKey>(Microsoft.AspNetCore.Identity.IdentityUser<TKey>, Microsoft.AspNetCore.Identity.UserManager<Microsoft.AspNetCore.Identity.IdentityUser<TKey>>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Utilities/JwtUtilities.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAuthBearerToken
+    path: ../es.efor.Auth/Utilities/JwtUtilities.cs
+    startLine: 57
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Utilities
+  syntax:
+    content: >-
+      public static Task<JsonWebTokenResponse> GetAuthBearerToken<TKey>(IdentityUser<TKey> user, UserManager<IdentityUser<TKey>> userManager)
+
+          where TKey : IEquatable<TKey>
+    parameters:
+    - id: user
+      type: Microsoft.AspNetCore.Identity.IdentityUser{{TKey}}
+    - id: userManager
+      type: Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{{TKey}}}
+    typeParameters:
+    - id: TKey
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+    content.vb: Public Shared Function GetAuthBearerToken(Of TKey As IEquatable(Of TKey))(user As IdentityUser(Of TKey), userManager As UserManager(Of IdentityUser(Of TKey))) As Task(Of JsonWebTokenResponse)
+  overload: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken*
+  nameWithType.vb: JwtUtilities.GetAuthBearerToken(Of TKey)(IdentityUser(Of TKey), UserManager(Of IdentityUser(Of TKey)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(Of TKey)(Microsoft.AspNetCore.Identity.IdentityUser(Of TKey), Microsoft.AspNetCore.Identity.UserManager(Of Microsoft.AspNetCore.Identity.IdentityUser(Of TKey)))
+  name.vb: GetAuthBearerToken(Of TKey)(IdentityUser(Of TKey), UserManager(Of IdentityUser(Of TKey)))
+- uid: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken``3(``1,``2)
+  commentId: M:es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken``3(``1,``2)
+  id: GetAuthBearerToken``3(``1,``2)
+  parent: es.efor.Auth.Utilities.JwtUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetAuthBearerToken<TKey, TUser, TUserManager>(TUser, TUserManager)
+  nameWithType: JwtUtilities.GetAuthBearerToken<TKey, TUser, TUserManager>(TUser, TUserManager)
+  fullName: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken<TKey, TUser, TUserManager>(TUser, TUserManager)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Utilities/JwtUtilities.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAuthBearerToken
+    path: ../es.efor.Auth/Utilities/JwtUtilities.cs
+    startLine: 62
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Utilities
+  syntax:
+    content: >-
+      public static Task<JsonWebTokenResponse> GetAuthBearerToken<TKey, TUser, TUserManager>(TUser user, TUserManager userManage)
+
+          where TKey : IEquatable<TKey> where TUser : IdentityUser<TKey> where TUserManager : UserManager<TUser>
+    parameters:
+    - id: user
+      type: '{TUser}'
+    - id: userManage
+      type: '{TUserManager}'
+    typeParameters:
+    - id: TKey
+    - id: TUser
+    - id: TUserManager
+    return:
+      type: System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+    content.vb: Public Shared Function GetAuthBearerToken(Of TKey As IEquatable(Of TKey), TUser As IdentityUser(Of TKey), TUserManager As UserManager(Of TUser))(user As TUser, userManage As TUserManager) As Task(Of JsonWebTokenResponse)
+  overload: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken*
+  nameWithType.vb: JwtUtilities.GetAuthBearerToken(Of TKey, TUser, TUserManager)(TUser, TUserManager)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken(Of TKey, TUser, TUserManager)(TUser, TUserManager)
+  name.vb: GetAuthBearerToken(Of TKey, TUser, TUserManager)(TUser, TUserManager)
+references:
+- uid: es.efor.Auth.Utilities
+  commentId: N:es.efor.Auth.Utilities
+  name: es.efor.Auth.Utilities
+  nameWithType: es.efor.Auth.Utilities
+  fullName: es.efor.Auth.Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken*
+  commentId: Overload:es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken
+  name: GetAuthBearerToken
+  nameWithType: JwtUtilities.GetAuthBearerToken
+  fullName: es.efor.Auth.Utilities.JwtUtilities.GetAuthBearerToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Claim>
+  nameWithType: IEnumerable<Claim>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
+  nameWithType.vb: IEnumerable(Of Claim)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim)
+  name.vb: IEnumerable(Of Claim)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+  commentId: T:System.Threading.Tasks.Task{es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<JsonWebTokenResponse>
+  nameWithType: Task<JsonWebTokenResponse>
+  fullName: System.Threading.Tasks.Task<es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse>
+  nameWithType.vb: Task(Of JsonWebTokenResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse)
+  name.vb: Task(Of JsonWebTokenResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+    name: JsonWebTokenResponse
+    nameWithType: JsonWebTokenResponse
+    fullName: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+    name: JsonWebTokenResponse
+    nameWithType: JsonWebTokenResponse
+    fullName: es.efor.Auth.Identity.Models.Api.JsonWebTokenResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: es.efor.Auth.Models.Entities.User
+  commentId: T:es.efor.Auth.Models.Entities.User
+  parent: es.efor.Auth.Models.Entities
+  name: User
+  nameWithType: User
+  fullName: es.efor.Auth.Models.Entities.User
+- uid: es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User}
+  commentId: T:es.efor.Auth.Managers.IdentityUserManager{System.Guid,es.efor.Auth.Models.Entities.User}
+  parent: es.efor.Auth.Managers
+  definition: es.efor.Auth.Managers.IdentityUserManager`2
+  name: IdentityUserManager<Guid, User>
+  nameWithType: IdentityUserManager<Guid, User>
+  fullName: es.efor.Auth.Managers.IdentityUserManager<System.Guid, es.efor.Auth.Models.Entities.User>
+  nameWithType.vb: IdentityUserManager(Of Guid, User)
+  fullName.vb: es.efor.Auth.Managers.IdentityUserManager(Of System.Guid, es.efor.Auth.Models.Entities.User)
+  name.vb: IdentityUserManager(Of Guid, User)
+  spec.csharp:
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager
+    nameWithType: IdentityUserManager
+    fullName: es.efor.Auth.Managers.IdentityUserManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: es.efor.Auth.Models.Entities.User
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager
+    nameWithType: IdentityUserManager
+    fullName: es.efor.Auth.Managers.IdentityUserManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: es.efor.Auth.Models.Entities.User
+    name: User
+    nameWithType: User
+    fullName: es.efor.Auth.Models.Entities.User
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Models.Entities
+  commentId: N:es.efor.Auth.Models.Entities
+  name: es.efor.Auth.Models.Entities
+  nameWithType: es.efor.Auth.Models.Entities
+  fullName: es.efor.Auth.Models.Entities
+- uid: es.efor.Auth.Managers.IdentityUserManager`2
+  commentId: T:es.efor.Auth.Managers.IdentityUserManager`2
+  name: IdentityUserManager<TUserId, TUser>
+  nameWithType: IdentityUserManager<TUserId, TUser>
+  fullName: es.efor.Auth.Managers.IdentityUserManager<TUserId, TUser>
+  nameWithType.vb: IdentityUserManager(Of TUserId, TUser)
+  fullName.vb: es.efor.Auth.Managers.IdentityUserManager(Of TUserId, TUser)
+  name.vb: IdentityUserManager(Of TUserId, TUser)
+  spec.csharp:
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager
+    nameWithType: IdentityUserManager
+    fullName: es.efor.Auth.Managers.IdentityUserManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUserId
+    nameWithType: TUserId
+    fullName: TUserId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager
+    nameWithType: IdentityUserManager
+    fullName: es.efor.Auth.Managers.IdentityUserManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUserId
+    nameWithType: TUserId
+    fullName: TUserId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers
+  commentId: N:es.efor.Auth.Managers
+  name: es.efor.Auth.Managers
+  nameWithType: es.efor.Auth.Managers
+  fullName: es.efor.Auth.Managers
+- uid: Microsoft.AspNetCore.Identity.IdentityUser{{TKey}}
+  commentId: T:Microsoft.AspNetCore.Identity.IdentityUser{``0}
+  parent: Microsoft.AspNetCore.Identity
+  definition: Microsoft.AspNetCore.Identity.IdentityUser`1
+  name: IdentityUser<TKey>
+  nameWithType: IdentityUser<TKey>
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>
+  nameWithType.vb: IdentityUser(Of TKey)
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey)
+  name.vb: IdentityUser(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{{TKey}}}
+  commentId: T:Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser{``0}}
+  parent: Microsoft.AspNetCore.Identity
+  definition: Microsoft.AspNetCore.Identity.UserManager`1
+  name: UserManager<IdentityUser<TKey>>
+  nameWithType: UserManager<IdentityUser<TKey>>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<Microsoft.AspNetCore.Identity.IdentityUser<TKey>>
+  nameWithType.vb: UserManager(Of IdentityUser(Of TKey))
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of Microsoft.AspNetCore.Identity.IdentityUser(Of TKey))
+  name.vb: UserManager(Of IdentityUser(Of TKey))
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+  commentId: T:Microsoft.AspNetCore.Identity.IdentityUser`1
+  isExternal: true
+  name: IdentityUser<TKey>
+  nameWithType: IdentityUser<TKey>
+  fullName: Microsoft.AspNetCore.Identity.IdentityUser<TKey>
+  nameWithType.vb: IdentityUser(Of TKey)
+  fullName.vb: Microsoft.AspNetCore.Identity.IdentityUser(Of TKey)
+  name.vb: IdentityUser(Of TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.IdentityUser`1
+    name: IdentityUser
+    nameWithType: IdentityUser
+    fullName: Microsoft.AspNetCore.Identity.IdentityUser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity
+  commentId: N:Microsoft.AspNetCore.Identity
+  isExternal: true
+  name: Microsoft.AspNetCore.Identity
+  nameWithType: Microsoft.AspNetCore.Identity
+  fullName: Microsoft.AspNetCore.Identity
+- uid: Microsoft.AspNetCore.Identity.UserManager`1
+  commentId: T:Microsoft.AspNetCore.Identity.UserManager`1
+  isExternal: true
+  name: UserManager<TUser>
+  nameWithType: UserManager<TUser>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<TUser>
+  nameWithType.vb: UserManager(Of TUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of TUser)
+  name.vb: UserManager(Of TUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TUser}'
+  commentId: '!:TUser'
+  definition: TUser
+  name: TUser
+  nameWithType: TUser
+  fullName: TUser
+- uid: '{TUserManager}'
+  commentId: '!:TUserManager'
+  definition: TUserManager
+  name: TUserManager
+  nameWithType: TUserManager
+  fullName: TUserManager
+- uid: TUser
+  name: TUser
+  nameWithType: TUser
+  fullName: TUser
+- uid: TUserManager
+  name: TUserManager
+  nameWithType: TUserManager
+  fullName: TUserManager

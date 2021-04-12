@@ -1,0 +1,53 @@
+:host {
+    .album-item-thumbnail {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .album-item-thumbnail-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            pointer-events: none;
+            user-select: none;
+
+            .album-item-check {
+                position: absolute;
+                color: white;
+                left: 4px;
+                bottom: 4px;
+
+                .album-item-delete {
+                    pointer-events: auto;
+                }
+            }
+            .album-item-filename {
+                text-align: center;
+                color: #fff;
+                padding: 0 2px;
+                align-self: flex-end;
+                flex: 1 0 auto;
+                width: auto;
+                max-width: 100%;
+
+                background: rgba(0,0,0,0);
+                background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.37) 13%, rgba(0,0,0,0.62) 40%, rgba(0,0,0,0.62) 100%);
+                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(13%, rgba(0,0,0,0.37)), color-stop(40%, rgba(0,0,0,0.62)), color-stop(100%, rgba(0,0,0,0.62)));
+                background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.37) 13%, rgba(0,0,0,0.62) 40%, rgba(0,0,0,0.62) 100%);
+                background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.37) 13%, rgba(0,0,0,0.62) 40%, rgba(0,0,0,0.62) 100%);
+                background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.37) 13%, rgba(0,0,0,0.62) 40%, rgba(0,0,0,0.62) 100%);
+                background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.37) 13%, rgba(0,0,0,0.62) 40%, rgba(0,0,0,0.62) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+            }
+        }
+
+    }
+}

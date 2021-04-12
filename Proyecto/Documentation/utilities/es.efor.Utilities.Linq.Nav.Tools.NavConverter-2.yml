@@ -1,0 +1,1271 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  commentId: T:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  id: NavConverter`2
+  parent: es.efor.Utilities.Linq.Nav.Tools
+  children:
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.#ctor
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterOperator,es.efor.Utilities.Linq.Models.Filters.FilterDBType,System.String)
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionDatetime(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionString(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildNavFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria})
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter(es.efor.Utilities.Linq.Nav.Models.NavFilter{`1})
+  - es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{`1}})
+  langs:
+  - csharp
+  - vb
+  name: NavConverter<TFilter, TField>
+  nameWithType: NavConverter<TFilter, TField>
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: NavConverter
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: >-
+      public class NavConverter<TFilter, TField>
+
+          where TFilter : class where TField : struct, IConvertible
+    typeParameters:
+    - id: TFilter
+    - id: TField
+    content.vb: Public Class NavConverter(Of TFilter As Class, TField As {Structure, IConvertible})
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: NavConverter(Of TFilter, TField)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField)
+  name.vb: NavConverter(Of TFilter, TField)
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.#ctor
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.#ctor
+  id: '#ctor'
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: NavConverter()
+  nameWithType: NavConverter<TFilter, TField>.NavConverter()
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.NavConverter()
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 14
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public NavConverter()
+    content.vb: Public Sub New
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.#ctor*
+  nameWithType.vb: NavConverter(Of TFilter, TField).NavConverter()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).NavConverter()
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildNavFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria})
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildNavFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria})
+  id: BuildNavFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria})
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: BuildNavFilter(IEnumerable<FilterCriteria>)
+  nameWithType: NavConverter<TFilter, TField>.BuildNavFilter(IEnumerable<FilterCriteria>)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildNavFilter(System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BuildNavFilter
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 23
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public IEnumerable<TFilter> BuildNavFilter(IEnumerable<FilterCriteria> filter)
+    parameters:
+    - id: filter
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+    return:
+      type: System.Collections.Generic.IEnumerable{{TFilter}}
+    content.vb: Public Function BuildNavFilter(filter As IEnumerable(Of FilterCriteria)) As IEnumerable(Of TFilter)
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildNavFilter*
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildNavFilter(IEnumerable(Of FilterCriteria))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildNavFilter(System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria))
+  name.vb: BuildNavFilter(IEnumerable(Of FilterCriteria))
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{`1}})
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{`1}})
+  id: ConvertToFilter(System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{`1}})
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: ConvertToFilter(IEnumerable<NavFilter<TField>>)
+  nameWithType: NavConverter<TFilter, TField>.ConvertToFilter(IEnumerable<NavFilter<TField>>)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.ConvertToFilter(System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Nav.Models.NavFilter<TField>>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ConvertToFilter
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 64
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public static IEnumerable<TFilter> ConvertToFilter(IEnumerable<NavFilter<TField>> filter)
+    parameters:
+    - id: filter
+      type: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{{TField}}}
+    return:
+      type: System.Collections.Generic.IEnumerable{{TFilter}}
+    content.vb: Public Shared Function ConvertToFilter(filter As IEnumerable(Of NavFilter(Of TField))) As IEnumerable(Of TFilter)
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter*
+  nameWithType.vb: NavConverter(Of TFilter, TField).ConvertToFilter(IEnumerable(Of NavFilter(Of TField)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).ConvertToFilter(System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Nav.Models.NavFilter(Of TField)))
+  name.vb: ConvertToFilter(IEnumerable(Of NavFilter(Of TField)))
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter(es.efor.Utilities.Linq.Nav.Models.NavFilter{`1})
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter(es.efor.Utilities.Linq.Nav.Models.NavFilter{`1})
+  id: ConvertToFilter(es.efor.Utilities.Linq.Nav.Models.NavFilter{`1})
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: ConvertToFilter(NavFilter<TField>)
+  nameWithType: NavConverter<TFilter, TField>.ConvertToFilter(NavFilter<TField>)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.ConvertToFilter(es.efor.Utilities.Linq.Nav.Models.NavFilter<TField>)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ConvertToFilter
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 69
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public static TFilter ConvertToFilter(NavFilter<TField> filter)
+    parameters:
+    - id: filter
+      type: es.efor.Utilities.Linq.Nav.Models.NavFilter{{TField}}
+    return:
+      type: '{TFilter}'
+    content.vb: Public Shared Function ConvertToFilter(filter As NavFilter(Of TField)) As TFilter
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter*
+  nameWithType.vb: NavConverter(Of TFilter, TField).ConvertToFilter(NavFilter(Of TField))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).ConvertToFilter(es.efor.Utilities.Linq.Nav.Models.NavFilter(Of TField))
+  name.vb: ConvertToFilter(NavFilter(Of TField))
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  id: BuildCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: BuildCondition(FilterCriteria)
+  nameWithType: NavConverter<TFilter, TField>.BuildCondition(FilterCriteria)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BuildCondition
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 74
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public NavFilter<TField> BuildCondition(FilterCriteria filter)
+    parameters:
+    - id: filter
+      type: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    return:
+      type: es.efor.Utilities.Linq.Nav.Models.NavFilter{{TField}}
+    content.vb: Public Function BuildCondition(filter As FilterCriteria) As NavFilter(Of TField)
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCondition*
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCondition(FilterCriteria)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  id: BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: BuildCriteriaCondition(FilterCriteria)
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaCondition(FilterCriteria)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BuildCriteriaCondition
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 92
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public string BuildCriteriaCondition(FilterCriteria filter)
+    parameters:
+    - id: filter
+      type: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    return:
+      type: System.String
+    content.vb: Public Function BuildCriteriaCondition(filter As FilterCriteria) As String
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition*
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaCondition(FilterCriteria)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterOperator,es.efor.Utilities.Linq.Models.Filters.FilterDBType,System.String)
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterOperator,es.efor.Utilities.Linq.Models.Filters.FilterDBType,System.String)
+  id: BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterOperator,es.efor.Utilities.Linq.Models.Filters.FilterDBType,System.String)
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: BuildCriteriaCondition(FilterOperator, FilterDBType, String)
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaCondition(FilterOperator, FilterDBType, String)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterOperator, es.efor.Utilities.Linq.Models.Filters.FilterDBType, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BuildCriteriaCondition
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 96
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public string BuildCriteriaCondition(FilterOperator op, FilterDBType format, string value)
+    parameters:
+    - id: op
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    - id: format
+      type: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function BuildCriteriaCondition(op As FilterOperator, format As FilterDBType, value As String) As String
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition*
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaCondition(FilterOperator, FilterDBType, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaCondition(es.efor.Utilities.Linq.Models.Filters.FilterOperator, es.efor.Utilities.Linq.Models.Filters.FilterDBType, System.String)
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionDatetime(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionDatetime(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  id: BuildCriteriaConditionDatetime(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: BuildCriteriaConditionDatetime(FilterOperator, String)
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaConditionDatetime(FilterOperator, String)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaConditionDatetime(es.efor.Utilities.Linq.Models.Filters.FilterOperator, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BuildCriteriaConditionDatetime
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 109
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public string BuildCriteriaConditionDatetime(FilterOperator op, string value)
+    parameters:
+    - id: op
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function BuildCriteriaConditionDatetime(op As FilterOperator, value As String) As String
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionDatetime*
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaConditionDatetime(FilterOperator, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaConditionDatetime(es.efor.Utilities.Linq.Models.Filters.FilterOperator, System.String)
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionString(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  commentId: M:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionString(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  id: BuildCriteriaConditionString(es.efor.Utilities.Linq.Models.Filters.FilterOperator,System.String)
+  parent: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2
+  langs:
+  - csharp
+  - vb
+  name: BuildCriteriaConditionString(FilterOperator, String)
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaConditionString(FilterOperator, String)
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaConditionString(es.efor.Utilities.Linq.Models.Filters.FilterOperator, System.String)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: BuildCriteriaConditionString
+    path: ../es.efor.Utilities.Linq.Nav/Tools/NavConverter.cs
+    startLine: 131
+  assemblies:
+  - es.efor.Utilities.Linq.Nav
+  namespace: es.efor.Utilities.Linq.Nav.Tools
+  syntax:
+    content: public string BuildCriteriaConditionString(FilterOperator op, string value)
+    parameters:
+    - id: op
+      type: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function BuildCriteriaConditionString(op As FilterOperator, value As String) As String
+  overload: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionString*
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaConditionString(FilterOperator, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaConditionString(es.efor.Utilities.Linq.Models.Filters.FilterOperator, System.String)
+references:
+- uid: es.efor.Utilities.Linq.Nav.Tools
+  commentId: N:es.efor.Utilities.Linq.Nav.Tools
+  name: es.efor.Utilities.Linq.Nav.Tools
+  nameWithType: es.efor.Utilities.Linq.Nav.Tools
+  fullName: es.efor.Utilities.Linq.Nav.Tools
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.#ctor*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.#ctor
+  name: NavConverter
+  nameWithType: NavConverter<TFilter, TField>.NavConverter
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.NavConverter
+  nameWithType.vb: NavConverter(Of TFilter, TField).NavConverter
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).NavConverter
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildNavFilter*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildNavFilter
+  name: BuildNavFilter
+  nameWithType: NavConverter<TFilter, TField>.BuildNavFilter
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildNavFilter
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildNavFilter
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildNavFilter
+- uid: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Models.Filters.FilterCriteria}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<FilterCriteria>
+  nameWithType: IEnumerable<FilterCriteria>
+  fullName: System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Models.Filters.FilterCriteria>
+  nameWithType.vb: IEnumerable(Of FilterCriteria)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Models.Filters.FilterCriteria)
+  name.vb: IEnumerable(Of FilterCriteria)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{{TFilter}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TFilter>
+  nameWithType: IEnumerable<TFilter>
+  fullName: System.Collections.Generic.IEnumerable<TFilter>
+  nameWithType.vb: IEnumerable(Of TFilter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TFilter)
+  name.vb: IEnumerable(Of TFilter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFilter
+    nameWithType: TFilter
+    fullName: TFilter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFilter
+    nameWithType: TFilter
+    fullName: TFilter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.ConvertToFilter
+  name: ConvertToFilter
+  nameWithType: NavConverter<TFilter, TField>.ConvertToFilter
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.ConvertToFilter
+  nameWithType.vb: NavConverter(Of TFilter, TField).ConvertToFilter
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).ConvertToFilter
+- uid: System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{{TField}}}
+  commentId: T:System.Collections.Generic.IEnumerable{es.efor.Utilities.Linq.Nav.Models.NavFilter{`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<NavFilter<TField>>
+  nameWithType: IEnumerable<NavFilter<TField>>
+  fullName: System.Collections.Generic.IEnumerable<es.efor.Utilities.Linq.Nav.Models.NavFilter<TField>>
+  nameWithType.vb: IEnumerable(Of NavFilter(Of TField))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of es.efor.Utilities.Linq.Nav.Models.NavFilter(Of TField))
+  name.vb: IEnumerable(Of NavFilter(Of TField))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Linq.Nav.Models.NavFilter{{TField}}
+  commentId: T:es.efor.Utilities.Linq.Nav.Models.NavFilter{`1}
+  parent: es.efor.Utilities.Linq.Nav.Models
+  definition: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+  name: NavFilter<TField>
+  nameWithType: NavFilter<TField>
+  fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter<TField>
+  nameWithType.vb: NavFilter(Of TField)
+  fullName.vb: es.efor.Utilities.Linq.Nav.Models.NavFilter(Of TField)
+  name.vb: NavFilter(Of TField)
+  spec.csharp:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TFilter}'
+  commentId: '!:TFilter'
+  definition: TFilter
+  name: TFilter
+  nameWithType: TFilter
+  fullName: TFilter
+- uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+  commentId: T:es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+  name: NavFilter<TField>
+  nameWithType: NavFilter<TField>
+  fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter<TField>
+  nameWithType.vb: NavFilter(Of TField)
+  fullName.vb: es.efor.Utilities.Linq.Nav.Models.NavFilter(Of TField)
+  name.vb: NavFilter(Of TField)
+  spec.csharp:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Utilities.Linq.Nav.Models.NavFilter`1
+    name: NavFilter
+    nameWithType: NavFilter
+    fullName: es.efor.Utilities.Linq.Nav.Models.NavFilter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TField
+    nameWithType: TField
+    fullName: TField
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Linq.Nav.Models
+  commentId: N:es.efor.Utilities.Linq.Nav.Models
+  name: es.efor.Utilities.Linq.Nav.Models
+  nameWithType: es.efor.Utilities.Linq.Nav.Models
+  fullName: es.efor.Utilities.Linq.Nav.Models
+- uid: TFilter
+  commentId: '!:TFilter'
+  name: TFilter
+  nameWithType: TFilter
+  fullName: TFilter
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCondition*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCondition
+  name: BuildCondition
+  nameWithType: NavConverter<TFilter, TField>.BuildCondition
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCondition
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCondition
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCondition
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterCriteria
+  nameWithType: FilterCriteria
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterCriteria
+- uid: es.efor.Utilities.Linq.Models.Filters
+  commentId: N:es.efor.Utilities.Linq.Models.Filters
+  name: es.efor.Utilities.Linq.Models.Filters
+  nameWithType: es.efor.Utilities.Linq.Models.Filters
+  fullName: es.efor.Utilities.Linq.Models.Filters
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaCondition
+  name: BuildCriteriaCondition
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaCondition
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaCondition
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaCondition
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaCondition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterOperator
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterOperator
+  nameWithType: FilterOperator
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterOperator
+- uid: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+  commentId: T:es.efor.Utilities.Linq.Models.Filters.FilterDBType
+  parent: es.efor.Utilities.Linq.Models.Filters
+  name: FilterDBType
+  nameWithType: FilterDBType
+  fullName: es.efor.Utilities.Linq.Models.Filters.FilterDBType
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionDatetime*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionDatetime
+  name: BuildCriteriaConditionDatetime
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaConditionDatetime
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaConditionDatetime
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaConditionDatetime
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaConditionDatetime
+- uid: es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionString*
+  commentId: Overload:es.efor.Utilities.Linq.Nav.Tools.NavConverter`2.BuildCriteriaConditionString
+  name: BuildCriteriaConditionString
+  nameWithType: NavConverter<TFilter, TField>.BuildCriteriaConditionString
+  fullName: es.efor.Utilities.Linq.Nav.Tools.NavConverter<TFilter, TField>.BuildCriteriaConditionString
+  nameWithType.vb: NavConverter(Of TFilter, TField).BuildCriteriaConditionString
+  fullName.vb: es.efor.Utilities.Linq.Nav.Tools.NavConverter(Of TFilter, TField).BuildCriteriaConditionString

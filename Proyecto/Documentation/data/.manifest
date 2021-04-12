@@ -1,0 +1,23 @@
+{
+  "es.efor.Musaat.Data.CodeFirst.Migrations": "es.efor.Musaat.Data.CodeFirst.Migrations.yml",
+  "es.efor.Musaat.Data.CodeFirst.Migrations.Initial": "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.yml",
+  "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.yml",
+  "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.yml",
+  "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": "es.efor.Musaat.Data.CodeFirst.Migrations.Initial.yml",
+  "es.efor.Musaat.Data.Context": "es.efor.Musaat.Data.Context.yml",
+  "es.efor.Musaat.Data.Context.NexusContext": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{es.efor.Musaat.Data.Context.NexusContext})": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.AccessLogger": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.DataProtectionKeys": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.Details": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.Employees": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.Functionalities": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.LogImports": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.Modules": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.Permissions": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.User": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.UserDepartment": "es.efor.Musaat.Data.Context.NexusContext.yml",
+  "es.efor.Musaat.Data.Context.NexusContext.UserLevel": "es.efor.Musaat.Data.Context.NexusContext.yml"
+}

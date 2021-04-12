@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Linq.Constants
+  commentId: N:es.efor.Utilities.Linq.Constants
+  id: es.efor.Utilities.Linq.Constants
+  children:
+  - es.efor.Utilities.Linq.Constants.QueryConstants
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Linq.Constants
+  nameWithType: es.efor.Utilities.Linq.Constants
+  fullName: es.efor.Utilities.Linq.Constants
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Linq
+references:
+- uid: es.efor.Utilities.Linq.Constants.QueryConstants
+  commentId: T:es.efor.Utilities.Linq.Constants.QueryConstants
+  name: QueryConstants
+  nameWithType: QueryConstants
+  fullName: es.efor.Utilities.Linq.Constants.QueryConstants

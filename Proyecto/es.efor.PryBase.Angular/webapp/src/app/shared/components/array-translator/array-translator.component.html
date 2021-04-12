@@ -1,0 +1,8 @@
+<ng-container [ngSwitch]="isHtml">
+    <ng-container *ngSwitchCase="true">
+        <div *ngFor="let l of _labels" [ngClass]="labelCssClass" [innerHTML]="l | translate"></div>
+    </ng-container>
+    <ng-container *ngSwitchDefault>
+        <div *ngFor="let l of _labels" [ngClass]="labelCssClass">{{l | translate}}</div>
+    </ng-container>
+</ng-container>

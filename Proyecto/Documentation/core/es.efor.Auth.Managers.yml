@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Managers
+  commentId: N:es.efor.Auth.Managers
+  id: es.efor.Auth.Managers
+  children:
+  - es.efor.Auth.Managers.IdentityRoleManager`2
+  - es.efor.Auth.Managers.IdentitySignInManager`2
+  - es.efor.Auth.Managers.IdentityUserManager`2
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Auth.Managers
+  nameWithType: es.efor.Auth.Managers
+  fullName: es.efor.Auth.Managers
+  type: Namespace
+  assemblies:
+  - es.efor.Auth
+references:
+- uid: es.efor.Auth.Managers.IdentityRoleManager`2
+  commentId: T:es.efor.Auth.Managers.IdentityRoleManager`2
+  name: IdentityRoleManager<TRoleId, TRole>
+  nameWithType: IdentityRoleManager<TRoleId, TRole>
+  fullName: es.efor.Auth.Managers.IdentityRoleManager<TRoleId, TRole>
+  nameWithType.vb: IdentityRoleManager(Of TRoleId, TRole)
+  fullName.vb: es.efor.Auth.Managers.IdentityRoleManager(Of TRoleId, TRole)
+  name.vb: IdentityRoleManager(Of TRoleId, TRole)
+  spec.csharp:
+  - uid: es.efor.Auth.Managers.IdentityRoleManager`2
+    name: IdentityRoleManager
+    nameWithType: IdentityRoleManager
+    fullName: es.efor.Auth.Managers.IdentityRoleManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRoleId
+    nameWithType: TRoleId
+    fullName: TRoleId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Managers.IdentityRoleManager`2
+    name: IdentityRoleManager
+    nameWithType: IdentityRoleManager
+    fullName: es.efor.Auth.Managers.IdentityRoleManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRoleId
+    nameWithType: TRoleId
+    fullName: TRoleId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TRole
+    nameWithType: TRole
+    fullName: TRole
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentitySignInManager`2
+  commentId: T:es.efor.Auth.Managers.IdentitySignInManager`2
+  name: IdentitySignInManager<TUserId, TUser>
+  nameWithType: IdentitySignInManager<TUserId, TUser>
+  fullName: es.efor.Auth.Managers.IdentitySignInManager<TUserId, TUser>
+  nameWithType.vb: IdentitySignInManager(Of TUserId, TUser)
+  fullName.vb: es.efor.Auth.Managers.IdentitySignInManager(Of TUserId, TUser)
+  name.vb: IdentitySignInManager(Of TUserId, TUser)
+  spec.csharp:
+  - uid: es.efor.Auth.Managers.IdentitySignInManager`2
+    name: IdentitySignInManager
+    nameWithType: IdentitySignInManager
+    fullName: es.efor.Auth.Managers.IdentitySignInManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUserId
+    nameWithType: TUserId
+    fullName: TUserId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Managers.IdentitySignInManager`2
+    name: IdentitySignInManager
+    nameWithType: IdentitySignInManager
+    fullName: es.efor.Auth.Managers.IdentitySignInManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUserId
+    nameWithType: TUserId
+    fullName: TUserId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Managers.IdentityUserManager`2
+  commentId: T:es.efor.Auth.Managers.IdentityUserManager`2
+  name: IdentityUserManager<TUserId, TUser>
+  nameWithType: IdentityUserManager<TUserId, TUser>
+  fullName: es.efor.Auth.Managers.IdentityUserManager<TUserId, TUser>
+  nameWithType.vb: IdentityUserManager(Of TUserId, TUser)
+  fullName.vb: es.efor.Auth.Managers.IdentityUserManager(Of TUserId, TUser)
+  name.vb: IdentityUserManager(Of TUserId, TUser)
+  spec.csharp:
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager
+    nameWithType: IdentityUserManager
+    fullName: es.efor.Auth.Managers.IdentityUserManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUserId
+    nameWithType: TUserId
+    fullName: TUserId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: es.efor.Auth.Managers.IdentityUserManager`2
+    name: IdentityUserManager
+    nameWithType: IdentityUserManager
+    fullName: es.efor.Auth.Managers.IdentityUserManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUserId
+    nameWithType: TUserId
+    fullName: TUserId
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: )
+    nameWithType: )
+    fullName: )

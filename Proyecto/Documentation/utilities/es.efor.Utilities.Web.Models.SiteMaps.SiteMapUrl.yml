@@ -1,0 +1,1106 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  commentId: T:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  id: SiteMapUrl
+  parent: es.efor.Utilities.Web.Models.SiteMaps
+  children:
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority
+  - es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified
+  langs:
+  - csharp
+  - vb
+  name: SiteMapUrl
+  nameWithType: SiteMapUrl
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  type: Class
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: SiteMapUrl
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 8
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public class SiteMapUrl
+    content.vb: Public Class SiteMapUrl
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc
+  id: Loc
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: Loc
+  nameWithType: SiteMapUrl.Loc
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Loc
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 10
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public string Loc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Loc As String
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified
+  id: LocSpecified
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: LocSpecified
+  nameWithType: SiteMapUrl.LocSpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LocSpecified
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public bool LocSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property LocSpecified As Boolean
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod
+  id: D_Lastmod
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: D_Lastmod
+  nameWithType: SiteMapUrl.D_Lastmod
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: D_Lastmod
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 15
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public DateTimeOffset? D_Lastmod { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTimeOffset}
+    content.vb: Public Property D_Lastmod As DateTimeOffset?
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod
+  id: Lastmod
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: Lastmod
+  nameWithType: SiteMapUrl.Lastmod
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Lastmod
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public string Lastmod { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Lastmod As String
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified
+  id: LastmodSpecified
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: LastmodSpecified
+  nameWithType: SiteMapUrl.LastmodSpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: LastmodSpecified
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public bool LastmodSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property LastmodSpecified As Boolean
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority
+  id: Priority
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiteMapUrl.Priority
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Priority
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 22
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public decimal? Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Decimal}
+    content.vb: Public Property Priority As Decimal?
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified
+  id: PrioritySpecified
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: PrioritySpecified
+  nameWithType: SiteMapUrl.PrioritySpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PrioritySpecified
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 24
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public bool PrioritySpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PrioritySpecified As Boolean
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq
+  id: Changefreq
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: Changefreq
+  nameWithType: SiteMapUrl.Changefreq
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Changefreq
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 27
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public SiteMapUrl.SiteMapUrlChangefreq? Changefreq { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq}
+    content.vb: Public Property Changefreq As SiteMapUrl.SiteMapUrlChangefreq?
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified
+  commentId: P:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified
+  id: ChangefreqSpecified
+  parent: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl
+  langs:
+  - csharp
+  - vb
+  name: ChangefreqSpecified
+  nameWithType: SiteMapUrl.ChangefreqSpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified
+  type: Property
+  source:
+    remote:
+      path: es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: ChangefreqSpecified
+    path: ../es.efor.Utilities.Web/Models/SiteMaps/SiteMapUrl.cs
+    startLine: 29
+  assemblies:
+  - es.efor.Utilities.Web
+  namespace: es.efor.Utilities.Web.Models.SiteMaps
+  syntax:
+    content: public bool ChangefreqSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ChangefreqSpecified As Boolean
+  overload: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: es.efor.Utilities.Web.Models.SiteMaps
+  commentId: N:es.efor.Utilities.Web.Models.SiteMaps
+  name: es.efor.Utilities.Web.Models.SiteMaps
+  nameWithType: es.efor.Utilities.Web.Models.SiteMaps
+  fullName: es.efor.Utilities.Web.Models.SiteMaps
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc
+  name: Loc
+  nameWithType: SiteMapUrl.Loc
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Loc
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified
+  name: LocSpecified
+  nameWithType: SiteMapUrl.LocSpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LocSpecified
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod
+  name: D_Lastmod
+  nameWithType: SiteMapUrl.D_Lastmod
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.D_Lastmod
+- uid: System.Nullable{System.DateTimeOffset}
+  commentId: T:System.Nullable{System.DateTimeOffset}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTimeOffset>
+  nameWithType: Nullable<DateTimeOffset>
+  fullName: System.Nullable<System.DateTimeOffset>
+  nameWithType.vb: Nullable(Of DateTimeOffset)
+  fullName.vb: System.Nullable(Of System.DateTimeOffset)
+  name.vb: Nullable(Of DateTimeOffset)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod
+  name: Lastmod
+  nameWithType: SiteMapUrl.Lastmod
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Lastmod
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified
+  name: LastmodSpecified
+  nameWithType: SiteMapUrl.LastmodSpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.LastmodSpecified
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority
+  name: Priority
+  nameWithType: SiteMapUrl.Priority
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Priority
+- uid: System.Nullable{System.Decimal}
+  commentId: T:System.Nullable{System.Decimal}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Decimal>
+  nameWithType: Nullable<Decimal>
+  fullName: System.Nullable<System.Decimal>
+  nameWithType.vb: Nullable(Of Decimal)
+  fullName.vb: System.Nullable(Of System.Decimal)
+  name.vb: Nullable(Of Decimal)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified
+  name: PrioritySpecified
+  nameWithType: SiteMapUrl.PrioritySpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.PrioritySpecified
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq
+  name: Changefreq
+  nameWithType: SiteMapUrl.Changefreq
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.Changefreq
+- uid: System.Nullable{es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq}
+  commentId: T:System.Nullable{es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<SiteMapUrl.SiteMapUrlChangefreq>
+  nameWithType: Nullable<SiteMapUrl.SiteMapUrlChangefreq>
+  fullName: System.Nullable<es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq>
+  nameWithType.vb: Nullable(Of SiteMapUrl.SiteMapUrlChangefreq)
+  fullName.vb: System.Nullable(Of es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq)
+  name.vb: Nullable(Of SiteMapUrl.SiteMapUrlChangefreq)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+    name: SiteMapUrl.SiteMapUrlChangefreq
+    nameWithType: SiteMapUrl.SiteMapUrlChangefreq
+    fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+    name: SiteMapUrl.SiteMapUrlChangefreq
+    nameWithType: SiteMapUrl.SiteMapUrlChangefreq
+    fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.SiteMapUrlChangefreq
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified*
+  commentId: Overload:es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified
+  name: ChangefreqSpecified
+  nameWithType: SiteMapUrl.ChangefreqSpecified
+  fullName: es.efor.Utilities.Web.Models.SiteMaps.SiteMapUrl.ChangefreqSpecified

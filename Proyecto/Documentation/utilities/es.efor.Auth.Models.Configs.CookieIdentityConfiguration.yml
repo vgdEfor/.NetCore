@@ -1,0 +1,939 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  commentId: T:es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  id: CookieIdentityConfiguration
+  parent: es.efor.Auth.Models.Configs
+  children:
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.#ctor(System.String)
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme
+  - es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate
+  langs:
+  - csharp
+  - vb
+  name: CookieIdentityConfiguration
+  nameWithType: CookieIdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  type: Class
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: CookieIdentityConfiguration
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 7
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public class CookieIdentityConfiguration
+    content.vb: Public Class CookieIdentityConfiguration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme
+  commentId: P:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme
+  id: Scheme
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Scheme
+  nameWithType: CookieIdentityConfiguration.Scheme
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Scheme
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nPredefined: <xref href=\"Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public string Scheme { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Scheme As String
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin
+  commentId: P:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin
+  id: PathAuthLogin
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PathAuthLogin
+  nameWithType: CookieIdentityConfiguration.PathAuthLogin
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PathAuthLogin
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 17
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nPredefined: &quot;/auth/login&quot;\n"
+  example: []
+  syntax:
+    content: public string PathAuthLogin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PathAuthLogin As String
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout
+  commentId: P:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout
+  id: PathAuthLogout
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PathAuthLogout
+  nameWithType: CookieIdentityConfiguration.PathAuthLogout
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PathAuthLogout
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 21
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nPredefined: &quot;/auth/logout&quot;\n"
+  example: []
+  syntax:
+    content: public string PathAuthLogout { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PathAuthLogout As String
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied
+  commentId: P:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied
+  id: PathAuthAccessDenied
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PathAuthAccessDenied
+  nameWithType: CookieIdentityConfiguration.PathAuthAccessDenied
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: PathAuthAccessDenied
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 25
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nPredefined: &quot;/error/503&quot;\n"
+  example: []
+  syntax:
+    content: public string PathAuthAccessDenied { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PathAuthAccessDenied As String
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier
+  commentId: P:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier
+  id: OptionModifier
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OptionModifier
+  nameWithType: CookieIdentityConfiguration.OptionModifier
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier
+  type: Property
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: OptionModifier
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 30
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nPredefined: null\n"
+  example: []
+  syntax:
+    content: public Action<CookieAuthenticationOptions> OptionModifier { get; set; }
+    parameters: []
+    return:
+      type: System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions}
+    content.vb: Public Property OptionModifier As Action(Of CookieAuthenticationOptions)
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.#ctor(System.String)
+  commentId: M:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CookieIdentityConfiguration(String)
+  nameWithType: CookieIdentityConfiguration.CookieIdentityConfiguration(String)
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.CookieIdentityConfiguration(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: .ctor
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 32
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  syntax:
+    content: public CookieIdentityConfiguration(string scheme = null)
+    parameters:
+    - id: scheme
+      type: System.String
+    content.vb: Public Sub New(scheme As String = Nothing)
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate
+  commentId: M:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate
+  id: Validate
+  parent: es.efor.Auth.Models.Configs.CookieIdentityConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Validate()
+  nameWithType: CookieIdentityConfiguration.Validate()
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: Validate
+    path: ../es.efor.Auth/Models/Configs/CookieIdentityConfiguration.cs
+    startLine: 41
+  assemblies:
+  - es.efor.Auth
+  namespace: es.efor.Auth.Models.Configs
+  summary: "\nValidates the class&apos; information. Throws an exception if\nthe information is not valid.\n"
+  example: []
+  syntax:
+    content: public void Validate()
+    content.vb: Public Sub Validate
+  overload: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: es.efor.Auth.Models.Configs
+  commentId: N:es.efor.Auth.Models.Configs
+  name: es.efor.Auth.Models.Configs
+  nameWithType: es.efor.Auth.Models.Configs
+  fullName: es.efor.Auth.Models.Configs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+  commentId: F:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+  isExternal: true
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme
+  name: Scheme
+  nameWithType: CookieIdentityConfiguration.Scheme
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Scheme
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin
+  name: PathAuthLogin
+  nameWithType: CookieIdentityConfiguration.PathAuthLogin
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogin
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout
+  name: PathAuthLogout
+  nameWithType: CookieIdentityConfiguration.PathAuthLogout
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthLogout
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied
+  name: PathAuthAccessDenied
+  nameWithType: CookieIdentityConfiguration.PathAuthAccessDenied
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.PathAuthAccessDenied
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier
+  name: OptionModifier
+  nameWithType: CookieIdentityConfiguration.OptionModifier
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.OptionModifier
+- uid: System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions}
+  commentId: T:System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions}
+  parent: System
+  definition: System.Action`1
+  name: Action<CookieAuthenticationOptions>
+  nameWithType: Action<CookieAuthenticationOptions>
+  fullName: System.Action<Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions>
+  nameWithType.vb: Action(Of CookieAuthenticationOptions)
+  fullName.vb: System.Action(Of Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions)
+  name.vb: Action(Of CookieAuthenticationOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions
+    name: CookieAuthenticationOptions
+    nameWithType: CookieAuthenticationOptions
+    fullName: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions
+    name: CookieAuthenticationOptions
+    nameWithType: CookieAuthenticationOptions
+    fullName: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.#ctor*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.#ctor
+  name: CookieIdentityConfiguration
+  nameWithType: CookieIdentityConfiguration.CookieIdentityConfiguration
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.CookieIdentityConfiguration
+- uid: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate*
+  commentId: Overload:es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate
+  name: Validate
+  nameWithType: CookieIdentityConfiguration.Validate
+  fullName: es.efor.Auth.Models.Configs.CookieIdentityConfiguration.Validate

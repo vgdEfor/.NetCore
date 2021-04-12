@@ -1,0 +1,115 @@
+<h2 class="section-title my-4">{{'PAGE.PROJECT.LIST.TITLE' | translate}}</h2>
+    <ax-bs-datatable
+    #dtProject
+    [columns]="dtColumns2"
+    [items] = "dtItemsInst2"
+    [actionButtonShowRefresh] = "false"
+    urlData="api/project/datatable"></ax-bs-datatable>
+
+    <br>
+        <div>
+                <button class="btn-primary" type="button" (click)="isDocumented = !isDocumented">Mostrar Documentación</button>
+        </div>
+    <br>
+    <div *ngIf="isDocumented">
+    <h2>DOCUMENTACIÓN</h2>
+    <br><br>
+        Para crear la tabla se usará el siguiente código, dtColumns2 será la variable que guardará los campos
+        de la lista mientras que dtItemsInst2 será la variable que almacenará los datos de la lista.
+        La urlData será la ruta a la cual accederá para invocar la lista dentro de esta tabla.
+        También se pueden añadir gracias al getterFn, pero en este caso se ha hecho con el urlData y el employees con getterFn.
+        <pre>
+        &lt;ax-bs-datatable
+        &#91;columns&#93;="dtColumns2"
+        &#91;items&#93;="dtItemsInst2"
+        &#91;actionButtonShowRefresh&#93;="false"
+        urlData="api/project/datatable"
+        &gt;&lt;/ax-bs-datatable&gt;
+        </pre>
+        
+        <p>
+        Las columnas se van a declarar con las siguientes variables:
+        </p>
+        <pre>
+        static dtItemsP: Project[] = [];
+        dtColumns2: DtColumnItem&lt;Project&gt;[] = [];
+        </pre>
+        <p>
+        Ahora en el metodo se procederá a darle la forma a esas tablas con los tipos de dato que albergará.
+
+        Con esto lo que haremos será que cuando seleccionemos un project, a través de la url que le hemos
+        indicado, nos redirigirá a ese componente pasándole lo seleccionado dentro de &#123;&#125;, que en este caso será el id del project.
+        </p>
+        <pre>
+        this.dtColumns2 = [
+        new DtColumnItem().setData(&#123;
+        thTHeadClass: 'cell-narrow',
+
+        buttons: [
+          new DtActionColumnButton&lt;Project, string&gt;().setData(&#123;
+                    url: '/empleados/project/details/&#123;id&#125;',
+                    urlTarget: '_self',
+                    iconPreffix: 'fas',
+                    iconName: 'eye',
+                    btnClass: 'btn btn-outline-secondary btn-sm',
+                &#125;),
+            ],
+        &#125;),
+        </pre><br>
+        <p>
+        Siguiendo con la creación de los campos de la tabla, la sintaxis a emplear será la siguiente:
+        </p>
+        <pre>
+
+        new DtColumnItem().setData(&#123;
+            columnName: 'Responsable',
+            field: 'responsable.name',
+            filter: true,
+            &#125;),
+
+        </pre>
+        <p>
+            - columnName: Es la que contendrá al nombre de la columna en la tabla a mostrar<br>
+            - field: Es el campo con los valores del modelo para saber a que campo tiene que acceder para recoger sus datos<br>
+            - filter: si es true, habilitará los filtros, sino, no<br><br>
+            Mas posibles elementos:<br>
+            - fieldDisplayMiddleware: permite darle formato al campo que se mostrará
+            - filterItem: sirve para darle formato al filtro
+
+        </p>
+        <br>
+        <p>
+        Donde columnName irá indicado el nombre de la columna, en field el tipo de valor que contendrá<br>
+        el campo y el filter es un boolean para indicar si tendrá filtros o no. <br>
+        En cambio, si el campo es una fecha, habrá que añadirle una transformación para que las fechas sean representadas<br>
+        correctamente.
+        </p>
+        <pre>
+        new DtColumnItem().setData(&#123;
+            columnName: 'Inicio',
+            field: 'dstart',
+            fieldDisplayType: 'date',
+            fieldDisplayMiddleware: (data) => &#123;
+              if (data == null) &#123; return ''; &#125;
+              const transformed = this.dPipe.transform(data, this.translateSV.instant('FORMAT.DATE'));
+              return transformed;
+            &#125;,
+            filter: true,
+        &#125;),
+
+
+    </pre>
+    <p>
+        Como añadido, y gracias a la ultima actualización del ax-toolbox, se han podido implementar dos nuevas propiedades<br>
+        a las dtColumns cuando son definidas. Estas propiedades permiten mostrar u ocultar la columna dependiendo del valor<br>
+        asignado a esas propiedades.
+    </p>
+    <pre>
+        isShown: false,
+        canChangeIsShown: true
+    </pre>
+    <p>
+        Con el "isShown" se puede cambiar la visibilidad de la columna y con el "canChangeIsShown" se puede cambiar a que se muestre u oculte<br>
+        directamente desde el html.
+    </p>
+</div>

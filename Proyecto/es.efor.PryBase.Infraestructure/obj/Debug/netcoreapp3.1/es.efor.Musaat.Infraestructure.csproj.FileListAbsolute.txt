@@ -1,0 +1,16 @@
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.deps.json
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.dll
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.pdb
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.AssemblyInfoInputs.cache
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.AssemblyInfo.cs
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.csproj.CoreCompileInputs.cache
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.dll
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.pdb
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.csprojAssemblyReference.cache
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.dll
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.dll
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Utilities.General.pdb
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Utilities.Web.pdb
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\obj\Debug\netcoreapp3.1\es.efor.Musaat.Infraestructure.csproj.CopyComplete
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Auth.dll
+C:\proyectos\Musaat\Principal\es.efor.Musaat.Infraestructure\bin\Debug\netcoreapp3.1\es.efor.Auth.pdb

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Utilities.Web.Services
+  commentId: N:es.efor.Utilities.Web.Services
+  id: es.efor.Utilities.Web.Services
+  children:
+  - es.efor.Utilities.Web.Services.SiteMapService
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Utilities.Web.Services
+  nameWithType: es.efor.Utilities.Web.Services
+  fullName: es.efor.Utilities.Web.Services
+  type: Namespace
+  assemblies:
+  - es.efor.Utilities.Web
+references:
+- uid: es.efor.Utilities.Web.Services.SiteMapService
+  commentId: T:es.efor.Utilities.Web.Services.SiteMapService
+  name: SiteMapService
+  nameWithType: SiteMapService
+  fullName: es.efor.Utilities.Web.Services.SiteMapService

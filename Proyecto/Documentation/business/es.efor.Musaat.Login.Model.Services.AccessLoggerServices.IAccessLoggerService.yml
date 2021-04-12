@@ -1,0 +1,494 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  commentId: T:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  id: IAccessLoggerService
+  parent: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  children:
+  - es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog(es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO)
+  - es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll
+  langs:
+  - csharp
+  - vb
+  name: IAccessLoggerService
+  nameWithType: IAccessLoggerService
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  type: Interface
+  source:
+    remote:
+      path: es.efor.Musaat.Login.Business/Services/AccessLoggerServices/IAccessLoggerService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: IAccessLoggerService
+    path: ../es.efor.Musaat.Login.Business/Services/AccessLoggerServices/IAccessLoggerService.cs
+    startLine: 6
+  assemblies:
+  - es.efor.Musaat.Login.Business
+  namespace: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  syntax:
+    content: public interface IAccessLoggerService
+    content.vb: Public Interface IAccessLoggerService
+  extensionMethods:
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  - System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll
+  commentId: M:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll
+  id: GetAll
+  parent: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: IAccessLoggerService.GetAll()
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll()
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Login.Business/Services/AccessLoggerServices/IAccessLoggerService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: GetAll
+    path: ../es.efor.Musaat.Login.Business/Services/AccessLoggerServices/IAccessLoggerService.cs
+    startLine: 12
+  assemblies:
+  - es.efor.Musaat.Login.Business
+  namespace: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  summary: "\nGet all access logs\n"
+  example: []
+  syntax:
+    content: Task<List<AccessLoggerDTO>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO}}
+      description: ''
+    content.vb: Function GetAll As Task(Of List(Of AccessLoggerDTO))
+  overload: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll*
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog(es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO)
+  commentId: M:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog(es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO)
+  id: CreateLog(es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO)
+  parent: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService
+  langs:
+  - csharp
+  - vb
+  name: CreateLog(AccessLoggerDTO)
+  nameWithType: IAccessLoggerService.CreateLog(AccessLoggerDTO)
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog(es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO)
+  type: Method
+  source:
+    remote:
+      path: es.efor.Musaat.Login.Business/Services/AccessLoggerServices/IAccessLoggerService.cs
+      branch: master
+      repo: https://dev.azure.com/EforDevelop/Musaat/_git/Musaat_Med
+    id: CreateLog
+    path: ../es.efor.Musaat.Login.Business/Services/AccessLoggerServices/IAccessLoggerService.cs
+    startLine: 19
+  assemblies:
+  - es.efor.Musaat.Login.Business
+  namespace: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  summary: "\nCreate a new access log in the database\n"
+  example: []
+  syntax:
+    content: Task<bool> CreateLog(AccessLoggerDTO accessLog)
+    parameters:
+    - id: accessLog
+      type: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: ''
+    content.vb: Function CreateLog(accessLog As AccessLoggerDTO) As Task(Of Boolean)
+  overload: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog*
+references:
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  commentId: N:es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  name: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  nameWithType: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  name: CopyMap<TDestination>(JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  parent: es.efor.Utilities.General.Helpers.ObjectHelper
+  definition: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  name: CopyMap<TDestination>(ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, JsonSerializerSettings)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, JsonSerializerSettings)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.JsonSerializerSettings)
+  name.vb: CopyMap(Of TDestination)(Object, JsonSerializerSettings)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.JsonSerializerSettings)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.JsonSerializerSettings
+    name: JsonSerializerSettings
+    nameWithType: JsonSerializerSettings
+    fullName: Newtonsoft.Json.JsonSerializerSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper
+  commentId: T:es.efor.Utilities.General.Helpers.ObjectHelper
+  parent: es.efor.Utilities.General.Helpers
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper
+- uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  commentId: M:es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+  isExternal: true
+  name: CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  nameWithType: ObjectHelper.CopyMap<TDestination>(Object, ReferenceLoopHandling)
+  fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  nameWithType.vb: ObjectHelper.CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  fullName.vb: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)(System.Object, Newtonsoft.Json.ReferenceLoopHandling)
+  name.vb: CopyMap(Of TDestination)(Object, ReferenceLoopHandling)
+  spec.csharp:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap<TDestination>
+    nameWithType: ObjectHelper.CopyMap<TDestination>
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap<TDestination>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap``1(System.Object,Newtonsoft.Json.ReferenceLoopHandling)
+    name: CopyMap(Of TDestination)
+    nameWithType: ObjectHelper.CopyMap(Of TDestination)
+    fullName: es.efor.Utilities.General.Helpers.ObjectHelper.CopyMap(Of TDestination)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.ReferenceLoopHandling
+    name: ReferenceLoopHandling
+    nameWithType: ReferenceLoopHandling
+    fullName: Newtonsoft.Json.ReferenceLoopHandling
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Utilities.General.Helpers
+  commentId: N:es.efor.Utilities.General.Helpers
+  name: es.efor.Utilities.General.Helpers
+  nameWithType: es.efor.Utilities.General.Helpers
+  fullName: es.efor.Utilities.General.Helpers
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll*
+  commentId: Overload:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll
+  name: GetAll
+  nameWithType: IAccessLoggerService.GetAll
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.GetAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<AccessLoggerDTO>>
+  nameWithType: Task<List<AccessLoggerDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO>>
+  nameWithType.vb: Task(Of List(Of AccessLoggerDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO))
+  name.vb: Task(Of List(Of AccessLoggerDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+    name: AccessLoggerDTO
+    nameWithType: AccessLoggerDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+    name: AccessLoggerDTO
+    nameWithType: AccessLoggerDTO
+    fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog*
+  commentId: Overload:es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog
+  name: CreateLog
+  nameWithType: IAccessLoggerService.CreateLog
+  fullName: es.efor.Musaat.Login.Model.Services.AccessLoggerServices.IAccessLoggerService.CreateLog
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  name: AccessLoggerDTO
+  nameWithType: AccessLoggerDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs.AccessLoggerDTO
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.AccessLoggerDTOs

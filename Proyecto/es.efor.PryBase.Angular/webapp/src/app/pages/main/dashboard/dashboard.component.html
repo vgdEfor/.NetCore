@@ -1,0 +1,40 @@
+<h1 class="section-title my-4">{{'PAGE.DASHBOARD.TITLE' | translate}}</h1>
+<!--ol>
+    <li>Empleados</li>
+        <ul>
+            <li><a type="button" (click)="navegation(1)">Lista</a></li>
+            <li><a type="button" (click)="navegation(2)">Nuevo</a></li>
+        </ul>
+    <li>Proyectos</li>
+        <ul>
+            <li><a type="button" (click)="navegation(3)">Lista</a></li>
+            <li><a type="button" (click)="navegation(4)">Nuevo</a></li>
+        </ul>
+</ol
+
+Aquí abajo primero estamos haciendo un recorrido por los elementos del menú rescatados antes
+Importante para que se traduzca añadir el pipe translate
+-->
+<div class="row menu-card-container">
+    <div *ngFor="let i of _menuItems" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2">
+        <div class="card text-center mx-auto">
+            <div class="card-header bg-primary text-light position-relative">
+                <fa-icon *ngIf="i.iconPreffix && i.iconName" [icon]="[i.iconPreffix, i.iconName]" class="mr-1">
+                </fa-icon>
+                {{i.label | translate}}
+                <a *ngIf="i.routerLinkCommands && i.routerLinkCommands.length > 0" class="stretched-link"
+                    [routerLink]="i.routerLinkCommands"></a>
+            </div>
+            <div *ngIf="i.children && i.children.length > 0" class="card-body py-0">
+                <div *ngFor="let c of i.children; let index = index" class="py-3 position-relative border-bottom"
+                    [ngClass]="{'border-bottom-0': index === (i.children && i.children.length - 1)}">
+                    <fa-icon *ngIf="c.iconPreffix && c.iconName" [icon]="[c.iconPreffix, c.iconName]" class="mr-1">
+                    </fa-icon>
+                    {{c.label | translate}}
+                    <a *ngIf="c.routerLinkCommands && c.routerLinkCommands.length > 0" class="stretched-link"
+                        [routerLink]="c.routerLinkCommands"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

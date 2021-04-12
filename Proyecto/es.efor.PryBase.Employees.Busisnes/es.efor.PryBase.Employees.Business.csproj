@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\es.efor.PryBase.Data\es.efor.PryBase.Data.csproj" />
+    <ProjectReference Include="..\es.efor.Utilities.Database\es.efor.Utilities.Database.csproj" />
+    <ProjectReference Include="..\es.efor.Utilities.Linq\es.efor.Utilities.Linq.csproj" />
+  </ItemGroup>
+
+</Project>

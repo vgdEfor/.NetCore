@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  id: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  children:
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  - es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  langs:
+  - csharp
+  - vb
+  name: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  type: Namespace
+  assemblies:
+  - es.efor.Musaat.Infraestructure
+references:
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: ADUserDTO
+  nameWithType: ADUserDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.ADUserDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: UserDepartmentDTO
+  nameWithType: UserDepartmentDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDepartmentDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+  name: UserDTO
+  nameWithType: UserDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  commentId: T:es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+  parent: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: UserLevelDTO
+  nameWithType: UserLevelDTO
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs.UserLevelDTO
+- uid: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  commentId: N:es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  name: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  nameWithType: es.efor.Musaat.Infraestructure.DTO.UserDTOs
+  fullName: es.efor.Musaat.Infraestructure.DTO.UserDTOs
