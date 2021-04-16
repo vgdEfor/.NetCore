@@ -1,0 +1,1110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.MainGateway\\es.efor.PryBase.MainGateway.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj",
+        "projectName": "es.efor.Auth",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Logging.Serilog\\es.efor.Logging.Serilog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Logging.Serilog\\es.efor.Logging.Serilog.csproj",
+        "projectName": "es.efor.Logging.Serilog",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Logging.Serilog\\es.efor.Logging.Serilog.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Logging.Serilog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Graylog": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Serilog.Sinks.RavenDB": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Auth\\es.efor.PryBase.Auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Auth\\es.efor.PryBase.Auth.csproj",
+        "projectName": "es.efor.PryBase.Auth",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Auth\\es.efor.PryBase.Auth.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Auth\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data.CodeFirst\\es.efor.PryBase.Data.CodeFirst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data.CodeFirst\\es.efor.PryBase.Data.CodeFirst.csproj",
+        "projectName": "es.efor.PryBase.Data.CodeFirst",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data.CodeFirst\\es.efor.PryBase.Data.CodeFirst.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data.CodeFirst\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj",
+        "projectName": "es.efor.PryBase.Data",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Infraestructure\\es.efor.PryBase.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Infraestructure\\es.efor.PryBase.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Employees.Busisnes\\es.efor.PryBase.Employees.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Employees.Busisnes\\es.efor.PryBase.Employees.Business.csproj",
+        "projectName": "es.efor.PryBase.Employees.Business",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Employees.Busisnes\\es.efor.PryBase.Employees.Business.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Employees.Busisnes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Imports.Business\\es.efor.PryBase.Imports.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Imports.Business\\es.efor.PryBase.Imports.Business.csproj",
+        "projectName": "es.efor.PryBase.Imports.Business",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Imports.Business\\es.efor.PryBase.Imports.Business.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Imports.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Infraestructure\\es.efor.PryBase.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Infraestructure\\es.efor.PryBase.Infraestructure.csproj",
+        "projectName": "es.efor.PryBase.Infraestructure",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Infraestructure\\es.efor.PryBase.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.MainGateway\\es.efor.PryBase.MainGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.MainGateway\\es.efor.PryBase.MainGateway.csproj",
+        "projectName": "es.efor.PryBase.MainGateway",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.MainGateway\\es.efor.PryBase.MainGateway.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.MainGateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Auth\\es.efor.Auth.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Logging.Serilog\\es.efor.Logging.Serilog.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Logging.Serilog\\es.efor.Logging.Serilog.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Auth\\es.efor.PryBase.Auth.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Auth\\es.efor.PryBase.Auth.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data.CodeFirst\\es.efor.PryBase.Data.CodeFirst.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data.CodeFirst\\es.efor.PryBase.Data.CodeFirst.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Employees.Busisnes\\es.efor.PryBase.Employees.Business.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Employees.Busisnes\\es.efor.PryBase.Employees.Business.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Imports.Business\\es.efor.PryBase.Imports.Business.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Imports.Business\\es.efor.PryBase.Imports.Business.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Users.Business\\es.efor.PryBase.Users.Business.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Users.Business\\es.efor.PryBase.Users.Business.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Swagger\\es.efor.Utilities.Swagger.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Swagger\\es.efor.Utilities.Swagger.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Users.Business\\es.efor.PryBase.Users.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Users.Business\\es.efor.PryBase.Users.Business.csproj",
+        "projectName": "es.efor.PryBase.Users.Business",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Users.Business\\es.efor.PryBase.Users.Business.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Users.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.PryBase.Data\\es.efor.PryBase.Data.csproj"
+              },
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj",
+        "projectName": "es.efor.Utilities.Database",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\es.efor.Utilities.Database.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj",
+        "projectName": "es.efor.Utilities.General",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj",
+        "projectName": "es.efor.Utilities.Linq",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\es.efor.Utilities.Linq.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Linq\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Swagger\\es.efor.Utilities.Swagger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Swagger\\es.efor.Utilities.Swagger.csproj",
+        "projectName": "es.efor.Utilities.Swagger",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Swagger\\es.efor.Utilities.Swagger.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Swagger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj",
+        "projectName": "es.efor.Utilities.Web",
+        "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\es.efor.Utilities.Web.csproj",
+        "packagesPath": "C:\\Users\\vgbodon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vgbodon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj": {
+                "projectPath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

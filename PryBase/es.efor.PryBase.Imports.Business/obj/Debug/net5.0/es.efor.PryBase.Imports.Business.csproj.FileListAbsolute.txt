@@ -1,0 +1,50 @@
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Imports.Business.deps.json
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Imports.Business.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\ref\es.efor.PryBase.Imports.Business.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Imports.Business.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Auth.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Data.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Linq.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Data.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Linq.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Auth.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.csproj.CopyComplete
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\ref\es.efor.PryBase.Imports.Business.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Imports.Business.deps.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Imports.Business.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\ref\es.efor.PryBase.Imports.Business.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Imports.Business.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Auth.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Data.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Linq.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Data.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Linq.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Auth.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.csprojAssemblyReference.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.AssemblyInfoInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.AssemblyInfo.cs
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.csproj.CoreCompileInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.csproj.CopyComplete
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\ref\es.efor.PryBase.Imports.Business.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Imports.Business\obj\Debug\net5.0\es.efor.PryBase.Imports.Business.pdb

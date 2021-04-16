@@ -1,0 +1,36 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\net5.0\ref\es.efor.Utilities.Swagger.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.csprojAssemblyReference.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\ref\es.efor.Utilities.Swagger.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.deps.json
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\bin\Debug\net5.0\ref\es.efor.Utilities.Swagger.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\ref\es.efor.Utilities.Swagger.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.deps.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\bin\Debug\net5.0\ref\es.efor.Utilities.Swagger.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\bin\Debug\net5.0\es.efor.Utilities.Swagger.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.csprojAssemblyReference.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.AssemblyInfoInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.AssemblyInfo.cs
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.csproj.CoreCompileInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\ref\es.efor.Utilities.Swagger.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Swagger\obj\Debug\net5.0\es.efor.Utilities.Swagger.pdb

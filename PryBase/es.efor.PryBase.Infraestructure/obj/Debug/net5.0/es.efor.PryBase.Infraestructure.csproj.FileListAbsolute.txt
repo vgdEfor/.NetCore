@@ -1,0 +1,44 @@
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.deps.json
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\ref\es.efor.PryBase.Infraestructure.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Auth.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Auth.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.csproj.CopyComplete
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\ref\es.efor.PryBase.Infraestructure.dll
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.pdb
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.runtimeconfig.json
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.runtimeconfig.dev.json
+C:\proyectos\Proyecto Base\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.genruntimeconfig.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.deps.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.runtimeconfig.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.runtimeconfig.dev.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\ref\es.efor.PryBase.Infraestructure.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.PryBase.Infraestructure.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Auth.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Auth.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.csprojAssemblyReference.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.AssemblyInfo.cs
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.csproj.CopyComplete
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\ref\es.efor.PryBase.Infraestructure.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.PryBase.Infraestructure\obj\Debug\net5.0\es.efor.PryBase.Infraestructure.genruntimeconfig.cache

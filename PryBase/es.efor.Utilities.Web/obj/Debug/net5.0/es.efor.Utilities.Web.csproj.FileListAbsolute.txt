@@ -1,0 +1,45 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\net5.0\ref\es.efor.Utilities.Web.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csprojAssemblyReference.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csproj.CopyComplete
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\ref\es.efor.Utilities.Web.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.deps.json
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\bin\Debug\net5.0\ref\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csprojAssemblyReference.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csproj.CopyComplete
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\ref\es.efor.Utilities.Web.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.deps.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\bin\Debug\net5.0\ref\es.efor.Utilities.Web.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.Web.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.General.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\bin\Debug\net5.0\es.efor.Utilities.General.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csprojAssemblyReference.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.AssemblyInfoInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.AssemblyInfo.cs
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csproj.CoreCompileInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.csproj.CopyComplete
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\ref\es.efor.Utilities.Web.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Web\obj\Debug\net5.0\es.efor.Utilities.Web.pdb

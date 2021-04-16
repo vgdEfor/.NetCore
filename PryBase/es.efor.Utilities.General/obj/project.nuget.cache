@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DI/mtSt3f2KJ0zJmTVvUe4cHxLdr4MzR2jaOEF9/aJjvrzbLKGA66QQ48fXLc3k4hUTHWl5/L6OxOeKVzMTXNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vgbodon\\.NetCore\\PryBase\\es.efor.Utilities.General\\es.efor.Utilities.General.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vgbodon\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

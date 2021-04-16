@@ -1,0 +1,35 @@
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.deps.json
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\bin\Debug\net5.0\ref\es.efor.Utilities.Database.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.pdb
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.AssemblyInfoInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.AssemblyInfo.cs
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.csproj.CoreCompileInputs.cache
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\ref\es.efor.Utilities.Database.dll
+C:\proyectos\PryBase\Principal\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.deps.json
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\bin\Debug\net5.0\ref\es.efor.Utilities.Database.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.AssemblyInfoInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.AssemblyInfo.cs
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.csproj.CoreCompileInputs.cache
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\ref\es.efor.Utilities.Database.dll
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.pdb
+C:\proyectos\Proyecto Base\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.csprojAssemblyReference.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.deps.json
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\bin\Debug\net5.0\ref\es.efor.Utilities.Database.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\bin\Debug\net5.0\es.efor.Utilities.Database.pdb
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.csprojAssemblyReference.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.AssemblyInfoInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.AssemblyInfo.cs
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.csproj.CoreCompileInputs.cache
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\ref\es.efor.Utilities.Database.dll
+C:\Users\vgbodon\.NetCore\PryBase\es.efor.Utilities.Database\obj\Debug\net5.0\es.efor.Utilities.Database.pdb

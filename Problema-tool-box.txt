@@ -1,0 +1,7 @@
+En es.efor.PryBase.Angular:
+
+- Eliminar archivo .nprc   
+- En package.json eliminar referencia "ax-toolbox": "0.0.23",
+- Instalar npm i en el directorio webapps
+- Descomprimir tool boox y añadir a node modules
+- Añadir referencia "ax-toolbox": "0.0.40"--> package.json,
