@@ -1,29 +1,27 @@
 ﻿using AutoMapper;
 using es.efor.OnBoarding.Business.DTO.AuthDTOs;
 using es.efor.OnBoarding.Business.DTO.UsersDTOs;
-using es.efor.OnBoarding.Data.Context;
 using es.efor.OnBoarding.Data.Entities;
+using es.efor.OnBoarding.Data.OnboardingEjercicioContext;
 using es.efor.Utilities.General;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace es.efor.OnBoarding.Business.Services.UserServices
 {
     public class UserService : IUserService
     {
         #region Contructor y propiedades privadas
-        private readonly OnboardingContext _dbContext;
+        private readonly OnboardingEjercicio2Context _dbContext;
         private readonly IMapper _mapper;
 
 
         public UserService(
-            OnboardingContext dbContext,
+            OnboardingEjercicio2Context dbContext,
             IMapper mapper
             )
         {

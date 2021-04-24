@@ -39,7 +39,7 @@ namespace es.efor.OnBoarding.Business.DTO.UsersDTOs
 
         /// <summary>
         /// Campo activo del usuario
-        /// </summary>        
+        /// </summary>
         public bool? Active { get; set; }
 
         /// <summary>

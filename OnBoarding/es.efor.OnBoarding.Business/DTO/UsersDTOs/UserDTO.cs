@@ -15,19 +15,7 @@ namespace es.efor.OnBoarding.Business.DTO.UsersDTOs
         public int Id { get; set; }
 
         /// <summary>
-        /// Nombre del usuario
-        /// </summary>       
-        [MaxLength(50, ErrorMessage = "API.ERROR.USER.NAME.MAXLENGTH")]
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Apellidos del usuario
-        /// </summary>
-        [MaxLength(100, ErrorMessage = "API.ERROR.USER.SURNAME.MAXLENGTH")]
-        public string Surnames { get; set; }
-
-        /// <summary>
-        /// Campo Usuario del usuario
+        /// Nombre de usuario
         /// </summary>
         [Required(ErrorMessage = "API.ERROR.USER.USERNAME.REQUIRED")]
         [MaxLength(50, ErrorMessage = "API.ERROR.USER.USERNAME.MAXLENGTH")]
@@ -40,6 +28,18 @@ namespace es.efor.OnBoarding.Business.DTO.UsersDTOs
         [MaxLength(50, ErrorMessage = "API.ERROR.USER.PASSWORD.MAXLENGTH")]
         [MinLength(6, ErrorMessage = "API.ERROR.USER.PASSWORD.MINLENGTH")]
         public string Password { get; set; }
+
+        /// <summary>
+        /// Nombre del usuario
+        /// </summary>       
+        [MaxLength(50, ErrorMessage = "API.ERROR.USER.NAME.MAXLENGTH")]
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Apellidos del usuario
+        /// </summary>
+        [MaxLength(100, ErrorMessage = "API.ERROR.USER.SURNAME.MAXLENGTH")]
+        public string Surnames { get; set; }
 
         /// <summary>
         /// Correo del usuario
@@ -59,5 +59,10 @@ namespace es.efor.OnBoarding.Business.DTO.UsersDTOs
         [Required(ErrorMessage = "API.ERROR.USER.ROLE.REQUIRED")]
         [EnumDataType(typeof(RolesEnum), ErrorMessage = "API.ERROR.USER.ROLE.INVALID")]
         public RolesEnum RoleId { get; set; }
+
+        public string Enterprise { get; set; }
+
+        public int EnterpriseId { get; set; }
+
     }
 }

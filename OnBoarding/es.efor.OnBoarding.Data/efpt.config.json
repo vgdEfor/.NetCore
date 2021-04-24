@@ -1,18 +1,23 @@
 ﻿{
    "CodeGenerationMode": 0,
-   "ContextClassName": "OnboardingContext",
+   "ContextClassName": "OnboardingEjercicio2Context",
    "ContextNamespace": null,
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
    "IncludeConnectionString": false,
    "ModelNamespace": null,
-   "OutputContextPath": "Context",
+   "OutputContextPath": "OnboardingEjercicioContext",
    "OutputPath": "Entities",
+   "ProceduresReturnList": false,
    "ProjectRootNamespace": "es.efor.OnBoarding.Data",
    "Schemas": null,
    "SelectedHandlebarsLanguage": 0,
    "SelectedToBeGenerated": 0,
    "Tables": [
+      {
+         "Name": "[dbo].[Empresas]",
+         "ObjectType": 0
+      },
       {
          "Name": "[dbo].[Roles]",
          "ObjectType": 0
@@ -22,7 +27,7 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "SQL2019.OnBoarding",
+   "UiHint": "SQL2019.OnBoardingEjercicio2",
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDbContextSplitting": false,

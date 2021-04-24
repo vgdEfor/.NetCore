@@ -6,25 +6,34 @@ using es.efor.OnBoarding.Data.Entities;
 
 #nullable disable
 
-namespace es.efor.OnBoarding.Data.Context
+namespace es.efor.OnBoarding.Data.OnboardingEjercicioContext
 {
-    public partial class OnboardingContext : DbContext
+    public partial class OnboardingEjercicio2Context : DbContext
     {
-        public OnboardingContext()
+        public OnboardingEjercicio2Context()
         {
         }
 
-        public OnboardingContext(DbContextOptions<OnboardingContext> options)
+        public OnboardingEjercicio2Context(DbContextOptions<OnboardingEjercicio2Context> options)
             : base(options)
         {
         }
 
+        public virtual DbSet<Empresas> Empresas { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<Usuarios> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:Collation", "Modern_Spanish_CI_AS");
+
+            modelBuilder.Entity<Empresas>(entity =>
+            {
+                entity.HasOne(d => d.Responsable)
+                    .WithMany(p => p.Empresas)
+                    .HasForeignKey(d => d.ResponsableId)
+                    .HasConstraintName("FK_Empresas_Usuarios");
+            });
 
             modelBuilder.Entity<Roles>(entity =>
             {
@@ -33,6 +42,11 @@ namespace es.efor.OnBoarding.Data.Context
 
             modelBuilder.Entity<Usuarios>(entity =>
             {
+                entity.HasOne(d => d.Empresa)
+                    .WithMany(p => p.Usuarios)
+                    .HasForeignKey(d => d.EmpresaId)
+                    .HasConstraintName("FK_Usuarios_Empresas");
+
                 entity.HasOne(d => d.Role)
                     .WithMany(p => p.Usuarios)
                     .HasForeignKey(d => d.RoleId)

@@ -12,5 +12,6 @@ namespace es.efor.OnBoarding.Business.DTO.AuthDTOs
 
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
+
     }
 }

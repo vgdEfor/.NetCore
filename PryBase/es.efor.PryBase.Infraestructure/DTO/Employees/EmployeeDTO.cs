@@ -31,6 +31,7 @@ namespace es.efor.PryBase.Infraestructure.DTO.Employees
                 this.PositionType = (int) value;
             } }
         #endregion
+
     }
 
     public enum Position_Enum

@@ -33,7 +33,7 @@ namespace es.efor.Utilities.General.Tools
 
         public static string TimeSpanToString(TimeSpan time)
         {
-            if (time != null && time.ToString().Length >= 5)
+            if (/*time != null &&*/ time.ToString().Length >= 5)
                 return time.ToString().Substring(0, 5);
 
             return "";

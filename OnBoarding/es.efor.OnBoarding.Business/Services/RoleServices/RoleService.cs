@@ -1,13 +1,11 @@
 ﻿using AutoMapper;
 using es.efor.OnBoarding.Business.DTO.RolesDTOs;
-using es.efor.OnBoarding.Data.Context;
 using es.efor.OnBoarding.Data.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using es.efor.OnBoarding.Data.OnboardingEjercicioContext;
 
 namespace es.efor.OnBoarding.Business.Services.RoleServices
 {
@@ -15,9 +13,9 @@ namespace es.efor.OnBoarding.Business.Services.RoleServices
     {
         #region Contructor y propiedades privadas
         private readonly IMapper _mapper;
-        private readonly OnboardingContext _dbContext;
+        private readonly OnboardingEjercicio2Context _dbContext;
 
-        public RoleService(OnboardingContext dbContext, IMapper mapper)
+        public RoleService(OnboardingEjercicio2Context dbContext, IMapper mapper)
         {
             this._dbContext = dbContext;
             this._mapper = mapper;

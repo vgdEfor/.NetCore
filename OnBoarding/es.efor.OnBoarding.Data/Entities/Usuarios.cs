@@ -11,6 +11,11 @@ namespace es.efor.OnBoarding.Data.Entities
 {
     public partial class Usuarios
     {
+        public Usuarios()
+        {
+            Empresas = new HashSet<Empresas>();
+        }
+
         [Key]
         public int Id { get; set; }
         [Required]
@@ -27,9 +32,15 @@ namespace es.efor.OnBoarding.Data.Entities
         public string Email { get; set; }
         public bool Activo { get; set; }
         public int RoleId { get; set; }
+        public int? EmpresaId { get; set; }
 
+        [ForeignKey(nameof(EmpresaId))]
+        [InverseProperty("Usuarios")]
+        public virtual Empresas Empresa { get; set; }
         [ForeignKey(nameof(RoleId))]
         [InverseProperty(nameof(Roles.Usuarios))]
         public virtual Roles Role { get; set; }
+        [InverseProperty("Responsable")]
+        public virtual ICollection<Empresas> Empresas { get; set; }
     }
 }

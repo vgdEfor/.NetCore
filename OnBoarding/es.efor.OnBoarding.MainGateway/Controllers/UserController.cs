@@ -116,7 +116,9 @@ namespace es.efor.OnBoarding.MainGateway.Controllers
         /// <response code="200">La solicitud ha ido correctamente</response>
         /// <response code="400">El estado especificado es el estado actual del usuario</response>
         /// <response code="401">El usuario no ha iniciado sesión</response> 
-        /// <response code="404">No se ha encontrado el usuario especificado</response>    
+        /// <response code="404">No se ha encontrado el usuario especificado</response>   
+        
+        
         [HttpPost("setactive/{Id}")]
         [Authorize]
         [ProducesResponseType(typeof(bool), StatusCodes.Status200OK)]

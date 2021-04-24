@@ -14,7 +14,6 @@ import { first } from 'rxjs/operators';
 })
 export class ProjectsDatatableComponent implements OnInit {
 
-
   //project
   static dtItemsP: Project[] = [];
   dtColumns2: DtColumnItem<Project>[] = [];
@@ -22,8 +21,6 @@ export class ProjectsDatatableComponent implements OnInit {
 
   //booleans 
   isDocumented: boolean = false;
-
-
 
   constructor(
     public dPipe: DatePipe,
@@ -56,9 +53,9 @@ export class ProjectsDatatableComponent implements OnInit {
     this.initDtColumns();
   }
 
-
   private initDtColumns() {
     this.dtColumns2 = [
+
       new DtColumnItem().setData({
         thTHeadClass: 'cell-narrow',
 

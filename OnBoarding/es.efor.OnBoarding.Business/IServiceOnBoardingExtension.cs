@@ -1,12 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using es.efor.OnBoarding.Data.Context;
 using es.efor.OnBoarding.Business.Services.UserServices;
 using es.efor.OnBoarding.Business.Services.RoleServices;
+using es.efor.OnBoarding.Data.OnboardingEjercicioContext;
 
 namespace es.efor.OnBoarding.Business
 {
@@ -17,7 +14,7 @@ namespace es.efor.OnBoarding.Business
         public static IServiceCollection AddOnBoardingService(this IServiceCollection services, IConfiguration configuration)
         {
 
-            services.AddDbContext<OnboardingContext>(options =>
+            services.AddDbContext<OnboardingEjercicio2Context>(options =>
             {
                 string cnnStr = configuration.GetConnectionString("Default");
                 options.UseSqlServer(cnnStr);
